@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 14:51:13 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543396873135
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543396872345
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact kr.motd.maven\:os-maven-plugin\:jar\:1.6.0 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/kr/motd/maven/os-maven-plugin/1.6.0/os-maven-plugin-1.6.0.jar with status code 504

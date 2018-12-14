@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:43:38 IST 2018
+os-maven-plugin-1.2.3.Final.jar>central=
+os-maven-plugin-1.2.3.Final.pom>central=
+os-maven-plugin-1.2.3.Final.jar>pentaho-public=
+os-maven-plugin-1.2.3.Final.pom>pentaho-public=
