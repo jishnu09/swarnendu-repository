@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 11:35:05 IST 2018
+javax.interceptor-api-1.2.pom>wso2-nexus=
+javax.interceptor-api-1.2.jar>central=
+javax.interceptor-api-1.2.pom>central=
+javax.interceptor-api-1.2.jar>wso2-nexus=

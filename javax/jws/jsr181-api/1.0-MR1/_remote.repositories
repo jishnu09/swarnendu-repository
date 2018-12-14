@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:18:19 IST 2018
+jsr181-api-1.0-MR1.jar>=
+jsr181-api-1.0-MR1.pom>atlassian-public=
+jsr181-api-1.0-MR1.pom>pentaho-public=
+jsr181-api-1.0-MR1.jar>pentaho-public=
+jsr181-api-1.0-MR1.jar>atlassian-public=

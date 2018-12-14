@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 07:48:19 UTC 2018
+jsr311-api-1.1.1.jar>central=
+jsr311-api-1.1.1.pom>pentaho-public=
+jsr311-api-1.1.1.jar>pentaho-public=
+jsr311-api-1.1.1.pom>central=

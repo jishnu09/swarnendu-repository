@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:18:19 IST 2018
+jstl-1.0.5.jar>=
+jstl-1.0.5.pom>pentaho-public=
+jstl-1.0.5.jar>pentaho-public=

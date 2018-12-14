@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 11:14:27 UTC 2018
+jline-2.12.jar>pentaho-public=
+jline-2.12.pom>pentaho-public=
+jline-2.12.jar>central=
+jline-2.12.pom>central=

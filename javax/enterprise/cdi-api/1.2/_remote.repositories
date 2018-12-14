@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 11:30:59 IST 2018
+cdi-api-1.2.jar>wso2-nexus=
+cdi-api-1.2.jar>central=
+cdi-api-1.2.pom>central=
+cdi-api-1.2.pom>wso2-nexus=

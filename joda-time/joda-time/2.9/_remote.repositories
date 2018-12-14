@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jul 25 16:29:36 IST 2018
+joda-time-2.9.jar>central=
+joda-time-2.9.pom>central=
+joda-time-2.9.pom>shibboleth-public-repo=
+joda-time-2.9.jar>=
+joda-time-2.9.pom>shib-release=

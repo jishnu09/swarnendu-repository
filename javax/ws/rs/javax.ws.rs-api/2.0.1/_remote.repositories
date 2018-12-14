@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:20:36 IST 2018
+javax.ws.rs-api-2.0.1.jar>central=
+javax.ws.rs-api-2.0.1.pom>pentaho-public=
+javax.ws.rs-api-2.0.1.pom>central=

@@ -1,0 +1,10 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Apr 30 14:37:51 IST 2018
+http\://oss.sonatype.org/content/repositories/releases/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1525079271267
+http\://oss.sonatype.org/content/repositories/releases/.lastUpdated=1525079249922
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524130495207
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
+https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524130495848
+@default-shibboleth-releases-https\://build.shibboleth.net/nexus/content/repositories/releases/.lastUpdated=1525079270954
+https\://build.shibboleth.net/nexus/content/repositories/releases/.error=Could not transfer artifact javax.json\:javax.json-api\:pom\:1.0 from/to shibboleth-releases (https\://build.shibboleth.net/nexus/content/repositories/releases)\: Connect to build.shibboleth.net\:443 [build.shibboleth.net/174.142.198.207] failed\: Connection timed out\: connect

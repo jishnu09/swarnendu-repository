@@ -1,0 +1,11 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jul 25 16:13:52 IST 2018
+http\://conjars.org/repo/.lastUpdated=1532515340383
+http\://conjars.org/repo/.error=
+http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1532515384720
+http\://repository.mapr.com/maven/.error=
+http\://repository.mapr.com/maven/.lastUpdated=1532515345579
+http\://repository.mapr.com/nexus/content/repositories/drill/.error=
+@default-dremio-releases-http\://repo.dremio.com/release/.lastUpdated=1532515381720
+https\://repo.maven.apache.org/maven2/.lastUpdated=1532515432679
+http\://repo.dremio.com/release/.error=Could not transfer artifact javolution\:javolution\:jar\:5.5.1 from/to dremio-releases (http\://repo.dremio.com/release/)\: Connect to repo.dremio.com\:80 [repo.dremio.com/54.231.184.243] failed\: Connection timed out\: connect

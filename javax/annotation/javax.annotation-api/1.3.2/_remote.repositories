@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 11:01:01 UTC 2018
+javax.annotation-api-1.3.2.jar>central=
+javax.annotation-api-1.3.2.pom>central=
+javax.annotation-api-1.3.2.pom>mule=
+javax.annotation-api-1.3.2.jar>mule=

@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 02 14:54:27 IST 2018
+joda-time-2.9.9.jar>central=
+joda-time-2.9.9.pom>central=
+joda-time-2.9.9-sources.jar>=
+joda-time-2.9.9.jar>pentaho-public=
+joda-time-2.9.9.pom>pentaho-public=
+joda-time-2.9.9.jar>=
+joda-time-2.9.9-sources.jar>central=

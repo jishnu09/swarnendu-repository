@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:37:03 IST 2018
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524132717183
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1540548423841
+https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524132801501

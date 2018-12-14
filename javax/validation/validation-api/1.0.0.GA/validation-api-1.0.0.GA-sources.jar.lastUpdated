@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 15 13:40:35 IST 2018
+https\://artifacts.elastic.co/maven/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1542269153514
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542269435829

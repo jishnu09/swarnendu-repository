@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 06:19:03 UTC 2018
+validation-api-1.1.0.Final.pom>central=
+validation-api-1.1.0.Final.jar>mule=
+validation-api-1.1.0.Final.pom>mule=
+validation-api-1.1.0.Final.jar>central=

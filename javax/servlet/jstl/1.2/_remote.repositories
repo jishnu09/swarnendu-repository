@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:37:08 IST 2018
+jstl-1.2.pom>pentaho-public=
+jstl-1.2.jar>pentaho-public=
+jstl-1.2.pom>shibboleth-public-repo=
+jstl-1.2.jar>shibboleth-public-repo=
+jstl-1.2.jar>=
