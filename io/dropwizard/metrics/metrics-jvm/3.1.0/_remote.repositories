@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:04:58 IST 2018
+metrics-jvm-3.1.0.jar>central=
+metrics-jvm-3.1.0.pom>central=
+metrics-jvm-3.1.0.jar>pentaho-public=
+metrics-jvm-3.1.0.pom>pentaho-public=

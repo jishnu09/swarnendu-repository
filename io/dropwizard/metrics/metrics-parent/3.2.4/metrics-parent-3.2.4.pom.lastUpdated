@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 10:33:24 UTC 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1542710004285
+@default-apache.snapshots.https-https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1542710001556
+https\://repository.apache.org/content/repositories/snapshots/.error=Could not transfer artifact io.dropwizard.metrics\:metrics-parent\:pom\:3.2.4 from/to apache.snapshots.https (https\://repository.apache.org/content/repositories/snapshots)\: Connect to repository.apache.org\:443 [repository.apache.org/207.244.88.140] failed\: Connection timed out (Connection timed out)
+http\://repository.jboss.org/nexus/content/groups/public/.error=
+http\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1542710003592

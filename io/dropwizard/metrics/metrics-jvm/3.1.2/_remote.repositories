@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 05 10:21:59 IST 2018
+metrics-jvm-3.1.2.jar>shibboleth-public-repo=
+metrics-jvm-3.1.2.pom>central=
+metrics-jvm-3.1.2.pom>shibboleth-public-repo=
+metrics-jvm-3.1.2.jar>central=

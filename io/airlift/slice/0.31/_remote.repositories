@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:42:49 IST 2018
+slice-0.31.jar>pentaho-public=
+slice-0.31.jar>central=
+slice-0.31.pom>central=
+slice-0.31.pom>pentaho-public=

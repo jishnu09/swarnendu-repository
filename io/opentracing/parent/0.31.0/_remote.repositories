@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:22:39 IST 2018
+parent-0.31.0.pom>pentaho-public=
+parent-0.31.0.pom>central=

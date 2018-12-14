@@ -1,0 +1,126 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.takari</groupId>
+    <artifactId>takari</artifactId>
+    <version>9</version>
+  </parent>
+
+  <groupId>io.takari</groupId>
+  <artifactId>io.takari.incrementalbuild</artifactId>
+  <version>0.7.0</version>
+  <packaging>pom</packaging>
+
+  <name>incrementalbuild</name>
+  <description>Incremental build support library</description>
+  <url>https://github.com/takari/io.takari.incrementalbuild</url>
+  <licenses>
+    <license>
+      <name>Eclipse Public License 1.0</name>
+      <url>http://www.spdx.org/licenses/EPL-1.0</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/takari/io.takari.incrementalbuild</url>
+    <connection>scm:git:https://github.com/takari/io.takari.incrementalbuild.git</connection>
+    <developerConnection>scm:git:https://github.com/takari/io.takari.incrementalbuild.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+  <developers>
+    <developer>
+      <name>Jason van Zyl</name>
+    </developer>
+    <developer>
+      <name>Igor Fedorenko</name>
+    </developer>
+  </developers>
+
+  <properties>
+    <apache-maven.version>3.2.1</apache-maven.version>
+    <slf4j.version>1.7.5</slf4j.version>
+    <junit.version>4.11</junit.version>
+    <guava.version>14.0.1</guava.version>
+    <plugintesting.version>3.1.0</plugintesting.version>
+  </properties>
+
+  <modules>
+    <!--
+      | changes to incrementalbuild-workspace require update to io.takari.m2e.lifecycle and should
+      | be avoided if possible. 
+      | Don't forget to change incrementalbuild/pom.xml ${incrementalbuild-workspace.version} 
+     -->
+    <module>incrementalbuild-workspace</module>
+    <module>incrementalbuild</module>
+    <module>incrementalbuild-its</module>
+  </modules>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>io.takari.maven.plugins</groupId>
+        <artifactId>takari-lifecycle-plugin</artifactId>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>io.takari.maven.plugins</groupId>
+          <artifactId>takari-lifecycle-plugin</artifactId>
+          <version>1.6.3</version>
+          <configuration>
+            <!-- compile/testCompile -->
+            <source>1.7</source>
+            <target>1.7</target>
+
+            <!-- jar -->
+            <sourceJar>true</sourceJar>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>animal-sniffer-maven-plugin</artifactId>
+          <version>1.10</version>
+          <configuration>
+            <signature>
+              <groupId>org.codehaus.mojo.signature</groupId>
+              <artifactId>java17</artifactId>
+              <version>1.0</version>
+            </signature>
+          </configuration>
+          <executions>
+            <execution>
+              <id>check-java-api-usage</id>
+              <phase>test</phase>
+              <goals>
+                <goal>check</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-release-plugin</artifactId>
+          <version>2.5</version>
+          <configuration>
+            <autoVersionSubmodules>true</autoVersionSubmodules>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.sonatype.plugins</groupId>
+          <artifactId>sisu-maven-plugin</artifactId>
+          <version>1.1</version>
+          <executions>
+            <execution>
+              <id>generate-index</id>
+              <goals>
+                <goal>main-index</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>

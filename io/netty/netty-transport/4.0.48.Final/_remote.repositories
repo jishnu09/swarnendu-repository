@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jul 25 16:29:26 IST 2018
+netty-transport-4.0.48.Final.jar>=
+netty-transport-4.0.48.Final.jar>central=
+netty-transport-4.0.48.Final.pom>central=

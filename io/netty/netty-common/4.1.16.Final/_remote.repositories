@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Dec 06 16:53:05 IST 2018
+netty-common-4.1.16.Final.jar>pentaho-public=
+netty-common-4.1.16.Final.pom>pentaho-public=
+netty-common-4.1.16.Final.jar>central=
+netty-common-4.1.16.Final.pom>central=

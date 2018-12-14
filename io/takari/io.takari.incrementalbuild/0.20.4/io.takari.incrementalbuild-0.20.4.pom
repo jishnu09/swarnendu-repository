@@ -1,0 +1,78 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.takari</groupId>
+    <artifactId>takari</artifactId>
+    <version>17</version>
+  </parent>
+
+  <groupId>io.takari</groupId>
+  <artifactId>io.takari.incrementalbuild</artifactId>
+  <version>0.20.4</version>
+  <packaging>pom</packaging>
+
+  <name>incrementalbuild</name>
+  <description>Incremental build support library</description>
+  <url>https://github.com/takari/io.takari.incrementalbuild</url>
+  <licenses>
+    <license>
+      <name>Eclipse Public License 1.0</name>
+      <url>http://www.spdx.org/licenses/EPL-1.0</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/takari/io.takari.incrementalbuild</url>
+    <connection>scm:git:https://github.com/takari/io.takari.incrementalbuild.git</connection>
+    <developerConnection>scm:git:https://github.com/takari/io.takari.incrementalbuild.git</developerConnection>
+    <tag>io.takari.incrementalbuild-0.20.4</tag>
+  </scm>
+  <developers>
+    <developer>
+      <name>Jason van Zyl</name>
+    </developer>
+    <developer>
+      <name>Igor Fedorenko</name>
+    </developer>
+  </developers>
+
+  <properties>
+    <apache-maven.version>3.3.1</apache-maven.version>
+    <slf4j.version>1.7.5</slf4j.version>
+    <junit.version>4.11</junit.version>
+    <guava.version>18.0</guava.version>
+    <eclipse-sisu.version>0.3.0</eclipse-sisu.version>
+    <plugin-testing.version>2.2.0</plugin-testing.version>
+  </properties>
+
+  <modules>
+    <!--
+      | Changes to incrementalbuild-workspace require update to io.takari.m2e.lifecycle and should
+      | be avoided if possible. To emphasise this, incrementalbuild-workspace is not normally part
+      | of io.takari.incrementalbuild build and special steps are required to produce new builds 
+      | and release new versions.
+      |
+      | To start work on new incrementalbuild-workspace version
+      | - Uncomment incrementalbuild-workspace module below
+      | - Update <parent> version in incrementalbuild-workspace/pom.xml
+      | - Update incrementalbuild-workspace.version property in incrementalbuild/pom.xml
+      |
+      | To release incrementalbuild with new incrementalbuild-workspace version
+      | - mvn org.eclipse.tycho:tycho-versions-plugin:0.20.0:set-version -DnewVersion=<new-version>
+      | - Update incrementalbuild-workspace.version property in incrementalbuild/pom.xml
+      | - git commit -asm "prepare release io.takari.incrementalbuild-<new-version>"
+      | - git tag io.takari.incrementalbuild-<new-version>
+      | - mvn clean deploy -Ptakari-release
+      | - git-push-tags (when you are ready)
+      |
+      | To start next incrementalbuild release without new incrementalbuild-workspace
+      | - Comment out incrementalbuild-workspace module below
+      | - mvn org.eclipse.tycho:tycho-versions-plugin:0.20.0:set-version -DnewVersion=<next-version>
+      | - git commit -asm "prepare for next development iteration"
+      |
+    <module>incrementalbuild-workspace</module>
+     -->
+    <module>incrementalbuild</module>
+    <module>incrementalbuild-its</module>
+  </modules>
+</project>

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 17:10:29 IST 2018
+grpc-core-1.6.0.jar>central=
+grpc-core-1.6.0.pom>central=
+grpc-core-1.6.0.jar>pentaho-public=

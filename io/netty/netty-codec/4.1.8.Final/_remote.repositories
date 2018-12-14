@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 11:59:42 IST 2018
+netty-codec-4.1.8.Final.jar>central=
+netty-codec-4.1.8.Final.pom>central=
+netty-codec-4.1.8.Final.pom>pentaho-public=
+netty-codec-4.1.8.Final.jar>pentaho-public=

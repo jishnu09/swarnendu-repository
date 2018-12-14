@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>io.astefanutti.metrics.cdi</groupId>
+        <artifactId>metrics-cdi-parent</artifactId>
+        <version>1.3.3</version>
+    </parent>
+
+    <artifactId>metrics-cdi</artifactId>
+    <packaging>bundle</packaging>
+    <name>Metrics CDI Library</name>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <configuration>
+                    <instructions>
+                        <Bundle-Name>${project.artifactId}</Bundle-Name>
+                        <Bundle-SymbolicName>${project.groupId}.${project.artifactId}</Bundle-SymbolicName>
+                        <Export-Package>io.astefanutti.metrics.cdi</Export-Package>
+                        <Import-Package>*</Import-Package>
+                        <Provide-Capability>org.ops4j.pax.cdi.extension; extension=metrics-cdi-extension</Provide-Capability>
+                        <Implementation-Title>Dropwizard Metrics CDI</Implementation-Title>
+                        <Implementation-Version>${project.version}</Implementation-Version>
+                        <Karaf-Info>Metrics;${project.artifactId}=${project.version}</Karaf-Info>
+                    </instructions>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+
+        <!-- compile dependencies -->
+
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-annotation</artifactId>
+        </dependency>
+
+        <!-- provided dependencies -->
+
+        <dependency>
+            <groupId>javax.enterprise</groupId>
+            <artifactId>cdi-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>javax.annotation-api</artifactId>
+        </dependency>
+
+        <!-- test dependencies -->
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-library</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

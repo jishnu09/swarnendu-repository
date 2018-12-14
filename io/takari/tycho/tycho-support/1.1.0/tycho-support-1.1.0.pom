@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ ~ Copyright (c) 2012 Jason van Zyl
+ ~ All rights reserved. This program and the accompanying materials
+ ~ are made available under the terms of the Eclipse Public License v1.0
+ ~ which accompanies this distribution, and is available at
+ ~   http://www.eclipse.org/legal/epl-v10.html
+-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.takari</groupId>
+    <artifactId>takari</artifactId>
+    <version>14</version>
+  </parent>
+
+  <groupId>io.takari.tycho</groupId>
+  <artifactId>tycho-support</artifactId>
+  <version>1.1.0</version>
+  <name>Tycho Base</name>
+  <packaging>pom</packaging>
+  <description>
+    This POM serves as the base of a Tycho project which has plugins, tests, and deployable features. Everything
+    that is required is provided and parameterized by specifying properties in the host POM.
+  </description>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <tychoVersion>0.21.0</tychoVersion>
+
+    <!--
+     |
+     | Default m2e core repository location, can be parametrised either from the host project
+     | (if the project depends on specific m2e version) or from command line (to test build
+     | with latest m2e, for example).
+     | 
+     -->
+    <m2e-core.url>${repoHost}/content/sites/m2e.extras/m2e/1.6.0/N/LATEST</m2e-core.url>
+
+    <!--
+     |
+     | These are the values that can be parameterized to control deploy and release behaviour. By default
+     | we are setup to deploy on the takari.io infrastructure.
+     |
+     -->
+    <serverIdInSettingsXml>m2e.extras</serverIdInSettingsXml>
+    <repositoryUrl>${repoHost}/service/local/repositories/m2e.extras/content-compressed/</repositoryUrl>
+
+    <!--
+     |
+     | Default JVM options used by tycho-surefire-plugin. Assumes SUN/Oracle JVM.
+     |
+     -->
+    <tycho.test.jvmArgs>-Xmx512m -XX:MaxPermSize=256m</tycho.test.jvmArgs>
+  </properties>
+
+  <scm>
+    <connection>scm:git:git@github.com/takari/tycho-support.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/takari/tycho-support.git</developerConnection>
+    <url>http://github.com/takari/tycho-support</url>
+    <tag>tycho-support-1.1.0</tag>
+  </scm>
+
+  <repositories>
+    <!-- 
+      The org.eclipse.m2e.tests.common bundle is deployed to the m2e releases repository but is not 
+      part of the simultaneous release. The connectors use this bundle for testing so we need to
+      be able to pick it up.
+    -->
+    <repository>
+      <id>m2e-core</id>
+      <url>${m2e-core.url}</url>
+      <layout>p2</layout>
+    </repository>
+    <repository>
+      <id>luna</id>
+      <url>http://download.eclipse.org/releases/mars</url>
+      <layout>p2</layout>
+    </repository>
+  </repositories>
+
+  <build>
+    <plugins>
+      <!-- These plugins are required for all Tycho-based builds -->
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-maven-plugin</artifactId>
+        <version>${tychoVersion}</version>
+        <extensions>true</extensions>
+      </plugin>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>target-platform-configuration</artifactId>
+        <version>${tychoVersion}</version>
+        <configuration>
+          <resolver>p2</resolver>
+          <ignoreTychoRepositories>true</ignoreTychoRepositories>
+          <pomDependencies>consider</pomDependencies>
+        </configuration>
+      </plugin>
+    </plugins>
+
+    <pluginManagement>
+      <plugins>
+        <!-- Important for M2E self-hosting -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>2.6</version>
+        </plugin>
+        <!-- Testing -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-surefire-plugin</artifactId>
+          <version>${tychoVersion}</version>
+          <configuration>
+            <useUIHarness>true</useUIHarness>
+            <includes>
+              <include>**/*Test.java</include>
+            </includes>
+            <!--
+            We need to share these test resources across projects easily
+            <argLine>${tycho.test.jvmArgs} -Djava.io.tmpdir=${project.build.directory}/work</argLine>
+            <appArgLine>-eclipse.keyring target/keyring -eclipse.password resources/secure-storage-password.txt -pluginCustomization ${basedir}/plugin_customization.ini</appArgLine>
+            -->
+            <argLine>${tycho.test.jvmArgs}</argLine>
+            <forkedProcessTimeoutInSeconds>600</forkedProcessTimeoutInSeconds>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-p2-repository-plugin</artifactId>
+          <version>${tychoVersion}</version>
+          <configuration>
+            <compress>false</compress>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <profiles>
+    <profile>
+      <id>deploy-tycho-support</id>
+      <activation>
+        <file>
+          <missing>.tycho-support</missing>
+        </file>
+      </activation>
+      <build>
+        <pluginManagement>
+          <plugins>
+            <!--
+             |
+             | We only care about deploying the update site. Disable the deployment of the standard
+             | Maven resources and only deploy the update site in the feature build which is defined
+             | in the feature-build profile below.
+             |
+             -->
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-deploy-plugin</artifactId>
+              <configuration>
+                <skip>true</skip>
+              </configuration>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+      </build>
+    </profile>
+
+    <profile>
+      <id>osx</id>
+      <activation>
+        <os>
+          <family>mac</family>
+        </os>
+      </activation>
+      <properties>
+        <tycho.test.jvmArgs>-Xmx512m -XX:MaxPermSize=256m -XstartOnFirstThread</tycho.test.jvmArgs>
+      </properties>
+      <build>
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <groupId>org.eclipse.tycho</groupId>
+              <artifactId>tycho-surefire-plugin</artifactId>
+              <configuration>
+                <dependencies>
+                  <dependency>
+                    <artifactId>org.eclipse.jdt.launching.macosx</artifactId>
+                    <version>0.0.0</version>
+                    <type>eclipse-plugin</type>
+                  </dependency>
+                </dependencies>
+              </configuration>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+      </build>
+    </profile>
+
+    <profile>
+      <id>sign</id>
+      <activation>
+        <property>
+          <name>jarsigner.alias</name>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jarsigner-plugin</artifactId>
+            <version>1.2</version>
+            <executions>
+              <execution>
+                <id>sign</id>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    
+    <!--
+     |
+     | Repository build profile will only be activated in the presence of a category.xml file in
+     | the base directory of the project.
+     |
+     -->
+    <profile>
+      <id>repository-build</id>
+      <activation>
+        <file>
+          <exists>category.xml</exists>
+        </file>
+        <!-- TODO find a way to activate for eclipse-repository projects only -->
+      </activation>
+      <build>
+        <plugins>
+          <!--
+           |
+           | Only deploy the update site zip to the server using the maven-upload-plugin.
+           |
+           -->
+          <plugin>
+            <groupId>org.sonatype.plugins</groupId>
+            <artifactId>maven-upload-plugin</artifactId>
+            <version>0.0.1</version>
+            <configuration>
+              <file>${project.build.directory}/${project.artifactId}-${project.version}.zip</file>
+              <serverId>${serverIdInSettingsXml}</serverId>
+              <repositoryUrl>${repositoryUrl}</repositoryUrl>
+            </configuration>
+            <executions>
+              <execution>
+                <id>publish-site</id>
+                <phase>deploy</phase>
+                <goals>
+                  <goal>upload-file</goal>
+                </goals>
+                <configuration>
+                  <repositoryPath>${repositoryPathId}/${unqualifiedVersion}/N/${unqualifiedVersion}.${buildQualifier}</repositoryPath>
+                </configuration>
+              </execution>
+              <execution>
+                <id>publish-site-latest</id>
+                <phase>deploy</phase>
+                <goals>
+                  <goal>upload-file</goal>
+                </goals>
+                <configuration>
+                  <repositoryPath>${repositoryPathId}/${unqualifiedVersion}/N/LATEST</repositoryPath>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+</project>
