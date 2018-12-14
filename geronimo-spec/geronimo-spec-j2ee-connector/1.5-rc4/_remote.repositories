@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:18:18 IST 2018
+geronimo-spec-j2ee-connector-1.5-rc4.pom>pentaho-public=
+geronimo-spec-j2ee-connector-1.5-rc4.jar>pentaho-public=
+geronimo-spec-j2ee-connector-1.5-rc4.jar>=
