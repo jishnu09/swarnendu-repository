@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:47:13 IST 2018
+https\://artifacts.elastic.co/maven/.error=
+http\://conjars.org/repo/.lastUpdated=1543573033408
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543573029232
+https\://artifacts.elastic.co/maven/.lastUpdated=1543573028897
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542877392967
+http\://www.datanucleus.org/downloads/maven2/.lastUpdated=1543573032720
+http\://www.datanucleus.org/downloads/maven2/.error=
+https\://repo.maven.apache.org/maven2/.error=
