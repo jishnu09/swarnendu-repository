@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:01:47 IST 2018
+json-path-2.4.0.jar>central=
+json-path-2.4.0.jar>pentaho-public=
+json-path-2.4.0.pom>pentaho-public=
+json-path-2.4.0.pom>central=

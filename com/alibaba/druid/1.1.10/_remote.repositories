@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 23 15:12:28 IST 2018
+druid-1.1.10.jar>pentaho-public=
+druid-1.1.10.pom>pentaho-public=

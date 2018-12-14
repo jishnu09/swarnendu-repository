@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 02 14:54:27 IST 2018
+jackson-dataformat-yaml-2.8.10.jar>=
+jackson-dataformat-yaml-2.8.10.jar>central=
+jackson-dataformat-yaml-2.8.10.pom>central=
+jackson-dataformat-yaml-2.8.10.pom>pentaho-public=
+jackson-dataformat-yaml-2.8.10.jar>pentaho-public=

@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Dec 12 09:35:28 IST 2017
+jackson-databind-2.8.6.jar>central=
+jackson-databind-2.8.6.pom>central=
+jackson-databind-2.8.6.jar>=
+jackson-databind-2.8.6.jar>sonatype-public=
+jackson-databind-2.8.6.pom>sonatype-public=

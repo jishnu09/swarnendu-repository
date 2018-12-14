@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Dec 06 16:53:05 IST 2018
+https\://artifacts.elastic.co/maven/.error=
+https\://artifacts.alfresco.com/nexus/content/repositories/public/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1544095385399
+https\://artifacts.elastic.co/maven/.lastUpdated=1544095383522
+https\://oss.sonatype.org/content/repositories/releases/.lastUpdated=1500629627506
+https\://artifacts.alfresco.com/nexus/content/repositories/public/.lastUpdated=1500629598862

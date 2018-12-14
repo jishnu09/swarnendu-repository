@@ -1,0 +1,87 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
+    <groupId>com.unboundid.components</groupId>
+    <artifactId>json</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>JSON in Java</name>
+    <url>http://www.json.org/java/index.html</url>
+    
+    <description>
+      JSON is a light-weight, language independent, data interchange format.
+      The files in this package implement JSON encoders/decoders in Java.
+      It also includes the capability to convert between JSON and XML, HTTP
+      headers, Cookies, and CDL. This distribution is based off commit number
+      3e3951f1259 from https://github.com/douglascrockford/JSON-java.
+    </description>
+
+    <licenses>
+        <license>
+            <name>JSON License</name>
+            <url>http://www.json.org/license.html</url>
+        </license>
+    </licenses>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <scm>
+        <connection>scm:svn:https://unboundid-svn.cvsdude.com/components/3rdparty/json/tags/json-1.0.0</connection>
+        <developerConnection>scm:svn:https://unboundid-svn.cvsdude.com/components/3rdparty/json/tags/json-1.0.0</developerConnection>
+    </scm>
+
+    <build>
+        <plugins>
+		    <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-scm-plugin</artifactId>
+                <version>1.5</version>
+                <configuration>
+                  <!-- These properties are passed in from Hudson on a release build. -->
+                  <username>${env.CVSDUDE_USER}</username>
+                  <password>${env.CVSDUDE_PASSWORD}</password>
+                  <scmVersion>json-${project.version}</scmVersion>
+                  <scmVersionType>tag</scmVersionType>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+		        <artifactId>maven-gpg-plugin</artifactId>
+		        <version>1.4</version>
+		        <configuration>
+		            <passphrase>${env.GPG_PASSPHRASE}</passphrase>
+		        </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.1</version>
+                <configuration>
+                    <tagNameFormat>json-@{project.version}</tagNameFormat>
+                    <goals>clean install</goals>
+                    <useReleaseProfile>false</useReleaseProfile>
+                    <checkModificationExcludeList>pom.xml</checkModificationExcludeList>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>

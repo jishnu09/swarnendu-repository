@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.facebook.presto</groupId>
+  <artifactId>presto-server</artifactId>
+  <version>0.209-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180822.091107</timestamp>
+      <buildNumber>65</buildNumber>
+    </snapshot>
+    <lastUpdated>20180822091107</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>tar.gz</extension>
+        <value>0.209-20180822.091107-65</value>
+        <updated>20180822091107</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.209-20180822.091107-65</value>
+        <updated>20180822091107</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.209-20180822.091107-65</value>
+        <updated>20180822091107</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

@@ -1,0 +1,10 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Nov 13 12:05:57 IST 2018
+jaxb-impl-2.2.1.1.jar>atlassian-public=
+jaxb-impl-2.2.1.1.jar>wso2-nexus=
+jaxb-impl-2.2.1.1.jar>central=
+jaxb-impl-2.2.1.1.pom>central=
+jaxb-impl-2.2.1.1.pom>atlassian-plugin-sdk=
+jaxb-impl-2.2.1.1.pom>wso2-nexus=
+jaxb-impl-2.2.1.1.pom>atlassian-public=
+jaxb-impl-2.2.1.1.jar>atlassian-plugin-sdk=

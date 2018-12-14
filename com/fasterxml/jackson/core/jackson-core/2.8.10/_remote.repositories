@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 01 14:28:03 IST 2018
+jackson-core-2.8.10.pom>pentaho-public=
+jackson-core-2.8.10.pom>sonatype-releases=
+jackson-core-2.8.10.pom>central=
+jackson-core-2.8.10.pom>shibboleth-public-repo=

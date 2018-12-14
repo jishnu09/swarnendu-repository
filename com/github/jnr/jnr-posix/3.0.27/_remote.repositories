@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 10:10:32 IST 2018
+jnr-posix-3.0.27.jar>central=
+jnr-posix-3.0.27.pom>central=
+jnr-posix-3.0.27.jar>pentaho-public=
+jnr-posix-3.0.27.pom>pentaho-public=

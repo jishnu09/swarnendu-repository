@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<!-- Copyright (c) 2015 MapR, Inc. -->
+<project
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+  xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.mapr</groupId>
+  <artifactId>mapr-root</artifactId>
+  <version>5.2.1-mapr</version>
+  <packaging>pom</packaging>
+
+  <name>MapR Root POM</name>
+  <description>Root POM for MapR Technologies, Inc.</description>
+  <url>http://www.mapr.com/</url>
+  <organization>
+    <name>Mapr Technologies, Inc.</name>
+    <url>http://www.mapr.com/</url>
+  </organization>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <maven.build.timestamp.format>yyyy-MM-dd'T'HH:mm</maven.build.timestamp.format>
+    <buildDate>${maven.build.timestamp}</buildDate>
+  </properties>
+
+  <distributionManagement>
+    <repository>
+      <id>mapr-releases</id>
+      <name>MapR Releases</name>
+      <url>${env.MAPR_RELEASES_REPO}</url>
+    </repository>
+    <snapshotRepository>
+      <id>mapr-snapshots</id>
+      <name>MapR Snapshots</name>
+      <url>${env.MAPR_SNAPSHOTS_REPO}</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>2.6</version>
+          <configuration>
+            <archive>
+              <manifest>
+                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+              </manifest>
+            </archive>
+          </configuration>
+        </plugin>
+
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>2.7</version>
+          <configuration>
+            <encoding>UTF-8</encoding>
+          </configuration>
+        </plugin>
+
+        <plugin>
+          <artifactId>maven-antrun-plugin</artifactId>
+          <version>1.8</version>
+          <executions>
+            <execution>
+              <id>generate-mapr-patches</id>
+              <phase>initialize</phase>
+              <configuration>
+                <target if="generate.mapr.patches">
+                  <exec executable="git" dir="${basedir}" failonerror="true">
+                    <arg value="format-patch" />
+                    <arg value="-o" />
+                    <arg value="${project.build.directory}/mapr-patches" />
+                    <arg value="${apache.git.tag}" />
+                  </exec>
+                </target>
+              </configuration>
+              <goals>
+                <goal>run</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+
+    <plugins>
+
+      <!-- Generate build.info -->
+      <plugin>
+        <groupId>pl.project13.maven</groupId>
+        <artifactId>git-commit-id-plugin</artifactId>
+        <version>2.1.9</version>
+        <executions>
+          <execution>
+            <inherited>true</inherited>
+            <goals>
+              <goal>revision</goal>
+            </goals>
+            <configuration>
+              <generateGitPropertiesFilename>git.properties</generateGitPropertiesFilename>
+            </configuration>
+          </execution>
+        </executions>
+
+        <configuration>
+          <dateFormat>${maven.build.timestamp.format}</dateFormat>
+          <verbose>true</verbose>
+          <skipPoms>false</skipPoms>
+          <generateGitPropertiesFile>true</generateGitPropertiesFile>
+          <failOnNoGitDirectory>false</failOnNoGitDirectory>
+          <gitDescribe>
+            <skip>false</skip>
+            <always>false</always>
+            <abbrev>7</abbrev>
+            <forceLongFormat>true</forceLongFormat>
+          </gitDescribe>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>com.rodiontsev.maven.plugins</groupId>
+        <artifactId>build-info-maven-plugin</artifactId>
+        <version>1.1</version>
+        <configuration>
+          <filename>mapr-build.properties</filename>
+          <systemProperties>
+            <systemProperty>user.name</systemProperty>
+            <systemProperty>java.vm.vendor</systemProperty>
+            <systemProperty>java.vm.version</systemProperty>
+            <systemProperty>java.vm.name</systemProperty>
+            <systemProperty>java.runtime.version</systemProperty>
+            <systemProperty>os.name</systemProperty>
+            <systemProperty>os.version</systemProperty>
+            <systemProperty>os.arch</systemProperty>
+          </systemProperties>
+          <dateTimePattern>${maven.build.timestamp.format}</dateTimePattern>
+          <includeVcsInfo>true</includeVcsInfo>
+        </configuration>
+        <executions>
+          <execution>
+            <inherited>true</inherited>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>extract</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>copy-build-properties</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <inherited>true</inherited>
+            <configuration>
+              <outputDirectory>${project.build.directory}/classes/META-INF</outputDirectory>
+              <resources>
+                <resource>
+                  <filtering>false</filtering>
+                  <directory>${project.build.directory}</directory>
+                  <includes>
+                    <include>mapr-build.properties</include>
+                    <include>git.properties</include>
+                  </includes>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>test-jar</goal>
+            </goals>
+            <configuration>
+              <skipIfEmpty>true</skipIfEmpty>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+    </plugins>
+
+  </build>
+
+  <profiles>
+    <profile>
+      <id>with-eclipse</id>
+      <activation>
+        <property>
+          <name>m2e.version</name>
+        </property>
+      </activation>
+      <build>
+        <pluginManagement>
+          <plugins>
+            <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+            <plugin>
+              <groupId>org.eclipse.m2e</groupId>
+              <artifactId>lifecycle-mapping</artifactId>
+              <version>1.0.0</version>
+              <configuration>
+                <lifecycleMappingMetadata>
+                  <pluginExecutions>
+                    <pluginExecution>
+                      <pluginExecutionFilter>
+                        <groupId>com.rodiontsev.maven.plugins</groupId>
+                        <artifactId>build-info-maven-plugin</artifactId>
+                        <versionRange>[1.1,)</versionRange>
+                        <goals>
+                          <goal>extract</goal>
+                        </goals>
+                      </pluginExecutionFilter>
+                      <action>
+                        <ignore/>
+                      </action>
+                    </pluginExecution>
+                  </pluginExecutions>
+                </lifecycleMappingMetadata>
+              </configuration>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+      </build>
+    </profile>
+  </profiles>
+
+</project>

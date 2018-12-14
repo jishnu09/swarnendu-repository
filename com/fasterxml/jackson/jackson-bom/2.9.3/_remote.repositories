@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:17:13 IST 2018
+jackson-bom-2.9.3.pom>central=
+jackson-bom-2.9.3.pom>pentaho-public=
+jackson-bom-2.9.3.pom>sonatype-releases=

@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Dec 12 09:35:28 IST 2017
+sal-api-2.7.0.jar>atlassian-public=
+sal-api-2.7.0.jar>=
+sal-api-2.7.0.pom>atlassian-public=

@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Jun 22 11:20:30 IST 2018
+my-app-1.0.jar>=
+my-app-1.0-site.jar>=
+my-app-1.0.pom>=

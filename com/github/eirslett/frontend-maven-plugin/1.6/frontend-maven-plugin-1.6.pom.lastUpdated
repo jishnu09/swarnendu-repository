@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 15:48:08 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543400288033
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543400287216
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact com.github.eirslett\:frontend-maven-plugin\:pom\:1.6 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Connection reset

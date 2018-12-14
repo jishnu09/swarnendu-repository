@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 12:14:55 UTC 2018
+presto-password-authenticators-0.214-SNAPSHOT.zip>=
+presto-password-authenticators-0.214-SNAPSHOT.pom>=
+presto-password-authenticators-0.214-SNAPSHOT-sources.jar>=
+presto-password-authenticators-0.214-SNAPSHOT-tests.jar>=
+presto-password-authenticators-0.214-SNAPSHOT-test-sources.jar>=
+presto-password-authenticators-0.214-SNAPSHOT.jar>=

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:48:16 IST 2018
+hbc-core-2.2.0.jar>pentaho-public=
+hbc-core-2.2.0.pom>pentaho-public=
+hbc-core-2.2.0.jar>central=
+hbc-core-2.2.0.pom>central=

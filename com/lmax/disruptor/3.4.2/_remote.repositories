@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 11:48:38 IST 2018
+disruptor-3.4.2.jar>central=
+disruptor-3.4.2-sources.jar>central=
+disruptor-3.4.2.pom>central=
+disruptor-3.4.2.jar>pentaho-public=
+disruptor-3.4.2.pom>pentaho-public=

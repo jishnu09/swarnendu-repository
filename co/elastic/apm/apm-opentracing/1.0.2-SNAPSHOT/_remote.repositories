@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 26 17:44:04 IST 2018
+apm-opentracing-1.0.2-SNAPSHOT.pom>=
+apm-opentracing-1.0.2-SNAPSHOT-javadoc.jar>=
+apm-opentracing-1.0.2-SNAPSHOT-sources.jar>=
+apm-opentracing-1.0.2-SNAPSHOT.jar>=

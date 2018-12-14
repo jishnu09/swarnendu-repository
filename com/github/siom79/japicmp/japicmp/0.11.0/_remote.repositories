@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:50:47 IST 2018
+japicmp-0.11.0.jar>central=
+japicmp-0.11.0.pom>central=
+japicmp-0.11.0.jar>pentaho-public=
+japicmp-0.11.0.pom>pentaho-public=

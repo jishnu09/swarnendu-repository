@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 01 20:37:30 IST 2018
+owasp-java-html-sanitizer-r239.jar>=
+owasp-java-html-sanitizer-r239.pom>pentaho-public=
+owasp-java-html-sanitizer-r239.jar>pentaho-public=

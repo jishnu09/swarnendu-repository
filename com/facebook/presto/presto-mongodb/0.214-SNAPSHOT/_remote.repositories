@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 04:29:24 UTC 2018
+presto-mongodb-0.214-SNAPSHOT-test-sources.jar>=
+presto-mongodb-0.214-SNAPSHOT-sources.jar>=
+presto-mongodb-0.214-SNAPSHOT.jar>=
+presto-mongodb-0.214-SNAPSHOT-tests.jar>=
+presto-mongodb-0.214-SNAPSHOT.pom>=
+presto-mongodb-0.214-SNAPSHOT.zip>=

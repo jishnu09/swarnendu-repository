@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Apr 20 15:24:49 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1524218089124
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524130467607
+@default-shib-release-https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524218088733
+https\://build.shibboleth.net/nexus/content/groups/public/.error=Could not transfer artifact com.google.code.findbugs\:jsr305\:pom\:3.0.1 from/to shib-release (https\://build.shibboleth.net/nexus/content/groups/public)\: Connect to build.shibboleth.net\:443 [build.shibboleth.net/174.142.198.207] failed\: Connection timed out\: connect

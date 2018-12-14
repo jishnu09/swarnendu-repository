@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 17:10:03 IST 2018
+sharding-jdbc-core-1.5.4.1.jar>central=
+sharding-jdbc-core-1.5.4.1.pom>central=
+sharding-jdbc-core-1.5.4.1.jar>pentaho-public=

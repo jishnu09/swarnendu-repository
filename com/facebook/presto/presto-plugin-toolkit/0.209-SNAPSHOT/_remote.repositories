@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Aug 22 16:59:17 IST 2018
+presto-plugin-toolkit-0.209-SNAPSHOT-sources.jar>=
+presto-plugin-toolkit-0.209-SNAPSHOT.jar>=
+presto-plugin-toolkit-0.209-SNAPSHOT-test-sources.jar>=
+presto-plugin-toolkit-0.209-SNAPSHOT-tests.jar>=
+presto-plugin-toolkit-0.209-SNAPSHOT.pom>=

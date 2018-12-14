@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:39:32 IST 2018
+t-digest-3.0.pom>sonatype-public=
+t-digest-3.0.jar>central=
+t-digest-3.0.pom>pentaho-public=
+t-digest-3.0.pom>central=
+t-digest-3.0.jar>=
+t-digest-3.0.jar>sonatype-public=

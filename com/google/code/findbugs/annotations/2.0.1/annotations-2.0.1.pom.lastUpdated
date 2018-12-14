@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Apr 19 14:49:15 IST 2018
+@default-jasig-developer-repo-http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524129550468
+https\://repo.maven.apache.org/maven2/.lastUpdated=1524129555031
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=Could not transfer artifact com.google.code.findbugs\:annotations\:pom\:2.0.1 from/to jasig-developer-repo (http\://developer.jasig.org/repo/content/groups/m2-legacy/)\: Connect to developer.jasig.org\:80 [developer.jasig.org/199.119.127.181] failed\: Connection timed out\: connect
+https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524129554312
+https\://build.shibboleth.net/nexus/content/groups/public/.error=

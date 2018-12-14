@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 06:36:10 UTC 2018
+commons-pool-1.6.pom>central=
+commons-pool-1.6.pom>mule=
+commons-pool-1.6.jar>mule=
+commons-pool-1.6.jar>central=

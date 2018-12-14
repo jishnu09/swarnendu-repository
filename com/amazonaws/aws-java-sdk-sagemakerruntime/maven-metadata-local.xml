@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.amazonaws</groupId>
+  <artifactId>aws-java-sdk-sagemakerruntime</artifactId>
+  <versioning>
+    <versions>
+      <version>1.11.372-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180720091822</lastUpdated>
+  </versioning>
+</metadata>

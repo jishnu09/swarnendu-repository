@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:50:08 IST 2018
+jmespath-java-1.11.437.jar>central=
+jmespath-java-1.11.437.jar>pentaho-public=
+jmespath-java-1.11.437.pom>pentaho-public=
+jmespath-java-1.11.437.pom>central=

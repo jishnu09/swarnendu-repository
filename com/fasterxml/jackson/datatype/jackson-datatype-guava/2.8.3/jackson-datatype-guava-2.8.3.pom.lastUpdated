@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Apr 19 15:36:48 IST 2018
+@default-jasig-developer-repo-http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524132407508
+https\://repo.maven.apache.org/maven2/.lastUpdated=1524132408993
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=Could not transfer artifact com.fasterxml.jackson.datatype\:jackson-datatype-guava\:pom\:2.8.3 from/to jasig-developer-repo (http\://developer.jasig.org/repo/content/groups/m2-legacy/)\: Connect to developer.jasig.org\:80 [developer.jasig.org/199.119.127.181] failed\: Connection timed out\: connect
+https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524132408337
+https\://build.shibboleth.net/nexus/content/groups/public/.error=

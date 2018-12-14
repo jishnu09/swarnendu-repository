@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 26 17:40:40 IST 2018
+apm-spring-resttemplate-plugin-1.0.2-SNAPSHOT.pom>=
+apm-spring-resttemplate-plugin-1.0.2-SNAPSHOT-sources.jar>=
+apm-spring-resttemplate-plugin-1.0.2-SNAPSHOT-javadoc.jar>=
+apm-spring-resttemplate-plugin-1.0.2-SNAPSHOT.jar>=

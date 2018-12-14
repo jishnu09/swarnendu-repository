@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 12:15:43 UTC 2018
+presto-benchmark-driver-0.214-SNAPSHOT.pom>=
+presto-benchmark-driver-0.214-SNAPSHOT-tests.jar>=
+presto-benchmark-driver-0.214-SNAPSHOT-executable.jar>=
+presto-benchmark-driver-0.214-SNAPSHOT-sources.jar>=
+presto-benchmark-driver-0.214-SNAPSHOT.jar>=
+presto-benchmark-driver-0.214-SNAPSHOT-test-sources.jar>=

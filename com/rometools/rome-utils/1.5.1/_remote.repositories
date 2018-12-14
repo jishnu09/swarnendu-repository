@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:17:14 IST 2018
+rome-utils-1.5.1.jar>central=
+rome-utils-1.5.1.pom>central=
+rome-utils-1.5.1.jar>pentaho-public=
+rome-utils-1.5.1.pom>pentaho-public=

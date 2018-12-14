@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:18:19 IST 2018
+resolver-20050927.pom>atlassian-public=
+resolver-20050927.pom>pentaho-public=
+resolver-20050927.jar>atlassian-public=
+resolver-20050927.jar>pentaho-public=
+resolver-20050927.jar>=

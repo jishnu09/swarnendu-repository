@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:18:20 IST 2018
+gdata-analytics-2.1.jar>=
+gdata-analytics-2.1.pom>pentaho-public=
+gdata-analytics-2.1.jar>pentaho-public=

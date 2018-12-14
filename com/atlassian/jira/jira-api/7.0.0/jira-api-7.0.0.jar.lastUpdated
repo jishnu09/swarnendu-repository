@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Aug 09 13:41:05 IST 2017
+https\://oss.sonatype.org/content/repositories/releases/.error=
+https\://artifacts.alfresco.com/nexus/content/repositories/public/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1502264985827
+https\://m2proxy.atlassian.com/repository/public/.lastUpdated=1502266265903
+https\://oss.sonatype.org/content/repositories/releases/.lastUpdated=1502264869109
+https\://artifacts.alfresco.com/nexus/content/repositories/public/.lastUpdated=1502264868261
+https\://repo.maven.apache.org/maven2/.error=

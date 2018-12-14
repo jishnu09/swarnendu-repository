@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:43:02 IST 2018
+nimbus-jose-jwt-3.9.jar>pentaho-public=
+nimbus-jose-jwt-3.9.pom>pentaho-public=
+nimbus-jose-jwt-3.9.jar>central=
+nimbus-jose-jwt-3.9.pom>central=

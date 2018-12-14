@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Dec 06 16:53:05 IST 2018
+t-digest-3.2.jar>pentaho-public=
+t-digest-3.2.jar>central=
+t-digest-3.2.pom>pentaho-public=
+t-digest-3.2.pom>central=

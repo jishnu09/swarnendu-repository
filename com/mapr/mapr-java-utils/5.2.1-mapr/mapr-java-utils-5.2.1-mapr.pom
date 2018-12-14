@@ -1,0 +1,50 @@
+<!-- Copyright (c) 2015 MapR, Inc. -->
+<project
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+  xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.mapr</groupId>
+    <artifactId>mapr-release</artifactId>
+    <version>5.2.1-mapr</version>
+    <relativePath/>
+  </parent>
+
+  <artifactId>mapr-java-utils</artifactId>
+  <packaging>jar</packaging>
+  <name>General Java Utility classes for use in other MapR Projects</name>
+  <url>http://www.mapr.com/</url>
+
+  <repositories>
+    <repository>
+      <id>mapr-releases</id>
+      <url>http://repository.mapr.com/maven/</url>
+      <snapshots><enabled>true</enabled></snapshots>
+      <releases><enabled>true</enabled></releases>
+    </repository>
+  </repositories>
+
+  <dependencies>
+    <!-- Do not add any more dependencies to this project
+         and certainly not from any Hadoop projects -->
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+    </dependency>
+
+    <!-- begin test dependencies -->
+    <dependency>
+      <groupId>com.google.code.java-allocation-instrumenter</groupId>
+      <artifactId>java-allocation-instrumenter</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <!-- allows SLF4J APIs to send log messages to log4j -->
+      <artifactId>slf4j-log4j12</artifactId>
+      <groupId>org.slf4j</groupId>
+    </dependency>
+    <!--  end test dependencies  -->
+  </dependencies>
+
+</project>

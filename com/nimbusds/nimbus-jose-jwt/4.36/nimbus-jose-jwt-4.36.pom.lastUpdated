@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Apr 19 15:03:20 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1524130400012
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524130352452
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
+@default-shibboleth-public-repo-https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524130399325
+https\://build.shibboleth.net/nexus/content/groups/public/.error=Could not transfer artifact com.nimbusds\:nimbus-jose-jwt\:pom\:4.36 from/to shibboleth-public-repo (https\://build.shibboleth.net/nexus/content/groups/public)\: Connect to build.shibboleth.net\:443 [build.shibboleth.net/174.142.198.207] failed\: Read timed out

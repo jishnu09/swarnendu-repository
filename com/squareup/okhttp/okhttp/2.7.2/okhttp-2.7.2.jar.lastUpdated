@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 11:39:18 IST 2018
+https\://artifacts.elastic.co/maven/.error=
+https\://repository.jboss.org/nexus/service/local/repositories/thirdparty-releases/content/.lastUpdated=1543817346387
+https\://repository.jboss.org/nexus/service/local/repositories/thirdparty-releases/content/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543817358043
+https\://artifacts.elastic.co/maven/.lastUpdated=1543817341371

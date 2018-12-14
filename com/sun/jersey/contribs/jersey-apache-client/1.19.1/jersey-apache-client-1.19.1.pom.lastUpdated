@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 12:04:01 UTC 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1542888241354
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542888228683
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact com.sun.jersey.contribs\:jersey-apache-client\:pom\:1.19.1 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni/)\: nexus.pentaho.org

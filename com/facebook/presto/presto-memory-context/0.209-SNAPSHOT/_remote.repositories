@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Aug 22 16:59:02 IST 2018
+presto-memory-context-0.209-SNAPSHOT-tests.jar>=
+presto-memory-context-0.209-SNAPSHOT.pom>=
+presto-memory-context-0.209-SNAPSHOT-sources.jar>=
+presto-memory-context-0.209-SNAPSHOT-test-sources.jar>=
+presto-memory-context-0.209-SNAPSHOT.jar>=

@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:56:37 IST 2018
+icu4j-2.6.1.jar>central=
+icu4j-2.6.1.pom>pentaho-public=
+icu4j-2.6.1.pom>central=
+icu4j-2.6.1.jar>pentaho-public=
+icu4j-2.6.1.jar>=

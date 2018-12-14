@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:42:33 IST 2018
+aws-java-sdk-kms-1.11.271.jar>pentaho-public=
+aws-java-sdk-kms-1.11.271.pom>pentaho-public=
+aws-java-sdk-kms-1.11.271.jar>central=
+aws-java-sdk-kms-1.11.271.pom>central=

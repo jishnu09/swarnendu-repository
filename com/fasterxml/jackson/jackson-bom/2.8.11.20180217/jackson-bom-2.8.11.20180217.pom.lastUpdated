@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 15:55:54 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543400754115
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543400753264
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact com.fasterxml.jackson\:jackson-bom\:pom\:2.8.11.20180217 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/com/fasterxml/jackson/jackson-bom/2.8.11.20180217/jackson-bom-2.8.11.20180217.pom with status code 504

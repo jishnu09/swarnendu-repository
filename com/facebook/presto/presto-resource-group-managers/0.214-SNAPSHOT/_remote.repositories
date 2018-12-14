@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 14:03:41 UTC 2018
+presto-resource-group-managers-0.214-SNAPSHOT.pom>=
+presto-resource-group-managers-0.214-SNAPSHOT.zip>=
+presto-resource-group-managers-0.214-SNAPSHOT-test-sources.jar>=
+presto-resource-group-managers-0.214-SNAPSHOT-sources.jar>=
+presto-resource-group-managers-0.214-SNAPSHOT-tests.jar>=
+presto-resource-group-managers-0.214-SNAPSHOT.jar>=

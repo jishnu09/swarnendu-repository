@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 14:42:41 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1542618761391
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542618758127
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact com.google.code.maven-svn-wagon\:maven-svn-wagon\:pom\:1.4 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Connect to nexus.pentaho.org\:80 [nexus.pentaho.org/54.201.206.247, nexus.pentaho.org/34.215.205.39] failed\: Connection timed out\: connect

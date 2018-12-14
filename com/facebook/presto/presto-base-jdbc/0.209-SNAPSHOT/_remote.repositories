@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Aug 22 17:20:09 IST 2018
+presto-base-jdbc-0.209-SNAPSHOT.jar>=
+presto-base-jdbc-0.209-SNAPSHOT-tests.jar>=
+presto-base-jdbc-0.209-SNAPSHOT-sources.jar>=
+presto-base-jdbc-0.209-SNAPSHOT-test-sources.jar>=
+presto-base-jdbc-0.209-SNAPSHOT.pom>=

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 07:48:19 UTC 2018
+commons-net-3.6.jar>central=
+commons-net-3.6.pom>central=
+commons-net-3.6.pom>mule=
+commons-net-3.6.jar>mule=

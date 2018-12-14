@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 06:14:35 UTC 2018
+error_prone_annotations-2.1.3.jar>central=
+error_prone_annotations-2.1.3.jar>mule=
+error_prone_annotations-2.1.3.pom>mule=
+error_prone_annotations-2.1.3.pom>mule-plugin=
+error_prone_annotations-2.1.3.pom>central=
+error_prone_annotations-2.1.3.jar>mule-plugin=

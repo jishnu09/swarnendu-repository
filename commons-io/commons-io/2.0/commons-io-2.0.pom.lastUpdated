@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Nov 13 12:05:03 IST 2018
+file\://E\:\\Applications\\Atlassian\\atlassian-plugin-sdk-6.3.12/repository/.error=
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact commons-io\:commons-io\:pom\:2.0 from/to central (http\://repo.maven.apache.org/maven2)\: Connect to repo.maven.apache.org\:80 [repo.maven.apache.org/151.101.40.215] failed\: Connection timed out\: connect
+@default-http\://repo.maven.apache.org/maven2/.lastUpdated=1542090903602
+file\://E\:\\Applications\\Atlassian\\atlassian-plugin-sdk-6.3.12/repository/.lastUpdated=1542090882415

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:42:06 IST 2018
+scopt_2.11-3.5.0.jar>pentaho-public=
+scopt_2.11-3.5.0.jar>central=
+scopt_2.11-3.5.0.pom>pentaho-public=
+scopt_2.11-3.5.0.pom>central=

@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 10:10:32 IST 2018
+jffi-1.2.10-native.jar>central=
+jffi-1.2.10-native.jar>pentaho-public=
+jffi-1.2.10.jar>pentaho-public=
+jffi-1.2.10.pom>pentaho-public=
+jffi-1.2.10.jar>central=
+jffi-1.2.10.pom>central=

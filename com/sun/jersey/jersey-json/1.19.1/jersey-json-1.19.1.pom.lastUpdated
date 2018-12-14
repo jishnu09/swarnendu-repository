@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 23 10:39:55 UTC 2018
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542969595473
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1542892300177
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact com.sun.jersey\:jersey-json\:pom\:1.19.1 from/to central (https\://repo.maven.apache.org/maven2)\: Read timed out

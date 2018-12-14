@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:45:18 IST 2018
+commons-fileupload-1.2.1.jar>atlassian-public=
+commons-fileupload-1.2.1.jar>central=
+commons-fileupload-1.2.1.pom>central=

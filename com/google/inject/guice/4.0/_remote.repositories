@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 06:16:24 UTC 2018
+guice-4.0-no_aop.jar>mule-plugin=
+guice-4.0-no_aop.jar>mule=
+guice-4.0.pom>central=
+guice-4.0.pom>mule-plugin=

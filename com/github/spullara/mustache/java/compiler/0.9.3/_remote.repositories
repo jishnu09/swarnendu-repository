@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Dec 06 16:53:05 IST 2018
+compiler-0.9.3.jar>central=
+compiler-0.9.3.pom>central=
+compiler-0.9.3.jar>pentaho-public=
+compiler-0.9.3.pom>pentaho-public=

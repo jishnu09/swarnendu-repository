@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:47:04 IST 2018
+spatial4j-0.4.1.jar>pentaho-public=
+spatial4j-0.4.1.pom>pentaho-public=
+spatial4j-0.4.1.jar>central=
+spatial4j-0.4.1.pom>central=

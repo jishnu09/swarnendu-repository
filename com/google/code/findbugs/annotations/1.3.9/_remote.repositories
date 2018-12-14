@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 23 15:01:54 IST 2018
+annotations-1.3.9.pom>pentaho-public=
+annotations-1.3.9.jar>pentaho-public=
+annotations-1.3.9.pom>wso2-nexus=
+annotations-1.3.9.jar>wso2-nexus=

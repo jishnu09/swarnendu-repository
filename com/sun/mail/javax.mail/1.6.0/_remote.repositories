@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:54:37 IST 2018
+javax.mail-1.6.0.pom>central=
+javax.mail-1.6.0.pom>atlassian-public=
+javax.mail-1.6.0.jar>atlassian-public=
+javax.mail-1.6.0.jar>central=

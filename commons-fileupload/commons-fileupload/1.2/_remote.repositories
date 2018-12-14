@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 17:17:56 IST 2018
+commons-fileupload-1.2.jar>wso2-nexus=
+commons-fileupload-1.2.jar>pentaho-public=
+commons-fileupload-1.2.pom>wso2-nexus=
+commons-fileupload-1.2.pom>pentaho-public=

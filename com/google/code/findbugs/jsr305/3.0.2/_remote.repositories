@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 12:17:10 UTC 2018
+jsr305-3.0.2.jar>mule=
+jsr305-3.0.2.jar>mule-plugin=
+jsr305-3.0.2-sources.jar>central=
+jsr305-3.0.2.pom>mule-plugin=
+jsr305-3.0.2.jar>central=
+jsr305-3.0.2.pom>central=
+jsr305-3.0.2.pom>mule=

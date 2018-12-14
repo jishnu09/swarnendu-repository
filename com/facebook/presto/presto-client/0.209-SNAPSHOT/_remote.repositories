@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Aug 22 16:59:28 IST 2018
+presto-client-0.209-SNAPSHOT.jar>=
+presto-client-0.209-SNAPSHOT-test-sources.jar>=
+presto-client-0.209-SNAPSHOT.pom>=
+presto-client-0.209-SNAPSHOT-tests.jar>=
+presto-client-0.209-SNAPSHOT-sources.jar>=

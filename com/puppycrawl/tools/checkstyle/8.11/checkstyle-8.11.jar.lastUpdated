@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 12:33:05 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543388585876
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543388504474
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact com.puppycrawl.tools\:checkstyle\:jar\:8.11 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/com/puppycrawl/tools/checkstyle/8.11/checkstyle-8.11.jar with status code 504

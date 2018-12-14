@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 14:48:47 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543396727941
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543396717858
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact com.fasterxml.jackson.core\:jackson-core\:jar\:2.3.1 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/com/fasterxml/jackson/core/jackson-core/2.3.1/jackson-core-2.3.1.jar with status code 504

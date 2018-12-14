@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.atlassian.dragonfly</groupId>
+    <artifactId>dragonfly-parent</artifactId>
+    <version>1.1-m1</version>
+
+    <name>Dragonfly</name>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>com.atlassian.pom</groupId>
+        <artifactId>atlassian-public-pom</artifactId>
+        <version>24</version>
+    </parent>
+
+    <properties>
+        <apl.version>3.4.1</apl.version>
+        <sal.version>2.5.0</sal.version>
+        <crowd.version>2.2.5</crowd.version>
+        <embcwd.version>1.2.7</embcwd.version>
+    </properties>
+
+    <modules>
+        <module>dragonfly-api</module>
+        <module>dragonfly-spi</module>
+        <module>dragonfly-core</module>
+    </modules>
+
+    <distributionManagement>
+        <site>
+            <id>atlassian-documentation</id>
+            <url>dav:https://docs.atlassian.com/${project.artifactId}/${project.version}</url>
+        </site>
+    </distributionManagement>
+
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+            </plugin>
+            <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-project-info-reports-plugin</artifactId>
+               <reportSets>
+                  <reportSet>
+                      <reports>
+                          <report>index</report>
+                      </reports>
+                  </reportSet>
+               </reportSets>
+            </plugin>
+        </plugins>
+    </reporting>
+
+    <scm>
+        <connection>scm:svn:https://studio.atlassian.com/svn/DFY/tags/dragonfly-parent-1.1-m1</connection>
+        <developerConnection>scm:svn:https://studio.atlassian.com/svn/DFY/tags/dragonfly-parent-1.1-m1</developerConnection>
+        <url>https://studio.atlassian.com/source/browse/DFY/tags/dragonfly-parent-1.1-m1</url>
+    </scm>
+</project>

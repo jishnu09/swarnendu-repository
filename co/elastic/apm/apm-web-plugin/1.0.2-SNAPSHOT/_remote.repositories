@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 26 17:39:27 IST 2018
+apm-web-plugin-1.0.2-SNAPSHOT-javadoc.jar>=
+apm-web-plugin-1.0.2-SNAPSHOT.jar>=
+apm-web-plugin-1.0.2-SNAPSHOT.pom>=
+apm-web-plugin-1.0.2-SNAPSHOT-sources.jar>=

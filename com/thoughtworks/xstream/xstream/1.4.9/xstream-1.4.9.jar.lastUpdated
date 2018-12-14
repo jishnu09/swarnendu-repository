@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 30 16:56:35 IST 2018
+http\://dist.wso2.org/maven2/.error=
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1540898795629
+http\://dist.wso2.org/maven2/.lastUpdated=1529914165756
+http\://maven.wso2.org/nexus/content/groups/wso2-public/.lastUpdated=1529914168382
+http\://maven.wso2.org/nexus/content/repositories/releases/.lastUpdated=1529914165991
+http\://maven.wso2.org/nexus/content/repositories/releases/.error=

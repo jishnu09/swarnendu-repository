@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 12:15:28 UTC 2018
+presto-cli-0.214-SNAPSHOT.pom>=
+presto-cli-0.214-SNAPSHOT-test-sources.jar>=
+presto-cli-0.214-SNAPSHOT-executable.jar>=
+presto-cli-0.214-SNAPSHOT-tests.jar>=
+presto-cli-0.214-SNAPSHOT.jar>=
+presto-cli-0.214-SNAPSHOT-sources.jar>=

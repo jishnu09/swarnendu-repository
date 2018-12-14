@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 23 15:12:28 IST 2018
+mssql-jdbc-6.4.0.jre9.jar>pentaho-public=
+mssql-jdbc-6.4.0.jre9.pom>pentaho-public=

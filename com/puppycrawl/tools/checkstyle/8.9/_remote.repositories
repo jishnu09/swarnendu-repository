@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:44:24 IST 2018
+checkstyle-8.9.pom>central=
+checkstyle-8.9.jar>pentaho-public=
+checkstyle-8.9.pom>pentaho-public=
+checkstyle-8.9.jar>central=

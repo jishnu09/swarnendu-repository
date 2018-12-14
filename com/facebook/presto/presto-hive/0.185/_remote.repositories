@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:42:49 IST 2018
+presto-hive-0.185.jar>central=
+presto-hive-0.185.jar>pentaho-public=
+presto-hive-0.185.pom>pentaho-public=
+presto-hive-0.185.pom>central=

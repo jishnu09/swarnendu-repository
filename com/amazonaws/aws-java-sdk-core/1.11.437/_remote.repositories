@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:50:08 IST 2018
+aws-java-sdk-core-1.11.437.jar>central=
+aws-java-sdk-core-1.11.437.jar>pentaho-public=
+aws-java-sdk-core-1.11.437.pom>central=
+aws-java-sdk-core-1.11.437.pom>pentaho-public=

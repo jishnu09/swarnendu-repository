@@ -1,0 +1,11 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 15:35:50 IST 2018
+https\://jitpack.io/.error=
+http\://oss.sonatype.org/content/repositories/releases/.lastUpdated=1525079190264
+https\://jitpack.io/.lastUpdated=1543399550137
+https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524129715724
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543399550469
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1543399550020
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524129715084
+https\://artifacts.elastic.co/maven/.error=

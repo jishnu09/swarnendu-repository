@@ -1,0 +1,13 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Apr 19 14:54:25 IST 2018
+https\://repo.spring.io/snapshot/.error=
+https\://repo.spring.io/snapshot/.lastUpdated=1524129864096
+https\://build.shibboleth.net/nexus/content/repositories/releases/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1524129863580
+https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524129862353
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
+https\://repo.spring.io/milestone/.error=
+https\://build.shibboleth.net/nexus/content/repositories/releases/.lastUpdated=1524129863213
+https\://build.shibboleth.net/nexus/content/groups/public/.error=
+https\://repo.spring.io/libs-snapshot/.lastUpdated=1524129865018
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524129861428

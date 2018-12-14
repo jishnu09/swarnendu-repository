@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:04:19 IST 2018
+protoc-jar-maven-plugin-3.5.1.1.jar>pentaho-public=
+protoc-jar-maven-plugin-3.5.1.1.pom>pentaho-public=

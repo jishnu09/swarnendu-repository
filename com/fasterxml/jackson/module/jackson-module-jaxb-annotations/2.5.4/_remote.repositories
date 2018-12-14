@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:18:18 IST 2018
+jackson-module-jaxb-annotations-2.5.4.jar>=
+jackson-module-jaxb-annotations-2.5.4.pom>central=
+jackson-module-jaxb-annotations-2.5.4.pom>pentaho-public=
+jackson-module-jaxb-annotations-2.5.4.jar>pentaho-public=

@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 04:29:00 UTC 2018
+presto-tpcds-0.214-SNAPSHOT.pom>=
+presto-tpcds-0.214-SNAPSHOT.zip>=
+presto-tpcds-0.214-SNAPSHOT-test-sources.jar>=
+presto-tpcds-0.214-SNAPSHOT-tests.jar>=
+presto-tpcds-0.214-SNAPSHOT-sources.jar>=
+presto-tpcds-0.214-SNAPSHOT.jar>=

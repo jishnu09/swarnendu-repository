@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 10:38:37 UTC 2018
+json-simple-1.1.1.jar>central=
+json-simple-1.1.1.pom>pentaho-public=
+json-simple-1.1.1.jar>pentaho-public=
+json-simple-1.1.1.pom>central=

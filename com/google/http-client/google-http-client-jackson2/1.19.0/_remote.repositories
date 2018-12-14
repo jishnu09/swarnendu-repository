@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 11:55:05 IST 2018
+google-http-client-jackson2-1.19.0.jar>central=
+google-http-client-jackson2-1.19.0.pom>central=
+google-http-client-jackson2-1.19.0.jar>pentaho-public=
+google-http-client-jackson2-1.19.0.pom>pentaho-public=

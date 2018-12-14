@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Oct 22 09:56:13 UTC 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1540202173024
+http\://repository.codehaus.org/org/codehaus/mojo/.error=Could not transfer artifact com.jcraft\:jsch\:jar\:0.1.38 from/to codehaus (http\://repository.codehaus.org/org/codehaus/mojo/)\: repository.codehaus.org
+@default-codehaus-http\://repository.codehaus.org/org/codehaus/mojo/.lastUpdated=1540202171029

@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 04:31:08 UTC 2018
+presto-parquet-0.214-SNAPSHOT.pom>=
+presto-parquet-0.214-SNAPSHOT-sources.jar>=
+presto-parquet-0.214-SNAPSHOT-tests.jar>=
+presto-parquet-0.214-SNAPSHOT-test-sources.jar>=
+presto-parquet-0.214-SNAPSHOT.jar>=

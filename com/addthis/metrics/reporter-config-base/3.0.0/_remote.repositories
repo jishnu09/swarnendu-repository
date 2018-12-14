@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:48:59 IST 2018
+reporter-config-base-3.0.0.jar>central=
+reporter-config-base-3.0.0.pom>central=
+reporter-config-base-3.0.0.jar>pentaho-public=
+reporter-config-base-3.0.0.pom>pentaho-public=

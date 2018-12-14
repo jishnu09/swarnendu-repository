@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 16:09:34 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543401574471
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543401573824
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact com.github.eirslett\:frontend-plugin-core\:pom\:1.6 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/com/github/eirslett/frontend-plugin-core/1.6/frontend-plugin-core-1.6.pom with status code 504

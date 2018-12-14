@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 12:11:23 IST 2018
+https\://jitpack.io/.lastUpdated=1543387282848
+https\://artifacts.elastic.co/maven/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543387283196
+https\://artifacts.elastic.co/maven/.lastUpdated=1543387221970
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543387282732
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact com.amazonaws\:aws-java-sdk-pom\:pom\:1.11.125 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/com/amazonaws/aws-java-sdk-pom/1.11.125/aws-java-sdk-pom-1.11.125.pom with status code 504
+https\://jitpack.io/.error=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 15:28:59 IST 2018
+proto-google-common-protos-0.1.9.jar>central=
+proto-google-common-protos-0.1.9.pom>central=
+proto-google-common-protos-0.1.9.pom>pentaho-public=

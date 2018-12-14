@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>co.elastic.apm</groupId>
+  <artifactId>spring-boot-2-jetty</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181126121500</lastUpdated>
+  </versioning>
+</metadata>

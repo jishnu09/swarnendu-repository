@@ -1,0 +1,1540 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.atlassian.confluence</groupId>
+        <artifactId>confluence-project</artifactId>
+        <version>4.0</version>
+    </parent>
+
+    <artifactId>confluence</artifactId>
+
+    <name>Confluence Core</name>
+
+    <profiles>
+        <profile>
+            <id>no-tests</id>
+            <activation>
+                <property>
+                    <name>unit-test</name>
+                    <value>false</value>
+                </property>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-antrun-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>warning</id>
+                                <phase>validate</phase>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                                <configuration>
+                                    <target>
+                                        <echo>No tests will be compiled or run, and cargo containers will not be started. Consider using -DskipTests if you still want to compile tests or run cargo.</echo>
+                                    </target>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+            <properties>
+                <maven.test.skip>true</maven.test.skip>
+            </properties>
+        </profile>
+        <profile>
+            <id>clean-build</id>
+            <activation>
+                <property>
+                    <name>clean</name>
+                </property>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-clean-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <goals>
+                                    <goal>clean</goal>
+                                </goals>
+                                <phase>validate</phase>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        
+        <profile>
+            <id>clover-optimize</id>
+            <dependencies>
+                <dependency> 
+                    <groupId>com.cenqua.clover</groupId>
+                    <artifactId>clover</artifactId>
+                    <version>${clover.version}</version>
+                </dependency>
+            </dependencies>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.atlassian.maven.plugins</groupId>
+                        <artifactId>maven-up-and-down-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>download-clover-snapshot</id>
+                                <phase>generate-test-resources</phase>
+                                <goals>
+                                    <goal>download</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>com.atlassian.maven.plugins</groupId>
+                        <artifactId>maven-clover2-plugin</artifactId>
+                        <configuration>
+                            <singleCloverDatabase>true</singleCloverDatabase>
+                            <flushPolicy>directed</flushPolicy>
+                            <instrumentation>method</instrumentation>
+                            <snapshot>${project.build.directory}/clover.snapshot</snapshot>
+                            <!-- never do a full build -->
+                            <fullRunEvery>100000</fullRunEvery>
+                            <forceSnapshot>true</forceSnapshot>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <goals>
+                                    <goal>setup</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>optimize_unit_tests</id>
+                                <phase>process-test-classes</phase>
+                                <goals>
+                                    <goal>optimize</goal>
+                                </goals>
+                                <configuration>
+                                    <optimizeIncludes>
+                                        <optimizeInclude>**/Test*.java</optimizeInclude>
+                                    </optimizeIncludes>
+                                    <optimizeExcludes>
+                                        <optimizeExclude>com/atlassian/integrationtest/**</optimizeExclude>
+                                    </optimizeExcludes>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>optimize_integration_tests</id>
+                                <phase>pre-integration-test</phase>
+                                <goals>
+                                    <goal>optimize</goal>
+                                    </goals>
+                                    <configuration>
+                                        <optimizeIncludes>
+                                            <optimizeInclude>com/atlassian/integrationtest/**</optimizeInclude>
+                                        </optimizeIncludes>
+                                        <optimizeExcludes>
+                                            <!-- We need this exclude because clover takes the default surefire excludes otherwise -->
+                                            <optimizeExclude>nothing</optimizeExclude>
+                                        </optimizeExcludes>
+                                    </configuration>
+                            </execution>
+                            <execution>
+                                <id>update-clover-snapshot</id>
+                                <phase>post-integration-test</phase>
+                                <goals>
+                                    <goal>snapshot</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+            <properties>
+                <clover.port>8888</clover.port>
+                <clover.timeout>5000</clover.timeout>
+                <clover.distributed.coverage>OFF</clover.distributed.coverage> <!-- Specified to all -->
+                <failIfNoTests>false</failIfNoTests>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>clover-optimize-bamboo</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.atlassian.maven.plugins</groupId>
+                        <artifactId>maven-up-and-down-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>deploy-clover-snapshot</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>deploy</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        
+    </profiles>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <!-- TODO: Fix WebWork http://jira.atlassian.com/browse/CONF-1651
+
+                     Do not use a different Webwork version until WW-591 is fixed,
+                     or Confluence will break.
+
+                -->
+                <groupId>opensymphony</groupId>
+                <artifactId>webwork</artifactId>
+                <version>2.1.5-atlassian-2</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>opensymphony</groupId>
+                        <artifactId>pell-multipart</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>com.servlets</groupId>
+                        <artifactId>cos</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>ognl</groupId>
+                        <artifactId>ognl</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>velocity</groupId>
+                        <artifactId>velocity</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.xmlgraphics</groupId>
+            <artifactId>batik-transcoder</artifactId>
+            <version>1.7</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>xml-apis</artifactId>
+                    <groupId>xml-apis</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.atlassian.crowd</groupId>
+            <artifactId>embedded-crowd-api</artifactId>
+            <version>${crowd.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.google.collections</groupId>
+                    <artifactId>google-collections</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.crowd</groupId>
+            <artifactId>crowd-integration-api</artifactId>
+            <version>${crowd.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.crowd</groupId>
+            <artifactId>crowd-integration-seraph22</artifactId>
+            <version>${crowd.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.atlassian.crowd</groupId>
+                    <artifactId>crowd-integration-osuser</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.google.collections</groupId>
+                    <artifactId>google-collections</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.crowd</groupId>
+            <artifactId>embedded-crowd-spi</artifactId>
+            <version>${crowd.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.google.collections</groupId>
+                    <artifactId>google-collections</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.crowd</groupId>
+            <artifactId>crowd-password-encoders</artifactId>
+            <version>${crowd.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-tx</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.google.collections</groupId>
+                    <artifactId>google-collections</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.crowd</groupId>
+            <artifactId>atlassian-embedded-crowd-atlassian-user</artifactId>
+            <version>${crowd.embedded.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>propertyset</groupId>
+                    <artifactId>propertyset</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.google.collections</groupId>
+                    <artifactId>google-collections</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.crowd</groupId>
+            <artifactId>atlassian-embedded-crowd-hibernate2</artifactId>
+            <version>${crowd.embedded.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.google.collections</groupId>
+                    <artifactId>google-collections</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.crowd</groupId>
+            <artifactId>embedded-crowd-core</artifactId>
+            <version>${crowd.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-context-support</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>quartz</groupId>
+                    <artifactId>quartz</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.opensymphony</groupId>
+                    <artifactId>webwork</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.google.collections</groupId>
+                    <artifactId>google-collections</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.atlassian.crowd</groupId>
+            <artifactId>crowd-persistence</artifactId>
+            <version>${crowd.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-orm</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-tx</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.hibernate</groupId>
+                    <artifactId>hibernate</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.google.collections</groupId>
+                    <artifactId>google-collections</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!-- HACK: should be getting this via crowd-embedded somehow -->
+        <dependency>
+            <groupId>com.atlassian.crowd</groupId>
+            <artifactId>crowd-ldap</artifactId>
+            <version>${crowd.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-tx</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-context-support</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>quartz</groupId>
+                    <artifactId>quartz</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.google.collections</groupId>
+                    <artifactId>google-collections</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.springframework.ldap</groupId>
+            <artifactId>spring-ldap-core</artifactId>
+            <version>${confluence.project.spring.ldap.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-tx</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!-- Confluence dependency -->
+        <dependency>
+            <groupId>com.atlassian.confluence</groupId>
+            <artifactId>confluence-upgrade</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!-- Atlassian dependencies -->
+        <dependency>
+            <groupId>com.atlassian.gzipfilter</groupId>
+            <artifactId>atlassian-gzipfilter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.atlassian.applinks</groupId>
+            <artifactId>applinks-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.applinks</groupId>
+            <artifactId>applinks-spi</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.applinks</groupId>
+            <artifactId>applinks-host</artifactId>
+        </dependency>
+        <!-- common modules used in setup. See https://studio.atlassian.com/wiki/display/DFY/Dragonfly -->
+        <dependency>
+            <groupId>com.atlassian.dragonfly</groupId>
+            <artifactId>dragonfly-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.dragonfly</groupId>
+            <artifactId>dragonfly-spi</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.dragonfly</groupId>
+            <artifactId>dragonfly-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.util.concurrent</groupId>
+            <artifactId>atlassian-util-concurrent</artifactId>
+            <version>2.2.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.modzdetector</groupId>
+            <artifactId>modz-detector</artifactId>
+            <version>0.8</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.mail</groupId>
+            <artifactId>atlassian-mail</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>javamail</groupId>
+                    <artifactId>mail</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>opensymphony</groupId>
+                    <artifactId>osuser</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>oscore</groupId>
+                    <artifactId>oscore</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.atlassian.ofbiz</groupId>
+                    <artifactId>atlassian-ofbiz</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>ofbcore</groupId>
+                    <artifactId>ofbcore-entity</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>ofbcore</groupId>
+                    <artifactId>ofbcore-share</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>velocity</groupId>
+                    <artifactId>velocity</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.velocity</groupId>
+            <artifactId>atlassian-velocity</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>velocity</groupId>
+                    <artifactId>velocity</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.core</groupId>
+            <artifactId>atlassian-core</artifactId>
+            <!-- Exclude velocity because we already use the same version but with groupId velocity -->
+            <exclusions>
+                <exclusion>
+                    <groupId>osuser</groupId>
+                    <artifactId>osuser</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.config</groupId>
+            <artifactId>atlassian-config</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>cglib</groupId>
+                    <artifactId>cglib-nodep</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.atlassian.plugins</groupId>
+                    <artifactId>atlassian-plugins</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.spring</groupId>
+            <artifactId>atlassian-spring</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.spring</groupId>
+            <artifactId>atlassian-spring-hibernate2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.event</groupId>
+            <artifactId>atlassian-event</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.confluence</groupId>
+            <artifactId>confluence-bucket</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.xwork</groupId>
+            <artifactId>atlassian-xwork-10</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.xwork</groupId>
+            <artifactId>atlassian-xwork-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.profiling</groupId>
+            <artifactId>atlassian-profiling</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.trackback</groupId>
+            <artifactId>atlassian-trackback</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.extras</groupId>
+            <artifactId>atlassian-extras</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.johnson</groupId>
+            <artifactId>atlassian-johnson</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>cglib</groupId>
+                    <artifactId>cglib-nodep</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>oscore</groupId>
+                    <artifactId>oscore</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.plugins</groupId>
+            <artifactId>atlassian-plugins-core</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>cglib</groupId>
+                    <artifactId>cglib-nodep</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.plugins</groupId>
+            <artifactId>atlassian-plugins-servlet</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.plugins</groupId>
+            <artifactId>atlassian-plugins-webfragment</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.plugins</groupId>
+            <artifactId>atlassian-plugins-webresource</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.plugins</groupId>
+            <artifactId>atlassian-plugins-osgi</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.plugins</groupId>
+            <artifactId>atlassian-plugins-spring</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.bandana</groupId>
+            <artifactId>atlassian-bandana</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.thoughtworks.xstream</groupId>
+                    <artifactId>xstream</artifactId>
+                 </exclusion>
+                <exclusion>
+                    <groupId>xpp3</groupId>
+                    <artifactId>xpp3</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.user</groupId>
+            <artifactId>atlassian-user</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>cglib</groupId>
+                    <artifactId>cglib-full</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.renderer</groupId>
+            <artifactId>atlassian-renderer-legacy</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.atlassian.plugins</groupId>
+                    <artifactId>atlassian-plugins</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xerces</groupId>
+                    <artifactId>xmlParserAPIs</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.bonnie</groupId>
+            <artifactId>atlassian-bonnie</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.jdk.utilities</groupId>
+            <artifactId>atlassian-jdk-utilities</artifactId>
+            <version>0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.seraph</groupId>
+            <artifactId>atlassian-seraph</artifactId>            
+        </dependency>
+        <dependency>
+			<groupId>com.atlassian.security.auth.trustedapps</groupId>
+			<artifactId>atlassian-trusted-apps-core</artifactId>				
+		</dependency>
+		<dependency>
+			<groupId>com.atlassian.security.auth.trustedapps</groupId>
+			<artifactId>atlassian-trusted-apps-seraph-integration</artifactId>			
+		</dependency>
+        <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>activation</artifactId>
+        </dependency>
+
+        <!-- OS dependencies -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+        </dependency>
+        <dependency>
+           <groupId>org.slf4j</groupId>
+           <artifactId>jul-to-slf4j</artifactId>
+        </dependency>        
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+        </dependency>
+        <!-- declare commons-logging dependency explicitly here so that we don't leave ourselves to the mercy of maven to determine the version transitively and avoid problems like CONF-10268 -->
+        <dependency>
+                <groupId>commons-logging</groupId>
+                <artifactId>commons-logging</artifactId>
+                <version>1.1.1</version><!-- CONF-10268 -->
+                <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+        </dependency>
+        <!-- Hibernate dependencies -->
+        <dependency>
+            <groupId>hibernate</groupId>
+            <artifactId>hibernate</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>odmg</groupId>
+            <artifactId>odmg</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>c3p0</groupId>
+            <artifactId>c3p0</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.transaction</groupId>
+            <artifactId>jta</artifactId>
+ 	</dependency>
+
+        <dependency>
+            <groupId>com.sun</groupId>
+            <artifactId>jai_core</artifactId>
+            <version>1.1.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun</groupId>
+            <artifactId>jai_codec</artifactId>
+            <version>1.1.3</version>
+        </dependency>
+
+        <!-- WebWork2 dependencies -->
+        <dependency>
+            <groupId>opensymphony</groupId>
+            <artifactId>webwork</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>opensymphony</groupId>
+            <artifactId>xwork</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>ognl</groupId>
+            <artifactId>ognl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>opensymphony</groupId>
+            <artifactId>oscore</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>oscache</groupId>
+            <artifactId>oscache</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>osuser</groupId>
+            <artifactId>osuser</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>opensymphony</groupId>
+            <artifactId>propertyset</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+        </dependency>
+
+        <!-- Spring container dependencies -->
+        <!-- NTOE: when we upgrade up to or past 1.1.5, we can remove com.atlassian.confluence.ext.jdbc.support.nativeJdbc.*
+                   and revert to running with the version of the C3P0 support class shipped with spring, referenced by
+                   applicationContext.xml
+        -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+        </dependency>
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-hibernate2</artifactId>
+	</dependency>
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-beans</artifactId>
+	</dependency>
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-jdbc</artifactId>
+	</dependency>
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-context</artifactId>
+	</dependency>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-tx</artifactId>
+    </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+        </dependency>
+        
+    <dependency>
+        <groupId>com.atlassian.paddle</groupId>
+        <artifactId>atlassian-paddle</artifactId>
+        <exclusions>
+            <exclusion>
+                <groupId>jaxen</groupId>
+                <artifactId>jaxen</artifactId>
+            </exclusion>
+        </exclusions>
+    </dependency>
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sf.ldaptemplate</groupId>
+            <artifactId>ldaptemplate</artifactId>
+        </dependency>
+
+        <!-- SiteMesh dependencies -->
+        <dependency>
+            <groupId>opensymphony</groupId>
+            <artifactId>sitemesh</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>velocity-tools</groupId>
+            <artifactId>velocity-tools</artifactId>
+        </dependency>
+
+        <!-- Radeox dependencies -->
+        <dependency>
+            <groupId>radeox</groupId>
+            <artifactId>radeox</artifactId>
+        </dependency>
+
+        <!-- Lucene dependencies -->
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-analyzers</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-misc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-highlighter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-digester</groupId>
+            <artifactId>commons-digester</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sourceforge.cssparser</groupId>
+            <artifactId>cssparser</artifactId>
+        </dependency>
+
+        <!-- JTidy dependencies -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>jtidy</artifactId>
+        </dependency>
+
+        <!-- Quartz dependencies -->
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+        </dependency>
+
+        <!-- HSQL dependencies -->
+        <dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>mockobjects</groupId>
+            <artifactId>mockobjects-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <scope>test</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>xmlunit</groupId>
+            <artifactId>xmlunit</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+        </dependency>
+
+        <!-- Rome (RSS Util) dependencies -->
+        <dependency>
+            <groupId>rome</groupId>
+            <artifactId>rome</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>jdom</groupId>
+            <artifactId>jdom</artifactId>
+        </dependency>
+
+        <!-- JRCS / Diff dependencies -->
+        <!-- FIXED: Id has a an invalid symbol -->
+        <dependency>
+            <groupId>commons-jrcs</groupId>
+            <artifactId>commons-jrcs</artifactId>
+        </dependency>
+        <!-- deps for fatcow testing macro -->
+        <dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>xerces</groupId>
+            <artifactId>xercesImpl</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+
+        <!-- end fat cow deps -->
+
+        <!-- XML-RPC -->
+        <!-- Vanilla 2.0 source with patch from http://issues.apache.org/jira/browse/XMLRPC-61 installed -->
+        <dependency>
+            <groupId>xmlrpc</groupId>
+            <artifactId>xmlrpc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>glue</groupId>
+            <artifactId>glue</artifactId>
+        </dependency>
+
+        <!-- Electric XML dependencies: Required by Glue (perhaps) -->
+        <dependency>
+            <groupId>exml</groupId>
+            <artifactId>exml</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>axis</groupId>
+            <artifactId>axis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>axis</groupId>
+            <artifactId>axis-jaxrpc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>axis</groupId>
+            <artifactId>axis-saaj</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-discovery</groupId>
+            <artifactId>commons-discovery</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+        </dependency>
+
+        <!-- Trackback dependencies -->
+        <dependency>
+            <groupId>oro</groupId>
+            <artifactId>oro</artifactId>
+        </dependency>
+
+        <!-- WebDAV dependencies -->
+        <dependency>
+            <groupId>slide</groupId>
+            <artifactId>slide</artifactId>
+        </dependency>
+
+        <!-- XStream dependencies for serializing Objects to XML -->
+        <dependency>
+            <groupId>com.thoughtworks.xstream</groupId>
+            <artifactId>xstream</artifactId>
+        </dependency>
+
+        <!-- jfreechart dependencies -->
+        <dependency>
+            <groupId>jfree</groupId>
+            <artifactId>jfreechart</artifactId>
+        </dependency>
+
+        <!-- xalan not packaged with jdk 1.5.x, so we need to include this now. -->
+        <dependency>
+            <groupId>xalan</groupId>
+            <artifactId>xalan</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- JCapcha dependency -->
+        <dependency>
+            <groupId>com.octo.captcha</groupId>
+            <artifactId>jcaptcha-all</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring</artifactId>
+                </exclusion>
+                 <exclusion>
+                    <groupId>hsqldb</groupId>
+                    <artifactId>hsqldb</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>commons-pool</groupId>
+                    <artifactId>commons-pool</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>commons-dbcp</groupId>
+                    <artifactId>commons-dbcp</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>xerces</groupId>
+                    <artifactId>xmlParserAPIs</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>quartz</groupId>
+                    <artifactId>quartz</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>net.java.dev.urlrewrite</groupId>
+            <artifactId>urlrewrite</artifactId>
+        </dependency>
+
+
+
+        <!-- Crowd xfire dependencies -->
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.xml.stream</groupId>
+            <artifactId>stax-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.woodstox</groupId>
+  	 	    <artifactId>wstx-asl</artifactId>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.xfire</groupId>
+            <artifactId>xfire-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.xfire</groupId>
+            <artifactId>xfire-aegis</artifactId>
+        </dependency>
+
+
+        <!-- Concurrency Annotations -->
+        <dependency>
+            <groupId>net.jcip</groupId>
+            <artifactId>jcip-annotations</artifactId>
+        </dependency>
+
+        <!-- caching -->
+        <dependency>
+            <groupId>com.atlassian.cache</groupId>
+            <artifactId>atlassian-cache-api</artifactId>
+        </dependency>
+
+        <!--SAL Dependencies-->
+         <dependency>
+            <groupId>com.atlassian.sal</groupId>
+            <artifactId>sal-spi</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.sal</groupId>
+            <artifactId>sal-spring</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.atlassian.sal</groupId>
+            <artifactId>sal-api</artifactId>
+        </dependency>
+        <!-- test dependencies -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.cache</groupId>
+            <artifactId>atlassian-cache-memory</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.confluence</groupId>
+            <artifactId>confluence-not-shippable</artifactId>
+            <scope>test</scope>
+        </dependency>        
+
+        <!-- findbugs dependencies -->
+        <dependency>
+            <groupId>net.sourceforge.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+            <version>1.3.2</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>opensymphony</groupId>
+            <artifactId>pell-multipart</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+          <groupId>ch.qos.logback</groupId>
+          <artifactId>logback-classic</artifactId>
+          <version>0.9.26</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- end of findbugs dependencies -->
+
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+        </dependency>
+        <dependency>
+        	<groupId>org.owasp.antisamy</groupId>
+        	<artifactId>antisamy</artifactId>
+        	<version>1.4.2-atlassian-13</version>
+        	<type>jar</type>
+        	<scope>compile</scope>
+        	<exclusions>
+        		<exclusion>
+        			<artifactId>xml-apis</artifactId>
+        			<groupId>xml-apis</groupId>
+        		</exclusion>
+        		<exclusion>
+        			<artifactId>xml-apis-ext</artifactId>
+        			<groupId>xml-apis</groupId>
+        		</exclusion>
+        	</exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.outerj.daisy</groupId>
+            <artifactId>daisydiff</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.atlassian.velocity.htmlsafe</groupId>
+            <artifactId>velocity-htmlsafe</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <!-- directory locations -->
+        <sourceDirectory>src/java</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>src/etc/java</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>com/atlassian/confluence/default.properties</include>
+                    <include>package-versions.properties</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/etc/java</directory>
+                <filtering>false</filtering>
+                <excludes>
+                    <exclude>com/atlassian/confluence/default.properties</exclude>
+                    <exclude>package-versions.properties</exclude>
+                </excludes>
+            </resource>
+        </resources>
+
+        <testSourceDirectory>src/test/java</testSourceDirectory>
+        <testResources>
+            <testResource>
+                <directory>src/test/etc</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+            </testResource>
+        </testResources>
+
+        <pluginManagement>
+            <plugins>
+
+                <plugin>
+                    <artifactId>maven-dependency-plugin</artifactId>
+                    <version>2.1</version>
+                </plugin>
+                <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+                <plugin>
+                    <groupId>org.eclipse.m2e</groupId>
+                    <artifactId>lifecycle-mapping</artifactId>
+                    <version>1.0.0</version>
+                    <configuration>
+                        <lifecycleMappingMetadata>
+                            <pluginExecutions>
+                                <pluginExecution>
+                                    <pluginExecutionFilter>
+                                        <groupId>
+                                            org.apache.maven.plugins
+                                        </groupId>
+                                        <artifactId>
+                                            maven-antrun-plugin
+                                        </artifactId>
+                                        <versionRange>[1.5,)</versionRange>
+                                        <goals>
+                                            <goal>run</goal>
+                                        </goals>
+                                    </pluginExecutionFilter>
+                                    <action>
+                                        <ignore />
+                                    </action>
+                                </pluginExecution>
+                            </pluginExecutions>
+                        </lifecycleMappingMetadata>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+
+        <plugins>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <testClassesDirectory>${project.build.directory}/test-classes</testClassesDirectory>
+                    <excludes>
+                        <exclude>com/atlassian/integrationtest/**</exclude>
+                        <exclude>**/*$*</exclude>
+                    </excludes>
+                    <!-- We fork a new process for our tests, and we have so many tests we run out of perm space -->
+                    <argLine>-XX:MaxPermSize=128m -Xmx1000m -Duser.language=en -Duser.country=AU</argLine>
+                    <!-- In theory this should make the UNIT tests run faster as they are run in parallel,
+                     in reality I have not seen a huge difference but leave the setting in anyway. -->
+                    <parallel>methods</parallel>
+                    <threadCount>10</threadCount>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>integration_tests</id>
+                        <phase>integration-test</phase>
+                        <goals>
+                            <goal>test</goal>
+                        </goals>
+                        <configuration>
+                            <skip>${maven.test.it.skip}</skip>
+                            <includes>
+                                <include>com/atlassian/integrationtest/**</include>
+                            </includes>
+                            <excludes>
+                                <exclude>com/atlassian/confluence/**</exclude>
+                                <exclude>**/*$*</exclude>
+                                <exclude>**/*.jpg</exclude>
+                            </excludes>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <target>
+                                <tstamp>
+                                    <format property="TODAY_LONG" pattern="MMM dd, yyyy" locale="en" />
+                                </tstamp>
+                                <property name="confluence.build.properties" value="${project.build.directory}/classes/com/atlassian/confluence/default.properties" />
+                                <replace file="${confluence.build.properties}" token="@BUILD_DATE@" value="${TODAY_LONG}" />
+                            </target>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>com.atlassian.maven.plugins</groupId>
+                <artifactId>maven-clover2-plugin</artifactId>
+                <version>${clover.version}</version>
+                <configuration>
+                    <generateXml>true</generateXml>
+                    <generateHtml>true</generateHtml>
+                </configuration>
+            </plugin>
+            <!--plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>aspectj-maven-plugin</artifactId>
+                <version>1.0-beta-2</version>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
+                    </execution>
+                 </executions>
+             </plugin-->
+        </plugins>
+    </build>
+
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>findbugs-maven-plugin</artifactId>
+                <version>2.3.1</version>
+                <configuration>
+                     <xmlOutput>true</xmlOutput> 
+                    <excludeFilterFile>src/etc/java/findbugs/findbugs-excludes.xml</excludeFilterFile>
+                    <threshold>High</threshold>
+                    <failOnError>true</failOnError>
+                </configuration>
+            </plugin>
+            <plugin>
+                <!-- The links section of the configuration must be updated each time this needs to be run.
+                     And of course the javadoc for the relevant versions needs to be built.  The nasty part is that
+                     they most likely won't be updated, and the links won't be updated either.
+                     Also, some of the package groups below include bucket, but this will not work because the bucket
+                     source is not included.-->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                    <source>1.6</source>
+                    <version>true</version>
+                    <author>true</author>
+                    <tags>
+                        <tag>
+                            <name>created</name>
+                            <placement>X</placement>
+                        </tag>
+                    </tags>
+                    <overview>${basedir}/src/etc/java/doc/javadoc_overview.html</overview>
+                    <splitindex>true</splitindex>
+                    <maxmemory>1g</maxmemory>
+                    <bottom>
+                        <![CDATA[<center><h4><a href="http://atlassian.com/software/confluence">Confluence<a> is developed by <a href="http://${project.organization.url}">${project.organization.name}<a>.<h4></center>]]></bottom>
+                    <groups>
+                        <group>
+                            <title>Administrative packages</title>
+                            <packages>com.atlassian.confluence.admin*,bucket.admin*</packages>
+                        </group>
+                        <group>
+                            <title>Cache packages</title>
+                            <packages>com.atlassian.confluence.cache*,bucket.cache*</packages>
+                        </group>
+                        <group>
+                            <title>Core packages</title>
+                            <packages>com.atlassian.confluence.core*,bucket.core*</packages>
+                        </group>
+                        <group>
+                            <title>Dashboard packages</title>
+                            <packages>com.atlassian.confluence.dashboard*</packages>
+                        </group>
+                        <group>
+                            <title>Event packages</title>
+                            <packages>com.atlassian.confluence.event*,bucket.event*</packages>
+                        </group>
+                        <group>
+                            <title>Import/Export packages</title>
+                            <packages>com.atlassian.confluence.importexport*</packages>
+                        </group>
+                        <group>
+                            <title>Label packages</title>
+                            <packages>com.atlassian.confluence.labels*</packages>
+                        </group>
+                        <group>
+                            <title>Link packages</title>
+                            <packages>com.atlassian.confluence.link*</packages>
+                        </group>
+                        <group>
+                            <title>Mail packages</title>
+                            <packages>com.atlassian.confluence.mail*</packages>
+                        </group>
+                        <group>
+                            <title>Page packages</title>
+                            <packages>com.atlassian.confluence.page*</packages>
+                        </group>
+                        <group>
+                            <title>Plugin packages</title>
+                            <packages>com.atlassian.confluence.plugin*</packages>
+                        </group>
+                        <group>
+                            <title>Renderer packages</title>
+                            <packages>com.atlassian.confluence.renderer*,com.atlassian.renderer*</packages>
+                        </group>
+                        <group>
+                            <title>RPC packages</title>
+                            <packages>com.atlassian.confluence.rpc*</packages>
+                        </group>
+                        <group>
+                            <title>Search packages</title>
+                            <packages>com.atlassian.confluence.search*,bucket.search*</packages>
+                        </group>
+                        <group>
+                            <title>Security packages</title>
+                            <packages>com.atlassian.confluence.security*</packages>
+                        </group>
+                        <group>
+                            <title>Setup and Bootstrapping packages</title>
+                            <packages>com.atlassian.confluence.setup*</packages>
+                        </group>
+                        <group>
+                            <title>Space packages</title>
+                            <packages>com.atlassian.confluence.space*</packages>
+                        </group>
+                        <group>
+                            <title>Theme packages</title>
+                            <packages>com.atlassian.confluence.theme*</packages>
+                        </group>
+                        <group>
+                            <title>User packages</title>
+                            <packages>com.atlassian.confluence.user*,bucket.user*</packages>
+                        </group>
+                        <group>
+                            <title>Utility packages</title>
+                            <packages>com.atlassian.confluence.util*,bucket.util*</packages>
+                        </group>
+                        <group>
+                            <title>Upgrade packages</title>
+                            <packages>com.atlassian.confluence.upgrade*</packages>
+                        </group>
+                    </groups>
+                    <links>
+                        <link>http://download.oracle.com/javase/6/docs/api</link>
+                        <link>http://download.oracle.com/javaee/1.4/api</link>
+                        <link>http://commons.apache.org/lang/apidocs</link>
+                        <link>http://commons.apache.org/io/apidocs</link>
+                        <link>http://commons.apache.org/collections/apidocs</link>
+                        <link>http://hc.apache.org/httpclient-3.x/apidocs</link>
+                        <link>http://dom4j.sourceforge.net/dom4j-${dom4j.version}/apidocs/</link>
+                        <link>http://docs.atlassian.com/atlassian-bandana/${bandana.version}/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-gzipfilter/${atlassian.gzipfilter.version}/atlassian-gzipfilter/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-bonnie/${bonnie.version}/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-config/${config.version}/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-core/${core.version}/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-event/${event.version}</link>
+                        <link>http://docs.atlassian.com/atlassian-johnson/${johnson.version}</link>
+                        <link>http://docs.atlassian.com/atlassian-mail/${atlassian.mail.version}/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-plugins-core/${confluence.project.plugins.version}/atlassian-plugins-core/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-plugins-servlet/${confluence.project.plugins.version}/atlassian-plugins-servlet/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-plugins-webfragment/${confluence.project.plugins.version}/atlassian-plugins-webfragment/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-plugins-webresource/${confluence.project.plugins.version}/atlassian-plugins-webresource/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-plugins-osgi/${confluence.project.plugins.version}/atlassian-plugins-osgi/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-plugins-spring/${confluence.project.plugins.version}/atlassian-plugins-spring/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-profiling/${atlassian.profiling.version}/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-renderer/${renderer.version}/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-seraph/${seraph.version}/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-spring/${atlassian.spring.version}</link>
+                        <link>http://docs.atlassian.com/atlassian-trackback/${trackback.version}</link>
+                        <link>http://docs.atlassian.com/atlassian-user/${atlassian.user.version}/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-velocity/${atlassian.velocity.version}/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-xwork-core/${atlassian.xwork.version}/atlassian-xwork-core/apidocs</link>
+                        <link>http://docs.atlassian.com/atlassian-xwork-10/${atlassian.xwork.version}/atlassian-xwork-10/apidocs</link>
+                    </links>
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
+</project>

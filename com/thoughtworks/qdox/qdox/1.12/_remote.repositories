@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 15 13:41:41 IST 2018
+qdox-1.12.pom>wso2-nexus=
+qdox-1.12.jar>pentaho-public=
+qdox-1.12.pom>pentaho-public=
+qdox-1.12.jar>wso2-nexus=

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:41:27 IST 2018
+minlog-1.2.jar>central=
+minlog-1.2.pom>pentaho-public=
+minlog-1.2.pom>central=
+minlog-1.2.jar>pentaho-public=

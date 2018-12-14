@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:50:26 IST 2018
+akka-camel_2.11-2.4.20.jar>central=
+akka-camel_2.11-2.4.20.jar>pentaho-public=
+akka-camel_2.11-2.4.20.pom>pentaho-public=
+akka-camel_2.11-2.4.20.pom>central=

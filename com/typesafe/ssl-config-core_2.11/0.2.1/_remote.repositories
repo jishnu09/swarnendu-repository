@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:42:06 IST 2018
+ssl-config-core_2.11-0.2.1.jar>pentaho-public=
+ssl-config-core_2.11-0.2.1.pom>pentaho-public=
+ssl-config-core_2.11-0.2.1.jar>central=
+ssl-config-core_2.11-0.2.1.pom>central=

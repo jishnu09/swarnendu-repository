@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 06:16:42 UTC 2018
+commons-beanutils-1.8.0.pom>mule-plugin=
+commons-beanutils-1.8.0.jar>mule-plugin=
+commons-beanutils-1.8.0.pom>central=

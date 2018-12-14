@@ -1,0 +1,11 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 12:11:08 UTC 2018
+http\://download.java.net/maven/2/.lastUpdated=1542715093814
+http\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1542715823393
+https\://repository.apache.org/content/repositories/snapshots/.error=
+https\://repository.apache.org/content/repositories/releases/.lastUpdated=1542715061468
+https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1542715823063
+http\://download.java.net/maven/2/.error=
+https\://repository.apache.org/content/repositories/releases/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1542715868243
+http\://repository.jboss.org/nexus/content/groups/public/.error=

@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 04:36:18 UTC 2018
+presto-verifier-0.214-SNAPSHOT.jar>=
+presto-verifier-0.214-SNAPSHOT-tests.jar>=
+presto-verifier-0.214-SNAPSHOT.pom>=
+presto-verifier-0.214-SNAPSHOT-test-sources.jar>=
+presto-verifier-0.214-SNAPSHOT-sources.jar>=
+presto-verifier-0.214-SNAPSHOT-executable.jar>=

@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Apr 19 15:11:58 IST 2018
+@default-jasig-developer-repo-http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524130918523
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=Could not transfer artifact com.fasterxml.jackson.core\:jackson-databind\:jar\:2.8.10 from/to jasig-developer-repo (http\://developer.jasig.org/repo/content/groups/m2-legacy/)\: Connect to developer.jasig.org\:80 [developer.jasig.org/199.119.127.181] failed\: Connection timed out\: connect

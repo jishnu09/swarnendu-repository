@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 06:15:41 UTC 2018
+annotations-3.0.0.jar>central=
+annotations-3.0.0.pom>central=
+annotations-3.0.0.jar>mule=
+annotations-3.0.0.pom>mule=

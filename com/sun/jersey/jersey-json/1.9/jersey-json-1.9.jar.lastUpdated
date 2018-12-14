@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 11:26:22 UTC 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1542885982059
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542885976436
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact com.sun.jersey\:jersey-json\:jar\:1.9 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni/)\: Connection timed out (Read failed)

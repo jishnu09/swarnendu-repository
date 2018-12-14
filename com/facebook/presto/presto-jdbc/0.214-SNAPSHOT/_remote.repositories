@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 04:33:12 UTC 2018
+presto-jdbc-0.214-SNAPSHOT-tests.jar>=
+presto-jdbc-0.214-SNAPSHOT.pom>=
+presto-jdbc-0.214-SNAPSHOT-sources.jar>=
+presto-jdbc-0.214-20181117.192703-75-sources.jar>sonatype-nexus-snapshots=
+presto-jdbc-0.214-20181119.181253-76-sources.jar>sonatype-nexus-snapshots=
+presto-jdbc-0.214-SNAPSHOT.jar>=
+presto-jdbc-0.214-SNAPSHOT-test-sources.jar>=

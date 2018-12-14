@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 01 14:27:02 IST 2018
+logback-classic-1.2.3.pom>central=
+logback-classic-1.2.3.pom>pentaho-public=
+logback-classic-1.2.3.jar>=
+logback-classic-1.2.3.jar>central=

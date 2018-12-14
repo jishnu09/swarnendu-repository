@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.emc.vipr</groupId>
+  <artifactId>jersey-apache-httpclient4</artifactId>
+  <version>1.18-CUSTOM</version>
+  <name>jersey-apache-httpclient4</name>
+  <description>null</description>
+  <url>https://community.emc.com/community/vipr</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>emc</id>
+      <organization>org.apache.maven.model.Organization@72e87f48</organization>
+      <organizationUrl>https://community.emc.com/community/vipr</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:emcvipr/dataservices-sdk-java.git</connection>
+    <developerConnection>scm:git:https://asdgit.isus.emc.com/git/vipr-data-services-sdk-java.git</developerConnection>
+    <url>https://github.com/emcvipr/dataservices-sdk-java</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.sun.jersey</groupId>
+      <artifactId>jersey-core</artifactId>
+      <version>1.18</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.jersey</groupId>
+      <artifactId>jersey-client</artifactId>
+      <version>1.18</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

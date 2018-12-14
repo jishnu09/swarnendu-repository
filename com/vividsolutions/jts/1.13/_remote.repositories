@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 13:43:04 IST 2018
+jts-1.13.jar>central=
+jts-1.13.jar>pentaho-public=
+jts-1.13.pom>pentaho-public=
+jts-1.13.pom>central=

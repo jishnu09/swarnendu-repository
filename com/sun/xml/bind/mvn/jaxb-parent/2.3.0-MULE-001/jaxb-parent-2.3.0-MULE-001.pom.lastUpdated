@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 16 12:20:15 IST 2018
+http\://172.20.1.156\:8081/artifactory/libs-release-local/.lastUpdated=1542351012981
+https\://artifacts.elastic.co/maven/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1542351009193
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542351012900
+http\://172.20.1.156\:8081/artifactory/libs-release-local/.error=
+http\://nexus.pentaho.org/content/groups/omni/.error=
+https\://repository.mulesoft.org/nexus/content/repositories/public/.lastUpdated=1542351015225

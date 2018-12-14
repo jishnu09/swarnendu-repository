@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:49:20 IST 2018
+https\://jitpack.io/.lastUpdated=1543475959829
+https\://artifacts.elastic.co/maven/.error=
+http\://packages.confluent.io/maven/.lastUpdated=1543475960357
+http\://packages.confluent.io/maven/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543475960896
+https\://artifacts.elastic.co/maven/.lastUpdated=1543473745788
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543473752877
+https\://jitpack.io/.error=

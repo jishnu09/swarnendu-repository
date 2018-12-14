@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 12:14:09 UTC 2018
+presto-plugin-toolkit-0.214-SNAPSHOT.pom>=
+presto-plugin-toolkit-0.214-SNAPSHOT-sources.jar>=
+presto-plugin-toolkit-0.214-SNAPSHOT-tests.jar>=
+presto-plugin-toolkit-0.214-SNAPSHOT.jar>=
+presto-plugin-toolkit-0.214-SNAPSHOT-test-sources.jar>=

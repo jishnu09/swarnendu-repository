@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.atlassian.pom</groupId>
+        <artifactId>atlassian-public-pom</artifactId>
+        <version>20</version>
+    </parent>
+
+    <groupId>com.atlassian.spring</groupId>
+    <artifactId>atlassian-spring-parent</artifactId>
+    <version>2.0.0</version>
+    <packaging>pom</packaging>
+    
+    <name>Atlassian Spring Parent</name>
+    <description>Common Atlassian Spring Components (Parent POM)</description>
+    <url>https://docs.atlassian.com/${project.artifactId}/${project.version}</url>
+    <inceptionYear>2006</inceptionYear>
+
+    <modules>
+        <module>atlassian-spring</module>
+        <module>atlassian-spring-hibernate2</module>
+        <module>atlassian-spring-hibernate3</module>
+    </modules>
+    
+    <issueManagement>
+        <system>Jira</system>
+        <url>http://jira.atlassian.com/browse/SPRING</url>
+    </issueManagement>
+    <ciManagement>
+        <system>Bamboo</system>
+        <url>http://bamboo.developer.atlassian.com/browse/ATLASSIANSPRING-TRUNK</url>
+    </ciManagement>
+    <scm>
+        <connection>scm:svn:https://svn.atlassian.com/svn/private/atlassian/atlassian-spring/tags/atlassian-spring-parent-2.0.0</connection>
+        <developerConnection>scm:svn:https://svn.atlassian.com/svn/private/atlassian/atlassian-spring/tags/atlassian-spring-parent-2.0.0</developerConnection>
+        <url>https://svn.atlassian.com/privateeye/viewrep/private/atlassian/atlassian-spring/tags/atlassian-spring-parent-2.0.0</url>
+    </scm>
+
+    <distributionManagement>
+        <site>
+            <id>atlassian-documentation</id>
+            <url>dav:https://docs.atlassian.com/${project.artifactId}/${project.version}</url>
+        </site>
+    </distributionManagement>
+</project>

@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 04:36:35 UTC 2018
+presto-proxy-0.214-SNAPSHOT.tar.gz>=
+presto-proxy-0.214-SNAPSHOT.jar>=
+presto-proxy-0.214-SNAPSHOT-test-sources.jar>=
+presto-proxy-0.214-SNAPSHOT.pom>=
+presto-proxy-0.214-SNAPSHOT-sources.jar>=
+presto-proxy-0.214-SNAPSHOT-readme.txt>=
+presto-proxy-0.214-SNAPSHOT-tests.jar>=

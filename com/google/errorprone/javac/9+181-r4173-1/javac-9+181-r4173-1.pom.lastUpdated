@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:57:43 IST 2018
+@default-elasticsearch-releases-https\://artifacts.elastic.co/maven/.lastUpdated=1543573662386
+https\://artifacts.elastic.co/maven/.error=Could not transfer artifact com.google.errorprone\:javac\:pom\:9+181-r4173-1 from/to elasticsearch-releases (https\://artifacts.elastic.co/maven)\: Access denied to\: https\://artifacts.elastic.co/maven/com/google/errorprone/javac/9+181-r4173-1/javac-9+181-r4173-1.pom
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543573663109

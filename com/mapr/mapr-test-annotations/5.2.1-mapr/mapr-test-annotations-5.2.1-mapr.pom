@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- Copyright (c) 2015 MapR, Inc. -->
+<project
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+  xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <!-- this is the only maven project in this source
+      repository which does not inherit from mapr-release
+      pom to avoid circular dependency -->
+    <groupId>com.mapr</groupId>
+    <artifactId>mapr-root</artifactId>
+    <version>5.2.1-mapr</version>
+    <relativePath/>
+  </parent>
+
+  <artifactId>mapr-test-annotations</artifactId>
+  <packaging>jar</packaging>
+
+  <name>Test Annotations for MapR projects</name>
+  <url>http://www.mapr.com/</url>
+
+  <repositories>
+    <repository>
+      <id>mapr-releases</id>
+      <url>http://repository.mapr.com/maven/</url>
+      <snapshots><enabled>true</enabled></snapshots>
+      <releases><enabled>true</enabled></releases>
+    </repository>
+  </repositories>
+
+</project>

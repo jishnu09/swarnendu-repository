@@ -1,0 +1,11 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 23 14:34:21 IST 2018
+http\://conjars.org/repo/.lastUpdated=1535015017424
+http\://conjars.org/repo/.error=
+http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1535015052545
+http\://repository.mapr.com/maven/.error=
+http\://repository.mapr.com/maven/.lastUpdated=1535015020562
+http\://repository.mapr.com/nexus/content/repositories/drill/.error=
+@default-dremio-releases-http\://repo.dremio.com/release/.lastUpdated=1535015048452
+https\://repo.maven.apache.org/maven2/.lastUpdated=1535015061130
+http\://repo.dremio.com/release/.error=Could not transfer artifact com.fasterxml.jackson.jaxrs\:jackson-jaxrs-json-provider\:jar\:2.7.9 from/to dremio-releases (http\://repo.dremio.com/release/)\: Connect to repo.dremio.com\:80 [repo.dremio.com/52.218.192.171] failed\: Connection timed out\: connect

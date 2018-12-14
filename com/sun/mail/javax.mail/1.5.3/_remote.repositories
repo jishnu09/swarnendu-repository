@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 01 20:37:30 IST 2018
+javax.mail-1.5.3.jar>=
+javax.mail-1.5.3.pom>pentaho-public=
+javax.mail-1.5.3.jar>pentaho-public=

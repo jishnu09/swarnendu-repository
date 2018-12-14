@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 26 17:35:56 IST 2018
+apm-httpclient-core-1.0.2-SNAPSHOT-sources.jar>=
+apm-httpclient-core-1.0.2-SNAPSHOT-javadoc.jar>=
+apm-httpclient-core-1.0.2-SNAPSHOT-tests.jar>=
+apm-httpclient-core-1.0.2-SNAPSHOT.jar>=
+apm-httpclient-core-1.0.2-SNAPSHOT.pom>=

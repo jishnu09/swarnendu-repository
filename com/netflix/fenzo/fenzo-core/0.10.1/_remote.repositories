@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:50:16 IST 2018
+fenzo-core-0.10.1.jar>pentaho-public=
+fenzo-core-0.10.1.pom>pentaho-public=
+fenzo-core-0.10.1.jar>central=
+fenzo-core-0.10.1.pom>central=

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 26 17:40:20 IST 2018
+apm-slf4j-plugin-1.0.2-SNAPSHOT.jar>=
+apm-slf4j-plugin-1.0.2-SNAPSHOT.pom>=
+apm-slf4j-plugin-1.0.2-SNAPSHOT-sources.jar>=
+apm-slf4j-plugin-1.0.2-SNAPSHOT-javadoc.jar>=

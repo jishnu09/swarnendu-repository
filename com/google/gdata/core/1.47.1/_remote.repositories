@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 12:41:26 IST 2018
+core-1.47.1.jar>pentaho-public=
+core-1.47.1.pom>pentaho-public=

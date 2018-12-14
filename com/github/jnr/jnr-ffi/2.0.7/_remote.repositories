@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 10:10:32 IST 2018
+jnr-ffi-2.0.7.jar>pentaho-public=
+jnr-ffi-2.0.7.pom>pentaho-public=
+jnr-ffi-2.0.7.jar>central=
+jnr-ffi-2.0.7.pom>central=

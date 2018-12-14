@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:42:49 IST 2018
+hadoop-apache2-2.7.3-1.jar>central=
+hadoop-apache2-2.7.3-1.jar>pentaho-public=
+hadoop-apache2-2.7.3-1.pom>pentaho-public=
+hadoop-apache2-2.7.3-1.pom>central=

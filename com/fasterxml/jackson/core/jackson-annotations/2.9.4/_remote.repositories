@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 15:38:31 IST 2018
+jackson-annotations-2.9.4.pom>central=
+jackson-annotations-2.9.4.jar>=
+jackson-annotations-2.9.4.jar>pentaho-public=
+jackson-annotations-2.9.4.pom>pentaho-public=
