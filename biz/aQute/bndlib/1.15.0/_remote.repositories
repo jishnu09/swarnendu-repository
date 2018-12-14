@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:43:43 IST 2018
+bndlib-1.15.0.pom>pentaho-public=
+bndlib-1.15.0.jar>central=
+bndlib-1.15.0.jar>pentaho-public=
+bndlib-1.15.0.pom>central=

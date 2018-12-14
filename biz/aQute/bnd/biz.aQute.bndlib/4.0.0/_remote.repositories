@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:50:48 IST 2018
+biz.aQute.bndlib-4.0.0.jar>pentaho-public=
+biz.aQute.bndlib-4.0.0.pom>pentaho-public=

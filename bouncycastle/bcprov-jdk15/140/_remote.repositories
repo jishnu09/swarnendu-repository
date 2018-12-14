@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:43:48 IST 2018
+bcprov-jdk15-140.jar>atlassian-public=
+bcprov-jdk15-140.jar>central=
+bcprov-jdk15-140.pom>central=
+bcprov-jdk15-140.pom>atlassian-public=
+bcprov-jdk15-140.jar>pentaho-public=
+bcprov-jdk15-140.pom>pentaho-public=
