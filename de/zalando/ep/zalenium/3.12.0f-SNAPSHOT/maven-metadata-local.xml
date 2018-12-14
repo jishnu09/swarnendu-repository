@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>de.zalando.ep</groupId>
+  <artifactId>zalenium</artifactId>
+  <version>3.12.0f-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20180709114521</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>3.12.0f-SNAPSHOT</value>
+        <updated>20180709114521</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.12.0f-SNAPSHOT</value>
+        <updated>20180709114521</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>de.zalando.ep</groupId>
+  <artifactId>zalenium</artifactId>
+  <versioning>
+    <versions>
+      <version>3.12.0f-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180709114521</lastUpdated>
+  </versioning>
+</metadata>
