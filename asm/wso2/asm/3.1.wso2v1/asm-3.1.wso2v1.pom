@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+
+    <parent>
+        <groupId>org.wso2.carbon</groupId>
+        <artifactId>orbit-parent</artifactId>
+        <version>4.0.0</version>
+        <relativePath>../../pom.xml</relativePath>
+     </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>asm.wso2</groupId>
+    <artifactId>asm</artifactId>
+    <packaging>bundle</packaging>
+    <name>asm.wso2</name>
+    <version>3.1.wso2v1</version>
+    <description>
+        This bundle will export packages from asm.jar
+    </description>
+    <url>http://wso2.org</url>
+
+    <dependencies>
+	<dependency>
+  	   <groupId>asm</groupId>
+  	   <artifactId>asm</artifactId>
+  	   <version>3.1</version>
+	</dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+                        <Bundle-Name>${project.artifactId}</Bundle-Name>
+                        <Export-Package>
+                            org.objectweb.asm,org.objectweb.asm.signature
+                        </Export-Package>
+                        <Import-Package>
+                            !org.objectweb.*,
+                            *;resolution:=optional
+                        </Import-Package>
+                        <DynamicImport-Package>*</DynamicImport-Package>
+
+                    </instructions>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

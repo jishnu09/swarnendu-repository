@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:08:59 IST 2018
+avalon-framework-impl-4.2.0.jar>=
+avalon-framework-impl-4.2.0.jar>central=
+avalon-framework-impl-4.2.0.pom>central=
+avalon-framework-impl-4.2.0.pom>pentaho-public=
