@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Apr 19 15:08:59 IST 2018
+@default-jasig-developer-repo-http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524130738550
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=Could not transfer artifact net.shibboleth.ext\:spring-extensions\:pom\:5.1.1 from/to jasig-developer-repo (http\://developer.jasig.org/repo/content/groups/m2-legacy/)\: Connect to developer.jasig.org\:80 [developer.jasig.org/199.119.127.181] failed\: Connection timed out\: connect
+https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524130739628

@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:39:34 IST 2018
+https\://oss.sonatype.org/content/repositories/releases/.error=
+https\://artifacts.alfresco.com/nexus/content/repositories/public/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1500629541502
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1540544974542
+https\://oss.sonatype.org/content/repositories/releases/.lastUpdated=1500629540864
+https\://artifacts.alfresco.com/nexus/content/repositories/public/.lastUpdated=1500629540569

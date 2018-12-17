@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:42:26 IST 2018
+ehcache-core-2.6.2.jar>central=
+ehcache-core-2.6.2.pom>central=
+ehcache-core-2.6.2.pom>pentaho-public=

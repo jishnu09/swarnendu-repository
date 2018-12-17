@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:26:00 IST 2018
+byte-buddy-agent-1.9.3.pom>central=
+byte-buddy-agent-1.9.3.jar>central=
+byte-buddy-agent-1.9.3.jar>pentaho-public=
+byte-buddy-agent-1.9.3.pom>pentaho-public=

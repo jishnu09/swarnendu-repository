@@ -1,0 +1,11 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 23 14:18:58 IST 2018
+http\://conjars.org/repo/.lastUpdated=1535014115864
+http\://conjars.org/repo/.error=
+http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1535014138297
+http\://repository.mapr.com/maven/.error=
+http\://repository.mapr.com/maven/.lastUpdated=1535014116530
+http\://repository.mapr.com/nexus/content/repositories/drill/.error=
+@default-dremio-releases-http\://repo.dremio.com/release/.lastUpdated=1535014137710
+https\://repo.maven.apache.org/maven2/.lastUpdated=1535014138950
+http\://repo.dremio.com/release/.error=Could not transfer artifact net.sourceforge.fmpp\:fmpp\:pom\:0.9.15 from/to dremio-releases (http\://repo.dremio.com/release/)\: Connect to repo.dremio.com\:80 [repo.dremio.com/52.218.241.67] failed\: Connection timed out\: connect

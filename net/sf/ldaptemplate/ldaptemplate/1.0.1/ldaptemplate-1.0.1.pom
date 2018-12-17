@@ -1,0 +1,57 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>net.sf.ldaptemplate</groupId>
+    <artifactId>ldaptemplate</artifactId>
+    <version>1.0.1</version>
+    <packaging>jar</packaging>
+    <name>LdapTemplate</name>
+    <url>http://sourceforge.net/projects/ldaptemplate/</url>
+    <description>Java framework to simplify LDAP operations, based on the pattern of Spring's JdbcTemplate. Relieves the users of the burden of looking up and closing contexts, looping through NamingEnumerations, encoding/decoding values and filters, and more.</description>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <url>http://cvs.sourceforge.net/viewcvs.py/ldaptemplate/</url>
+    </scm>
+    <dependencies>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>1.2.7</version>
+        </dependency>
+                <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>1.2.7</version>
+        </dependency>
+                <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>1.2.7</version>
+        </dependency>
+                <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-dao</artifactId>
+            <version>1.2.7</version>
+        </dependency>
+    </dependencies>
+</project>

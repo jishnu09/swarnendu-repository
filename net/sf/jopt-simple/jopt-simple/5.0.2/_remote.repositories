@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Dec 06 16:53:05 IST 2018
+jopt-simple-5.0.2.jar>central=
+jopt-simple-5.0.2.jar>pentaho-public=
+jopt-simple-5.0.2.pom>pentaho-public=
+jopt-simple-5.0.2.pom>central=

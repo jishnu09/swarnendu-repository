@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 12:33:05 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543388585897
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543388504485
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact net.sf.saxon\:Saxon-HE\:jar\:9.8.0-12 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/net/sf/saxon/Saxon-HE/9.8.0-12/Saxon-HE-9.8.0-12.jar with status code 504

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>net.shibboleth</groupId>
+        <artifactId>parent-v3</artifactId>
+        <version>8</version>
+    </parent>
+
+    <groupId>net.shibboleth.ext</groupId>
+    <artifactId>spring-extensions</artifactId>
+    <version>5.1.1</version>
+
+    <name>Spring Framework Extension</name>
+    <description>
+        A set of extensions for the Spring framework.  This package includes things like
+        factory beans, converters, etc.
+    </description>
+
+    <properties>
+        <svn.relative.location>utilities/spring-extensions</svn.relative.location>
+        <java-support.version>7.1.1</java-support.version>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>shib-release</id>
+            <url>https://build.shibboleth.net/nexus/content/groups/public</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>shib-snapshot</id>
+            <url>https://build.shibboleth.net/nexus/content/repositories/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <!-- Compile dependencies -->
+        <dependency>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+        <dependency>
+            <!-- Required for HTTPResource. -->
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+        </dependency>
+        <dependency>
+            <!-- Required if you're using anything in the httpclient package -->
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient-cache</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.cryptacular</groupId>
+            <artifactId>cryptacular</artifactId>
+            <!-- Required for any classes that deals with cryptographic artifacts (keys, certs, algorithms, etc.) -->
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>net.shibboleth.utilities</groupId>
+            <artifactId>java-support</artifactId>
+            <version>${java-support.version}</version>
+            <!-- Required for the DomDocumentFactoryBean and Duration conversion classes. -->
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${spring.groupId}</groupId>
+            <artifactId>spring-context</artifactId>
+            <!-- Required for ApplicationContext classes. -->
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${spring.groupId}</groupId>
+            <artifactId>spring-core</artifactId>
+            <!-- Required for Duration conversion classes. -->
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${spring.groupId}</groupId>
+            <artifactId>spring-beans</artifactId>
+            <!-- Required for factory classes. -->
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>${spring.groupId}</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <!-- Required for error handling classes. -->
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.tmatesoft.svnkit</groupId>
+            <artifactId>svnkit</artifactId>
+            <!-- Required for SVNResource. Constrained by licensing. -->
+            <optional>true</optional>
+        </dependency>
+
+        <!-- Provided dependencies -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <scope>provided</scope>
+            <!-- Required for error handling classes. -->
+            <optional>true</optional>
+        </dependency>
+
+        <!-- Runtime dependencies -->
+
+        <!-- Test dependencies -->
+        <dependency>
+          <groupId>${spring.groupId}</groupId>
+          <artifactId>spring-test</artifactId>
+          <scope>test</scope>
+        </dependency>
+        
+
+    </dependencies>
+
+</project>

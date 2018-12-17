@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 06:19:03 UTC 2018
+jopt-simple-4.6.jar>mule=
+jopt-simple-4.6.jar>central=
+jopt-simple-4.6.pom>central=
+jopt-simple-4.6.pom>mule=

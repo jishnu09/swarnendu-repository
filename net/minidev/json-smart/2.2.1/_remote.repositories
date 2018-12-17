@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 15:04:36 IST 2018
+json-smart-2.2.1.jar>central=
+json-smart-2.2.1.jar>pentaho-public=
+json-smart-2.2.1.pom>central=
