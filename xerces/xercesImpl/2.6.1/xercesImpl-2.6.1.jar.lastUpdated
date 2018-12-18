@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 15 13:17:08 IST 2018
+http\://www.eclipse.org/downloads/download.php?r\=1&nf\=1&file\=/rt/eclipselink/maven.repo/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1542268028685
+@default-repository.jboss.org-http\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1542268010291
+http\://repository.jboss.org/nexus/content/groups/public/.error=Could not transfer artifact xerces\:xercesImpl\:jar\:2.6.1 from/to repository.jboss.org (http\://repository.jboss.org/nexus/content/groups/public/)\: Connect to repository.jboss.org\:80 [repository.jboss.org/209.132.182.97] failed\: Connection timed out\: connect
+http\://www.eclipse.org/downloads/download.php?r\=1&nf\=1&file\=/rt/eclipselink/maven.repo/.lastUpdated=1542268014522

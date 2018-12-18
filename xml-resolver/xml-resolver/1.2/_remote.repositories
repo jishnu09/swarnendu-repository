@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:12:35 IST 2018
+xml-resolver-1.2.jar>central=
+xml-resolver-1.2.pom>central=
+xml-resolver-1.2.jar>=
+xml-resolver-1.2.pom>pentaho-public=
