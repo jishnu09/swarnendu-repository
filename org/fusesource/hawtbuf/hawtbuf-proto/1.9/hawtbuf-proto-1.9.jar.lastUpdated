@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 14:48:48 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543396728054
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543396717917
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.fusesource.hawtbuf\:hawtbuf-proto\:jar\:1.9 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/org/fusesource/hawtbuf/hawtbuf-proto/1.9/hawtbuf-proto-1.9.jar with status code 504

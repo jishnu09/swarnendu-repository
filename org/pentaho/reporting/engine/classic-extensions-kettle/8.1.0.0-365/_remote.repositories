@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:18:19 IST 2018
+classic-extensions-kettle-8.1.0.0-365.jar>=
+classic-extensions-kettle-8.1.0.0-365.pom>pentaho-public=
+classic-extensions-kettle-8.1.0.0-365.jar>pentaho-public=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 04:55:32 UTC 2018
+hadoop-archives-3.3.0-20181022.232656-179.jar>apache.snapshots.https=
+hadoop-archives-3.3.0-SNAPSHOT.jar>=
+hadoop-archives-3.3.0-SNAPSHOT.pom>=

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:44:46 IST 2018
+orc-core-1.4.3.jar>pentaho-public=
+orc-core-1.4.3.pom>pentaho-public=
+orc-core-1.4.3.jar>central=
+orc-core-1.4.3.pom>central=

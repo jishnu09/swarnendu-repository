@@ -1,0 +1,22 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jul 25 16:07:00 IST 2018
+https\://build.shibboleth.net/nexus/content/repositories/releases/.lastUpdated=1524133257249
+http\://repository.mapr.com/nexus/content/repositories/drill/.error=
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
+http\://conjars.org/repo/.error=
+http\://repo.dremio.com/release/.error=
+https\://build.shibboleth.net/nexus/content/repositories/releases/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1532515020550
+https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524132801220
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524132716933
+http\://repo.dremio.com/release/.lastUpdated=1532514824422
+https\://repo.spring.io/snapshot/.lastUpdated=1524133261339
+http\://conjars.org/repo/.lastUpdated=1532514815030
+https\://repo.spring.io/milestone/.lastUpdated=1524133260885
+http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1532514831751
+https\://repo.spring.io/libs-snapshot/.lastUpdated=1524133263401
+https\://repo.spring.io/milestone/.error=
+https\://build.shibboleth.net/nexus/content/groups/public/.error=
+https\://repo.spring.io/snapshot/.error=
+http\://repository.mapr.com/maven/.lastUpdated=1532514819347
+http\://repository.mapr.com/maven/.error=

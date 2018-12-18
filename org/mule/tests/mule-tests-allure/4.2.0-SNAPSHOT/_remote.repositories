@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 16 12:02:56 IST 2018
+mule-tests-allure-4.2.0-SNAPSHOT.pom>=
+mule-tests-allure-4.2.0-SNAPSHOT-sources.jar>=
+mule-tests-allure-4.2.0-SNAPSHOT.jar>=

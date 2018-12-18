@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.pentaho.webpackage</groupId>
+  <artifactId>pentaho-webpackage</artifactId>
+  <version>9.0.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181122.042535</timestamp>
+      <buildNumber>204</buildNumber>
+    </snapshot>
+    <lastUpdated>20181122042535</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9.0.0.0-20181122.042535-204</value>
+        <updated>20181122042535</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>features</classifier>
+        <extension>xml</extension>
+        <value>9.0.0.0-20181122.042535-204</value>
+        <updated>20181122042535</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

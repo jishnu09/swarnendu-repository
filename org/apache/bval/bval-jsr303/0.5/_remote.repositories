@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:21:53 IST 2018
+bval-jsr303-0.5.pom>wso2-nexus=
+bval-jsr303-0.5.jar>wso2-nexus=
+bval-jsr303-0.5.jar>central=
+bval-jsr303-0.5.pom>central=

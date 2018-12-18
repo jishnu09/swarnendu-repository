@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 10:48:28 UTC 2018
+org.apache.aries.blueprint.cm-1.0.7.jar>central=
+org.apache.aries.blueprint.cm-1.0.7.pom>central=

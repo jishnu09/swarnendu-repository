@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.mule.runtime</groupId>
+  <artifactId>mule-extensions-soap-api</artifactId>
+  <version>1.2.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181115.212227</timestamp>
+      <buildNumber>121</buildNumber>
+    </snapshot>
+    <lastUpdated>20181115212227</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.2.0-20181115.212227-121</value>
+        <updated>20181115212227</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.2.0-20181115.212227-121</value>
+        <updated>20181115212227</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>tests</classifier>
+        <extension>jar</extension>
+        <value>1.2.0-20181115.212227-121</value>
+        <updated>20181115212227</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.2.0-20181115.212227-121</value>
+        <updated>20181115212227</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

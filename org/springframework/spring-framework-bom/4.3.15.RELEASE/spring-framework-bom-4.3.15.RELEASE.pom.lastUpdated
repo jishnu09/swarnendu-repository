@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 15:56:57 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543400817341
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543400816234
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.springframework\:spring-framework-bom\:pom\:4.3.15.RELEASE from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/org/springframework/spring-framework-bom/4.3.15.RELEASE/spring-framework-bom-4.3.15.RELEASE.pom with status code 504

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 11:59:28 IST 2018
+flink-cep-scala_2.11-1.8-SNAPSHOT-tests.jar>=
+flink-cep-scala_2.11-1.8-SNAPSHOT.jar>=
+flink-cep-scala_2.11-1.8-SNAPSHOT.pom>=

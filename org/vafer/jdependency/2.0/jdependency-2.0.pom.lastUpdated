@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 10:32:16 IST 2018
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543813223789
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1543813336542
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.vafer\:jdependency\:pom\:2.0 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Connection reset
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.vafer\:jdependency\:pom\:2.0 from/to central (https\://repo.maven.apache.org/maven2)\: Connection reset

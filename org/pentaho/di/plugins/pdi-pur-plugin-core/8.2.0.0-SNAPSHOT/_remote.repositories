@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 22 11:43:52 UTC 2018
+pdi-pur-plugin-core-8.2.0.0-SNAPSHOT.jar>=
+pdi-pur-plugin-core-8.2.0.0-SNAPSHOT.pom>=
+pdi-pur-plugin-core-8.2.0.0-SNAPSHOT-sources.jar>=

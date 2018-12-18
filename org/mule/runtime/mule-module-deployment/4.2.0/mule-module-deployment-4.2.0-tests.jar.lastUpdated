@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 16 11:16:37 UTC 2018
+https\://repository.mulesoft.org/nexus/content/repositories/public/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1542366997077
+http\://repo.spring.io/snapshot/.lastUpdated=1542366996136
+http\://repo.spring.io/snapshot/.error=
+https\://repository.mulesoft.org/nexus/content/repositories/public/.lastUpdated=1542366995715
+https\://repo.maven.apache.org/maven2/.error=

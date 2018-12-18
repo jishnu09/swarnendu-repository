@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 02 14:54:27 IST 2018
+elasticsearch-x-content-6.3.2.jar>=
+elasticsearch-x-content-6.3.2.pom>pentaho-public=
+elasticsearch-x-content-6.3.2.jar>pentaho-public=
+elasticsearch-x-content-6.3.2.jar>central=
+elasticsearch-x-content-6.3.2.pom>central=

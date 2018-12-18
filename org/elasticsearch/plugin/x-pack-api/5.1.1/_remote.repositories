@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 01 20:37:30 IST 2018
+x-pack-api-5.1.1.jar>=
+x-pack-api-5.1.1.pom>pentaho-public=
+x-pack-api-5.1.1.jar>pentaho-public=

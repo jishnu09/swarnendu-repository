@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 23 12:44:38 IST 2018
+itests-4.0.4-SNAPSHOT.jar>=
+itests-4.0.4-SNAPSHOT-tests.jar>=
+itests-4.0.4-SNAPSHOT.pom>=

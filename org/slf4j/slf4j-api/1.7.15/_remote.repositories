@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:40:22 IST 2018
+slf4j-api-1.7.15.jar>central=
+slf4j-api-1.7.15.pom>central=
+slf4j-api-1.7.15.jar>pentaho-public=

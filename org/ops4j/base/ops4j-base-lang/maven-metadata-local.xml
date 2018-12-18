@@ -1,0 +1,10 @@
+<metadata>
+  <groupId>org.ops4j.base</groupId>
+  <artifactId>ops4j-base-lang</artifactId>
+  <versioning>
+    <versions>
+      <version>1.5.0</version>
+    </versions>
+    <lastUpdated>20181123071237</lastUpdated>
+  </versioning>
+</metadata>

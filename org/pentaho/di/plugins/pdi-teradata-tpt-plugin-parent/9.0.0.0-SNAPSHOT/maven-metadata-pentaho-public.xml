@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.pentaho.di.plugins</groupId>
+  <artifactId>pdi-teradata-tpt-plugin-parent</artifactId>
+  <version>9.0.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180702.130617</timestamp>
+      <buildNumber>56</buildNumber>
+    </snapshot>
+    <lastUpdated>20180702130617</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9.0.0.0-20180702.130617-56</value>
+        <updated>20180702130617</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

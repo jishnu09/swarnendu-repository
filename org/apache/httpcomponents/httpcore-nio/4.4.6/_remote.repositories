@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:48:35 IST 2018
+httpcore-nio-4.4.6.jar>central=
+httpcore-nio-4.4.6.pom>central=
+httpcore-nio-4.4.6.jar>pentaho-public=
+httpcore-nio-4.4.6.pom>pentaho-public=

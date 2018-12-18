@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:39:11 IST 2018
+lucene-queryparser-6.3.0.pom>central=
+lucene-queryparser-6.3.0.pom>pentaho-public=
+lucene-queryparser-6.3.0.jar>=
+lucene-queryparser-6.3.0.jar>central=

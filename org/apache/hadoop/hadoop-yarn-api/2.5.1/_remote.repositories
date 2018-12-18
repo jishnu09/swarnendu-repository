@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:14:44 IST 2018
+hadoop-yarn-api-2.5.1.pom>central=
+hadoop-yarn-api-2.5.1.pom>pentaho-public=
+hadoop-yarn-api-2.5.1.jar>pentaho-public=

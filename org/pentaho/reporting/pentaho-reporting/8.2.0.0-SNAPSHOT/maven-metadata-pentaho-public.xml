@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.pentaho.reporting</groupId>
+  <artifactId>pentaho-reporting</artifactId>
+  <version>8.2.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181021.095125</timestamp>
+      <buildNumber>221</buildNumber>
+    </snapshot>
+    <lastUpdated>20181021095125</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>8.2.0.0-20181021.095125-221</value>
+        <updated>20181021095125</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

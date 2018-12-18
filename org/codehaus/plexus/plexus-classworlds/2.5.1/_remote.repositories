@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 06:17:00 UTC 2018
+plexus-classworlds-2.5.1.jar>central=
+plexus-classworlds-2.5.1.pom>pentaho-public=
+plexus-classworlds-2.5.1.jar>mule-plugin=
+plexus-classworlds-2.5.1.pom>mule-plugin=
+plexus-classworlds-2.5.1.pom>central=

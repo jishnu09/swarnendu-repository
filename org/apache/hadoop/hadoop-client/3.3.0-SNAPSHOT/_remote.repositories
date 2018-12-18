@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 05:00:12 UTC 2018
+hadoop-client-3.3.0-SNAPSHOT.pom>=
+hadoop-client-3.3.0-20181022.232758-179.jar>apache.snapshots.https=
+hadoop-client-3.3.0-SNAPSHOT-tests.jar>=
+hadoop-client-3.3.0-SNAPSHOT.jar>=

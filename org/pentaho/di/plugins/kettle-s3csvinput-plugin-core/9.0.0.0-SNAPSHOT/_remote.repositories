@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Jul 03 18:18:35 IST 2018
+kettle-s3csvinput-plugin-core-9.0.0.0-SNAPSHOT.jar>=
+kettle-s3csvinput-plugin-core-9.0.0.0-SNAPSHOT.pom>=
+kettle-s3csvinput-plugin-core-9.0.0.0-SNAPSHOT-sources.jar>=

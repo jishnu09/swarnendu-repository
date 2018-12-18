@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 02 14:54:27 IST 2018
+lucene-spatial3d-7.3.1.pom>pentaho-public=
+lucene-spatial3d-7.3.1.jar>central=
+lucene-spatial3d-7.3.1.jar>pentaho-public=
+lucene-spatial3d-7.3.1.pom>central=
+lucene-spatial3d-7.3.1.jar>=

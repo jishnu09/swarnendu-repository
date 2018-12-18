@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 06:21:23 UTC 2018
+antlr-runtime-3.5.2.jar>central=
+antlr-runtime-3.5.2.jar>pentaho-public=
+antlr-runtime-3.5.2.pom>central=
+antlr-runtime-3.5.2.pom>pentaho-public=

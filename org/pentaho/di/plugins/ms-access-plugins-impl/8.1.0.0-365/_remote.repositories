@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 05 13:49:53 IST 2018
+ms-access-plugins-impl-8.1.0.0-365.jar>=
+ms-access-plugins-impl-8.1.0.0-365-sources.jar>=
+ms-access-plugins-impl-8.1.0.0-365.pom>=
+ms-access-plugins-impl-8.1.0.0-365.jar>pentaho-public=

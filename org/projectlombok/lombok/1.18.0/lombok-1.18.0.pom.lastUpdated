@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 12:39:40 IST 2018
+https\://jitpack.io/.lastUpdated=1543388979605
+https\://artifacts.elastic.co/maven/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543388980378
+https\://artifacts.elastic.co/maven/.lastUpdated=1543388916705
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543388978286
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.projectlombok\:lombok\:pom\:1.18.0 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/org/projectlombok/lombok/1.18.0/lombok-1.18.0.pom with status code 504
+https\://jitpack.io/.error=

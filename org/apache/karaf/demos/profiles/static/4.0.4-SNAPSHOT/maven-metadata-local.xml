@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.apache.karaf.demos.profiles</groupId>
+  <artifactId>static</artifactId>
+  <version>4.0.4-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20181123072757</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>zip</extension>
+        <value>4.0.4-SNAPSHOT</value>
+        <updated>20181123072757</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>tar.gz</extension>
+        <value>4.0.4-SNAPSHOT</value>
+        <updated>20181123072757</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>4.0.4-SNAPSHOT</value>
+        <updated>20181123072757</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

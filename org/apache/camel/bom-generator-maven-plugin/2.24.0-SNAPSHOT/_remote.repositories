@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 04 09:51:22 IST 2018
+bom-generator-maven-plugin-2.24.0-20181202.174131-8.jar>apache.snapshots=
+bom-generator-maven-plugin-2.24.0-20181203.092151-9.jar>apache.snapshots=
+bom-generator-maven-plugin-2.24.0-20181203.154034-10.jar>apache.snapshots=

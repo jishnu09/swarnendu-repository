@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jul 25 17:29:44 IST 2018
+drill-storage-hive-core-1.14.0-SNAPSHOT.jar>=
+drill-storage-hive-core-1.14.0-SNAPSHOT.pom>=
+drill-storage-hive-core-1.14.0-SNAPSHOT-tests.jar>=

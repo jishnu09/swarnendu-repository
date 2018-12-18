@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:51:13 IST 2018
+kafka_2.11-2.0.1.jar>central=
+kafka_2.11-2.0.1.pom>central=
+kafka_2.11-2.0.1-test.jar>central=
+kafka_2.11-2.0.1.pom>pentaho-public=
+kafka_2.11-2.0.1.jar>pentaho-public=

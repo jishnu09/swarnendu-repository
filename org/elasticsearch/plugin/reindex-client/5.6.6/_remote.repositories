@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 13:40:41 IST 2018
+reindex-client-5.6.6.pom>elasticsearch-releases=
+reindex-client-5.6.6.jar>elasticsearch-releases=

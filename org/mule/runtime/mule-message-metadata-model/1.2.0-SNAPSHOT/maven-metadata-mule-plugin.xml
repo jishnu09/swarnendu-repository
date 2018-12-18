@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.mule.runtime</groupId>
+  <artifactId>mule-message-metadata-model</artifactId>
+  <version>1.2.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181115.122653</timestamp>
+      <buildNumber>51</buildNumber>
+    </snapshot>
+    <lastUpdated>20181115122653</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.2.0-20181115.122653-51</value>
+        <updated>20181115122653</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.2.0-20181115.122653-51</value>
+        <updated>20181115122653</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

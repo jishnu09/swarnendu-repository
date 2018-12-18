@@ -1,0 +1,12 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 11:04:00 UTC 2018
+http\://svn.apache.org/repos/asf/servicemix/m2-repo/.lastUpdated=1542884558665
+http\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1542695746410
+http\://repository.springsource.com/maven/bundles/release/.error=
+https\://repository.apache.org/content/repositories/snapshots/.error=
+https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1542695736345
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://svn.apache.org/repos/asf/servicemix/m2-repo/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1542884640168
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1542884560661
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1542884559551

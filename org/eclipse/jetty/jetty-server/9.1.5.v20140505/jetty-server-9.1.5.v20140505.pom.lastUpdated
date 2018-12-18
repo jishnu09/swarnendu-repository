@@ -1,0 +1,11 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Jun 22 17:34:22 IST 2018
+http\://conjars.org/repo/.lastUpdated=1529669039653
+http\://conjars.org/repo/.error=
+http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1529669061993
+http\://repository.mapr.com/maven/.error=
+http\://repository.mapr.com/maven/.lastUpdated=1529669040228
+http\://repository.mapr.com/nexus/content/repositories/drill/.error=
+@default-dremio-releases-http\://repo.dremio.com/release/.lastUpdated=1529669061403
+https\://repo.maven.apache.org/maven2/.lastUpdated=1529669062686
+http\://repo.dremio.com/release/.error=Could not transfer artifact org.eclipse.jetty\:jetty-server\:pom\:9.1.5.v20140505 from/to dremio-releases (http\://repo.dremio.com/release/)\: Connect to repo.dremio.com\:80 [repo.dremio.com/52.218.249.187] failed\: Connection timed out\: connect

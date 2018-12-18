@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 10:34:47 UTC 2018
+contiperf-2.2.0.jar>pentaho-public=
+contiperf-2.2.0.pom>pentaho-public=
+contiperf-2.2.0.pom>mule=
+contiperf-2.2.0.jar>mule=

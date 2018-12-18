@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 30 16:54:31 IST 2018
+asm-6.0_ALPHA.jar>central=
+asm-6.0_ALPHA.pom>central=
+asm-6.0_ALPHA.jar>pentaho-public=
+asm-6.0_ALPHA.pom>pentaho-public=

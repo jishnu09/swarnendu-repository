@@ -1,0 +1,11 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 23 16:11:11 UTC 2018
+librepository-9.0.0.0-SNAPSHOT.jar>=
+librepository-9.0.0.0-SNAPSHOT.pom>=
+librepository-9.0.0.0-20181122.042440-291.pom>pentaho-public=
+librepository-9.0.0.0-20181122.122115-293.jar>pentaho-public=
+librepository-9.0.0.0-20181123.143248-300.pom>pentaho-public=
+librepository-9.0.0.0-20181122.122115-293.pom>pentaho-public=
+librepository-9.0.0.0-20181122.042440-291.jar>pentaho-public=
+librepository-9.0.0.0-20181123.143248-300.jar>pentaho-public=
+librepository-9.0.0.0-SNAPSHOT-sources.jar>=

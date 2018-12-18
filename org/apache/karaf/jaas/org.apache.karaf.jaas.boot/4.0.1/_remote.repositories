@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 11:14:27 UTC 2018
+org.apache.karaf.jaas.boot-4.0.1.jar>central=
+org.apache.karaf.jaas.boot-4.0.1.pom>central=

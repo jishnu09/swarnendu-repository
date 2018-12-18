@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.mule.tools.maven</groupId>
+  <artifactId>mule-classloader-model</artifactId>
+  <versioning>
+    <latest>3.3.0-SNAPSHOT</latest>
+    <release>3.2.2</release>
+    <versions>
+      <version>3.0.0</version>
+      <version>3.0.1-SNAPSHOT</version>
+      <version>3.1.0</version>
+      <version>3.1.1</version>
+      <version>3.1.2</version>
+      <version>3.1.3</version>
+      <version>3.1.4</version>
+      <version>3.1.5</version>
+      <version>3.1.6</version>
+      <version>3.1.7</version>
+      <version>3.1.8-SNAPSHOT</version>
+      <version>3.2.0</version>
+      <version>3.2.1</version>
+      <version>3.2.2</version>
+      <version>3.2.3-SNAPSHOT</version>
+      <version>3.3.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181116021022</lastUpdated>
+  </versioning>
+</metadata>

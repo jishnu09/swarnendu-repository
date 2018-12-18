@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:03:23 IST 2018
+hive-standalone-metastore-4.0.0-SNAPSHOT.pom>=
+hive-standalone-metastore-4.0.0-SNAPSHOT-src.tar.gz>=

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:41:27 IST 2018
+flink-shaded-jackson-2.7.9-5.0.jar>central=
+flink-shaded-jackson-2.7.9-5.0.jar>pentaho-public=
+flink-shaded-jackson-2.7.9-5.0.pom>pentaho-public=
+flink-shaded-jackson-2.7.9-5.0.pom>central=

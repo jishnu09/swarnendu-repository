@@ -1,0 +1,10 @@
+<metadata>
+  <groupId>org.apache.felix</groupId>
+  <artifactId>maven-bundle-plugin</artifactId>
+  <versioning>
+    <versions>
+      <version>3.0.0</version>
+    </versions>
+    <lastUpdated>20181123071237</lastUpdated>
+  </versioning>
+</metadata>

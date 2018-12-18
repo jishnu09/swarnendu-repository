@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 14:48:47 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543396727841
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543396717807
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.sonatype.nexus.plugins\:nexus-restlet1x-model\:jar\:2.9.1-02 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/org/sonatype/nexus/plugins/nexus-restlet1x-model/2.9.1-02/nexus-restlet1x-model-2.9.1-02.jar with status code 504

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 17:02:52 IST 2018
+pdi-xml-plugin-9.0.0.0-SNAPSHOT.zip>=
+pdi-xml-plugin-9.0.0.0-SNAPSHOT.pom>=
+pdi-xml-plugin-9.0.0.0-20181121.125703-392.pom>pentaho-public=
+pdi-xml-plugin-9.0.0.0-20181121.125703-392.zip>pentaho-public=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 04:58:59 UTC 2018
+hadoop-kafka-3.3.0-SNAPSHOT.pom>=
+hadoop-kafka-3.3.0-20181022.232741-179.jar>apache.snapshots.https=
+hadoop-kafka-3.3.0-SNAPSHOT.jar>=

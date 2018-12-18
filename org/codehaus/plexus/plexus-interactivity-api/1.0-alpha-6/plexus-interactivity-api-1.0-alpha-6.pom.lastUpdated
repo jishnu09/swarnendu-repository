@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Oct 22 09:56:09 UTC 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1540202169897
+http\://repository.codehaus.org/org/codehaus/mojo/.error=Could not transfer artifact org.codehaus.plexus\:plexus-interactivity-api\:pom\:1.0-alpha-6 from/to codehaus (http\://repository.codehaus.org/org/codehaus/mojo/)\: repository.codehaus.org
+@default-codehaus-http\://repository.codehaus.org/org/codehaus/mojo/.lastUpdated=1540202169354

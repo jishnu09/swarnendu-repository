@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Dec 12 09:35:28 IST 2017
+spring-web-4.1.1.RELEASE.jar>=
+spring-web-4.1.1.RELEASE.jar>sonatype-public=
+spring-web-4.1.1.RELEASE.jar>alfresco-public=
+spring-web-4.1.1.RELEASE.jar>central=
+spring-web-4.1.1.RELEASE.pom>central=
+spring-web-4.1.1.RELEASE.pom>sonatype-public=
+spring-web-4.1.1.RELEASE.pom>alfresco-public=

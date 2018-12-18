@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:49:13 IST 2018
+lz4-java-1.4.1.pom>central=
+lz4-java-1.4.1.jar>central=
+lz4-java-1.4.1.jar>pentaho-public=
+lz4-java-1.4.1.pom>pentaho-public=

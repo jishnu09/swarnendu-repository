@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.apache.hadoop</groupId>
+  <artifactId>hadoop-sls</artifactId>
+  <version>3.3.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181022.232805</timestamp>
+      <buildNumber>179</buildNumber>
+    </snapshot>
+    <lastUpdated>20181022232805</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>3.3.0-20181022.232805-179</value>
+        <updated>20181022232805</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.3.0-20181022.232805-179</value>
+        <updated>20181022232805</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>3.3.0-20181022.232805-179</value>
+        <updated>20181022232805</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

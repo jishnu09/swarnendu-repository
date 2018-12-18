@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 14:04:51 IST 2018
+maven-eclipse-plugin-2.8.jar>pentaho-public=
+maven-eclipse-plugin-2.8.pom>pentaho-public=
+maven-eclipse-plugin-2.8.jar>central=
+maven-eclipse-plugin-2.8.pom>central=

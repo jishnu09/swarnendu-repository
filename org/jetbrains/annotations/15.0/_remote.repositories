@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 11:35:43 IST 2018
+annotations-15.0.pom>pentaho-public=
+annotations-15.0.jar>pentaho-public=
+annotations-15.0.jar>central=
+annotations-15.0.pom>central=

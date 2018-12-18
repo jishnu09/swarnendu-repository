@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:55:53 IST 2018
+wagon-2.1.pom>pentaho-public=
+wagon-2.1.pom>central=
+wagon-2.1.pom>atlassian-public=

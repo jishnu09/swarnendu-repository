@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:48:59 IST 2018
+cassandra-all-2.2.5.pom>pentaho-public=
+cassandra-all-2.2.5.jar>central=
+cassandra-all-2.2.5.jar>pentaho-public=
+cassandra-all-2.2.5.pom>central=

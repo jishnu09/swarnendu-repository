@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 15:42:39 IST 2018
+xnio-api-3.3.8.Final.jar>pentaho-public=
+xnio-api-3.3.8.Final.pom>pentaho-public=
+xnio-api-3.3.8.Final.jar>central=
+xnio-api-3.3.8.Final.pom>central=

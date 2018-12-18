@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 11:57:39 IST 2018
+flink-metrics-graphite-1.8-SNAPSHOT.jar>=
+flink-metrics-graphite-1.8-SNAPSHOT.pom>=
+flink-metrics-graphite-1.8-SNAPSHOT-tests.jar>=

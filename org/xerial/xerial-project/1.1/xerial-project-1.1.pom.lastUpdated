@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Oct 22 09:46:59 UTC 2018
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1540201359106
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1540201619318
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.xerial\:xerial-project\:pom\:1.1 from/to central (https\://repo.maven.apache.org/maven2)\: Cannot access https\://repo.maven.apache.org/maven2 with type default using the available connector factories\: BasicRepositoryConnectorFactory

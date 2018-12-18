@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Dec 06 16:53:05 IST 2018
+httpasyncclient-4.1.2.jar>pentaho-public=
+httpasyncclient-4.1.2.pom>pentaho-public=
+httpasyncclient-4.1.2.jar>central=
+httpasyncclient-4.1.2.pom>central=

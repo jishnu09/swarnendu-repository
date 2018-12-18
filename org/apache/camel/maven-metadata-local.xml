@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>Camel :: Maven Plugins :: BOM Generator</name>
+      <prefix>bom-generator</prefix>
+      <artifactId>bom-generator-maven-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Camel :: Maven Plugins :: Camel Maven Package</name>
+      <prefix>camel-package</prefix>
+      <artifactId>camel-package-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>

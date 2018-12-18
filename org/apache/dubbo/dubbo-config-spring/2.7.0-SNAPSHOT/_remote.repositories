@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 13:46:35 IST 2018
+dubbo-config-spring-2.7.0-SNAPSHOT.jar>=
+dubbo-config-spring-2.7.0-SNAPSHOT.pom>=
+dubbo-config-spring-2.7.0-SNAPSHOT-sources.jar>=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 12:33:05 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543388585855
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543388504456
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.apache.skywalking\:apm-checkstyle\:jar\:5.0.0-beta from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/org/apache/skywalking/apm-checkstyle/5.0.0-beta/apm-checkstyle-5.0.0-beta.jar with status code 504

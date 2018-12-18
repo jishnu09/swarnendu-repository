@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 10:58:04 IST 2018
+https\://artifacts.elastic.co/maven/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1543814804477
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543467147242
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1543814884539
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.flink\:flink-scala_2.11\:jar\:1.6.1 from/to central (https\://repo.maven.apache.org/maven2)\: Connect to repo.maven.apache.org\:443 [repo.maven.apache.org/151.101.40.215] failed\: Connection timed out\: connect

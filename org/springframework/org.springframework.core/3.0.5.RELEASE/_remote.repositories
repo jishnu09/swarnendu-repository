@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 11:47:46 UTC 2018
+org.springframework.core-3.0.5.RELEASE.jar>zodiac-repository=
+org.springframework.core-3.0.5.RELEASE.pom>zodiac-repository=

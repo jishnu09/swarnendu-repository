@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 09 12:29:48 IST 2018
+spark-streaming_2.11-3.0.0-SNAPSHOT-tests.jar>=
+spark-streaming_2.11-3.0.0-SNAPSHOT-sources.jar>=
+spark-streaming_2.11-3.0.0-SNAPSHOT.pom>=
+spark-streaming_2.11-3.0.0-SNAPSHOT-test-sources.jar>=
+spark-streaming_2.11-3.0.0-SNAPSHOT.jar>=

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 10:37:51 IST 2018
+aether-spi-1.8.jar>central=
+aether-spi-1.8.pom>central=
+aether-spi-1.8.jar>pentaho-public=
+aether-spi-1.8.pom>pentaho-public=

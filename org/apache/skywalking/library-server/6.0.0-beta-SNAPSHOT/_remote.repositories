@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 18:28:25 IST 2018
+library-server-6.0.0-beta-SNAPSHOT.pom>=
+library-server-6.0.0-beta-SNAPSHOT.jar>=

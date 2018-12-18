@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 22 11:43:29 UTC 2018
+pdi-salesforce-core-8.2.0.0-SNAPSHOT.pom>=
+pdi-salesforce-core-8.2.0.0-SNAPSHOT-sources.jar>=
+pdi-salesforce-core-8.2.0.0-SNAPSHOT.jar>=

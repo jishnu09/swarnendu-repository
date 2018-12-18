@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 16:05:39 IST 2018
+bcpkix-jdk15on-1.55.pom>pentaho-public=
+bcpkix-jdk15on-1.55.pom>shibboleth-public-repo=
+bcpkix-jdk15on-1.55.pom>central=
+bcpkix-jdk15on-1.55.jar>shibboleth-public-repo=
+bcpkix-jdk15on-1.55.jar>pentaho-public=
+bcpkix-jdk15on-1.55.jar>=

@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Dec 12 09:35:28 IST 2017
+httpclient-cache-4.2.1-atlassian-2.jar>=
+httpclient-cache-4.2.1-atlassian-2.jar>atlassian-public=
+httpclient-cache-4.2.1-atlassian-2.pom>atlassian-public=

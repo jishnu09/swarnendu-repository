@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 10:18:23 IST 2018
+spring-context-5.1.2.RELEASE.jar>pentaho-public=
+spring-context-5.1.2.RELEASE.pom>pentaho-public=
+spring-context-5.1.2.RELEASE.pom>central=
+spring-context-5.1.2.RELEASE.jar>=

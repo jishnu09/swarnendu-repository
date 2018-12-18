@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 14:43:08 IST 2018
+stringtemplate-3.2.jar>pentaho-public=
+stringtemplate-3.2.pom>atlassian-public=
+stringtemplate-3.2.pom>pentaho-public=
+stringtemplate-3.2.jar>atlassian-public=

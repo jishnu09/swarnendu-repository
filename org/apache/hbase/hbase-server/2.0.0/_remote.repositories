@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:38:14 IST 2018
+hbase-server-2.0.0-tests.jar>central=
+hbase-server-2.0.0.jar>central=
+hbase-server-2.0.0.pom>central=

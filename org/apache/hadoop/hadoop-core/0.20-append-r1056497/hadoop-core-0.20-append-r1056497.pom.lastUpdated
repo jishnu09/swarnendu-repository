@@ -1,0 +1,11 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 07:14:54 UTC 2018
+http\://nexus.pentaho.org/content/groups/omni/.error=
+http\://people.apache.org/~rawson/repo/.lastUpdated=1542870894884
+http\://download.java.net/maven/2/.lastUpdated=1542869675429
+http\://download.java.net/maven/2/.error=
+http\://repository.codehaus.org/.error=Could not transfer artifact org.apache.hadoop\:hadoop-core\:pom\:0.20-append-r1056497 from/to codehaus (http\://repository.codehaus.org/)\: repository.codehaus.org\: Name or service not known
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542869652123
+https\://repo.maven.apache.org/maven2/.lastUpdated=1542869652438
+https\://repo.maven.apache.org/maven2/.error=
+@default-codehaus-http\://repository.codehaus.org/.lastUpdated=1542869676140

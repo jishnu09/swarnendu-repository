@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Nov 13 12:30:05 IST 2018
+http\://people.apache.org/repo/m2-incubating-repository/.lastUpdated=1542092404859
+http\://repo.maven.apache.org/maven2/.lastUpdated=1542092400855
+file\://E\:\\Applications\\Atlassian\\atlassian-plugin-sdk-6.3.12/repository/.error=
+@default-http\://repository.codehaus.org/.lastUpdated=1542092405016
+http\://people.apache.org/repo/m2-incubating-repository/.error=
+http\://repository.codehaus.org/.error=Could not transfer artifact org.apache.geronimo.genesis.config\:config\:pom\:1.1 from/to codehaus (http\://repository.codehaus.org)\: repository.codehaus.org
+file\://E\:\\Applications\\Atlassian\\atlassian-plugin-sdk-6.3.12/repository/.lastUpdated=1542092400532

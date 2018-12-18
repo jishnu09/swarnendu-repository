@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 04:18:05 UTC 2018
+hadoop-yarn-server-timelineservice-hbase-server-1-3.3.0-20181022.232410-179.jar>apache.snapshots.https=
+hadoop-yarn-server-timelineservice-hbase-server-1-3.3.0-SNAPSHOT-coprocessor.jar>=
+hadoop-yarn-server-timelineservice-hbase-server-1-3.3.0-SNAPSHOT.jar>=
+hadoop-yarn-server-timelineservice-hbase-server-1-3.3.0-SNAPSHOT.pom>=

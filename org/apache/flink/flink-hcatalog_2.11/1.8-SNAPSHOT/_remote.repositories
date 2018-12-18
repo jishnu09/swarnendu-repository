@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 13:45:27 IST 2018
+flink-hcatalog_2.11-1.8-SNAPSHOT.pom>=
+flink-hcatalog_2.11-1.8-SNAPSHOT-tests.jar>=
+flink-hcatalog_2.11-1.8-SNAPSHOT.jar>=

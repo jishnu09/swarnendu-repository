@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.pentaho.di</groupId>
+  <artifactId>pdi-engine-ext</artifactId>
+  <versioning>
+    <versions>
+      <version>8.2.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181022113754</lastUpdated>
+  </versioning>
+</metadata>

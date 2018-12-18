@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 10:53:58 UTC 2018
+geronimo-j2ee-management_1.1_spec-1.0.1.pom>pentaho-nexus=
+geronimo-j2ee-management_1.1_spec-1.0.1.jar>pentaho-nexus=
+geronimo-j2ee-management_1.1_spec-1.0.1.jar>central=
+geronimo-j2ee-management_1.1_spec-1.0.1.pom>central=
+geronimo-j2ee-management_1.1_spec-1.0.1.pom>mule=
+geronimo-j2ee-management_1.1_spec-1.0.1.jar>mule=

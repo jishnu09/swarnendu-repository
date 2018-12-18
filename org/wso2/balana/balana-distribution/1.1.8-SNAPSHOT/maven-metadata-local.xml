@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.wso2.balana</groupId>
+  <artifactId>balana-distribution</artifactId>
+  <version>1.1.8-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20180521060413</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>wso2</classifier>
+        <extension>zip</extension>
+        <value>1.1.8-SNAPSHOT</value>
+        <updated>20180521060413</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.1.8-SNAPSHOT</value>
+        <updated>20180521060413</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.1.8-SNAPSHOT</value>
+        <updated>20180521060413</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

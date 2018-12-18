@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 11:31:29 IST 2018
+flink-avro-1.8-SNAPSHOT-sql-jar.jar>=
+flink-avro-1.8-SNAPSHOT.jar>=
+flink-avro-1.8-SNAPSHOT.pom>=
+flink-avro-1.8-SNAPSHOT-tests.jar>=

@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 05 10:25:36 IST 2018
+@default-central-http\://repo1.maven.org/maven2/.lastUpdated=1543985734743
+https\://artifacts.elastic.co/maven/.error=
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact org.apache.spark\:spark-bagel_2.10\:jar\:1.6.1 from/to central (http\://repo1.maven.org/maven2)\: Connect to repo1.maven.org\:80 [repo1.maven.org/151.101.52.209] failed\: Connection timed out\: connect
+https\://artifacts.elastic.co/maven/.lastUpdated=1543985602804
+https\://repo.spring.io/libs-milestone/.lastUpdated=1543985736306

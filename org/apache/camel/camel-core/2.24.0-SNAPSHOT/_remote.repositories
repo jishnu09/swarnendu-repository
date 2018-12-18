@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 04 09:53:59 IST 2018
+camel-core-2.24.0-20181203.092358-9.jar>apache.snapshots=
+camel-core-2.24.0-20181203.092358-9-tests.jar>apache.snapshots=
+camel-core-2.24.0-20181203.154250-10.jar>apache.snapshots=
+camel-core-2.24.0-20181202.174342-8-tests.jar>apache.snapshots=
+camel-core-2.24.0-20181203.154250-10-tests.jar>apache.snapshots=
+camel-core-2.24.0-20181202.174342-8.jar>apache.snapshots=

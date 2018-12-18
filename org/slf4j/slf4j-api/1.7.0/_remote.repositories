@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Sep 19 11:56:30 IST 2018
+slf4j-api-1.7.0.jar>central=
+slf4j-api-1.7.0.jar>wso2-nexus=
+slf4j-api-1.7.0.pom>central=
+slf4j-api-1.7.0.pom>wso2-nexus=

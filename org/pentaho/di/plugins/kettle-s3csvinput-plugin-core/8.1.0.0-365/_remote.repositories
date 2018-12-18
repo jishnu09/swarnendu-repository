@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 05 13:47:04 IST 2018
+kettle-s3csvinput-plugin-core-8.1.0.0-365.jar>pentaho-public=
+kettle-s3csvinput-plugin-core-8.1.0.0-365.jar>=
+kettle-s3csvinput-plugin-core-8.1.0.0-365-sources.jar>=
+kettle-s3csvinput-plugin-core-8.1.0.0-365.pom>=

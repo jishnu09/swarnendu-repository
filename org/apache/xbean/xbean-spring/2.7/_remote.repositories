@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:18:19 IST 2018
+xbean-spring-2.7.jar>pentaho-public=
+xbean-spring-2.7.jar>=
+xbean-spring-2.7.pom>pentaho-public=

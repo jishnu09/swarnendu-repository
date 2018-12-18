@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.apache.hadoop</groupId>
+  <artifactId>hadoop-mapreduce-client</artifactId>
+  <version>3.3.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20181121042003</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.3.0-SNAPSHOT</value>
+        <updated>20181121042003</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

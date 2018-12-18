@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 14:55:15 IST 2018
+slf4j-api-1.7.10.jar>central=
+slf4j-api-1.7.10.pom>central=
+slf4j-api-1.7.10.pom>atlassian-public=
+slf4j-api-1.7.10.pom>shibboleth-public-repo=

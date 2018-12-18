@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:36:06 IST 2018
+https\://repository.apache.org/snapshots/.lastUpdated=1543572365457
+https\://repository.apache.org/snapshots/.error=
+file\:${project.basedir}/src/main/site/resources/repo/.lastUpdated=1543572365508
+file\:${project.basedir}/src/main/site/resources/repo/.error=
+https\://maven.java.net/content/repositories/snapshots/.error=
+https\://maven.java.net/content/repositories/snapshots/.lastUpdated=1543572366344

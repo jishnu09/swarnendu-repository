@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <parent>
+        <groupId>org.wso2</groupId>
+        <artifactId>wso2</artifactId>
+        <version>1</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.wso2.maven</groupId>
+    <artifactId>maven-tools</artifactId>
+    <packaging>pom</packaging>
+    <version>4.3.0</version>
+    <name>Maven Tool Aggregator Pom</name>
+    <url>http://wso2.org</url>
+
+    <modules>
+        <module>carbon-p2-plugin</module>
+    </modules>
+
+    <scm>
+        <url>https://github.com/wso2/maven-tools.git</url>
+        <developerConnection>scm:git:https://github.com/wso2/maven-tools.git</developerConnection>
+        <connection>scm:git:https://github.com/wso2/maven-tools.git</connection>
+        <tag>maven-tools-4.3.0</tag>
+    </scm>
+
+    <properties>
+        <tycho.version>0.13.0</tycho.version>
+        <maven.project.version>2.0.5</maven.project.version>
+        <junit.version>3.8.1</junit.version>
+        <maven.core.version>3.0</maven.core.version>
+        <maven.plugin.api.version>3.0</maven.plugin.api.version>
+    </properties>
+</project>

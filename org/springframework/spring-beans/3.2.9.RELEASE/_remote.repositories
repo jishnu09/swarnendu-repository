@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 15:21:47 IST 2018
+spring-beans-3.2.9.RELEASE.jar>wso2-nexus=
+spring-beans-3.2.9.RELEASE.jar>central=
+spring-beans-3.2.9.RELEASE.pom>central=
+spring-beans-3.2.9.RELEASE.pom>wso2-nexus=

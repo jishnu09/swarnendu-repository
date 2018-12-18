@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 10:02:11 IST 2018
+hive-llap-common-2.3.3.pom>central=
+hive-llap-common-2.3.3-tests.jar>central=
+hive-llap-common-2.3.3.jar>central=

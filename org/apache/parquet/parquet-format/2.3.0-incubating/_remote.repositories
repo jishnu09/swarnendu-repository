@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 05 10:21:59 IST 2018
+parquet-format-2.3.0-incubating.jar>mapr-drill-thirdparty=
+parquet-format-2.3.0-incubating.pom>mapr-drill-thirdparty=
+parquet-format-2.3.0-incubating.pom>central=
+parquet-format-2.3.0-incubating.jar>central=

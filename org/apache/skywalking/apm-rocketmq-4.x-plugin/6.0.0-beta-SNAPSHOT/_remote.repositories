@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 10:17:57 IST 2018
+apm-rocketmq-4.x-plugin-6.0.0-beta-SNAPSHOT.jar>=
+apm-rocketmq-4.x-plugin-6.0.0-beta-SNAPSHOT-sources.jar>=
+apm-rocketmq-4.x-plugin-6.0.0-beta-SNAPSHOT.pom>=

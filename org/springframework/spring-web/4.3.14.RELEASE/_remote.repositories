@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 12:43:41 IST 2018
+spring-web-4.3.14.RELEASE.pom>pentaho-public=
+spring-web-4.3.14.RELEASE.pom>sonatype-releases=
+spring-web-4.3.14.RELEASE.jar>sonatype-releases=

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 10:04:37 IST 2018
+httpcore-4.1.2.jar>central=
+httpcore-4.1.2.pom>atlassian-public=
+httpcore-4.1.2.pom>central=
+httpcore-4.1.2.pom>wso2-nexus=

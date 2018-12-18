@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:36:51 IST 2018
+https\://repository.apache.org/snapshots/.error=Could not transfer artifact org.glassfish\:javax.el\:pom\:3.0.1-b11-20180604.075333-1 from/to apache.snapshots (https\://repository.apache.org/snapshots)\: Connect to repository.apache.org\:443 [repository.apache.org/207.244.88.140] failed\: Connection timed out\: connect
+file\:${project.basedir}/src/main/site/resources/repo/.lastUpdated=1543572410768
+file\:${project.basedir}/src/main/site/resources/repo/.error=
+https\://maven.java.net/content/repositories/snapshots/.lastUpdated=1543572411672
+@default-apache.snapshots-https\://repository.apache.org/snapshots/.lastUpdated=1543572410725

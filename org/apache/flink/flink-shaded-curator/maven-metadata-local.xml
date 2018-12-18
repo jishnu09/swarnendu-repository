@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.flink</groupId>
+  <artifactId>flink-shaded-curator</artifactId>
+  <versioning>
+    <versions>
+      <version>1.8-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181203071951</lastUpdated>
+  </versioning>
+</metadata>

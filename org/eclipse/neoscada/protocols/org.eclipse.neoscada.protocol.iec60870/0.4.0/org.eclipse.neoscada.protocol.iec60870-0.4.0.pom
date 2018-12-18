@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.eclipse.neoscada.protocols</groupId>
+  <artifactId>org.eclipse.neoscada.protocol.iec60870</artifactId>
+  <version>0.4.0</version>
+  <url>http://eclipse.org/eclipsescada</url>
+  <name>IEC60870-5-104</name>
+  <description>IEC60870-5-104</description>
+  <organization>
+    <name>Eclipse Foundation</name>
+    <url>http://www.eclipse.org/</url>
+  </organization>
+  <developers>
+    <developer>
+      <id>ctron</id>
+      <name>Jens Reimann</name>
+      <email>jreimann@redhat.com</email>
+      <url>https://dentrassi.de</url>
+    </developer>
+    <developer>
+      <id>cptmauli</id>
+      <name>Jürgen Rose</name>
+      <email>juergen.rose@ibh-systems.com</email>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>The Eclipse Public License Version 1.0</name>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:git://git.eclipse.org/gitroot/scada/org.eclipse.scada.protocols.git;path="org.eclipse.neoscada.protocol.iec60870";tag="R0.4.0";commitId=0156de37296092862e43601054928bd73b5c1962</connection>
+    <developerConnection>scm:git:git://git.eclipse.org/gitroot/scada/org.eclipse.scada.protocols.git;path="org.eclipse.neoscada.protocol.iec60870";tag="R0.4.0";commitId=0156de37296092862e43601054928bd73b5c1962</developerConnection>
+    <url>https://git.eclipse.org/c/eclipsescada/org.eclipse.scada.protocols.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.2</version>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-transport</artifactId>
+      <version>4.0.19.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec</artifactId>
+      <version>4.0.19.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.neoscada.utils</groupId>
+      <artifactId>org.eclipse.scada.utils</artifactId>
+      <version>0.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>18.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-buffer</artifactId>
+      <version>4.0.19.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-common</artifactId>
+      <version>4.0.19.Final</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 11:11:51 UTC 2018
+jcl-over-slf4j-1.6.6.pom>central=
+jcl-over-slf4j-1.6.6.jar>pentaho-public=
+jcl-over-slf4j-1.6.6.pom>pentaho-public=

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2015 Lukas Krejci
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.revapi</groupId>
+        <artifactId>revapi-build</artifactId>
+        <version>34</version>
+        <relativePath>../revapi-build</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>maven-plugin</packaging>
+
+    <name>Revapi Maven Plugin</name>
+    <description>
+        Maven integration for Revapi.
+    </description>
+    <url>${web.url}/modules/${project.artifactId}</url>
+
+    <artifactId>revapi-maven-plugin</artifactId>
+    <version>0.9.5</version>
+
+    <properties>
+        <maven.version>3.2.5</maven.version>
+        <maven-plugin-plugin.version>3.5</maven-plugin-plugin.version>
+        <maven-invoker.version>1.9</maven-invoker.version>
+        <aether.version>0.9.1.v20140329</aether.version>
+        <skipTests>false</skipTests>
+        <itest.debug-output>false</itest.debug-output>
+        <itest.maven-opts />
+        <revapi-java.version>0.14.2</revapi-java.version>
+        <revapi-java-spi.version>0.13.2</revapi-java-spi.version>
+        <revapi-reporter-text.version>0.8.1</revapi-reporter-text.version>
+
+        <automatic.module.name>org.revapi.maven.plugin</automatic.module.name>
+    </properties>
+
+    <prerequisites>
+        <maven>${maven.version}</maven>
+    </prerequisites>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.revapi</groupId>
+            <artifactId>revapi</artifactId>
+            <version>0.8.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.revapi</groupId>
+            <artifactId>revapi-basic-features</artifactId>
+            <version>0.6.3</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.revapi</groupId>
+            <artifactId>revapi-maven-utils</artifactId>
+            <version>0.8.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-plugin-api</artifactId>
+            <version>${maven.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven.plugin-tools</groupId>
+            <artifactId>maven-plugin-annotations</artifactId>
+            <version>${maven-plugin-plugin.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-core</artifactId>
+            <version>${maven.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.aether</groupId>
+            <artifactId>aether-api</artifactId>
+            <version>${aether.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.aether</groupId>
+            <artifactId>aether-util</artifactId>
+            <version>${aether.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven.reporting</groupId>
+            <artifactId>maven-reporting-impl</artifactId>
+            <version>2.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ximpleware</groupId>
+            <artifactId>vtd-xml</artifactId>
+            <version>2.11</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <configuration>
+                    <suppressionsLocation>${basedir}/checkstyle-suppressions.xml</suppressionsLocation>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <!--suppress MavenModelInspection -->
+                    <argLine>${jacoco.maven-opts}</argLine>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <configuration>
+                    <propertyName>jacoco.maven-opts</propertyName>
+                    <excludes>
+                        <exclude>org/revapi/maven/HelpMojo</exclude>
+                    </excludes>
+                    <append>true</append>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-invoker-plugin</artifactId>
+                <version>${maven-invoker.version}</version>
+                <executions>
+                    <execution>
+                        <id>integration-test</id>
+                        <goals>
+                            <goal>install</goal>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <skipInstallation>${skipTests}</skipInstallation>
+                            <skipInvocation>${skipTests}</skipInvocation>
+                            <cloneProjectsTo>${project.build.directory}/it/build</cloneProjectsTo>
+                            <localRepositoryPath>${project.build.directory}/it/repo</localRepositoryPath>
+                            <settingsFile>src/it/settings.xml</settingsFile>
+                            <streamLogs>true</streamLogs>
+                            <projectsDirectory>${basedir}/src/it/build</projectsDirectory>
+                            <goals>
+                                <goal>clean</goal>
+                                <goal>install</goal>
+                            </goals>
+                            <!--suppress MavenModelInspection -->
+                            <mavenOpts>${itest.maven-opts} ${jacoco.maven-opts}</mavenOpts>
+                            <debug>${itest.debug-output}</debug>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>site-integration-test</id>
+                        <goals>
+                            <goal>install</goal>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <skipInstallation>${skipTests}</skipInstallation>
+                            <skipInvocation>${skipTests}</skipInvocation>
+                            <cloneProjectsTo>${project.build.directory}/it/build</cloneProjectsTo>
+                            <localRepositoryPath>${project.build.directory}/it/repo</localRepositoryPath>
+                            <settingsFile>src/it/settings.xml</settingsFile>
+                            <streamLogs>true</streamLogs>
+                            <projectsDirectory>${basedir}/src/it/site</projectsDirectory>
+                            <goals>
+                                <goal>clean</goal>
+                                <goal>install</goal>
+                                <goal>site</goal>
+                            </goals>
+                            <!--suppress MavenModelInspection -->
+                            <mavenOpts>${itest.maven-opts} ${jacoco.maven-opts}</mavenOpts>
+                            <debug>${itest.debug-output}</debug>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-plugin-plugin</artifactId>
+                <version>${maven-plugin-plugin.version}</version>
+                <configuration>
+                    <goalPrefix>revapi</goalPrefix>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>default-descriptor</id>
+                        <goals>
+                            <goal>descriptor</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>help-descriptor</id>
+                        <goals>
+                            <goal>helpmojo</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>ban-mad-gadget</id>
+                        <goals><goal>enforce</goal></goals>
+                        <configuration>
+                            <!-- We cannot ban these deps in a maven plugin, because maven reporting impl doesn't
+                                 currently have a newer version that would be free of these deps... -->
+                            <skip>true</skip>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-plugin-plugin</artifactId>
+                <version>3.4</version>
+            </plugin>
+        </plugins>
+    </reporting>
+
+    <distributionManagement>
+        <site>
+            <id>site</id>
+            <url>${web.repo}</url>
+        </site>
+    </distributionManagement>
+
+    <profiles>
+        <profile>
+            <!-- This is to disable doclint on the javadoc of the revapi-maven-plugin. This is because
+                 helpmojo can't generate files that would pass it. -->
+            <id>doclint-java8-disable</id>
+            <activation>
+                <jdk>[1.8,)</jdk>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <configuration>
+                            <additionalparam>-Xdoclint:none</additionalparam>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+            <reporting>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <configuration>
+                            <additionalparam>-Xdoclint:none</additionalparam>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </reporting>
+        </profile>
+
+        <profile>
+            <id>itest.debug-output</id>
+
+            <properties>
+                <itest.debug-output>true</itest.debug-output>
+            </properties>
+        </profile>
+        <profile>
+            <id>itest.debug</id>
+
+            <properties>
+                <itest.maven-opts>-Xdebug -Xrunjdwp:transport=dt_socket,address=5005,server=y,suspend=y
+                </itest.maven-opts>
+                <itest.debug-output>true</itest.debug-output>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>itest.site</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-invoker-plugin</artifactId>
+                        <version>${maven-invoker.version}</version>
+                        <configuration>
+                            <goals>
+                                <goal>clean</goal>
+                                <goal>install</goal>
+                                <goal>site</goal>
+                            </goals>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+    <scm>
+        <connection>scm:git:git://github.com/revapi/revapi.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/revapi/revapi.git</developerConnection>
+        <url>https://github.com/revapi/revapi</url>
+        <tag>revapi-maven-plugin-0.9.5</tag>
+    </scm>
+</project>

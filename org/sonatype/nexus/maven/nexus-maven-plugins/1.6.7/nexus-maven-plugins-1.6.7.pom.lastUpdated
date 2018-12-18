@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 13:51:10 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543393270031
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543393269312
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.sonatype.nexus.maven\:nexus-maven-plugins\:pom\:1.6.7 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/org/sonatype/nexus/maven/nexus-maven-plugins/1.6.7/nexus-maven-plugins-1.6.7.pom with status code 504

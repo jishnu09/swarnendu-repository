@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 16:04:38 IST 2018
+shrinkwrap-bom-1.2.3.pom>spring-libs-snapshots=
+shrinkwrap-bom-1.2.3.pom>pentaho-public=
+shrinkwrap-bom-1.2.3.pom>central=
+shrinkwrap-bom-1.2.3.pom>jcenter=

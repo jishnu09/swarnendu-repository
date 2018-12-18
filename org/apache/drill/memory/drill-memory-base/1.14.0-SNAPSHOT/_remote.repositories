@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jul 25 16:57:06 IST 2018
+drill-memory-base-1.14.0-SNAPSHOT.jar>=
+drill-memory-base-1.14.0-SNAPSHOT-tests.jar>=
+drill-memory-base-1.14.0-SNAPSHOT.pom>=

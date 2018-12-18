@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Aug 09 13:37:30 IST 2017
+package-scanner-0.9.5.jar>atlassian-public=
+package-scanner-0.9.5.pom>atlassian-public=

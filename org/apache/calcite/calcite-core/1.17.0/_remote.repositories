@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:44:36 IST 2018
+calcite-core-1.17.0.jar>pentaho-public=
+calcite-core-1.17.0.pom>pentaho-public=
+calcite-core-1.17.0.jar>central=
+calcite-core-1.17.0.pom>central=

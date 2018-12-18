@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Jun 25 13:50:58 IST 2018
+@default-wso2-maven2-repository-http\://dist.wso2.org/maven2/.lastUpdated=1529914837124
+http\://dist.wso2.org/maven2/.error=Could not transfer artifact org.apache.maven.surefire\:surefire-testng\:pom\:2.12.4 from/to wso2-maven2-repository (http\://dist.wso2.org/maven2)\: Connect to dist.wso2.org\:80 [dist.wso2.org/52.220.154.241] failed\: Connection timed out\: connect
+http\://maven.wso2.org/nexus/content/groups/wso2-public/.lastUpdated=1529914858610
+@default-wso2.releases-http\://maven.wso2.org/nexus/content/repositories/releases/.lastUpdated=1529914858188
+http\://maven.wso2.org/nexus/content/repositories/releases/.error=Could not transfer artifact org.apache.maven.surefire\:surefire-testng\:pom\:2.12.4 from/to wso2.releases (http\://maven.wso2.org/nexus/content/repositories/releases/)\: Connect to maven.wso2.org\:80 [maven.wso2.org/52.220.154.241] failed\: Connection timed out\: connect

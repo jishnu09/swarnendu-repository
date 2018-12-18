@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:47:51 IST 2018
+lucene-highlighter-5.5.0.jar>central=
+lucene-highlighter-5.5.0.pom>central=
+lucene-highlighter-5.5.0.jar>pentaho-public=
+lucene-highlighter-5.5.0.pom>pentaho-public=

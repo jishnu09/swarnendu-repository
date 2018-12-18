@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:43:47 IST 2018
+hadoop-minikdc-2.7.2.jar>central=
+hadoop-minikdc-2.7.2.jar>pentaho-public=
+hadoop-minikdc-2.7.2.pom>central=

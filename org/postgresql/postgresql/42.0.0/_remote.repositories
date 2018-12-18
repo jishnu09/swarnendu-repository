@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 15:29:40 IST 2018
+postgresql-42.0.0.jar>central=
+postgresql-42.0.0.jar>pentaho-public=
+postgresql-42.0.0.pom>pentaho-public=
+postgresql-42.0.0.pom>central=

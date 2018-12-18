@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:40:00 IST 2018
+lang-mustache-client-5.1.1.pom>pentaho-public=
+lang-mustache-client-5.1.1.jar>=
+lang-mustache-client-5.1.1.jar>central=
+lang-mustache-client-5.1.1.pom>central=
+lang-mustache-client-5.1.1.jar>sonatype-public=
+lang-mustache-client-5.1.1.pom>sonatype-public=

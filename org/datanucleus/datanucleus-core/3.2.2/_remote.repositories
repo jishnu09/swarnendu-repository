@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:45:57 IST 2018
+datanucleus-core-3.2.2.jar>pentaho-public=
+datanucleus-core-3.2.2.pom>pentaho-public=
+datanucleus-core-3.2.2.jar>central=
+datanucleus-core-3.2.2.pom>central=

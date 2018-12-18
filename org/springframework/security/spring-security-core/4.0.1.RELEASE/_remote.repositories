@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 04 15:10:23 IST 2018
+spring-security-core-4.0.1.RELEASE.jar>central=
+spring-security-core-4.0.1.RELEASE.pom>central=
+spring-security-core-4.0.1.RELEASE.jar>pentaho-public=
+spring-security-core-4.0.1.RELEASE.pom>pentaho-public=

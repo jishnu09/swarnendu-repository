@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Jul 03 18:03:15 IST 2018
+microprofile-jwt-5.7.0-m1-SNAPSHOT.pom>=
+microprofile-jwt-5.7.0-m1-SNAPSHOT.war>=
+microprofile-jwt-5.7.0-m1-SNAPSHOT-resources.zip>=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 16:35:16 IST 2018
+datasource-editor-pmd-9.0.0.0-SNAPSHOT.pom>=
+datasource-editor-pmd-9.0.0.0-SNAPSHOT-sources.jar>=
+datasource-editor-pmd-9.0.0.0-SNAPSHOT.jar>=

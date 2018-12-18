@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 09:41:01 UTC 2018
+hadoop-auth-3.3.0-SNAPSHOT.pom>=
+hadoop-auth-3.3.0-SNAPSHOT-tests.jar>=
+hadoop-auth-3.3.0-SNAPSHOT.jar>=
+hadoop-auth-3.3.0-SNAPSHOT-sources.jar>=

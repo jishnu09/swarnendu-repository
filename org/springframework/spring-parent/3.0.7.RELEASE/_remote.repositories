@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:50:27 IST 2018
+spring-parent-3.0.7.RELEASE.pom>wso2-nexus=
+spring-parent-3.0.7.RELEASE.pom>central=
+spring-parent-3.0.7.RELEASE.pom>atlassian-public=

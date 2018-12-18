@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 10:14:37 IST 2018
+apm-jetty-client-9.x-plugin-6.0.0-beta-SNAPSHOT.pom>=
+apm-jetty-client-9.x-plugin-6.0.0-beta-SNAPSHOT-sources.jar>=
+apm-jetty-client-9.x-plugin-6.0.0-beta-SNAPSHOT.jar>=

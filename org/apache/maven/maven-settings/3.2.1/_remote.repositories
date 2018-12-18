@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:30:51 IST 2018
+maven-settings-3.2.1.jar>central=
+maven-settings-3.2.1.pom>atlassian-public=
+maven-settings-3.2.1.pom>pentaho-public=

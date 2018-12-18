@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 06:36:10 UTC 2018
+bcprov-jdk15on-1.60.pom>central=
+bcprov-jdk15on-1.60.pom>mule=
+bcprov-jdk15on-1.60.jar>mule=
+bcprov-jdk15on-1.60.jar>central=

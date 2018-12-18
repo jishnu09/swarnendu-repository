@@ -1,0 +1,18 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 10:07:45 IST 2018
+https\://jitpack.io/.error=
+http\://nexus.pentaho.org/content/groups/omni/.error=
+https\://oss.sonatype.org/content/repositories/snapshots/.error=
+https\://maven.alfresco.com/nexus/content/groups/public/.lastUpdated=1543466264494
+http\://oss.sonatype.org/content/repositories/snapshots/.lastUpdated=1543466265584
+http\://download.java.net/maven/glassfish/.lastUpdated=1543404989187
+https\://maven.java.net/content/repositories/snapshots/.lastUpdated=1543397930595
+http\://download.java.net/maven/glassfish/.error=
+https\://maven.alfresco.com/nexus/content/groups/public/.error=
+http\://oss.sonatype.org/content/repositories/snapshots/.error=
+@default-apache.snapshots-https\://repository.apache.org/snapshots/.lastUpdated=1543466253187
+https\://jitpack.io/.lastUpdated=1543466231990
+https\://oss.sonatype.org/content/repositories/snapshots/.lastUpdated=1543466254534
+https\://maven.java.net/content/repositories/snapshots/.error=
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543466231845
+https\://repository.apache.org/snapshots/.error=Could not transfer artifact org.apache.skywalking\:apm-network\:jar\:sources\:6.0.0-beta-SNAPSHOT from/to apache.snapshots (https\://repository.apache.org/snapshots)\: Connect to repository.apache.org\:443 [repository.apache.org/207.244.88.140] failed\: Connection timed out\: connect

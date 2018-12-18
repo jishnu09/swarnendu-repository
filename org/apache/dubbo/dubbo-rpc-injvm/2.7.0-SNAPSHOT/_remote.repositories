@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 13:39:52 IST 2018
+dubbo-rpc-injvm-2.7.0-SNAPSHOT.jar>=
+dubbo-rpc-injvm-2.7.0-SNAPSHOT-sources.jar>=
+dubbo-rpc-injvm-2.7.0-SNAPSHOT.pom>=

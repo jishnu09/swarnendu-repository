@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:24:32 IST 2018
+build-support-1.9.0-SNAPSHOT.jar>=
+build-support-1.9.0-SNAPSHOT.pom>=

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.mule.tests</groupId>
+  <artifactId>mule-implicit-exclusive-config-extension</artifactId>
+  <version>4.2.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181115.223012</timestamp>
+      <buildNumber>1023</buildNumber>
+    </snapshot>
+    <lastUpdated>20181115223012</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>4.2.0-20181115.223012-1023</value>
+        <updated>20181115223012</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>4.2.0-20181115.223012-1023</value>
+        <updated>20181115223012</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>mule-plugin</classifier>
+        <extension>jar</extension>
+        <value>4.2.0-20181115.223012-1023</value>
+        <updated>20181115223012</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>4.2.0-20181115.223012-1023</value>
+        <updated>20181115223012</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

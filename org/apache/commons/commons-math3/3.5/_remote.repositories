@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:40:49 IST 2018
+commons-math3-3.5.jar>pentaho-public=
+commons-math3-3.5.pom>pentaho-public=
+commons-math3-3.5.jar>central=
+commons-math3-3.5.pom>central=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 04:53:58 UTC 2018
+hadoop-mapreduce-examples-3.3.0-SNAPSHOT.pom>=
+hadoop-mapreduce-examples-3.3.0-20181022.232632-179.jar>apache.snapshots.https=
+hadoop-mapreduce-examples-3.3.0-SNAPSHOT.jar>=

@@ -1,0 +1,13 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 13:24:59 IST 2018
+flink-examples-batch_2.11-1.8-SNAPSHOT-WebLogAnalysis.jar>=
+flink-examples-batch_2.11-1.8-SNAPSHOT-DistCp.jar>=
+flink-examples-batch_2.11-1.8-SNAPSHOT-EnumTriangles.jar>=
+flink-examples-batch_2.11-1.8-SNAPSHOT-KMeans.jar>=
+flink-examples-batch_2.11-1.8-SNAPSHOT.jar>=
+flink-examples-batch_2.11-1.8-SNAPSHOT-PageRank.jar>=
+flink-examples-batch_2.11-1.8-SNAPSHOT.pom>=
+flink-examples-batch_2.11-1.8-SNAPSHOT-TransitiveClosure.jar>=
+flink-examples-batch_2.11-1.8-SNAPSHOT-tests.jar>=
+flink-examples-batch_2.11-1.8-SNAPSHOT-WordCount.jar>=
+flink-examples-batch_2.11-1.8-SNAPSHOT-ConnectedComponents.jar>=

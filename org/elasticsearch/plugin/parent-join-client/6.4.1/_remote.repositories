@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 23 15:16:47 IST 2018
+parent-join-client-6.4.1.jar>elasticsearch-releases=
+parent-join-client-6.4.1.pom>elasticsearch-releases=

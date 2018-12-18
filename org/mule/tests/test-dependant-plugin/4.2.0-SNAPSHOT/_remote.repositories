@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 16 12:04:27 IST 2018
+test-dependant-plugin-4.2.0-SNAPSHOT-sources.jar>=
+test-dependant-plugin-4.2.0-SNAPSHOT-mule-plugin.jar>=
+test-dependant-plugin-4.2.0-SNAPSHOT.pom>=
+test-dependant-plugin-4.2.0-SNAPSHOT-tests.jar>=

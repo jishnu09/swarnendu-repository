@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 09 11:41:29 IST 2018
+http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1529669323735
+http\://repository.mapr.com/maven/.lastUpdated=1529669322183
+http\://repo.dremio.com/release/.lastUpdated=1529669322856
+http\://conjars.org/repo/.lastUpdated=1529669321884
+https\://repo.maven.apache.org/maven2/.lastUpdated=1539065489652
+http\://repository.mapr.com/maven/.error=
+http\://conjars.org/repo/.error=
+http\://repo.dremio.com/release/.error=

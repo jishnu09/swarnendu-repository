@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 09 13:29:14 IST 2018
+spark-hive_2.11-3.0.0-SNAPSHOT-test-sources.jar>=
+spark-hive_2.11-3.0.0-SNAPSHOT.jar>=
+spark-hive_2.11-3.0.0-SNAPSHOT-sources.jar>=
+spark-hive_2.11-3.0.0-SNAPSHOT.pom>=
+spark-hive_2.11-3.0.0-SNAPSHOT-tests.jar>=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 13:31:54 IST 2018
+dubbo-common-2.7.0-SNAPSHOT.jar>=
+dubbo-common-2.7.0-SNAPSHOT-sources.jar>=
+dubbo-common-2.7.0-SNAPSHOT.pom>=

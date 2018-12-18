@@ -1,0 +1,12 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 23 16:11:11 UTC 2018
+libformula-9.0.0.0-SNAPSHOT-tests.jar>=
+libformula-9.0.0.0-20181122.042445-291.jar>pentaho-public=
+libformula-9.0.0.0-20181122.122123-293.jar>pentaho-public=
+libformula-9.0.0.0-20181123.143256-300.pom>pentaho-public=
+libformula-9.0.0.0-20181122.042445-291.pom>pentaho-public=
+libformula-9.0.0.0-20181122.122123-293.pom>pentaho-public=
+libformula-9.0.0.0-20181123.143256-300.jar>pentaho-public=
+libformula-9.0.0.0-SNAPSHOT.jar>=
+libformula-9.0.0.0-SNAPSHOT-sources.jar>=
+libformula-9.0.0.0-SNAPSHOT.pom>=

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.pentaho</groupId>
+  <artifactId>commons-xul-html</artifactId>
+  <version>9.0.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181122.113332</timestamp>
+      <buildNumber>339</buildNumber>
+    </snapshot>
+    <lastUpdated>20181122113332</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>9.0.0.0-20181122.113332-339</value>
+        <updated>20181122113332</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9.0.0.0-20181122.113332-339</value>
+        <updated>20181122113332</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>9.0.0.0-20181122.113332-339</value>
+        <updated>20181122113332</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

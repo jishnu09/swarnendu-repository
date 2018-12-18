@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 05 13:48:45 IST 2018
+pdi-salesforce-core-8.1.0.0-365.jar>=
+pdi-salesforce-core-8.1.0.0-365-sources.jar>=
+pdi-salesforce-core-8.1.0.0-365.pom>=
+pdi-salesforce-core-8.1.0.0-365.jar>pentaho-public=

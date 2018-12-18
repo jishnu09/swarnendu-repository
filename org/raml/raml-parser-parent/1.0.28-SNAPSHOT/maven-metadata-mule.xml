@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.raml</groupId>
+  <artifactId>raml-parser-parent</artifactId>
+  <version>1.0.28-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181102.145914</timestamp>
+      <buildNumber>6</buildNumber>
+    </snapshot>
+    <lastUpdated>20181102145914</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.28-20181102.145914-6</value>
+        <updated>20181102145914</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

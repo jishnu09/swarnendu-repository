@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 14:23:52 UTC 2018
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542896632469
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.pentaho\:pentaho-metadata\:jar\:9.0.0.0-20181122.115619-188 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni/)\: Connection timed out (Read failed)

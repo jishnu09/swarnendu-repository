@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 16 11:10:44 UTC 2018
+mockito-core-1.10.19.jar>pentaho-public=
+mockito-core-1.10.19.pom>pentaho-public=
+mockito-core-1.10.19.pom>mule=
+mockito-core-1.10.19.jar>mule=

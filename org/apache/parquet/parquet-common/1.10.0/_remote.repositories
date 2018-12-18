@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 09 11:41:29 IST 2018
+parquet-common-1.10.0.pom>central=
+parquet-common-1.10.0.jar>mapr-drill-thirdparty=
+parquet-common-1.10.0.pom>mapr-drill-thirdparty=
+parquet-common-1.10.0.jar>=

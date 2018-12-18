@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 11:55:58 IST 2018
+org.apache.servicemix.bundles.javax-cache-api-1.1.0_1.jar>central=
+org.apache.servicemix.bundles.javax-cache-api-1.1.0_1.pom>central=

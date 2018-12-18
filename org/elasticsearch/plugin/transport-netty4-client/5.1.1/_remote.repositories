@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:39:38 IST 2018
+transport-netty4-client-5.1.1.pom>pentaho-public=
+transport-netty4-client-5.1.1.jar>sonatype-public=
+transport-netty4-client-5.1.1.jar>=
+transport-netty4-client-5.1.1.jar>central=
+transport-netty4-client-5.1.1.pom>sonatype-public=
+transport-netty4-client-5.1.1.pom>central=

@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 10:12:33 IST 2018
+f1ba149cb2704cf2a51764db0412bddda210871c@default-mcube-local-http\://172.20.1.156\:8081/artifactory/libs-release-local/.lastUpdated=1542775350136
+https\://repository.apache.org/content/repositories/snapshots/.error=
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542775349058
+http\://172.20.1.156\:8081/artifactory/libs-release-local/.error=Could not transfer artifact org.apache.hadoop\:hadoop-hdfs-client\:jar\:3.3.0-SNAPSHOT from/to mcube-local (http\://172.20.1.156\:8081/artifactory/libs-release-local)\: Connect to 172.20.1.156\:8081 [/172.20.1.156] failed\: Connection refused\: connect
+https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1542775353541
+http\://nexus.pentaho.org/content/groups/omni/.error=

@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Apr 19 15:50:53 IST 2018
+@default-jasig-developer-repo-http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524132717496
+https\://repo.maven.apache.org/maven2/.lastUpdated=1524133253074
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=Could not transfer artifact org.springframework\:spring-messaging\:jar\:4.3.3.RELEASE from/to jasig-developer-repo (http\://developer.jasig.org/repo/content/groups/m2-legacy/)\: Connect to developer.jasig.org\:80 [developer.jasig.org/199.119.127.181] failed\: Connection timed out\: connect
+https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524132801813
+https\://build.shibboleth.net/nexus/content/groups/public/.error=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 10:37:33 IST 2018
+jackson-mapper-asl-1.8.3.jar>central=
+jackson-mapper-asl-1.8.3.pom>central=
+jackson-mapper-asl-1.8.3.jar>pentaho-public=

@@ -1,0 +1,21 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 16:04:38 IST 2018
+https\://build.shibboleth.net/nexus/content/repositories/releases/.lastUpdated=1524129805874
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
+https\://build.shibboleth.net/nexus/content/repositories/releases/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543401278341
+https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524129805530
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524129801733
+https\://repo.spring.io/snapshot/.lastUpdated=1543401277999
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542966710252
+https\://artifacts.elastic.co/maven/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1543401277488
+https\://repo.spring.io/libs-snapshot/.lastUpdated=1524129807349
+https\://repo.spring.io/milestone/.error=
+https\://repo.spring.io/ext-release-local/.error=
+https\://jitpack.io/.error=
+https\://build.shibboleth.net/nexus/content/groups/public/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1543401273383
+https\://repo.spring.io/snapshot/.error=
+https\://jitpack.io/.lastUpdated=1543401273516
+https\://repo.spring.io/ext-release-local/.lastUpdated=1543401277153

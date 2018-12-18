@@ -1,0 +1,11 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 10:53:59 UTC 2018
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1542884038474
+http\://svn.apache.org/repos/asf/servicemix/m2-repo/.lastUpdated=1542883916025
+http\://repo.fusesource.com/nexus/content/groups/public/.lastUpdated=1542884039692
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://svn.apache.org/repos/asf/servicemix/m2-repo/.error=
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.fusesource.hawtbuf\:hawtbuf\:jar\:1.9 from/to central (https\://repo.maven.apache.org/maven2)\: Read timed out
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1542883918313
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1542883917179

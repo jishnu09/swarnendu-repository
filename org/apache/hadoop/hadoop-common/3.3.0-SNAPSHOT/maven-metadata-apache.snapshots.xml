@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.apache.hadoop</groupId>
+  <artifactId>hadoop-common</artifactId>
+  <version>3.3.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181022.232108</timestamp>
+      <buildNumber>179</buildNumber>
+    </snapshot>
+    <lastUpdated>20181022232108</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>3.3.0-20181022.232108-179</value>
+        <updated>20181022232108</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.3.0-20181022.232108-179</value>
+        <updated>20181022232108</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>tests</classifier>
+        <extension>jar</extension>
+        <value>3.3.0-20181022.232108-179</value>
+        <updated>20181022232108</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

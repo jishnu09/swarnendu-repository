@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 05 13:48:07 IST 2018
+kettle-palo-plugin-core-8.1.0.0-365.pom>=
+kettle-palo-plugin-core-8.1.0.0-365.jar>pentaho-public=
+kettle-palo-plugin-core-8.1.0.0-365-sources.jar>=
+kettle-palo-plugin-core-8.1.0.0-365.jar>=

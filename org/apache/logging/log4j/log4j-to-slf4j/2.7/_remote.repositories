@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:47:59 IST 2018
+log4j-to-slf4j-2.7.pom>central=
+log4j-to-slf4j-2.7.jar>pentaho-public=
+log4j-to-slf4j-2.7.pom>pentaho-public=
+log4j-to-slf4j-2.7.jar>central=

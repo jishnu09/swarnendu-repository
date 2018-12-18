@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 04:26:20 UTC 2018
+hadoop-yarn-services-api-3.3.0-20181022.232541-179.jar>apache.snapshots.https=
+hadoop-yarn-services-api-3.3.0-SNAPSHOT.jar>=
+hadoop-yarn-services-api-3.3.0-SNAPSHOT.pom>=
+hadoop-yarn-services-api-3.3.0-SNAPSHOT-tests.jar>=

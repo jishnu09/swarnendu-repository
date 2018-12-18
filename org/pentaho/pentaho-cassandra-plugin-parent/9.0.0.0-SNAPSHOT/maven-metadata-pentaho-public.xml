@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.pentaho</groupId>
+  <artifactId>pentaho-cassandra-plugin-parent</artifactId>
+  <version>9.0.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181122.044435</timestamp>
+      <buildNumber>198</buildNumber>
+    </snapshot>
+    <lastUpdated>20181122044435</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9.0.0.0-20181122.044435-198</value>
+        <updated>20181122044435</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

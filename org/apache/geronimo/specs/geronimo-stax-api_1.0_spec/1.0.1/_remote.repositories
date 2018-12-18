@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 11:45:15 IST 2018
+geronimo-stax-api_1.0_spec-1.0.1.jar>pentaho-public=
+geronimo-stax-api_1.0_spec-1.0.1.pom>central=
+geronimo-stax-api_1.0_spec-1.0.1.jar>wso2-nexus=
+geronimo-stax-api_1.0_spec-1.0.1.pom>pentaho-public=
+geronimo-stax-api_1.0_spec-1.0.1.pom>wso2-nexus=
+geronimo-stax-api_1.0_spec-1.0.1.jar>=

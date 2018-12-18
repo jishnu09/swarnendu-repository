@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jul 25 16:44:03 IST 2018
+javax.jdo-3.2.0-m3.jar>=
+javax.jdo-3.2.0-m3.jar>central=
+javax.jdo-3.2.0-m3.pom>central=

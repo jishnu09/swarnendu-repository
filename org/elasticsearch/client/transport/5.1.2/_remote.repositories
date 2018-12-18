@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 11:40:57 IST 2018
+transport-5.1.2.pom>sonatype-public=
+transport-5.1.2.pom>elasticsearch-releases=
+transport-5.1.2.jar>elasticsearch-releases=
+transport-5.1.2.jar>sonatype-public=

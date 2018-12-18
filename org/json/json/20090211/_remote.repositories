@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 10:35:12 UTC 2018
+json-20090211.jar>central=
+json-20090211.pom>mule=
+json-20090211.jar>mule=
+json-20090211.pom>central=

@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Apr 30 16:05:38 IST 2018
+https\://jcenter.bintray.com/.lastUpdated=1525084538195
+http\://oss.sonatype.org/content/repositories/releases/.error=
+http\://oss.sonatype.org/content/repositories/releases/.lastUpdated=1525084513699
+https\://build.shibboleth.net/nexus/content/repositories/releases/.error=
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1525084536710
+https\://build.shibboleth.net/nexus/content/repositories/releases/.lastUpdated=1525084515527
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.glassfish.jersey.security\:oauth2-client\:pom\:2.26 from/to central (https\://repo.maven.apache.org/maven2)\: Connect to repo.maven.apache.org\:443 [repo.maven.apache.org/151.101.40.215] failed\: Connection timed out\: connect

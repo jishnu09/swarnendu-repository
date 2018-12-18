@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.pentaho</groupId>
+  <artifactId>pentaho-hadoop-shims-common</artifactId>
+  <version>9.0.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181122.042944</timestamp>
+      <buildNumber>209</buildNumber>
+    </snapshot>
+    <lastUpdated>20181122042944</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9.0.0.0-20181122.042944-209</value>
+        <updated>20181122042944</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

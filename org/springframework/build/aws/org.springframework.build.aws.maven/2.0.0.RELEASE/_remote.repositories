@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 12:48:25 IST 2018
+org.springframework.build.aws.maven-2.0.0.RELEASE.jar>pentaho-public=
+org.springframework.build.aws.maven-2.0.0.RELEASE.pom>pentaho-public=

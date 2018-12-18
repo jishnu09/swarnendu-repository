@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.pentaho</groupId>
+  <artifactId>pentaho-ce-jar-parent-pom</artifactId>
+  <version>1.0.11</version>
+  <packaging>pom</packaging>
+
+  <parent>
+    <groupId>org.pentaho</groupId>
+    <artifactId>pentaho-ce-parent-pom</artifactId>
+    <version>1.0.6</version>
+    <!-- https://github.com/pentaho/maven-parent-poms/blob/pentaho-ce-parent-pom-1.0.6/pentaho-ce-parent-pom/pom.xml -->
+  </parent>
+  
+  <name>Pentaho Community Edition Project Parent POM For Java Projects</name>
+  <description>a parent pom for general configuration of Pentaho sponsored open source projects</description>
+  <url>http://www.pentaho.org</url>
+  
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  <developers>
+    <developer>
+      <name>Pentaho Build Team</name>
+      <email>buildteam@pentaho.com</email>
+      <roles>
+        <role>creator</role>
+        <role>maintainer</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <properties>
+    <sonar.host>10.177.176.23</sonar.host>
+    
+    <pentaho-coding-standards.version>1.0.0</pentaho-coding-standards.version>
+    <checkstyle-config-url>http://nexus.pentaho.org/content/repositories/public-release/com/pentaho/pentaho-coding-standards/pentaho-checkstyle/${pentaho-coding-standards.version}/pentaho-checkstyle-${pentaho-coding-standards.version}.xml</checkstyle-config-url>
+    <checkstyle-properties-url>http://nexus.pentaho.org/content/repositories/public-release/com/pentaho/pentaho-coding-standards/checkstyle-maven-properties/${pentaho-coding-standards.version}/checkstyle-maven-properties-${pentaho-coding-standards.version}.properties</checkstyle-properties-url>
+    
+    <target.jdk.version>1.7</target.jdk.version>
+    
+    <plugin.org.apache.maven.plugins.maven-compiler-plugin.version>3.1</plugin.org.apache.maven.plugins.maven-compiler-plugin.version>
+    <plugin.org.apache.maven.plugins.maven-javadoc-plugin.version>2.9</plugin.org.apache.maven.plugins.maven-javadoc-plugin.version>
+    <plugin.org.apache.maven.plugins.maven-source-plugin.version>2.2.1</plugin.org.apache.maven.plugins.maven-source-plugin.version>
+    <plugin.org.apache.maven.plugins.maven-jar-plugin.version>2.4</plugin.org.apache.maven.plugins.maven-jar-plugin.version>
+    <plugin.org.codehaus.mojo.cobertura-maven-plugin.version>2.6</plugin.org.codehaus.mojo.cobertura-maven-plugin.version>
+    <plugin.org.apache.maven.plugins.maven-checkstyle-plugin.version>2.12.1</plugin.org.apache.maven.plugins.maven-checkstyle-plugin.version>
+    <plugin.org.apache.maven.plugins.maven-project-info-reports-plugin.version>2.7</plugin.org.apache.maven.plugins.maven-project-info-reports-plugin.version>
+    <plugin.org.apache.maven.plugins.maven-surefire-plugin.version>2.17</plugin.org.apache.maven.plugins.maven-surefire-plugin.version>
+    <plugin.org.apache.maven.plugins.maven-surefire-report-plugin.version>2.17</plugin.org.apache.maven.plugins.maven-surefire-report-plugin.version>
+    <plugin.org.codehaus.mojo.sonar-maven-plugin.version>2.5</plugin.org.codehaus.mojo.sonar-maven-plugin.version>
+    <plugin.org.jacoco.jacoco-maven-plugin.version>0.7.2.201409121644</plugin.org.jacoco.jacoco-maven-plugin.version>
+    <plugin.org.apache.maven.plugins.maven-site-plugin.version>3.4</plugin.org.apache.maven.plugins.maven-site-plugin.version>
+    <plugin.org.apache.maven.plugins.maven-jxr-plugin.version>2.4</plugin.org.apache.maven.plugins.maven-jxr-plugin.version>
+    
+  </properties>
+
+  <scm>
+    <developerConnection>scm:git:git@github.com:pentaho/maven-parent-poms.git</developerConnection>
+    <tag>pentaho-ce-jar-parent-pom-1.0.11</tag>
+  </scm>
+
+  <build>
+  
+    <plugins>
+      
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>${plugin.org.jacoco.jacoco-maven-plugin.version}</version>
+        <configuration>
+          <destFile>${basedir}/target/coverage-reports/jacoco-unit.exec</destFile>
+          <dataFile>${basedir}/target/coverage-reports/jacoco-unit.exec</dataFile>
+          <outputDirectory>${project.reporting.outputDirectory}/jacoco-ut</outputDirectory>
+        </configuration>
+        <executions>
+          <execution>
+            <id>jacoco-pre-unit-test</id>
+            <goals>
+              <goal>prepare-agent</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>${plugin.org.apache.maven.plugins.maven-site-plugin.version}</version>
+        <configuration>
+          <chmod>true</chmod>
+          <inputEncoding>UTF-8</inputEncoding>
+          <outputEncoding>UTF-8</outputEncoding>
+          <reportPlugins>
+            
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-project-info-reports-plugin</artifactId>
+              <version>${plugin.org.apache.maven.plugins.maven-project-info-reports-plugin.version}</version>
+              <configuration>
+                <dependencyDetailsEnabled>false</dependencyDetailsEnabled>
+                <dependencyLocationsEnabled>false</dependencyLocationsEnabled>
+              </configuration>
+              <reports>
+                <report>index</report>
+                <report>dependencies</report>
+                <report>issue-tracking</report>
+                <report>modules</report>
+                <report>scm</report>
+                <report>summary</report>
+              </reports>
+            </plugin>
+            
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-surefire-report-plugin</artifactId>
+              <version>${plugin.org.apache.maven.plugins.maven-surefire-report-plugin.version}</version>
+              <configuration>
+              </configuration>
+            </plugin>
+      
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-jxr-plugin</artifactId>
+              <version>${plugin.org.apache.maven.plugins.maven-jxr-plugin.version}</version>
+              <configuration>
+                <aggregate>true</aggregate>
+              </configuration>
+            </plugin>
+            
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-javadoc-plugin</artifactId>
+              <version>${plugin.org.apache.maven.plugins.maven-javadoc-plugin.version}</version>
+              <reports>
+                <report>javadoc</report>
+                <report>aggregate</report>
+              </reports>
+              <configuration>
+                <failOnError>false</failOnError>
+              </configuration>
+            </plugin>
+        
+            <plugin>
+              <groupId>org.jacoco</groupId>
+              <artifactId>jacoco-maven-plugin</artifactId>
+              <version>${plugin.org.jacoco.jacoco-maven-plugin.version}</version>
+              <configuration>
+                <destFile>${project.build.directory}/coverage-reports/jacoco-unit.exec</destFile>
+                <dataFile>${project.build.directory}/coverage-reports/jacoco-unit.exec</dataFile>
+              </configuration>
+            </plugin>
+            
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-checkstyle-plugin</artifactId>
+              <version>${plugin.org.apache.maven.plugins.maven-checkstyle-plugin.version}</version>
+              <configuration>
+                <configLocation>${checkstyle-config-url}</configLocation>
+                <propertiesLocation>${checkstyle-properties-url}</propertiesLocation>
+              </configuration>
+            </plugin>
+        
+          </reportPlugins>
+        </configuration>
+        <executions>
+          <execution>
+            <id>attach-site-descriptor</id>
+            <goals>
+              <goal>attach-descriptor</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>  
+
+    </plugins>
+
+
+
+    <pluginManagement>
+    
+      <plugins>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${plugin.org.apache.maven.plugins.maven-compiler-plugin.version}</version>
+          <configuration>
+            <source>${target.jdk.version}</source>
+            <target>${target.jdk.version}</target>
+          </configuration>
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>${plugin.org.apache.maven.plugins.maven-surefire-plugin.version}</version>
+          <configuration>
+            <testFailureIgnore>true</testFailureIgnore>
+          </configuration>
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-javadoc-plugin</artifactId>
+          <version>${plugin.org.apache.maven.plugins.maven-javadoc-plugin.version}</version>
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-source-plugin</artifactId>
+          <version>${plugin.org.apache.maven.plugins.maven-source-plugin.version}</version>
+          <executions>
+            <execution>
+              <id>attach-sources</id>
+              <phase>verify</phase>
+              <goals>
+                <goal>jar-no-fork</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>${plugin.org.apache.maven.plugins.maven-jar-plugin.version}</version>
+          <configuration>
+            <archive>
+              <manifest>
+                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+              </manifest>
+            </archive>
+          </configuration>
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <version>${plugin.org.apache.maven.plugins.maven-project-info-reports-plugin.version}</version>
+        </plugin>
+
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>${plugin.org.codehaus.mojo.sonar-maven-plugin.version}</version>
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>${plugin.org.apache.maven.plugins.maven-site-plugin.version}</version>
+        </plugin>
+
+      </plugins>
+      
+    </pluginManagement>
+    
+  </build>
+
+
+  
+  <profiles>
+    <profile>
+      <id>sonar</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+        <property>
+          <name>sonar.jdbc.password</name>
+        </property>
+      </activation>
+      
+      <properties>
+        <sonar.host.url>http://${sonar.host}:9000</sonar.host.url>
+        <sonar.jdbc.url>jdbc:postgresql://${sonar.host}/sonar</sonar.jdbc.url>
+        <sonar.jdbc.username>sonar</sonar.jdbc.username>
+        <sonar.language>java</sonar.language>
+        <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
+        <sonar.projectName>${project.artifactId}</sonar.projectName>
+        <sonar.branch>${SCM_BRANCH}</sonar.branch>
+        <sonar.jacoco.reportPath>${project.build.directory}/coverage-reports/jacoco-unit.exec</sonar.jacoco.reportPath>
+      </properties>
+      
+      <build>
+        <plugins>
+
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>${plugin.org.codehaus.mojo.sonar-maven-plugin.version}</version>
+            <executions>
+              <execution>
+                <id>publish-sonar</id>
+                <phase>site</phase>
+                <goals>
+                  <goal>sonar</goal>
+                </goals>
+                <configuration>
+                  <sonarHostURL>${sonar.host.url}</sonarHostURL>
+                </configuration>
+              </execution>
+            </executions>
+            <dependencies>
+              <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>3.1.1</version>
+              </dependency>
+            </dependencies>
+          </plugin>
+
+        </plugins>
+      </build>
+      
+    </profile>
+  </profiles>
+
+</project>

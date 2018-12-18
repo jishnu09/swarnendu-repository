@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 10:11:33 IST 2018
+spring-commons-6.0.0-beta-SNAPSHOT-sources.jar>=
+spring-commons-6.0.0-beta-SNAPSHOT.pom>=
+spring-commons-6.0.0-beta-SNAPSHOT.jar>=

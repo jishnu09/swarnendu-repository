@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Jul 03 18:03:12 IST 2018
+org.wso2.carbon.identity.sample.extension.auth.endpoint-5.7.0-m1-SNAPSHOT.pom>=
+org.wso2.carbon.identity.sample.extension.auth.endpoint-5.7.0-m1-SNAPSHOT.war>=

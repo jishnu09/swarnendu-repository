@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 14:58:44 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543397324729
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543397324074
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.apache.maven\:maven-parent\:pom\:2 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/org/apache/maven/maven-parent/2/maven-parent-2.pom with status code 504

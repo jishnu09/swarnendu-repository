@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 18:12:34 IST 2018
+https\://repository.apache.org/snapshots/.error=Could not transfer artifact org.apache.camel\:camel-zipkin\:jar\:2.24.0-20181203.102138-9 from/to apache.snapshots (https\://repository.apache.org/snapshots/)\: repository.apache.org
+@default-apache.snapshots-https\://repository.apache.org/snapshots/.lastUpdated=1543840954409

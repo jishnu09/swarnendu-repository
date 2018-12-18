@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.mule.tests</groupId>
+  <artifactId>mule-tests</artifactId>
+  <versioning>
+    <versions>
+      <version>4.2.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181116063243</lastUpdated>
+  </versioning>
+</metadata>

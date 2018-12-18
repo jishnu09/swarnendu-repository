@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 10:11:18 UTC 2018
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542881478579
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1542880260156
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.slf4j\:slf4j-api\:jar\:1.7.3 from/to central (https\://repo.maven.apache.org/maven2)\: Timeout while waiting for concurrent download of /root/.m2/repository/org/slf4j/slf4j-api/1.7.3/slf4j-api-1.7.3.jar.part to progress

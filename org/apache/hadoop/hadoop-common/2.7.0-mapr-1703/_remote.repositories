@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:42:16 IST 2018
+hadoop-common-2.7.0-mapr-1703.jar>mapr-releases=
+hadoop-common-2.7.0-mapr-1703.jar>pentaho-public=
+hadoop-common-2.7.0-mapr-1703.pom>pentaho-public=
+hadoop-common-2.7.0-mapr-1703.pom>mapr-releases=

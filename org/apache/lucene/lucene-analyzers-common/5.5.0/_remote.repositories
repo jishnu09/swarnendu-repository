@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:47:50 IST 2018
+lucene-analyzers-common-5.5.0.pom>central=
+lucene-analyzers-common-5.5.0.jar>pentaho-public=
+lucene-analyzers-common-5.5.0.pom>pentaho-public=
+lucene-analyzers-common-5.5.0.jar>central=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:06:51 IST 2018
+flink-scala-shell_2.11-1.8-SNAPSHOT.jar>=
+flink-scala-shell_2.11-1.8-SNAPSHOT.pom>=
+flink-scala-shell_2.11-1.8-SNAPSHOT-tests.jar>=

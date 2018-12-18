@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 23 14:34:12 IST 2018
+http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1535015052578
+http\://repository.mapr.com/maven/.lastUpdated=1535015020618
+http\://conjars.org/repo/.lastUpdated=1535015017477
+http\://repository.mapr.com/maven/.error=
+@default-dremio-releases-http\://repo.dremio.com/release/.lastUpdated=1535015048478
+http\://conjars.org/repo/.error=
+http\://repo.dremio.com/release/.error=Could not transfer artifact org.apache.parquet\:parquet-column\:jar\:1.8.1-drill-r0 from/to dremio-releases (http\://repo.dremio.com/release/)\: Connect to repo.dremio.com\:80 [repo.dremio.com/52.218.192.171] failed\: Connection timed out\: connect

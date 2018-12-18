@@ -1,0 +1,10 @@
+<metadata>
+  <groupId>org.slf4j</groupId>
+  <artifactId>jcl-over-slf4j</artifactId>
+  <versioning>
+    <versions>
+      <version>1.7.12</version>
+    </versions>
+    <lastUpdated>20181123071237</lastUpdated>
+  </versioning>
+</metadata>

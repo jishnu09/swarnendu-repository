@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.storm</groupId>
+  <artifactId>storm-clojure</artifactId>
+  <versioning>
+    <versions>
+      <version>2.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181130102817</lastUpdated>
+  </versioning>
+</metadata>

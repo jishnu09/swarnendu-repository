@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jul 25 16:29:36 IST 2018
+calcite-core-1.16.0-drill-r3.jar>mapr-drill-thirdparty=
+calcite-core-1.16.0-drill-r3.pom>mapr-drill-thirdparty=
+calcite-core-1.16.0-drill-r3.jar>=

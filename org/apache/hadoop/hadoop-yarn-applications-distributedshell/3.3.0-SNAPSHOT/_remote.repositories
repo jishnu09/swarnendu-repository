@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 04:19:27 UTC 2018
+hadoop-yarn-applications-distributedshell-3.3.0-SNAPSHOT.pom>=
+hadoop-yarn-applications-distributedshell-3.3.0-20181022.232433-179.jar>apache.snapshots.https=
+hadoop-yarn-applications-distributedshell-3.3.0-SNAPSHOT.jar>=

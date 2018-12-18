@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <packaging>jar</packaging>
+    <groupId>org.webjars.bower</groupId>
+    <artifactId>angular-translate-interpolation-messageformat</artifactId>
+    <version>2.16.0</version>
+    <name>angular-translate-interpolation-messageformat</name>
+    <description>WebJar for angular-translate-interpolation-messageformat</description>
+    <url>http://webjars.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <scm>
+        <url>https://github.com/angular-translate/bower-angular-translate-interpolation-messageformat</url>
+        <connection>https://github.com/angular-translate/bower-angular-translate-interpolation-messageformat.git</connection>
+        <developerConnection>https://github.com/angular-translate/bower-angular-translate-interpolation-messageformat.git</developerConnection>
+        <tag>v2.16.0</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>webjars</id>
+            <url>http://webjars.org</url>
+        </developer>
+    </developers>
+
+    <licenses>
+        
+        <license>
+            <name>MIT</name>
+            <url>https://spdx.org/licenses/MIT#licenseText</url>
+            <distribution>repo</distribution>
+        </license>
+        
+    </licenses>
+
+    
+    <issueManagement>
+        <url>https://github.com/angular-translate/bower-angular-translate-interpolation-messageformat/issues</url>
+    </issueManagement>
+    
+
+    <dependencies>
+        
+        <dependency>
+            <groupId>org.webjars.bower</groupId>
+            <artifactId>angular-translate</artifactId>
+            <version>[2.16.0,2.17)</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.webjars.bower</groupId>
+            <artifactId>messageformat</artifactId>
+            <version>[1.0.2,1.1)</version>
+        </dependency>
+        
+        
+    </dependencies>
+
+</project>

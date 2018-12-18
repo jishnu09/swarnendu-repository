@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:18:19 IST 2018
+geronimo-ws-metadata_2.0_spec-1.1.2.jar>wso2-nexus=
+geronimo-ws-metadata_2.0_spec-1.1.2.jar>=
+geronimo-ws-metadata_2.0_spec-1.1.2.pom>pentaho-public=
+geronimo-ws-metadata_2.0_spec-1.1.2.jar>pentaho-public=
+geronimo-ws-metadata_2.0_spec-1.1.2.pom>wso2-nexus=

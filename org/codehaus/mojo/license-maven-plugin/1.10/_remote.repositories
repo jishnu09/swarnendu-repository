@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 11:29:32 UTC 2018
+license-maven-plugin-1.10.pom>central=
+license-maven-plugin-1.10.pom>pentaho-public=
+license-maven-plugin-1.10.jar>pentaho-public=
+license-maven-plugin-1.10.jar>central=

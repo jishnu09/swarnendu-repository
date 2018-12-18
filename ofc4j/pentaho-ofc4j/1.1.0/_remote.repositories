@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:18:20 IST 2018
+pentaho-ofc4j-1.1.0.jar>=
+pentaho-ofc4j-1.1.0.pom>pentaho-public=
+pentaho-ofc4j-1.1.0.jar>pentaho-public=

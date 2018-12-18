@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.apache.flink</groupId>
+  <artifactId>flink-stream-sql-test_2.11</artifactId>
+  <version>1.8-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20181203061422</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>tests</classifier>
+        <extension>jar</extension>
+        <value>1.8-SNAPSHOT</value>
+        <updated>20181203061422</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.8-SNAPSHOT</value>
+        <updated>20181203061422</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.8-SNAPSHOT</value>
+        <updated>20181203061422</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

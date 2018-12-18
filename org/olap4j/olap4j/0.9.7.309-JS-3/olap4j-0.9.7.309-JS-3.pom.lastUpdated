@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jul 12 16:52:47 IST 2017
+https\://oss.sonatype.org/content/repositories/releases/.error=
+http\://jaspersoft.jfrog.io/jaspersoft/third-party-ce-artifacts/.lastUpdated=1499858567079
+https\://artifacts.alfresco.com/nexus/content/repositories/public/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1499858566061
+https\://oss.sonatype.org/content/repositories/releases/.lastUpdated=1499858565738
+https\://artifacts.alfresco.com/nexus/content/repositories/public/.lastUpdated=1499858564899
+https\://repo.maven.apache.org/maven2/.error=

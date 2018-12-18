@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.apache.dubbo</groupId>
+  <artifactId>dubbo-serialization-protostuff</artifactId>
+  <version>2.7.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181129.095005</timestamp>
+      <buildNumber>5</buildNumber>
+    </snapshot>
+    <lastUpdated>20181129095005</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.7.0-20181129.095005-5</value>
+        <updated>20181129095005</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.7.0-20181129.095005-5</value>
+        <updated>20181129095005</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>2.7.0-20181120.112139-4</value>
+        <updated>20181120112139</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>2.7.0-20181129.095005-5</value>
+        <updated>20181129095005</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

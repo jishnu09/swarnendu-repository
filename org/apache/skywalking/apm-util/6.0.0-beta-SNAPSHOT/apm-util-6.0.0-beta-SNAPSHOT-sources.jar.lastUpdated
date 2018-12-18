@@ -1,0 +1,18 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 10:07:53 IST 2018
+https\://jitpack.io/.error=
+http\://nexus.pentaho.org/content/groups/omni/.error=
+https\://oss.sonatype.org/content/repositories/snapshots/.error=
+https\://maven.alfresco.com/nexus/content/groups/public/.lastUpdated=1543466272256
+http\://oss.sonatype.org/content/repositories/snapshots/.lastUpdated=1543466273294
+http\://download.java.net/maven/glassfish/.lastUpdated=1543397946284
+https\://maven.java.net/content/repositories/snapshots/.lastUpdated=1543397950140
+http\://download.java.net/maven/glassfish/.error=
+http\://oss.sonatype.org/content/repositories/snapshots/.error=
+https\://maven.alfresco.com/nexus/content/groups/public/.error=
+https\://jitpack.io/.lastUpdated=1543466269465
+https\://repository.apache.org/snapshots/.lastUpdated=1543466270573
+https\://oss.sonatype.org/content/repositories/snapshots/.lastUpdated=1543466271389
+https\://maven.java.net/content/repositories/snapshots/.error=
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543466269329
+https\://repository.apache.org/snapshots/.error=

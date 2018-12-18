@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:30:04 IST 2018
+hadoop-hdfs-2.9.0.jar>central=
+hadoop-hdfs-2.9.0-tests.jar>central=
+hadoop-hdfs-2.9.0.pom>central=

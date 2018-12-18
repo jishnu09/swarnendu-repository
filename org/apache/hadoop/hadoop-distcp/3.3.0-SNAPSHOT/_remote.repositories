@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 04:55:16 UTC 2018
+hadoop-distcp-3.3.0-SNAPSHOT.jar>=
+hadoop-distcp-3.3.0-20181022.232647-179-tests.jar>apache.snapshots.https=
+hadoop-distcp-3.3.0-SNAPSHOT.pom>=
+hadoop-distcp-3.3.0-SNAPSHOT-tests.jar>=
+hadoop-distcp-3.3.0-SNAPSHOT-sources.jar>=
+hadoop-distcp-3.3.0-20181022.232647-179.jar>apache.snapshots.https=

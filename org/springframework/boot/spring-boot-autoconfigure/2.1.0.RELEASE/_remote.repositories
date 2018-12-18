@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 10:18:26 IST 2018
+spring-boot-autoconfigure-2.1.0.RELEASE.pom>central=
+spring-boot-autoconfigure-2.1.0.RELEASE.jar>=
+spring-boot-autoconfigure-2.1.0.RELEASE.jar>pentaho-public=
+spring-boot-autoconfigure-2.1.0.RELEASE.pom>pentaho-public=

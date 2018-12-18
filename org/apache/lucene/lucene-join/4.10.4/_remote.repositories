@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:47:04 IST 2018
+lucene-join-4.10.4.pom>central=
+lucene-join-4.10.4.jar>central=
+lucene-join-4.10.4.jar>pentaho-public=
+lucene-join-4.10.4.pom>pentaho-public=

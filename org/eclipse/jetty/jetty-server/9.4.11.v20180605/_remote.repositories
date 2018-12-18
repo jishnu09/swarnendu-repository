@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 13:37:24 IST 2018
+jetty-server-9.4.11.v20180605.jar>central=
+jetty-server-9.4.11.v20180605.pom>central=
+jetty-server-9.4.11.v20180605.jar>pentaho-public=
+jetty-server-9.4.11.v20180605.pom>pentaho-public=

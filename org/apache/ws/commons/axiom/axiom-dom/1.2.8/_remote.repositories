@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:18:19 IST 2018
+axiom-dom-1.2.8.pom>pentaho-public=
+axiom-dom-1.2.8.jar>pentaho-public=
+axiom-dom-1.2.8.jar>=

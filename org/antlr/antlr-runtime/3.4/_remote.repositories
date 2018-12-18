@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 09:25:40 UTC 2018
+antlr-runtime-3.4.jar>central=
+antlr-runtime-3.4.pom>mule-plugin=
+antlr-runtime-3.4.pom>central=
+antlr-runtime-3.4.jar>mule-plugin=

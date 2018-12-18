@@ -1,0 +1,11 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 23 16:11:11 UTC 2018
+libpixie-9.0.0.0-20181122.042430-291.jar>pentaho-public=
+libpixie-9.0.0.0-20181123.143225-300.pom>pentaho-public=
+libpixie-9.0.0.0-SNAPSHOT-sources.jar>=
+libpixie-9.0.0.0-20181122.122049-293.pom>pentaho-public=
+libpixie-9.0.0.0-20181123.143225-300.jar>pentaho-public=
+libpixie-9.0.0.0-20181122.122049-293.jar>pentaho-public=
+libpixie-9.0.0.0-SNAPSHOT.jar>=
+libpixie-9.0.0.0-SNAPSHOT.pom>=
+libpixie-9.0.0.0-20181122.042430-291.pom>pentaho-public=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 05 13:48:17 IST 2018
+kettle-version-checker-8.1.0.0-365.zip>=
+kettle-version-checker-8.1.0.0-365.pom>=
+kettle-version-checker-8.1.0.0-365.zip>pentaho-public=

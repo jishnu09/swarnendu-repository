@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.pentaho</groupId>
+  <artifactId>pentaho-parent-pom</artifactId>
+  <version>8.1.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181126.070538</timestamp>
+      <buildNumber>219</buildNumber>
+    </snapshot>
+    <lastUpdated>20181204083754</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>8.1.0.0-20181126.070538-219</value>
+        <updated>20181126070538</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

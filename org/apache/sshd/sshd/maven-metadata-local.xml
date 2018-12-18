@@ -1,0 +1,10 @@
+<metadata>
+  <groupId>org.apache.sshd</groupId>
+  <artifactId>sshd</artifactId>
+  <versioning>
+    <versions>
+      <version>0.14.0</version>
+    </versions>
+    <lastUpdated>20181123071237</lastUpdated>
+  </versioning>
+</metadata>

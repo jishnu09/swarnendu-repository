@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.pentaho.adaptive</groupId>
+  <artifactId>adaptive-execution</artifactId>
+  <version>9.0.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180702.094513</timestamp>
+      <buildNumber>80</buildNumber>
+    </snapshot>
+    <lastUpdated>20180702094513</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9.0.0.0-20180702.094513-80</value>
+        <updated>20180702094513</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

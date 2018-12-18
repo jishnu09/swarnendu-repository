@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed May 23 20:50:43 IST 2018
+guacamole-auth-openid-0.9.14.pom>=
+guacamole-auth-openid-0.9.14.tar.gz>=
+guacamole-auth-openid-0.9.14.jar>=

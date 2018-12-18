@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 11:28:11 UTC 2018
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542886091038
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.pentaho\:pentaho-metadata\:jar\:9.0.0.0-20181122.042913-187 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni/)\: nexus.pentaho.org

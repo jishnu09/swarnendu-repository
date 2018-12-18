@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:44:36 IST 2018
+commons-dbcp2-2.4.0.jar>pentaho-public=
+commons-dbcp2-2.4.0.pom>pentaho-public=
+commons-dbcp2-2.4.0.jar>central=
+commons-dbcp2-2.4.0.pom>central=

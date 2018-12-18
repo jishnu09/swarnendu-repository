@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:25:42 IST 2018
+spring-boot-starter-2.1.0.RELEASE.pom>central=
+spring-boot-starter-2.1.0.RELEASE.jar>=
+spring-boot-starter-2.1.0.RELEASE.jar>pentaho-public=
+spring-boot-starter-2.1.0.RELEASE.pom>pentaho-public=

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.seleniumhq.selenium</groupId>
+  <artifactId>selenium-support</artifactId>
+  <versioning>
+    <latest>2.45.0-alfresco</latest>
+    <release>2.45.0-alfresco</release>
+    <versions>
+      <version>2.45.0-alfresco</version>
+    </versions>
+    <lastUpdated>20150406075215</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:21:52 IST 2018
+howl-1.0.1-1.jar>central=
+howl-1.0.1-1.pom>central=
+howl-1.0.1-1.pom>wso2-nexus=
+howl-1.0.1-1.jar>wso2-nexus=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 13:59:53 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543393793622
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543393792869
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.sonatype.nexus.buildsupport\:nexus-buildsupport\:pom\:2.9.1-02 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/org/sonatype/nexus/buildsupport/nexus-buildsupport/2.9.1-02/nexus-buildsupport-2.9.1-02.pom with status code 504

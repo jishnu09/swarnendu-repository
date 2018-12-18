@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:41:11 IST 2018
+hadoop-hdfs-2.4.1-tests.jar>pentaho-public=
+hadoop-hdfs-2.4.1-tests.jar>central=
+hadoop-hdfs-2.4.1.jar>pentaho-public=
+hadoop-hdfs-2.4.1.pom>pentaho-public=
+hadoop-hdfs-2.4.1.jar>central=
+hadoop-hdfs-2.4.1.pom>central=

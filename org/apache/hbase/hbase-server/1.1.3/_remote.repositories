@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jul 25 16:35:48 IST 2018
+hbase-server-1.1.3.jar>=
+hbase-server-1.1.3.jar>central=
+hbase-server-1.1.3.pom>central=
+hbase-server-1.1.3-tests.jar>central=
+hbase-server-1.1.3-tests.jar>=

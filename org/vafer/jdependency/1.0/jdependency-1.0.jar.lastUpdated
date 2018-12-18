@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 01 15:02:51 IST 2018
+http\://scala-tools.org/repo-releases/.error=
+http\://onejar-maven-plugin.googlecode.com/svn/mavenrepo/.error=
+http\://onejar-maven-plugin.googlecode.com/svn/mavenrepo/.lastUpdated=1535015362144
+https\://repo.maven.apache.org/maven2/.lastUpdated=1535015364585
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1541064771280
+http\://scala-tools.org/repo-releases/.lastUpdated=1535015363954

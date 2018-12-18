@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 23 07:26:57 UTC 2018
+apache-karaf-minimal-4.0.4-SNAPSHOT.tar.gz>=
+apache-karaf-minimal-4.0.4-SNAPSHOT.pom>=
+apache-karaf-minimal-4.0.4-SNAPSHOT.zip>=

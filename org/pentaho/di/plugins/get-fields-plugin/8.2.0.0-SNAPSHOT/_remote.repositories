@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 22 11:47:37 UTC 2018
+get-fields-plugin-8.2.0.0-SNAPSHOT-features.xml>=
+get-fields-plugin-8.2.0.0-SNAPSHOT.pom>=
+get-fields-plugin-8.2.0.0-SNAPSHOT.kar>=

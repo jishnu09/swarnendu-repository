@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:54:35 IST 2018
+maven-javadoc-plugin-2.10.3.jar>pentaho-public=
+maven-javadoc-plugin-2.10.3.pom>pentaho-public=
+maven-javadoc-plugin-2.10.3.jar>central=
+maven-javadoc-plugin-2.10.3.pom>central=

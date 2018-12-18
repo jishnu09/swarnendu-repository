@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 15 12:42:17 IST 2018
+http\://172.20.1.156\:8081/artifactory/libs-release-local/.lastUpdated=1542265937195
+https\://artifacts.elastic.co/maven/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1542265937912
+https\://artifacts.elastic.co/maven/.lastUpdated=1542265806338
+http\://172.20.1.156\:8081/artifactory/libs-release-local/.error=
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542265936981
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.springframework.security\:spring-security-ldap\:pom\:4.1.5.RELEASE from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Connection reset

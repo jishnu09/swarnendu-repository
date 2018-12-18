@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 16 12:19:42 IST 2018
+f1ba149cb2704cf2a51764db0412bddda210871c@default-mcube-local-http\://172.20.1.156\:8081/artifactory/libs-release-local/.lastUpdated=1542350981709
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542350981624
+http\://172.20.1.156\:8081/artifactory/libs-release-local/.error=Could not transfer artifact org.mule.runtime\:mule-extensions-api\:pom\:1.2.0-20181115.212127-122 from/to mcube-local (http\://172.20.1.156\:8081/artifactory/libs-release-local)\: Failed to transfer file http\://172.20.1.156\:8081/artifactory/libs-release-local/org/mule/runtime/mule-extensions-api/1.2.0-SNAPSHOT/mule-extensions-api-1.2.0-20181115.212127-122.pom with status code 409
+http\://nexus.pentaho.org/content/groups/omni/.error=
+https\://repository.mulesoft.org/nexus/content/repositories/public/.lastUpdated=1542350982439

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 15:59:05 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543400945137
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543400944350
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.springframework.data.build\:spring-data-build\:pom\:1.9.11.RELEASE from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/org/springframework/data/build/spring-data-build/1.9.11.RELEASE/spring-data-build-1.9.11.RELEASE.pom with status code 504

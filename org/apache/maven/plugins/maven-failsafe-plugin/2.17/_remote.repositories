@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 06:47:51 UTC 2018
+maven-failsafe-plugin-2.17.jar>pentaho-public=
+maven-failsafe-plugin-2.17.pom>pentaho-public=

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.apache.hbase</groupId>
+  <artifactId>hbase-shaded-client</artifactId>
+  <version>3.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20170706.205022</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20170708071810</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>3.0.0-20170706.205022-1</value>
+        <updated>20170706205022</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>3.0.0-20170706.205022-1</value>
+        <updated>20170706205022</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.0.0-20170706.205022-1</value>
+        <updated>20170706205022</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

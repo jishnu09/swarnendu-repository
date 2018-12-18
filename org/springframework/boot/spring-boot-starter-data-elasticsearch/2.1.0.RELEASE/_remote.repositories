@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 01 20:37:31 IST 2018
+spring-boot-starter-data-elasticsearch-2.1.0.RELEASE.jar>pentaho-public=
+spring-boot-starter-data-elasticsearch-2.1.0.RELEASE.pom>pentaho-public=
+spring-boot-starter-data-elasticsearch-2.1.0.RELEASE.jar>=

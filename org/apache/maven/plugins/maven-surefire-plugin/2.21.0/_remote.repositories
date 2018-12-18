@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 16 10:06:49 UTC 2018
+maven-surefire-plugin-2.21.0.pom>mule-plugin=
+maven-surefire-plugin-2.21.0.jar>pentaho-public=
+maven-surefire-plugin-2.21.0.pom>pentaho-public=
+maven-surefire-plugin-2.21.0.jar>mule-plugin=

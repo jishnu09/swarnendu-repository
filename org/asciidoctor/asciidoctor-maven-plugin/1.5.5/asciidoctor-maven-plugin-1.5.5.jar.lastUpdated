@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 16:04:08 IST 2018
+@default-apache.snapshots-http\://repository.apache.org/snapshots/.lastUpdated=1543574047307
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543574048786
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543574026228
+http\://nexus.pentaho.org/content/groups/omni/.error=
+http\://repository.apache.org/snapshots/.error=Could not transfer artifact org.asciidoctor\:asciidoctor-maven-plugin\:jar\:1.5.5 from/to apache.snapshots (http\://repository.apache.org/snapshots/)\: Connect to repository.apache.org\:80 [repository.apache.org/207.244.88.140] failed\: Connection timed out\: connect

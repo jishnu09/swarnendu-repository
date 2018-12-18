@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Dec 12 09:35:28 IST 2017
+httpcore-nio-4.2.2.jar>atlassian-public=
+httpcore-nio-4.2.2.pom>atlassian-public=
+httpcore-nio-4.2.2.jar>=

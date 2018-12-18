@@ -1,0 +1,10 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Apr 30 14:38:30 IST 2018
+http\://oss.sonatype.org/content/repositories/releases/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1525079310237
+http\://oss.sonatype.org/content/repositories/releases/.lastUpdated=1525079309128
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524130499051
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
+https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524130499739
+https\://build.shibboleth.net/nexus/content/repositories/releases/.error=
+https\://build.shibboleth.net/nexus/content/repositories/releases/.lastUpdated=1525079309924

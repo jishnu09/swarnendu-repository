@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 16 11:11:16 UTC 2018
+javassist-3.20.0-GA.jar>pentaho-public=
+javassist-3.20.0-GA.pom>pentaho-public=
+javassist-3.20.0-GA.pom>mule=
+javassist-3.20.0-GA.jar>mule=

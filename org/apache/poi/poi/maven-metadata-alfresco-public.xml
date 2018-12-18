@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.apache.poi</groupId>
+  <artifactId>poi</artifactId>
+  <versioning>
+    <latest>3.10.1-20151016-alfresco-patched</latest>
+    <release>3.10.1-20151016-alfresco-patched</release>
+    <versions>
+      <version>3.9-beta1-20120329</version>
+      <version>3.9-beta1-20120801</version>
+      <version>3.9-beta1-20121109-alfresco-patched</version>
+      <version>3.9-beta1-20121129-alfresco-patched</version>
+      <version>3.10-beta2-20130720</version>
+      <version>3.10.1-20140922-alfresco-patched</version>
+      <version>3.10.1-20151016-alfresco-patched</version>
+    </versions>
+    <lastUpdated>20151016134146</lastUpdated>
+  </versioning>
+</metadata>

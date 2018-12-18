@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 04 10:11:00 IST 2018
+camel-kafka-2.24.0-20181202.181729-8.jar>apache.snapshots=
+camel-kafka-2.24.0-20181203.161707-10.jar>apache.snapshots=
+camel-kafka-2.24.0-20181203.095722-9.jar>apache.snapshots=

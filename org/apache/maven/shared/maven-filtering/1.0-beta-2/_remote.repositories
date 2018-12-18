@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 01 15:51:24 IST 2018
+maven-filtering-1.0-beta-2.jar>pentaho-public=
+maven-filtering-1.0-beta-2.pom>pentaho-public=
+maven-filtering-1.0-beta-2.jar>central=
+maven-filtering-1.0-beta-2.pom>central=

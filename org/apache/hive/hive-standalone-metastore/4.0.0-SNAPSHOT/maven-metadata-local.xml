@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.apache.hive</groupId>
+  <artifactId>hive-standalone-metastore</artifactId>
+  <version>4.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20181130093323</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>src</classifier>
+        <extension>tar.gz</extension>
+        <value>4.0.0-SNAPSHOT</value>
+        <updated>20181130093323</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>4.0.0-SNAPSHOT</value>
+        <updated>20181130093323</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

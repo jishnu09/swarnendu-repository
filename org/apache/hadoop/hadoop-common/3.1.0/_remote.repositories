@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:42:26 IST 2018
+hadoop-common-3.1.0.jar>central=
+hadoop-common-3.1.0.jar>pentaho-public=
+hadoop-common-3.1.0.pom>pentaho-public=
+hadoop-common-3.1.0.pom>central=

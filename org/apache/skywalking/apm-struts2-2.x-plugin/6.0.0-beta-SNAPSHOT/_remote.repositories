@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 10:14:01 IST 2018
+apm-struts2-2.x-plugin-6.0.0-beta-SNAPSHOT.jar>=
+apm-struts2-2.x-plugin-6.0.0-beta-SNAPSHOT.pom>=
+apm-struts2-2.x-plugin-6.0.0-beta-SNAPSHOT-sources.jar>=

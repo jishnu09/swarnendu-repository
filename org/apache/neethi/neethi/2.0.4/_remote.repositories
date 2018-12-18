@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:18:19 IST 2018
+neethi-2.0.4.pom>wso2-nexus=
+neethi-2.0.4.pom>pentaho-public=
+neethi-2.0.4.jar>pentaho-public=
+neethi-2.0.4.jar>=
+neethi-2.0.4.jar>wso2-nexus=

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apereo.cas</groupId>
+  <artifactId>cas-server-documentation</artifactId>
+  <versioning>
+    <versions>
+      <version>5.1.10-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180510131053</lastUpdated>
+  </versioning>
+</metadata>

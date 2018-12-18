@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 10:13:20 IST 2018
+apm-spring-cloud-feign-1.x-plugin-6.0.0-beta-SNAPSHOT.pom>=
+apm-spring-cloud-feign-1.x-plugin-6.0.0-beta-SNAPSHOT-sources.jar>=
+apm-spring-cloud-feign-1.x-plugin-6.0.0-beta-SNAPSHOT.jar>=

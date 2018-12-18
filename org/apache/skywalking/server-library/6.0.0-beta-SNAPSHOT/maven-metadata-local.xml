@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.apache.skywalking</groupId>
+  <artifactId>server-library</artifactId>
+  <version>6.0.0-beta-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20181128125737</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>6.0.0-beta-SNAPSHOT</value>
+        <updated>20181128125737</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

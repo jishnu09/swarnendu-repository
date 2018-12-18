@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 10:37:50 IST 2018
+groovy-groovydoc-2.5.4.jar>central=
+groovy-groovydoc-2.5.4.jar>pentaho-public=
+groovy-groovydoc-2.5.4.pom>pentaho-public=
+groovy-groovydoc-2.5.4.pom>central=

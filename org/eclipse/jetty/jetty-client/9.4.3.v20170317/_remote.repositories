@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Dec 12 09:35:28 IST 2017
+jetty-client-9.4.3.v20170317.jar>=
+jetty-client-9.4.3.v20170317.jar>central=
+jetty-client-9.4.3.v20170317.pom>central=

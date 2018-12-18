@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 22 11:44:06 UTC 2018
+pdi-xml-plugin-core-8.2.0.0-SNAPSHOT.pom>=
+pdi-xml-plugin-core-8.2.0.0-SNAPSHOT-sources.jar>=
+pdi-xml-plugin-core-8.2.0.0-SNAPSHOT.jar>=

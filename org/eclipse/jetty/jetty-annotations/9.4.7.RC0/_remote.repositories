@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Dec 15 14:24:05 IST 2017
+jetty-annotations-9.4.7.RC0.jar>=
+jetty-annotations-9.4.7.RC0.pom>central=
+jetty-annotations-9.4.7.RC0.jar>atlassian-public=
+jetty-annotations-9.4.7.RC0.pom>atlassian-public=

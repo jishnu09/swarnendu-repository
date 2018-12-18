@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 06:19:03 UTC 2018
+commons-math3-3.6.1.jar>mule=
+commons-math3-3.6.1.jar>central=
+commons-math3-3.6.1.pom>central=
+commons-math3-3.6.1.pom>mule=

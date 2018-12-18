@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 11:43:07 IST 2018
+aggs-matrix-stats-client-6.3.1.jar>elasticsearch-releases=
+aggs-matrix-stats-client-6.3.1.pom>elasticsearch-releases=

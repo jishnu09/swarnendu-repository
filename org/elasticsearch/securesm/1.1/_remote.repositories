@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:39:21 IST 2018
+securesm-1.1.jar>sonatype-public=
+securesm-1.1.jar>=
+securesm-1.1.pom>sonatype-public=
+securesm-1.1.pom>pentaho-public=
+securesm-1.1.jar>central=
+securesm-1.1.pom>central=

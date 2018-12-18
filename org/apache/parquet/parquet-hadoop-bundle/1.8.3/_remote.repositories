@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jul 25 16:43:25 IST 2018
+parquet-hadoop-bundle-1.8.3.jar>mapr-drill-thirdparty=
+parquet-hadoop-bundle-1.8.3.pom>mapr-drill-thirdparty=
+parquet-hadoop-bundle-1.8.3.jar>=

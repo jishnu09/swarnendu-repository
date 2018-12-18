@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:18:19 IST 2018
+geronimo-jta_1.1_spec-1.1.jar>wso2-nexus=
+geronimo-jta_1.1_spec-1.1.pom>pentaho-public=
+geronimo-jta_1.1_spec-1.1.jar>pentaho-public=
+geronimo-jta_1.1_spec-1.1.jar>=
+geronimo-jta_1.1_spec-1.1.pom>wso2-nexus=

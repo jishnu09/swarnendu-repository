@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:32:54 IST 2018
+hbase-hadoop-compat-1.0.0-tests.jar>central=
+hbase-hadoop-compat-1.0.0.jar>central=
+hbase-hadoop-compat-1.0.0.pom>central=

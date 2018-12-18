@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.2.1" name="pentaho-karaf-overrides-repo">
+    <feature name="pentaho-karaf-overrides" version="9.0.0.0-SNAPSHOT" description="pentaho-karaf-overrides">
+        <details>This is a feature that defines overriding bundles in the karaf assembly.</details>
+        <bundle>mvn:org.apache.activemq/activemq-osgi/5.10.1</bundle>
+    </feature>
+</features>

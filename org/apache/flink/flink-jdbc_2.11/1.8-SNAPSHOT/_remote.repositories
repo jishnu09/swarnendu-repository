@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 13:44:28 IST 2018
+flink-jdbc_2.11-1.8-SNAPSHOT.jar>=
+flink-jdbc_2.11-1.8-SNAPSHOT-tests.jar>=
+flink-jdbc_2.11-1.8-SNAPSHOT.pom>=

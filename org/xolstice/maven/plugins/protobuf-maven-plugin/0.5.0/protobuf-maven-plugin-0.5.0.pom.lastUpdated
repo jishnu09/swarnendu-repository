@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 13:29:48 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543391988678
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543391987119
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.xolstice.maven.plugins\:protobuf-maven-plugin\:pom\:0.5.0 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/org/xolstice/maven/plugins/protobuf-maven-plugin/0.5.0/protobuf-maven-plugin-0.5.0.pom with status code 504

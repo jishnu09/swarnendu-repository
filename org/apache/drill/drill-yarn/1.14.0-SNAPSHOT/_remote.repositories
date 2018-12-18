@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jul 25 17:17:26 IST 2018
+drill-yarn-1.14.0-SNAPSHOT.jar>=
+drill-yarn-1.14.0-SNAPSHOT-tests.jar>=
+drill-yarn-1.14.0-SNAPSHOT.pom>=

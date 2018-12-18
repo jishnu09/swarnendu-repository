@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 05 16:33:06 IST 2018
+x-pack-transport-6.2.4.pom>elasticsearch-releases=
+x-pack-transport-6.2.4.jar>elasticsearch-releases=

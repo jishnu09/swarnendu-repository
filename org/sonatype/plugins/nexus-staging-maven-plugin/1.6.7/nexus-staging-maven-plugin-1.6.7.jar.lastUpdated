@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 14:48:47 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543396727785
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543396717768
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.sonatype.plugins\:nexus-staging-maven-plugin\:jar\:1.6.7 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/org/sonatype/plugins/nexus-staging-maven-plugin/1.6.7/nexus-staging-maven-plugin-1.6.7.jar with status code 504

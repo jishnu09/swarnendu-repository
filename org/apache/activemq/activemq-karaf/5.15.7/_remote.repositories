@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 15:04:47 IST 2018
+activemq-karaf-5.15.7.pom>central=
+activemq-karaf-5.15.7-features.xml>central=

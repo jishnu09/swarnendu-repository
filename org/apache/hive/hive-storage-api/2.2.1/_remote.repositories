@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:44:46 IST 2018
+hive-storage-api-2.2.1.jar>central=
+hive-storage-api-2.2.1.jar>pentaho-public=
+hive-storage-api-2.2.1.pom>pentaho-public=
+hive-storage-api-2.2.1.pom>central=

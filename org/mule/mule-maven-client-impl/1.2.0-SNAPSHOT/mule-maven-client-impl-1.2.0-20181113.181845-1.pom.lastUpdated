@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 16 16:51:49 IST 2018
+f1ba149cb2704cf2a51764db0412bddda210871c@default-mcube-local-http\://172.20.1.156\:8081/artifactory/libs-release-local/.lastUpdated=1542367309091
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542367308841
+http\://172.20.1.156\:8081/artifactory/libs-release-local/.error=Could not transfer artifact org.mule\:mule-maven-client-impl\:pom\:1.2.0-20181113.181845-1 from/to mcube-local (http\://172.20.1.156\:8081/artifactory/libs-release-local)\: Failed to transfer file http\://172.20.1.156\:8081/artifactory/libs-release-local/org/mule/mule-maven-client-impl/1.2.0-SNAPSHOT/mule-maven-client-impl-1.2.0-20181113.181845-1.pom with status code 409
+http\://nexus.pentaho.org/content/groups/omni/.error=
+https\://repository.mulesoft.org/nexus/content/repositories/public/.lastUpdated=1542367309857

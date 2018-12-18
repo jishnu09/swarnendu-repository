@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Apr 20 16:01:23 IST 2018
+pac4j-core-3.0.0-RC2-SNAPSHOT.jar>=
+pac4j-core-3.0.0-RC2-SNAPSHOT-javadoc.jar>=
+pac4j-core-3.0.0-RC2-SNAPSHOT.pom>=
+pac4j-core-3.0.0-RC2-SNAPSHOT-tests.jar>=
+pac4j-core-3.0.0-RC2-SNAPSHOT-test-sources.jar>=
+pac4j-core-3.0.0-RC2-SNAPSHOT-sources.jar>=
+pac4j-core-3.0.0-RC2-SNAPSHOT-test-javadoc.jar>=

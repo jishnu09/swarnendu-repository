@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:56:51 IST 2018
+storm-client-2.0.1-SNAPSHOT.jar>=
+storm-client-2.0.1-SNAPSHOT-tests.jar>=
+storm-client-2.0.1-SNAPSHOT.pom>=
+storm-client-2.0.1-SNAPSHOT-sources.jar>=

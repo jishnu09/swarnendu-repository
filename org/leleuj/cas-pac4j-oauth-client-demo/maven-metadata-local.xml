@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.leleuj</groupId>
+  <artifactId>cas-pac4j-oauth-client-demo</artifactId>
+  <versioning>
+    <versions>
+      <version>5.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180420053259</lastUpdated>
+  </versioning>
+</metadata>

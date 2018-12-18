@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed May 23 18:38:05 IST 2018
+opensaml-soap-impl-3.3.0.jar>sonatype-releases=
+opensaml-soap-impl-3.3.0.pom>shibboleth-public-repo=
+opensaml-soap-impl-3.3.0.pom>sonatype-releases=
+opensaml-soap-impl-3.3.0.pom>central=

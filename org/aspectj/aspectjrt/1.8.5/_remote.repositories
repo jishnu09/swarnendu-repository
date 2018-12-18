@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 04 15:09:48 IST 2018
+aspectjrt-1.8.5.jar>central=
+aspectjrt-1.8.5.pom>central=
+aspectjrt-1.8.5.jar>pentaho-public=
+aspectjrt-1.8.5.pom>pentaho-public=

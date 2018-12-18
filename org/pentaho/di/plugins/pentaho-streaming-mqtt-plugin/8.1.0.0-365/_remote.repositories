@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 05 13:52:19 IST 2018
+pentaho-streaming-mqtt-plugin-8.1.0.0-365-sources.jar>=
+pentaho-streaming-mqtt-plugin-8.1.0.0-365.pom>=
+pentaho-streaming-mqtt-plugin-8.1.0.0-365.jar>pentaho-public=
+pentaho-streaming-mqtt-plugin-8.1.0.0-365.jar>=

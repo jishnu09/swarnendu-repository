@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:45:24 IST 2018
+hbase-metrics-api-1.4.3.jar>central=
+hbase-metrics-api-1.4.3.pom>central=
+hbase-metrics-api-1.4.3.jar>pentaho-public=
+hbase-metrics-api-1.4.3.pom>pentaho-public=

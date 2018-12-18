@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.pentaho</groupId>
+  <artifactId>pdi-marketplace</artifactId>
+  <version>9.0.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181122.045655</timestamp>
+      <buildNumber>182</buildNumber>
+    </snapshot>
+    <lastUpdated>20181122045655</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>kar</extension>
+        <value>9.0.0.0-20181122.045655-182</value>
+        <updated>20181122045655</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9.0.0.0-20181122.045655-182</value>
+        <updated>20181122045655</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>features</classifier>
+        <extension>xml</extension>
+        <value>9.0.0.0-20181122.045655-182</value>
+        <updated>20181122045655</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

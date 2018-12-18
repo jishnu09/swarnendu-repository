@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 02 14:13:32 IST 2018
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1541148212706
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.elasticsearch.plugin\:transport-netty3-client\:pom\:6.3.2 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Connect to nexus.pentaho.org\:80 [nexus.pentaho.org/35.161.48.186, nexus.pentaho.org/54.213.183.89] failed\: Connection timed out\: connect

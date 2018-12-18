@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:00:22 IST 2018
+org.apache.servicemix.bundles.splunk-1.6.4.0_1.jar>central=
+org.apache.servicemix.bundles.splunk-1.6.4.0_1.pom>central=

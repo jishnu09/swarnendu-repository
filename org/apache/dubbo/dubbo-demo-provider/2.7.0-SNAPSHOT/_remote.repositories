@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 13:55:09 IST 2018
+dubbo-demo-provider-2.7.0-SNAPSHOT-sources.jar>=
+dubbo-demo-provider-2.7.0-SNAPSHOT.jar>=
+dubbo-demo-provider-2.7.0-SNAPSHOT.pom>=

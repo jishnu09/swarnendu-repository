@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 23 15:24:59 IST 2018
+checker-compat-qual-2.5.2-sources.jar>central=
+checker-compat-qual-2.5.2.pom>pentaho-public=
+checker-compat-qual-2.5.2.pom>central=
+checker-compat-qual-2.5.2.jar>pentaho-public=

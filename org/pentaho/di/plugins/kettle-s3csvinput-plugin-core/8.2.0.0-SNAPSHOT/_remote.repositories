@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 22 11:42:48 UTC 2018
+kettle-s3csvinput-plugin-core-8.2.0.0-SNAPSHOT.pom>=
+kettle-s3csvinput-plugin-core-8.2.0.0-SNAPSHOT-sources.jar>=
+kettle-s3csvinput-plugin-core-8.2.0.0-SNAPSHOT.jar>=

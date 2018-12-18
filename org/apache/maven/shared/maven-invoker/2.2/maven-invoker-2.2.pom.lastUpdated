@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 16 10:59:09 UTC 2018
+https\://repository.mulesoft.org/nexus/content/repositories/public/.error=Could not transfer artifact org.apache.maven.shared\:maven-invoker\:pom\:2.2 from/to mule-plugin (https\://repository.mulesoft.org/nexus/content/repositories/public/)\: Connect to repository.mulesoft.org\:443 [repository.mulesoft.org/52.7.200.18] failed\: Connection timed out (Connection timed out)
+https\://repo.maven.apache.org/maven2/.lastUpdated=1542365949987
+@default-mule-plugin-https\://repository.mulesoft.org/nexus/content/repositories/public/.lastUpdated=1542365930165

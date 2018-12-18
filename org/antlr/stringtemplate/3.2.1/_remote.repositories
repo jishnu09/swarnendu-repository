@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 09:25:40 UTC 2018
+stringtemplate-3.2.1.pom>mule=
+stringtemplate-3.2.1.jar>pentaho-public=
+stringtemplate-3.2.1.jar>mule=
+stringtemplate-3.2.1.jar>central=
+stringtemplate-3.2.1.pom>pentaho-public=
+stringtemplate-3.2.1.pom>central=

@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Jul 03 18:10:16 IST 2018
+org.wso2.identity.integration.test-5.7.0-m1-SNAPSHOT.pom>=
+org.wso2.identity.integration.test-5.7.0-m1-SNAPSHOT-tests.jar>=

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.pentaho</groupId>
+  <artifactId>pentaho-ce-parent-pom</artifactId>
+  <version>9.0.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181123.043532</timestamp>
+      <buildNumber>207</buildNumber>
+    </snapshot>
+    <lastUpdated>20181123043532</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9.0.0.0-20181123.043532-207</value>
+        <updated>20181123043532</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>site_en</classifier>
+        <extension>xml</extension>
+        <value>9.0.0.0-20181123.043532-207</value>
+        <updated>20181123043532</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

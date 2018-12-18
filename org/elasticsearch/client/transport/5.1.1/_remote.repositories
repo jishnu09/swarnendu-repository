@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:39:35 IST 2018
+transport-5.1.1.jar>sonatype-public=
+transport-5.1.1.jar>central=
+transport-5.1.1.pom>pentaho-public=
+transport-5.1.1.pom>sonatype-public=
+transport-5.1.1.pom>central=
+transport-5.1.1.jar>=

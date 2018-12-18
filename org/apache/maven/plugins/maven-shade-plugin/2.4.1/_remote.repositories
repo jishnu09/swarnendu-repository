@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 01 15:02:36 IST 2018
+maven-shade-plugin-2.4.1.jar>central=
+maven-shade-plugin-2.4.1.pom>central=
+maven-shade-plugin-2.4.1.jar>pentaho-public=
+maven-shade-plugin-2.4.1.pom>pentaho-public=

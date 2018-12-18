@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 15 13:25:43 IST 2018
+https\://artifacts.elastic.co/maven/.error=
+http\://dist.wso2.org/maven2/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1542268542959
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542268543641
+http\://maven.wso2.org/nexus/content/groups/wso2-public/.lastUpdated=1529913831244
+http\://dist.wso2.org/maven2/.lastUpdated=1529913830791
+http\://maven.wso2.org/nexus/content/repositories/releases/.lastUpdated=1529913830931
+http\://maven.wso2.org/nexus/content/repositories/releases/.error=

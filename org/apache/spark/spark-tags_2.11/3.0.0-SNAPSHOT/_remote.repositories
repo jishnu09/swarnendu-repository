@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 09 12:06:42 IST 2018
+spark-tags_2.11-3.0.0-SNAPSHOT.jar>=
+spark-tags_2.11-3.0.0-SNAPSHOT-sources.jar>=
+spark-tags_2.11-3.0.0-SNAPSHOT.pom>=
+spark-tags_2.11-3.0.0-SNAPSHOT-tests.jar>=
+spark-tags_2.11-3.0.0-SNAPSHOT-test-sources.jar>=

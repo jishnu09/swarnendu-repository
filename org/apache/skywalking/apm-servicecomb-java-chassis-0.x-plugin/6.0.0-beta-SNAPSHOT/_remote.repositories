@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 10:19:16 IST 2018
+apm-servicecomb-java-chassis-0.x-plugin-6.0.0-beta-SNAPSHOT.pom>=
+apm-servicecomb-java-chassis-0.x-plugin-6.0.0-beta-SNAPSHOT-sources.jar>=
+apm-servicecomb-java-chassis-0.x-plugin-6.0.0-beta-SNAPSHOT.jar>=

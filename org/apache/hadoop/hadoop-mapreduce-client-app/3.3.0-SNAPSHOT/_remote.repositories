@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 04:23:06 UTC 2018
+hadoop-mapreduce-client-app-3.3.0-20181022.232505-179-tests.jar>apache.snapshots.https=
+hadoop-mapreduce-client-app-3.3.0-SNAPSHOT.jar>=
+hadoop-mapreduce-client-app-3.3.0-SNAPSHOT-tests.jar>=
+hadoop-mapreduce-client-app-3.3.0-20181022.232505-179.jar>apache.snapshots.https=
+hadoop-mapreduce-client-app-3.3.0-SNAPSHOT.pom>=

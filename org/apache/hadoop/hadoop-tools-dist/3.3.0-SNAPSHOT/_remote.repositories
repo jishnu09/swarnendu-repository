@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 21 05:02:00 UTC 2018
+hadoop-tools-dist-3.3.0-SNAPSHOT.jar>=
+hadoop-tools-dist-3.3.0-SNAPSHOT-tests.jar>=
+hadoop-tools-dist-3.3.0-SNAPSHOT.pom>=

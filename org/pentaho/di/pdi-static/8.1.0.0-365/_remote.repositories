@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 05 13:52:25 IST 2018
+pdi-static-8.1.0.0-365.zip>=
+pdi-static-8.1.0.0-365.pom>=
+pdi-static-8.1.0.0-365.zip>pentaho-public=

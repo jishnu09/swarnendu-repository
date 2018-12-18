@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 05 16:37:44 IST 2018
+x-pack-core-6.3.2.pom>elasticsearch-releases=
+x-pack-core-6.3.2.jar>elasticsearch-releases=
+x-pack-core-6.3.2.jar>=

@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 09 13:34:37 IST 2018
+spark-streaming-kafka-0-10_2.11-3.0.0-SNAPSHOT-sources.jar>=
+spark-streaming-kafka-0-10_2.11-3.0.0-SNAPSHOT.jar>=
+spark-streaming-kafka-0-10_2.11-3.0.0-SNAPSHOT-test-sources.jar>=
+spark-streaming-kafka-0-10_2.11-3.0.0-SNAPSHOT.pom>=
+spark-streaming-kafka-0-10_2.11-3.0.0-SNAPSHOT-tests.jar>=

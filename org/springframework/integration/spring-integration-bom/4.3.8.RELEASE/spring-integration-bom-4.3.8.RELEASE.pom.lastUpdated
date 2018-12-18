@@ -1,0 +1,14 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 15:34:08 IST 2018
+https\://jitpack.io/.error=
+https\://build.shibboleth.net/nexus/content/repositories/releases/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1524129871081
+https\://jitpack.io/.lastUpdated=1543399448256
+https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524129869425
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543399448614
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
+https\://build.shibboleth.net/nexus/content/groups/public/.error=
+https\://build.shibboleth.net/nexus/content/repositories/releases/.lastUpdated=1524129870284
+https\://artifacts.elastic.co/maven/.lastUpdated=1543399448100
+https\://artifacts.elastic.co/maven/.error=
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524129868628

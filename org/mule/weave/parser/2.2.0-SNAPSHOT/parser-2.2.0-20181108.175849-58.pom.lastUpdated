@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 16 11:56:08 IST 2018
+f1ba149cb2704cf2a51764db0412bddda210871c@default-mcube-local-http\://172.20.1.156\:8081/artifactory/libs-release-local/.lastUpdated=1542349567970
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542349567883
+http\://172.20.1.156\:8081/artifactory/libs-release-local/.error=Could not transfer artifact org.mule.weave\:parser\:pom\:2.2.0-20181108.175849-58 from/to mcube-local (http\://172.20.1.156\:8081/artifactory/libs-release-local)\: Failed to transfer file http\://172.20.1.156\:8081/artifactory/libs-release-local/org/mule/weave/parser/2.2.0-SNAPSHOT/parser-2.2.0-20181108.175849-58.pom with status code 409
+http\://nexus.pentaho.org/content/groups/omni/.error=
+https\://repository.mulesoft.org/nexus/content/repositories/public/.lastUpdated=1542349568660

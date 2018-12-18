@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 06:21:23 UTC 2018
+ST4-4.0.8.jar>central=
+ST4-4.0.8.jar>pentaho-public=
+ST4-4.0.8.pom>pentaho-public=
+ST4-4.0.8.pom>central=

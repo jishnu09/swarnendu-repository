@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 04 10:32:51 IST 2018
+camel-elasticsearch5-2.24.0-20181203.094358-9.jar>apache.snapshots=
+camel-elasticsearch5-2.24.0-20181202.180358-8.jar>apache.snapshots=
+camel-elasticsearch5-2.24.0-20181203.160321-10.jar>apache.snapshots=

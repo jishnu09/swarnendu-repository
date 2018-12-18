@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 16:05:40 IST 2018
+bcprov-jdk15on-1.55.jar>pentaho-public=
+bcprov-jdk15on-1.55.pom>pentaho-public=
+bcprov-jdk15on-1.55.jar>=
+bcprov-jdk15on-1.55.pom>central=
+bcprov-jdk15on-1.55.pom>shibboleth-public-repo=
+bcprov-jdk15on-1.55.jar>shibboleth-public-repo=

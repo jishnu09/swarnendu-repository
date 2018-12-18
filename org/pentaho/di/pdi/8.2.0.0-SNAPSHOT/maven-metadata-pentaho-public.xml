@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.pentaho.di</groupId>
+  <artifactId>pdi</artifactId>
+  <version>8.2.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181114.111614</timestamp>
+      <buildNumber>420</buildNumber>
+    </snapshot>
+    <lastUpdated>20181114111614</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>8.2.0.0-20181114.111614-420</value>
+        <updated>20181114111614</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

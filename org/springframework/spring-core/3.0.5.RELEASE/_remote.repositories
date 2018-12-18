@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 15 13:41:41 IST 2018
+spring-core-3.0.5.RELEASE.jar>pentaho-public=
+spring-core-3.0.5.RELEASE.pom>pentaho-public=
+spring-core-3.0.5.RELEASE.pom>atlassian-public=

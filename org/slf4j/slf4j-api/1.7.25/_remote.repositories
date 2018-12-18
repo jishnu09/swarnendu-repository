@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 06:17:38 UTC 2018
+slf4j-api-1.7.25.jar>central=
+slf4j-api-1.7.25.jar>pentaho-nexus=
+slf4j-api-1.7.25.pom>pentaho-nexus=
+slf4j-api-1.7.25.jar>mule=
+slf4j-api-1.7.25.jar>mule-plugin=
+slf4j-api-1.7.25.pom>central=

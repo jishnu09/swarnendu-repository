@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed May 23 20:50:18 IST 2018
+guacamole-auth-jdbc-dist-0.9.14.pom>=
+guacamole-auth-jdbc-dist-0.9.14.jar>=
+guacamole-auth-jdbc-dist-0.9.14.tar.gz>=

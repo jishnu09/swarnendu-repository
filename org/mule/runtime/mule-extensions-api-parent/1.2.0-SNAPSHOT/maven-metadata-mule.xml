@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.mule.runtime</groupId>
+  <artifactId>mule-extensions-api-parent</artifactId>
+  <version>1.2.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181115.212008</timestamp>
+      <buildNumber>123</buildNumber>
+    </snapshot>
+    <lastUpdated>20181115212008</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.2.0-20181115.212008-123</value>
+        <updated>20181115212008</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

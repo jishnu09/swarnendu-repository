@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 06:15:04 UTC 2018
+asm-6.0.pom>mule-plugin=
+asm-6.0.jar>mule-plugin=
+asm-6.0.pom>central=
+asm-6.0.jar>central=

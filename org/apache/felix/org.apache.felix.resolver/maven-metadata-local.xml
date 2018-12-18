@@ -1,0 +1,10 @@
+<metadata>
+  <groupId>org.apache.felix</groupId>
+  <artifactId>org.apache.felix.resolver</artifactId>
+  <versioning>
+    <versions>
+      <version>1.8.0</version>
+    </versions>
+    <lastUpdated>20181123071237</lastUpdated>
+  </versioning>
+</metadata>

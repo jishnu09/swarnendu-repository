@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 13:11:21 IST 2018
+snakeyaml-1.18.jar>pentaho-public=
+snakeyaml-1.18.pom>pentaho-public=
+snakeyaml-1.18.pom>central=
+snakeyaml-1.18.jar>central=

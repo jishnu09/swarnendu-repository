@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 13 08:38:31 UTC 2018
+bcprov-jdk15on-1.57.jar>central=
+bcprov-jdk15on-1.57.jar>pentaho-public=
+bcprov-jdk15on-1.57.pom>pentaho-public=
+bcprov-jdk15on-1.57.pom>central=

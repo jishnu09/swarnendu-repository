@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 13:32:25 IST 2018
+maven-archiver-2.4.2.jar>pentaho-public=
+maven-archiver-2.4.2.jar>central=
+maven-archiver-2.4.2.pom>pentaho-public=
+maven-archiver-2.4.2.pom>central=

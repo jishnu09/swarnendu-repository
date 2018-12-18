@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:49:13 IST 2018
+kafka-clients-2.0.1.jar>central=
+kafka-clients-2.0.1.pom>central=
+kafka-clients-2.0.1.jar>pentaho-public=
+kafka-clients-2.0.1.pom>pentaho-public=

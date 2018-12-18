@@ -1,0 +1,31 @@
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.eclipse</groupId>
+  <artifactId>org.eclipse.osgi</artifactId>
+  <version>3.8.0.v20120529-1548</version>
+  <packaging>jar</packaging>
+
+  <name>Eclipse Equinox OSGi Framework</name>
+  <description>An implementation of the OSGi Core specification.</description>
+  <url>http://www.eclipse.org/equinox/</url>
+
+  <licenses>
+    <license>
+      <name>Eclipse Public License</name>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>http://git.eclipse.org/c/equinox/rt.equinox.framework.git/</url>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>jwross@apache.org</id>
+      <name>John Ross</name>
+      <email>jwross@apache.org</email>
+    </developer>
+  </developers>
+</project>

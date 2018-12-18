@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 10:37:50 IST 2018
+ant-launcher-1.9.13.jar>pentaho-public=
+ant-launcher-1.9.13.jar>central=
+ant-launcher-1.9.13.pom>central=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 17:37:39 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1542888459654
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542888428523
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.apache.maven.plugins\:maven-war-plugin\:jar\:2.5 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Connection reset

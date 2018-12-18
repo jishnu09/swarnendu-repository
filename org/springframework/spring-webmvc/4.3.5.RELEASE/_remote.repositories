@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:37:08 IST 2018
+spring-webmvc-4.3.5.RELEASE.jar>pentaho-public=
+spring-webmvc-4.3.5.RELEASE.jar>=
+spring-webmvc-4.3.5.RELEASE.pom>pentaho-public=

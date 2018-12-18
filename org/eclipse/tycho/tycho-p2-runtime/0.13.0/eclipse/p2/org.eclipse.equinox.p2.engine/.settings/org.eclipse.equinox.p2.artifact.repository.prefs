@@ -1,0 +1,11 @@
+#Tue Jul 03 17:44:23 IST 2018
+repositories/file\:_E\:_Maven_Repository_.m2_repository_org_eclipse_tycho_tycho-p2-runtime_0.13.0_eclipse_p2_org.eclipse.equinox.p2.core_cache/suffix=artifacts.xml
+repositories/file\:_E\:_Maven_Repository_.m2_repository_org_eclipse_tycho_tycho-p2-runtime_0.13.0_eclipse_p2_org.eclipse.equinox.p2.core_cache/type=org.eclipse.equinox.p2.artifact.repository.simpleRepository
+repositories/file\:_E\:_Maven_Repository_.m2_repository_org_eclipse_tycho_tycho-p2-runtime_0.13.0_eclipse_p2_org.eclipse.equinox.p2.core_cache/description=
+repositories/file\:_E\:_Maven_Repository_.m2_repository_org_eclipse_tycho_tycho-p2-runtime_0.13.0_eclipse_p2_org.eclipse.equinox.p2.core_cache/uri=file\:/E\:/Maven_Repository/.m2/repository/org/eclipse/tycho/tycho-p2-runtime/0.13.0/eclipse/p2/org.eclipse.equinox.p2.core/cache/
+repositories/file\:_E\:_Maven_Repository_.m2_repository_org_eclipse_tycho_tycho-p2-runtime_0.13.0_eclipse_p2_org.eclipse.equinox.p2.core_cache/enabled=true
+repositories/file\:_E\:_Maven_Repository_.m2_repository_org_eclipse_tycho_tycho-p2-runtime_0.13.0_eclipse_p2_org.eclipse.equinox.p2.core_cache/version=1.0.0
+repositories/file\:_E\:_Maven_Repository_.m2_repository_org_eclipse_tycho_tycho-p2-runtime_0.13.0_eclipse_p2_org.eclipse.equinox.p2.core_cache/name=download cache
+repositories/file\:_E\:_Maven_Repository_.m2_repository_org_eclipse_tycho_tycho-p2-runtime_0.13.0_eclipse_p2_org.eclipse.equinox.p2.core_cache/provider=
+eclipse.preferences.version=1
+repositories/file\:_E\:_Maven_Repository_.m2_repository_org_eclipse_tycho_tycho-p2-runtime_0.13.0_eclipse_p2_org.eclipse.equinox.p2.core_cache/isSystem=true

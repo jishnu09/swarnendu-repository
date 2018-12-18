@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 12:36:44 IST 2018
+https\://artifacts.elastic.co/maven/.error=
+@default-jitpack.io-https\://jitpack.io/.lastUpdated=1543388803421
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543388804133
+https\://artifacts.elastic.co/maven/.lastUpdated=1543388661858
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543388723490
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.apache.logging.log4j\:log4j-core\:pom\:2.9.0 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/org/apache/logging/log4j/log4j-core/2.9.0/log4j-core-2.9.0.pom with status code 504
+https\://jitpack.io/.error=Could not transfer artifact org.apache.logging.log4j\:log4j-core\:pom\:2.9.0 from/to jitpack.io (https\://jitpack.io)\: Connection reset

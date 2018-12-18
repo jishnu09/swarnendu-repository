@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 10:27:56 IST 2018
+reindex-client-6.3.2.jar>pentaho-public=
+reindex-client-6.3.2.pom>pentaho-public=
+reindex-client-6.3.2.jar>=
+reindex-client-6.3.2.pom>elasticsearch-releases=

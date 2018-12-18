@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 22 11:42:44 UTC 2018
+kettle-json-plugin-core-8.2.0.0-SNAPSHOT-sources.jar>=
+kettle-json-plugin-core-8.2.0.0-SNAPSHOT.pom>=
+kettle-json-plugin-core-8.2.0.0-SNAPSHOT.jar>=

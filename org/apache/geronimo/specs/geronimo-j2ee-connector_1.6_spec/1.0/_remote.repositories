@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:21:52 IST 2018
+geronimo-j2ee-connector_1.6_spec-1.0.pom>central=
+geronimo-j2ee-connector_1.6_spec-1.0.jar>wso2-nexus=
+geronimo-j2ee-connector_1.6_spec-1.0.jar>central=
+geronimo-j2ee-connector_1.6_spec-1.0.pom>wso2-nexus=

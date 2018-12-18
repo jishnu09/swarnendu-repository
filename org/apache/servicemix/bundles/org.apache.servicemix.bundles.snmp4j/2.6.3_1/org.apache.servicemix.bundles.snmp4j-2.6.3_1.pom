@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>bundles-pom</artifactId>
+    <groupId>org.apache.servicemix.bundles</groupId>
+    <version>13</version>
+    <relativePath>../bundles-pom/pom.xml</relativePath>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.apache.servicemix.bundles</groupId>
+  <artifactId>org.apache.servicemix.bundles.snmp4j</artifactId>
+  <packaging>bundle</packaging>
+  <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
+  <version>2.6.3_1</version>
+  <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
+  <scm>
+    <connection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</connection>
+    <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/servicemix-bundles.git</developerConnection>
+    <tag>org.apache.servicemix.bundles.snmp4j-2.6.3_1</tag>
+    <url>https://git-wip-us.apache.org/repos/asf?p=servicemix-bundles.git</url>
+  </scm>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-shade-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <artifactSet>
+                <includes>
+                  <include>${pkgGroupId}:${pkgArtifactId}</include>
+                </includes>
+              </artifactSet>
+              <filters>
+                <filter>
+                  <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                  <includes>
+                    <include>**/*.properties</include>
+                  </includes>
+                </filter>
+              </filters>
+              <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+              <createDependencyReducedPom>true</createDependencyReducedPom>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <repositories>
+    <repository>
+      <releases />
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>snmp4j.repo</id>
+      <name>SNMP4J Maven Repository</name>
+      <url>https://oosnmp.net/dist/release</url>
+    </repository>
+  </repositories>
+  <properties>
+    <pkgVersion>2.6.3</pkgVersion>
+    <servicemix.osgi.import.pkg>javax.crypto*,
+            javax.net.ssl,
+            javax.security*,
+            org.apache.log4j*;resolution:=optional</servicemix.osgi.import.pkg>
+    <servicemix.osgi.export.pkg>org.snmp4j</servicemix.osgi.export.pkg>
+    <pkgArtifactId>snmp4j</pkgArtifactId>
+    <pkgGroupId>org.snmp4j</pkgGroupId>
+  </properties>
+</project>
+

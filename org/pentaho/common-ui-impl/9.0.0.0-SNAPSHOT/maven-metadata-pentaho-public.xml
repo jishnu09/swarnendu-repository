@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.pentaho</groupId>
+  <artifactId>common-ui-impl</artifactId>
+  <version>9.0.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181122.045150</timestamp>
+      <buildNumber>355</buildNumber>
+    </snapshot>
+    <lastUpdated>20181122045150</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9.0.0.0-20181122.045150-355</value>
+        <updated>20181122045150</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

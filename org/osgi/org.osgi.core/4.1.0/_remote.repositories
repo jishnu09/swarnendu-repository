@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 06:24:17 UTC 2018
+org.osgi.core-4.1.0.jar>pentaho-public=
+org.osgi.core-4.1.0.pom>pentaho-public=
+org.osgi.core-4.1.0.pom>central=
+org.osgi.core-4.1.0.jar>central=

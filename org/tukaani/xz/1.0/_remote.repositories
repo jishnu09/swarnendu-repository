@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 09:52:16 UTC 2018
+xz-1.0.jar>central=
+xz-1.0.jar>pentaho-public=
+xz-1.0.pom>pentaho-public=
+xz-1.0.pom>central=

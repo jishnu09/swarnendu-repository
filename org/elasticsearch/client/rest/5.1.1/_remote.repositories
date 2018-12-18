@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:39:53 IST 2018
+rest-5.1.1.jar>sonatype-public=
+rest-5.1.1.pom>central=
+rest-5.1.1.pom>sonatype-public=
+rest-5.1.1.jar>=
+rest-5.1.1.jar>central=
+rest-5.1.1.pom>pentaho-public=

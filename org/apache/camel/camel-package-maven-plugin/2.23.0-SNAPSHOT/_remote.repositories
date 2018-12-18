@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 10:20:26 IST 2018
+camel-package-maven-plugin-2.23.0-SNAPSHOT.jar>=
+camel-package-maven-plugin-2.23.0-SNAPSHOT.pom>=

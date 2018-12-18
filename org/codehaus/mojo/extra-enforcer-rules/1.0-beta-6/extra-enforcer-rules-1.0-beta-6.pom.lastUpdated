@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:56:29 IST 2018
+http\://repository.apache.org/snapshots/.lastUpdated=1543573584975
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543573589918
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543573575311
+http\://nexus.pentaho.org/content/groups/omni/.error=
+http\://repository.apache.org/snapshots/.error=

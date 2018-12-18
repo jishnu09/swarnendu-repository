@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.jopendocument</groupId>
+  <artifactId>isorelax-jaxp-bridge-ILM</artifactId>
+  <version>1.1</version>
+  <packaging>jar</packaging>
+
+  <name>isorelax-jaxp-bridge-ILM</name>
+  <description>modified as per https://isorelax-jaxp-bridge.dev.java.net/issues/show_bug.cgi?id=1
+fixed the service file
+made SchemaFactoryImpl public because of a reflection bug ( http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=4071957 )
+  </description>
+  <url>http://www.jopendocument.org/</url>
+
+  <organization>
+    <name>ILM Informatique</name>
+    <url>http://www.ilm-informatique.fr/</url>
+  </organization>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>ilm</id>
+      <name>ILM Informatique</name>
+    </developer>
+  </developers>
+
+  <mailingLists>
+    <mailingList>
+      <name>jopendocument</name>
+      <subscribe>http://groups.google.com/group/jopendocument</subscribe>
+      <unsubscribe>http://groups.google.com/group/jopendocument</unsubscribe>
+      <archive>http://www.mail-archive.com/mailing@jopendocument.org</archive>
+    </mailingList>
+  </mailingLists>
+
+  <scm>
+    <connection>not available</connection>
+    <url>http://jopendocument.org/download/jOpenDocument-src-1.3b1.zip</url>
+  </scm>
+</project>

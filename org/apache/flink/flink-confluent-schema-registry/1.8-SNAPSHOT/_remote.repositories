@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 11:50:03 IST 2018
+flink-confluent-schema-registry-1.8-SNAPSHOT.pom>=
+flink-confluent-schema-registry-1.8-SNAPSHOT-tests.jar>=
+flink-confluent-schema-registry-1.8-SNAPSHOT.jar>=

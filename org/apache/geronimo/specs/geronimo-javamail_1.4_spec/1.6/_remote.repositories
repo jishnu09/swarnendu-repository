@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:18:19 IST 2018
+geronimo-javamail_1.4_spec-1.6.pom>pentaho-public=
+geronimo-javamail_1.4_spec-1.6.jar>pentaho-public=
+geronimo-javamail_1.4_spec-1.6.pom>wso2-nexus=
+geronimo-javamail_1.4_spec-1.6.jar>=
+geronimo-javamail_1.4_spec-1.6.jar>wso2-nexus=

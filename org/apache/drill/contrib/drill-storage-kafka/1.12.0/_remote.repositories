@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 23 14:51:09 IST 2018
+drill-storage-kafka-1.12.0.pom>=
+drill-storage-kafka-1.12.0-tests.jar>=
+drill-storage-kafka-1.12.0.jar>=

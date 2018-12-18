@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:44:36 IST 2018
+avatica-core-1.12.0.jar>pentaho-public=
+avatica-core-1.12.0.jar>central=
+avatica-core-1.12.0.pom>pentaho-public=
+avatica-core-1.12.0.pom>central=

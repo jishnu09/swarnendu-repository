@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 10:42:45 UTC 2018
+httpclient-4.3.5.pom>central=
+httpclient-4.3.5.jar>central=
+httpclient-4.3.5.pom>pentaho-public=
+httpclient-4.3.5.jar>pentaho-public=

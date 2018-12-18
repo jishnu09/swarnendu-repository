@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jul 25 18:24:32 IST 2018
+drill-sqlline-1.14.0-SNAPSHOT-tests.jar>=
+drill-sqlline-1.14.0-SNAPSHOT.jar>=
+drill-sqlline-1.14.0-SNAPSHOT.pom>=

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 16 11:14:52 UTC 2018
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1540201621000
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1540201359144
+https\://repository.mulesoft.org/nexus/content/repositories/public/.lastUpdated=1542366892976
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.geronimo.specs\:geronimo-servlet_3.0_spec\:pom\:1.0 from/to central (https\://repo.maven.apache.org/maven2)\: Cannot access https\://repo.maven.apache.org/maven2 with type default using the available connector factories\: BasicRepositoryConnectorFactory

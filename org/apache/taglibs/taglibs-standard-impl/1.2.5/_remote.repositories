@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:08:35 IST 2018
+taglibs-standard-impl-1.2.5.pom>atlassian-public=
+taglibs-standard-impl-1.2.5.pom>central=
+taglibs-standard-impl-1.2.5.jar>=
+taglibs-standard-impl-1.2.5.jar>atlassian-public=
+taglibs-standard-impl-1.2.5.pom>pentaho-public=

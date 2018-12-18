@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 05 11:08:15 IST 2018
+jbossxacml-2.0.4.jar>spring-milestones=
+jbossxacml-2.0.4.pom>spring-milestones=

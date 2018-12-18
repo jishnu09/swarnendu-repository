@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:45:24 IST 2018
+hbase-hadoop-compat-1.4.3.jar>pentaho-public=
+hbase-hadoop-compat-1.4.3.pom>pentaho-public=
+hbase-hadoop-compat-1.4.3-tests.jar>central=
+hbase-hadoop-compat-1.4.3.jar>central=
+hbase-hadoop-compat-1.4.3.pom>central=
+hbase-hadoop-compat-1.4.3-tests.jar>pentaho-public=

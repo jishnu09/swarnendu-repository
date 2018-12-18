@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.wso2.is</groupId>
+  <artifactId>org.wso2.identity.integration.test</artifactId>
+  <version>5.7.0-m1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20180703124016</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>tests</classifier>
+        <extension>jar</extension>
+        <value>5.7.0-m1-SNAPSHOT</value>
+        <updated>20180703124016</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>5.7.0-m1-SNAPSHOT</value>
+        <updated>20180703124016</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

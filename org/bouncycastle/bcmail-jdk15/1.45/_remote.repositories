@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:45:18 IST 2018
+bcmail-jdk15-1.45.pom>central=
+bcmail-jdk15-1.45.jar>wso2-nexus=
+bcmail-jdk15-1.45.jar>central=
+bcmail-jdk15-1.45.pom>wso2-nexus=

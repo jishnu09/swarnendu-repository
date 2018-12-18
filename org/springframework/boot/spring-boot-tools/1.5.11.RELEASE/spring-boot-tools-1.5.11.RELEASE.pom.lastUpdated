@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 15:52:21 IST 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543400541890
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1543400541043
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.springframework.boot\:spring-boot-tools\:pom\:1.5.11.RELEASE from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni)\: Failed to transfer file http\://nexus.pentaho.org/content/groups/omni/org/springframework/boot/spring-boot-tools/1.5.11.RELEASE/spring-boot-tools-1.5.11.RELEASE.pom with status code 504

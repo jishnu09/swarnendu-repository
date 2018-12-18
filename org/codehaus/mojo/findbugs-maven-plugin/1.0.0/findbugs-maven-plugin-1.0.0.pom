@@ -1,0 +1,116 @@
+<?xml version="1.0"?><project>
+  <parent>
+    <artifactId>mojo</artifactId>
+    <groupId>org.codehaus.mojo</groupId>
+    <version>12</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>findbugs-maven-plugin</artifactId>
+  <packaging>maven-plugin</packaging>
+  <name>Maven FindBugs PlugIn</name>
+  <version>1.0.0</version>
+  <description>This Plug-In generates reports based on the FindBugs Library</description>
+  <prerequisites />
+  <inceptionYear>2005</inceptionYear>
+  <developers>
+    <developer>
+      <id>cr</id>
+      <name>Cyrill Ruettimann</name>
+      <email>mypublicaddress@mac.com</email>
+      <organization></organization>
+      <roles>
+        <role>Documentation</role>
+        <role>Java Developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>gl</id>
+      <name>Garvin LeClaire</name>
+      <email>gleclaire@codehaus.org</email>
+      <url>http://gdleclaire.blogspot.com</url>
+      <organization></organization>
+      <roles>
+        <role>Documentation</role>
+        <role>Java Developer</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>Detlef Pleiss</name>
+      <email>d.pleiss@comundus.com</email>
+      <organization>comundus GmbH</organization>
+      <organizationUrl>http://www.comundus.com</organizationUrl>
+      <roles>
+        <role>Java Developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </contributor>
+  </contributors>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:svn:https://svn.codehaus.org/mojo/tags/findbugs-maven-plugin-1.0.0</connection>
+    <developerConnection>scm:svn:https://svn.codehaus.org/mojo/tags/findbugs-maven-plugin-1.0.0</developerConnection>
+    <url>https://svn.codehaus.org/mojo/tags/findbugs-maven-plugin-1.0.0</url>
+  </scm>
+  <organization>
+    <name>CodeHaus</name>
+    <url>http://www.codehaus.org</url>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-artifact</artifactId>
+      <version>2.0.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.reporting</groupId>
+      <artifactId>maven-reporting-impl</artifactId>
+      <version>2.0.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.reporting</groupId>
+      <artifactId>maven-reporting-api</artifactId>
+      <version>2.0.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.doxia</groupId>
+      <artifactId>doxia-core</artifactId>
+      <version>1.0-alpha-8</version>
+    </dependency>
+    <dependency>
+      <groupId>net.sourceforge.findbugs</groupId>
+      <artifactId>findbugs</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+  </dependencies>
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>findbugs-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <artifactId>maven-changes-plugin</artifactId>
+        <reportSets>
+          <reportSet>
+            <reports>
+              <report>changes-report</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+    </plugins>
+  </reporting>
+  <distributionManagement>
+    <status>deployed</status>
+  </distributionManagement>
+</project>

@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 16 10:33:06 UTC 2018
+wagon-file-2.12.jar>mule-plugin=
+wagon-file-2.12.pom>mule-plugin=

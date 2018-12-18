@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>Maven Build Helper Plugin</name>
+      <prefix>build-helper</prefix>
+      <artifactId>build-helper-maven-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Build Number Maven Plugin</name>
+      <prefix>buildnumber</prefix>
+      <artifactId>buildnumber-maven-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Maven Build Number Plugin</name>
+      <prefix>buildnumber</prefix>
+      <artifactId>maven-buildnumber-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>

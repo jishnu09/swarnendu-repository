@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:18:20 IST 2018
+cxf-rt-transports-http-jetty-3.0.13.jar>=
+cxf-rt-transports-http-jetty-3.0.13.pom>pentaho-public=
+cxf-rt-transports-http-jetty-3.0.13.jar>pentaho-public=

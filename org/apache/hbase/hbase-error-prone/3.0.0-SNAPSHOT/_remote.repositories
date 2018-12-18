@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 15:58:17 IST 2018
+hbase-error-prone-3.0.0-SNAPSHOT.jar>=
+hbase-error-prone-3.0.0-SNAPSHOT.pom>=

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.pentaho.reporting.engine</groupId>
+  <artifactId>legacy-charts</artifactId>
+  <versioning>
+    <versions>
+      <version>9.0.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181123104559</lastUpdated>
+  </versioning>
+</metadata>

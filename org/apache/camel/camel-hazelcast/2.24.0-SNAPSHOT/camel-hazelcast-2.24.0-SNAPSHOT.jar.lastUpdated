@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 14:33:32 IST 2018
+https\://repository.apache.org/snapshots/.error=Could not transfer artifact org.apache.camel\:camel-hazelcast\:jar\:2.24.0-SNAPSHOT from/to apache.snapshots (https\://repository.apache.org/snapshots/)\: Connect to repository.apache.org\:443 [repository.apache.org/207.244.88.140] failed\: Connection timed out\: connect
+@default-apache.snapshots-https\://repository.apache.org/snapshots/.lastUpdated=1543827812105

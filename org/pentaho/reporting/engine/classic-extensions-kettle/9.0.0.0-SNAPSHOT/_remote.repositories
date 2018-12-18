@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 23 10:41:43 UTC 2018
+classic-extensions-kettle-9.0.0.0-SNAPSHOT-sources.jar>=
+classic-extensions-kettle-9.0.0.0-SNAPSHOT.jar>=
+classic-extensions-kettle-9.0.0.0-SNAPSHOT.pom>=

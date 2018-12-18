@@ -1,0 +1,15 @@
+<metadata>
+  <groupId>org.sonatype.forge</groupId>
+  <artifactId>forge-parent</artifactId>
+  <versioning>
+    <versions>
+      <version>7</version>
+      <version>6</version>
+      <version>4</version>
+      <version>3</version>
+      <version>5</version>
+      <version>10</version>
+    </versions>
+    <lastUpdated>20181123071237</lastUpdated>
+  </versioning>
+</metadata>

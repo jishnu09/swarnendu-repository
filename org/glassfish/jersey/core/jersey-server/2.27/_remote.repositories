@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 16:29:24 IST 2018
+jersey-server-2.27.jar>pentaho-public=
+jersey-server-2.27.pom>pentaho-public=
+jersey-server-2.27.jar>central=
+jersey-server-2.27.pom>central=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 06:17:11 UTC 2018
+httpcomponents-client-4.5.3.pom>mule=
+httpcomponents-client-4.5.3.pom>central=
+httpcomponents-client-4.5.3.pom>pentaho-public=

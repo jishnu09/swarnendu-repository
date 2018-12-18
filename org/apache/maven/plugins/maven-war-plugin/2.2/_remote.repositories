@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 01 15:50:59 IST 2018
+maven-war-plugin-2.2.jar>pentaho-public=
+maven-war-plugin-2.2.pom>pentaho-public=
+maven-war-plugin-2.2.jar>central=
+maven-war-plugin-2.2.pom>central=

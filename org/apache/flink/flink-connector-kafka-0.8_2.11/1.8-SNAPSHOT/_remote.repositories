@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 11:40:44 IST 2018
+flink-connector-kafka-0.8_2.11-1.8-SNAPSHOT.jar>=
+flink-connector-kafka-0.8_2.11-1.8-SNAPSHOT.pom>=
+flink-connector-kafka-0.8_2.11-1.8-SNAPSHOT-tests.jar>=

@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 14:06:49 IST 2018
+https\://artifacts.elastic.co/maven/.error=
+https\://clojars.org/repo/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543826209771
+https\://artifacts.elastic.co/maven/.lastUpdated=1543826208114
+https\://clojars.org/repo/.lastUpdated=1543826209005

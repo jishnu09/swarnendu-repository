@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 05 13:42:07 IST 2018
+aggregate-rows-core-8.1.0.0-365.pom>=
+aggregate-rows-core-8.1.0.0-365-sources.jar>=
+aggregate-rows-core-8.1.0.0-365.jar>=

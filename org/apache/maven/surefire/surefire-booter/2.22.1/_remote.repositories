@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 10:37:17 IST 2018
+surefire-booter-2.22.1.jar>central=
+surefire-booter-2.22.1.pom>central=
+surefire-booter-2.22.1.jar>pentaho-public=
+surefire-booter-2.22.1.pom>pentaho-public=

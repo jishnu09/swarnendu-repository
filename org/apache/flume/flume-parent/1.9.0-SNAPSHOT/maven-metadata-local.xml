@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.apache.flume</groupId>
+  <artifactId>flume-parent</artifactId>
+  <version>1.9.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20181130095442</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>site</classifier>
+        <extension>xml</extension>
+        <value>1.9.0-SNAPSHOT</value>
+        <updated>20181130095442</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.9.0-SNAPSHOT</value>
+        <updated>20181130095442</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 10:48:15 UTC 2018
+org.apache.servicemix.bundles.jasypt-1.9.2_1.jar>central=
+org.apache.servicemix.bundles.jasypt-1.9.2_1.pom>central=
+org.apache.servicemix.bundles.jasypt-1.9.2_1.jar>pentaho-public=

@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 23 14:48:32 IST 2018
+drill-hive-exec-shaded-1.12.0.jar>=
+drill-hive-exec-shaded-1.12.0.pom>=
+drill-hive-exec-shaded-1.12.0-tests.jar>=

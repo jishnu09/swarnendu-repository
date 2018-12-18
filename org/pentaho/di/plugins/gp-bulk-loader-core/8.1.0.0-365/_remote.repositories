@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 05 13:43:54 IST 2018
+gp-bulk-loader-core-8.1.0.0-365-sources.jar>=
+gp-bulk-loader-core-8.1.0.0-365.jar>=
+gp-bulk-loader-core-8.1.0.0-365.pom>=

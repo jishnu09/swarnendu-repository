@@ -1,0 +1,15 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jul 25 15:59:32 IST 2018
+https\://oss.sonatype.org/content/groups/public/.error=
+http\://oss.sonatype.org/content/repositories/releases/.lastUpdated=1525079357036
+https\://oss.sonatype.org/content/groups/public/.lastUpdated=1532514572591
+https\://repo.spring.io/snapshot/.error=
+http\://oss.sonatype.org/content/repositories/releases/.error=
+https\://repo.spring.io/snapshot/.lastUpdated=1525079358848
+https\://jcenter.bintray.com/.lastUpdated=1525084512171
+https\://build.shibboleth.net/nexus/content/repositories/releases/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1525079358270
+https\://repo.maven.apache.org/maven2/.lastUpdated=1532514572903
+https\://repo.spring.io/milestone/.error=
+https\://build.shibboleth.net/nexus/content/repositories/releases/.lastUpdated=1525079357895
+https\://repo.spring.io/libs-snapshot/.lastUpdated=1525079359785

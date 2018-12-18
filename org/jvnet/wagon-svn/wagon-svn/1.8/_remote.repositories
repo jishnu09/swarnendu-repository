@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 01 12:07:31 IST 2018
+wagon-svn-1.8.jar>pentaho-public=
+wagon-svn-1.8.pom>pentaho-public=

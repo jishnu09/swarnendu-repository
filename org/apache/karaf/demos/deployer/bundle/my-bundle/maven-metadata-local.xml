@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.karaf.demos.deployer.bundle</groupId>
+  <artifactId>my-bundle</artifactId>
+  <versioning>
+    <versions>
+      <version>4.0.4-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181123072726</lastUpdated>
+  </versioning>
+</metadata>

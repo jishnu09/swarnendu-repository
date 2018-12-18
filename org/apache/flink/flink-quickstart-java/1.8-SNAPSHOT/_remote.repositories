@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 11:49:43 IST 2018
+flink-quickstart-java-1.8-SNAPSHOT.jar>=
+flink-quickstart-java-1.8-SNAPSHOT-tests.jar>=
+flink-quickstart-java-1.8-SNAPSHOT.pom>=

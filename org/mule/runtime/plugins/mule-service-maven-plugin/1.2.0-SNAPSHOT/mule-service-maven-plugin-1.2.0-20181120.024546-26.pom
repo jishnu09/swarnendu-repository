@@ -1,0 +1,116 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.mule.runtime.plugins</groupId>
+        <artifactId>mule-plugins-maven-plugin-parent</artifactId>
+        <version>1.2.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>mule-service-maven-plugin</artifactId>
+    <packaging>maven-plugin</packaging>
+
+    <name>Mule Service Maven Plugin</name>
+
+    <properties>
+        <formatterConfigPath>../formatter.xml</formatterConfigPath>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.mule.runtime.plugins</groupId>
+            <artifactId>mule-packager-plugins-base</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+    <profiles>
+        <profile>
+            <id>uber</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+                <property>
+                    <name>uber</name>
+                </property>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-shade-plugin</artifactId>
+                        <version>3.1.0</version>
+                        <configuration>
+                            <artifactSet>
+                              <excludes>
+                                  <exclude>org.apache.maven:*</exclude>
+                                  <exclude>org.apache.maven.plugin-tools:*</exclude>
+                                  <exclude>com.rackspace.apache:xerces2*</exclude>
+                                  <exclude>xml-apis:*</exclude>
+                                  <exclude>stax:*</exclude>
+                              </excludes>
+                            </artifactSet>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>shade</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>integration</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-invoker-plugin</artifactId>
+                        <version>${maven.invoker.plugin.version}</version>
+                        <configuration>
+                            <debug>${debug}</debug>
+                            <streamLogs>${debug}</streamLogs>
+                            <showErrors>${debug}</showErrors>
+                            <failIfNoProjects>true</failIfNoProjects>
+                            <projectsDirectory>src/it</projectsDirectory>
+                            <cloneProjectsTo>${project.build.directory}/it</cloneProjectsTo>
+                            <postBuildHookScript>verify</postBuildHookScript>
+                            <scriptVariables>
+                                <pluginVersion>${project.version}</pluginVersion>
+                            </scriptVariables>
+                            <addTestClassPath>true</addTestClassPath>
+                            <mavenOpts>${mavenOpts}</mavenOpts>
+                            <invokerPropertiesFile>invoker.properties</invokerPropertiesFile>
+                            <properties>
+                                <mule.version>${mule.version}</mule.version>
+                            </properties>
+                            <goals>
+                                <goal>clean</goal>
+                                <goal>package</goal>
+                            </goals>
+                        </configuration>
+
+                        <executions>
+                            <execution>
+                                <id>integration-test</id>
+                                <phase>integration-test</phase>
+                                <goals>
+                                    <goal>install</goal>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>
+

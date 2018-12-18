@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 16:03:32 IST 2018
+https\://artifacts.elastic.co/maven/.error=
+@default-jitpack.io-https\://jitpack.io/.lastUpdated=1543401211625
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543401212364
+https\://artifacts.elastic.co/maven/.lastUpdated=1543401134687
+https\://jitpack.io/.error=Could not transfer artifact org.springframework.boot\:spring-boot-starter-web\:pom\:1.5.11.RELEASE from/to jitpack.io (https\://jitpack.io)\: Connection reset

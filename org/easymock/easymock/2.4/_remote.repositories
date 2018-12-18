@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 06:24:17 UTC 2018
+easymock-2.4.jar>central=
+easymock-2.4.pom>central=
+easymock-2.4.jar>pentaho-public=
+easymock-2.4.pom>pentaho-public=

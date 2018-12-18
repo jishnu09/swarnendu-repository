@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 14:00:09 IST 2018
+jdependency-0.6.jar>pentaho-public=
+jdependency-0.6.pom>pentaho-public=

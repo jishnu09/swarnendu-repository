@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 13:33:05 IST 2018
+flink-table-common-1.8-SNAPSHOT.pom>=
+flink-table-common-1.8-SNAPSHOT.jar>=
+flink-table-common-1.8-SNAPSHOT-tests.jar>=

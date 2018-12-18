@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:39:08 IST 2018
+lucene-misc-6.3.0.jar>=
+lucene-misc-6.3.0.jar>central=
+lucene-misc-6.3.0.pom>pentaho-public=
+lucene-misc-6.3.0.pom>central=

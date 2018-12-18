@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 30 13:37:06 IST 2018
+dubbo-remoting-p2p-2.7.0-SNAPSHOT.jar>=
+dubbo-remoting-p2p-2.7.0-SNAPSHOT-sources.jar>=
+dubbo-remoting-p2p-2.7.0-SNAPSHOT.pom>=

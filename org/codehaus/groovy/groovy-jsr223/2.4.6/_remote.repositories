@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:50:47 IST 2018
+groovy-jsr223-2.4.6.jar>pentaho-public=
+groovy-jsr223-2.4.6.jar>central=
+groovy-jsr223-2.4.6.pom>pentaho-public=
+groovy-jsr223-2.4.6.pom>central=

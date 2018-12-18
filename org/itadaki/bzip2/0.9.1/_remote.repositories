@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:42:25 IST 2018
+bzip2-0.9.1.jar>central=
+bzip2-0.9.1.pom>central=
+bzip2-0.9.1.jar>pentaho-public=
+bzip2-0.9.1.pom>pentaho-public=

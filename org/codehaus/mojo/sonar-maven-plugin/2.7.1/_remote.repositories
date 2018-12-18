@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:55:22 IST 2018
+sonar-maven-plugin-2.7.1.pom>central=
+sonar-maven-plugin-2.7.1.jar>pentaho-public=
+sonar-maven-plugin-2.7.1.pom>pentaho-public=

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.pentaho.reporting.engine</groupId>
+  <artifactId>classic-extensions-sampledata</artifactId>
+  <version>9.0.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181122.044532</timestamp>
+      <buildNumber>284</buildNumber>
+    </snapshot>
+    <lastUpdated>20181122044532</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>9.0.0.0-20181122.044532-284</value>
+        <updated>20181122044532</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9.0.0.0-20181122.044532-284</value>
+        <updated>20181122044532</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>9.0.0.0-20181122.044532-284</value>
+        <updated>20181122044532</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

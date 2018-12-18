@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 05 13:49:34 IST 2018
+pdi-pur-plugin-core-8.1.0.0-365.jar>=
+pdi-pur-plugin-core-8.1.0.0-365.jar>pentaho-public=
+pdi-pur-plugin-core-8.1.0.0-365-sources.jar>=
+pdi-pur-plugin-core-8.1.0.0-365.pom>=

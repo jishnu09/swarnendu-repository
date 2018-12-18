@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.pentaho.di.plugins</groupId>
+  <artifactId>kettle-log4j-core</artifactId>
+  <version>9.0.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181123.045207</timestamp>
+      <buildNumber>450</buildNumber>
+    </snapshot>
+    <lastUpdated>20181123045207</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>9.0.0.0-20181123.045207-450</value>
+        <updated>20181123045207</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9.0.0.0-20181123.045207-450</value>
+        <updated>20181123045207</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>9.0.0.0-20181123.045207-450</value>
+        <updated>20181123045207</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

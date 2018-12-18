@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 13:23:58 IST 2018
+flink-runtime-web_2.11-1.8-SNAPSHOT.jar>=
+flink-runtime-web_2.11-1.8-SNAPSHOT-tests.jar>=
+flink-runtime-web_2.11-1.8-SNAPSHOT.pom>=

@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 12:41:26 IST 2018
+syslog4j-0.9.34.jar>pentaho-public=
+syslog4j-0.9.34.pom>pentaho-public=

@@ -1,0 +1,14 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 11:42:47 IST 2018
+flink-examples-streaming_2.11-1.8-SNAPSHOT-WindowJoin.jar>=
+flink-examples-streaming_2.11-1.8-SNAPSHOT-tests.jar>=
+flink-examples-streaming_2.11-1.8-SNAPSHOT-WordCount.jar>=
+flink-examples-streaming_2.11-1.8-SNAPSHOT-IncrementalLearning.jar>=
+flink-examples-streaming_2.11-1.8-SNAPSHOT-SocketWindowWordCount.jar>=
+flink-examples-streaming_2.11-1.8-SNAPSHOT-AsyncIO.jar>=
+flink-examples-streaming_2.11-1.8-SNAPSHOT.jar>=
+flink-examples-streaming_2.11-1.8-SNAPSHOT-SessionWindowing.jar>=
+flink-examples-streaming_2.11-1.8-SNAPSHOT-Iteration.jar>=
+flink-examples-streaming_2.11-1.8-SNAPSHOT-TopSpeedWindowing.jar>=
+flink-examples-streaming_2.11-1.8-SNAPSHOT.pom>=
+flink-examples-streaming_2.11-1.8-SNAPSHOT-WordCountPOJO.jar>=

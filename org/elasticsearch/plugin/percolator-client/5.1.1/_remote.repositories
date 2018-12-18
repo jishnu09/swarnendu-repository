@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:40:03 IST 2018
+percolator-client-5.1.1.jar>central=
+percolator-client-5.1.1.jar>sonatype-public=
+percolator-client-5.1.1.pom>central=
+percolator-client-5.1.1.pom>pentaho-public=
+percolator-client-5.1.1.pom>sonatype-public=
+percolator-client-5.1.1.jar>=

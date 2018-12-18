@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 04 15:10:26 IST 2018
+aspectj-maven-plugin-1.7.pom>central=
+aspectj-maven-plugin-1.7.jar>pentaho-public=
+aspectj-maven-plugin-1.7.jar>central=
+aspectj-maven-plugin-1.7.pom>pentaho-public=

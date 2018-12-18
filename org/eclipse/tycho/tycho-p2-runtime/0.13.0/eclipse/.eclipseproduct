@@ -1,0 +1,5 @@
+#Eclipse Product File
+#Sat Sep 10 10:48:11 EDT 2011
+version=0.13.0
+name=org.eclipse.tycho.p2
+id=tycho-p2-runtime

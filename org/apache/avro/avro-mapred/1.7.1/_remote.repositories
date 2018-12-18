@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 29 12:45:56 IST 2018
+avro-mapred-1.7.1.jar>pentaho-public=
+avro-mapred-1.7.1.pom>pentaho-public=
+avro-mapred-1.7.1.jar>central=
+avro-mapred-1.7.1.pom>central=

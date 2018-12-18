@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.drill.exec</groupId>
+  <artifactId>vector</artifactId>
+  <versioning>
+    <versions>
+      <version>1.14.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180725113133</lastUpdated>
+  </versioning>
+</metadata>

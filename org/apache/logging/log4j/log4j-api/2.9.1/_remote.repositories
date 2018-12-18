@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 01 14:27:26 IST 2018
+log4j-api-2.9.1.pom>pentaho-public=
+log4j-api-2.9.1.jar>central=
+log4j-api-2.9.1.pom>central=

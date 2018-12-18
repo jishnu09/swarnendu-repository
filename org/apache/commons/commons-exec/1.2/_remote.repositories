@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 19 10:00:58 UTC 2018
+commons-exec-1.2.jar>mule=
+commons-exec-1.2.pom>mule=
+commons-exec-1.2.jar>central=
+commons-exec-1.2.pom>central=

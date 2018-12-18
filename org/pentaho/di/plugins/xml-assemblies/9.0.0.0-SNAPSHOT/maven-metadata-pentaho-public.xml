@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.pentaho.di.plugins</groupId>
+  <artifactId>xml-assemblies</artifactId>
+  <version>9.0.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181122.044819</timestamp>
+      <buildNumber>396</buildNumber>
+    </snapshot>
+    <lastUpdated>20181122044819</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9.0.0.0-20181122.044819-396</value>
+        <updated>20181122044819</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

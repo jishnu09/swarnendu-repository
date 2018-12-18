@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 28 18:28:35 IST 2018
+apm-datacarrier-6.0.0-beta-SNAPSHOT.jar>=
+apm-datacarrier-6.0.0-beta-SNAPSHOT.pom>=

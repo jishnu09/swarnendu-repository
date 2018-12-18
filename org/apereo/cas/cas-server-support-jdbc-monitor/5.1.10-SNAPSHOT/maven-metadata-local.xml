@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apereo.cas</groupId>
+  <artifactId>cas-server-support-jdbc-monitor</artifactId>
+  <version>5.1.10-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20180510131102</lastUpdated>
+  </versioning>
+</metadata>

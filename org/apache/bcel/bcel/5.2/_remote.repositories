@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:23:42 IST 2018
+bcel-5.2.jar>wso2-nexus=
+bcel-5.2.jar>central=
+bcel-5.2.jar>pentaho-public=
+bcel-5.2.pom>central=

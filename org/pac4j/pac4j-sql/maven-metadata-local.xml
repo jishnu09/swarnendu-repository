@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.pac4j</groupId>
+  <artifactId>pac4j-sql</artifactId>
+  <versioning>
+    <versions>
+      <version>3.0.0-RC2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180420103504</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 11:07:13 UTC 2018
+maven-invoker-2.2.jar>central=
+maven-invoker-2.2.jar>pentaho-public=
+maven-invoker-2.2.pom>pentaho-public=
+maven-invoker-2.2.pom>central=
+maven-invoker-2.2.jar>mule-plugin=

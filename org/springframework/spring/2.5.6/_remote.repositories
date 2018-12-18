@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Nov 13 12:10:50 IST 2018
+spring-2.5.6.pom>central=
+spring-2.5.6.jar>alfresco-public=
+spring-2.5.6.pom>alfresco-public=
+spring-2.5.6.pom>atlassian-public=
+spring-2.5.6.jar>=
+spring-2.5.6.pom>pentaho-public=
+spring-2.5.6.jar>pentaho-public=

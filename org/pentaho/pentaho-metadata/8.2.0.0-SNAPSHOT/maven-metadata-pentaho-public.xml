@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.pentaho</groupId>
+  <artifactId>pentaho-metadata</artifactId>
+  <version>8.2.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181022.072646</timestamp>
+      <buildNumber>54</buildNumber>
+    </snapshot>
+    <lastUpdated>20181022072646</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>8.2.0.0-20181022.072646-54</value>
+        <updated>20181022072646</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>8.2.0.0-20181022.072646-54</value>
+        <updated>20181022072646</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>8.2.0.0-20181022.072646-54</value>
+        <updated>20181022072646</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

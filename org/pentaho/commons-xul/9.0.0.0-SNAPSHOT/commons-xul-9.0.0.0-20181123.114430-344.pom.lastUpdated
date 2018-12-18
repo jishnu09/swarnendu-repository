@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 23 17:06:19 UTC 2018
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542992779459
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact org.pentaho\:commons-xul\:pom\:9.0.0.0-20181123.114430-344 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni/)\: nexus.pentaho.org\: Temporary failure in name resolution
