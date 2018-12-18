@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 23 11:55:13 UTC 2018
+https\://repo.maven.apache.org/maven2/.lastUpdated=1542974113289
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542974106282
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact regexp\:regexp\:jar\:1.2 from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni/)\: Connection timed out (Read failed)

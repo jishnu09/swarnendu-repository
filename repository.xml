@@ -1,0 +1,1514 @@
+<repository lastmodified='20181122124522.442'>
+  <resource id='core-ui/8.2.0.0-SNAPSHOT' symbolicname='core-ui' presentationname='Core UI Plugin' uri='org/pentaho/di/plugins/core-ui/8.2.0.0-SNAPSHOT/core-ui-8.2.0.0-SNAPSHOT.jar' version='8.2.0.0-SNAPSHOT'>
+    <description>Container pom for Pentaho Data Integration modules</description>
+    <size>1802932</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>https://www.apache.org/licenses/LICENSE-2.0.txt, https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt, https://www.gnu.org/licenses/lgpl-3.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='core-ui'/>
+      <p n='presentationname' v='Core UI Plugin'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.ops4j.pax.web.extender.whiteboard.ResourceMapping'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.ops4j.pax.web.extender.whiteboard))' extend='false' multiple='false' optional='false'>Import package org.ops4j.pax.web.extender.whiteboard</require>
+    <require name='package' filter='(&amp;(package=org.ops4j.pax.web.extender.whiteboard.runtime))' extend='false' multiple='false' optional='false'>Import package org.ops4j.pax.web.extender.whiteboard.runtime</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.osgi))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.osgi</require>
+  </resource>
+  <resource id='pentaho-streaming-mqtt-plugin/8.2.0.0-SNAPSHOT' symbolicname='pentaho-streaming-mqtt-plugin' presentationname='MQTT Streaming Step Plugin Bundle' uri='org/pentaho/di/plugins/pentaho-streaming-mqtt-plugin/8.2.0.0-SNAPSHOT/pentaho-streaming-mqtt-plugin-8.2.0.0-SNAPSHOT.jar' version='8.2.0.0-SNAPSHOT'>
+    <description>MQTT Streaming Step Plugin Bundle</description>
+    <size>73055</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-streaming-mqtt-plugin'/>
+      <p n='presentationname' v='MQTT Streaming Step Plugin Bundle'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.trans.step.mqtt'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.eclipse.paho.client.mqttv3,org.eclipse.swt.widgets,org.pentaho.di.core,org.pentaho.di.core.annotations,org.pentaho.di.core.exception,org.pentaho.di.core.injection,org.pentaho.di.core.row,org.pentaho.di.core.util.serialization,org.pentaho.di.core.variables,org.pentaho.di.repository,org.pentaho.di.trans,org.pentaho.di.trans.step,org.pentaho.di.trans.streaming.common,org.pentaho.di.ui.trans.step,org.pentaho.metastore.api'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.trans.step.mqtt.messages'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.custom))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.custom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.events))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.events;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.graphics))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.graphics;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.layout))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.layout;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.widgets))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.widgets;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.plugins))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.plugins</require>
+    <require name='package' filter='(&amp;(package=com.google.common.base)(version&gt;=17.0.0)(!(version&gt;=18.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.common.base;version="[17.0,18)"</require>
+    <require name='package' filter='(&amp;(package=com.google.common.collect)(version&gt;=17.0.0)(!(version&gt;=18.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.common.collect;version="[17.0,18)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang)(version&gt;=2.6.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang;version="[2.6,3)"</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.paho.client.mqttv3)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.eclipse.paho.client.mqttv3;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.paho.client.mqttv3.persist)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.eclipse.paho.client.mqttv3.persist;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.annotations))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.annotations</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.injection))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.injection</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.row))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.row</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.row.value))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.row.value</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.util</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.util.serialization))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.util.serialization</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.i18n))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.i18n</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.repository))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.repository</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans.step))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans.step</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans.streaming.api))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans.streaming.api</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans.streaming.common))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans.streaming.common</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.gui))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.gui</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.widget))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.widget</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.trans.step))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.trans.step</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.osgi))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.osgi</require>
+  </resource>
+  <resource id='pdi-engine-api/8.2.0.0-SNAPSHOT' symbolicname='pdi-engine-api' presentationname='PDI Engine API' uri='org/pentaho/pdi-engine-api/8.2.0.0-SNAPSHOT/pdi-engine-api-8.2.0.0-SNAPSHOT.jar' version='8.2.0.0-SNAPSHOT'>
+    <description>Container pom for Pentaho Data Integration modules</description>
+    <size>58903</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>https://www.apache.org/licenses/LICENSE-2.0.txt, https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt, https://www.gnu.org/licenses/lgpl-3.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pdi-engine-api'/>
+      <p n='presentationname' v='PDI Engine API'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.api'/>
+      <p n='version' t='version' v='8.2.0'/>
+      <p n='uses:' v='org.pentaho.di.engine.api.model,org.pentaho.di.engine.api.reporting'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.api.events'/>
+      <p n='version' t='version' v='8.2.0'/>
+      <p n='uses:' v='org.pentaho.di.engine.api.model,org.pentaho.di.engine.api.remote,org.pentaho.di.engine.api.reporting'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.api.model'/>
+      <p n='version' t='version' v='8.2.0'/>
+      <p n='uses:' v='org.pentaho.di.engine.api'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.api.remote'/>
+      <p n='version' t='version' v='8.2.0'/>
+      <p n='uses:' v='javax.websocket,org.pentaho.di.engine.api.model,org.pentaho.di.engine.api.reporting'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.api.reporting'/>
+      <p n='version' t='version' v='8.2.0'/>
+      <p n='uses:' v='org.pentaho.di.engine.api,org.pentaho.di.engine.api.model,org.reactivestreams'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.model'/>
+      <p n='version' t='version' v='8.2.0'/>
+      <p n='uses:' v='org.pentaho.di.engine.api.model'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.google.common.base)(version&gt;=17.0.0)(!(version&gt;=18.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.common.base;version="[17.0,18)"</require>
+    <require name='package' filter='(&amp;(package=com.google.common.collect)(version&gt;=17.0.0)(!(version&gt;=18.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.common.collect;version="[17.0,18)"</require>
+    <require name='package' filter='(&amp;(package=javax.websocket)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package javax.websocket;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.codec.binary)(version&gt;=1.10.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.codec.binary;version="[1.10,2)"</require>
+    <require name='package' filter='(&amp;(package=org.reactivestreams)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.reactivestreams;version="[1.0,2)"</require>
+  </resource>
+  <resource id='pdi-engine-configuration-api/8.2.0.0-SNAPSHOT' symbolicname='pdi-engine-configuration-api' presentationname='PDI Engine Configuration Plugin API' uri='org/pentaho/di/plugins/pdi-engine-configuration-api/8.2.0.0-SNAPSHOT/pdi-engine-configuration-api-8.2.0.0-SNAPSHOT.jar' version='8.2.0.0-SNAPSHOT'>
+    <description>Container pom for Pentaho Data Integration modules</description>
+    <size>11646</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>https://www.apache.org/licenses/LICENSE-2.0.txt, https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt, https://www.gnu.org/licenses/lgpl-3.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pdi-engine-configuration-api'/>
+      <p n='presentationname' v='PDI Engine Configuration Plugin API'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.configuration.api'/>
+      <p n='version' t='version' v='8.2.0'/>
+      <p n='uses:' v='org.eclipse.swt.widgets,org.pentaho.di,org.pentaho.di.base,org.pentaho.di.core.exception,org.pentaho.di.core.variables,org.pentaho.di.repository'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.widgets))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.widgets</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.base))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.base</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.repository))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.repository</require>
+  </resource>
+  <resource id='pdi-engine-configuration-impl/8.2.0.0-SNAPSHOT' symbolicname='pdi-engine-configuration-impl' presentationname='PDI Engine Configuration Plugin Implementation' uri='org/pentaho/di/plugins/pdi-engine-configuration-impl/8.2.0.0-SNAPSHOT/pdi-engine-configuration-impl-8.2.0.0-SNAPSHOT.jar' version='8.2.0.0-SNAPSHOT'>
+    <description>Container pom for Pentaho Data Integration modules</description>
+    <size>63119</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>https://www.apache.org/licenses/LICENSE-2.0.txt, https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt, https://www.gnu.org/licenses/lgpl-3.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pdi-engine-configuration-impl'/>
+      <p n='presentationname' v='PDI Engine Configuration Plugin Implementation'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.di.engine.configuration.api.RunConfigurationProvider'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.di.engine.configuration.api.RunConfigurationService'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.configuration.impl'/>
+      <p n='version' t='version' v='8.2.0'/>
+      <p n='uses:' v='org.pentaho.di.core.attributes.metastore,org.pentaho.di.engine.configuration.api,org.pentaho.metastore.api.exceptions,org.pentaho.metastore.persist,org.pentaho.osgi.metastore.locator.api'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.configuration.impl.extension'/>
+      <p n='version' t='version' v='8.2.0'/>
+      <p n='uses:' v='org.pentaho.di.core.exception,org.pentaho.di.core.extension,org.pentaho.di.core.logging,org.pentaho.di.engine.configuration.impl'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.configuration.impl.extension.messages'/>
+      <p n='version' t='version' v='8.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.configuration.impl.pentaho'/>
+      <p n='version' t='version' v='8.2.0'/>
+      <p n='uses:' v='org.pentaho.di,org.pentaho.di.base,org.pentaho.di.core.exception,org.pentaho.di.core.variables,org.pentaho.di.engine.configuration.api,org.pentaho.di.engine.configuration.impl,org.pentaho.di.repository,org.pentaho.metastore.api.exceptions,org.pentaho.metastore.persist,org.pentaho.osgi.metastore.locator.api'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.configuration.impl.pentaho.messages'/>
+      <p n='version' t='version' v='8.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.configuration.impl.pentaho.scheduler'/>
+      <p n='version' t='version' v='8.2.0'/>
+      <p n='uses:' v='org.pentaho.di.base,org.pentaho.di.repository'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.configuration.impl.pentaho.scheduler.messages'/>
+      <p n='version' t='version' v='8.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.configuration.impl.spark'/>
+      <p n='version' t='version' v='8.2.0'/>
+      <p n='uses:' v='org.osgi.service.cm,org.pentaho.di,org.pentaho.di.base,org.pentaho.di.core.variables,org.pentaho.di.engine.configuration.api,org.pentaho.di.engine.configuration.impl,org.pentaho.di.repository,org.pentaho.metastore.api.exceptions,org.pentaho.metastore.persist,org.pentaho.osgi.metastore.locator.api'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.configuration.impl.spark.messages'/>
+      <p n='version' t='version' v='8.2.0'/>
+    </capability>
+    <require name='service' filter='(service=org.pentaho.di.engine.configuration.api.RunConfigurationProvider)' extend='false' multiple='true' optional='true'>Import Service org.pentaho.di.engine.configuration.api.RunConfigurationProvider</require>
+    <require name='service' filter='(service=org.osgi.service.cm.ConfigurationAdmin)' extend='false' multiple='false' optional='true'>Import Service org.osgi.service.cm.ConfigurationAdmin</require>
+    <require name='service' filter='(service=org.pentaho.osgi.metastore.locator.api.MetastoreLocator)' extend='false' multiple='false' optional='true'>Import Service org.pentaho.osgi.metastore.locator.api.MetastoreLocator</require>
+    <require name='package' filter='(&amp;(package=org.apache.http))' extend='false' multiple='false' optional='false'>Import package org.apache.http</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client))' extend='false' multiple='false' optional='false'>Import package org.apache.http.client</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client.methods))' extend='false' multiple='false' optional='false'>Import package org.apache.http.client.methods</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.entity))' extend='false' multiple='false' optional='false'>Import package org.apache.http.entity</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.impl.client))' extend='false' multiple='false' optional='false'>Import package org.apache.http.impl.client</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.custom))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.custom</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.events))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.events</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.layout))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.layout</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.widgets))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.widgets</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.cm;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.capabilities.api)(version&gt;=8.2.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.capabilities.api;version="[8.2,9)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.capabilities.impl)(version&gt;=8.2.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.capabilities.impl;version="[8.2,9)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.base))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.base</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.cluster))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.cluster</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.attributes.metastore))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.attributes.metastore</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.extension))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.extension</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.util</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.engine.configuration.api)(version&gt;=8.2.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.engine.configuration.api;version="[8.2,9)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.i18n))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.i18n</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.job))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.job</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.job.entries.job))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.job.entries.job</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.job.entries.trans))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.job.entries.trans</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.job.entry))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.job.entry</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.repository))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.repository</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.spoon))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.spoon</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.spoon.job))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.spoon.job</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.spoon.trans))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.spoon.trans</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api.exceptions))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api.exceptions</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.persist))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.persist</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.osgi.metastore.locator.api)(version&gt;=8.2.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.osgi.metastore.locator.api;version="[8.2,9)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.osgi))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.osgi</require>
+  </resource>
+  <resource id='pdi-engine-configuration-ui/8.2.0.0-SNAPSHOT' symbolicname='pdi-engine-configuration-ui' presentationname='PDI Engine Configuration Plugin UI' uri='org/pentaho/di/plugins/pdi-engine-configuration-ui/8.2.0.0-SNAPSHOT/pdi-engine-configuration-ui-8.2.0.0-SNAPSHOT.jar' version='8.2.0.0-SNAPSHOT'>
+    <description>Container pom for Pentaho Data Integration modules</description>
+    <size>39044</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>https://www.apache.org/licenses/LICENSE-2.0.txt, https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt, https://www.gnu.org/licenses/lgpl-3.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pdi-engine-configuration-ui'/>
+      <p n='presentationname' v='PDI Engine Configuration Plugin UI'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.engine.ui'/>
+      <p n='version' t='version' v='8.2.0'/>
+      <p n='uses:' v='org.eclipse.swt.graphics,org.eclipse.swt.widgets,org.pentaho.di.base,org.pentaho.di.core.annotations,org.pentaho.di.core.exception,org.pentaho.di.core.extension,org.pentaho.di.core.lifecycle,org.pentaho.di.core.logging,org.pentaho.di.engine.configuration.api,org.pentaho.di.ui.core.widget.tree,org.pentaho.di.ui.spoon.tree'/>
+    </capability>
+    <require name='service' filter='(service=org.pentaho.di.engine.configuration.api.RunConfigurationService)' extend='false' multiple='false' optional='true'>Import Service org.pentaho.di.engine.configuration.api.RunConfigurationService</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.extension))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.extension</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang)(version&gt;=2.6.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang;version="[2.6,3)"</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.custom))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.custom</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.events))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.events</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.graphics))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.graphics</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.layout))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.layout</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.widgets))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.widgets</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.base))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.base</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.annotations))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.annotations</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.lifecycle))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.lifecycle</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.util</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.engine.configuration.api)(version&gt;=8.2.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.engine.configuration.api;version="[8.2,9)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.engine.configuration.impl.pentaho)(version&gt;=8.2.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.engine.configuration.impl.pentaho;version="[8.2,9)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.i18n))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.i18n</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.job))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.job</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.job.entry))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.job.entry</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.gui))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.gui</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.widget.tree))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.widget.tree</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.spoon))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.spoon</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.spoon.delegates))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.spoon.delegates</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.spoon.tree))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.spoon.tree</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.trans.step))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.trans.step</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.util</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.plugins))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.plugins</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.osgi))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.osgi</require>
+  </resource>
+  <resource id='file-open-save-core/8.2.0.0-SNAPSHOT' symbolicname='file-open-save-core' presentationname='PDI File Open and Save Plugin Core' uri='org/pentaho/di/plugins/file-open-save-core/8.2.0.0-SNAPSHOT/file-open-save-core-8.2.0.0-SNAPSHOT.jar' version='8.2.0.0-SNAPSHOT'>
+    <description>Container pom for Pentaho Data Integration modules</description>
+    <size>148623</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>https://www.apache.org/licenses/LICENSE-2.0.txt, https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt, https://www.gnu.org/licenses/lgpl-3.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='file-open-save-core'/>
+      <p n='presentationname' v='PDI File Open and Save Plugin Core'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.ops4j.pax.web.extender.whiteboard.ResourceMapping'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.repo.controller'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.json.simple,org.pentaho.di.core.exception,org.pentaho.di.repository,org.pentaho.repo.model'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.repo.endpoint'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='uses:' v='javax.ws.rs,javax.ws.rs.core,org.pentaho.repo.controller'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.repo.util'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.repo.model'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.di.repository,org.pentaho.platform.api.repository2.unified'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.repo.dialog'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.eclipse.swt.widgets,org.pentaho.di.repository,org.pentaho.di.ui.core.dialog'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.repo.extension'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.di.core.exception,org.pentaho.di.core.extension,org.pentaho.di.core.logging'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.jaxrs.json)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.jaxrs.json;version="[2.9,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs.core)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs.core;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang)(version&gt;=2.6.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang;version="[2.6,3)"</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.browser))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.browser</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.graphics))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.graphics</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.widgets))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.widgets</require>
+    <require name='package' filter='(&amp;(package=org.json.simple)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.json.simple;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.json.simple.parser)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.json.simple.parser;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.ops4j.pax.web.extender.whiteboard))' extend='false' multiple='false' optional='false'>Import package org.ops4j.pax.web.extender.whiteboard</require>
+    <require name='package' filter='(&amp;(package=org.ops4j.pax.web.extender.whiteboard.runtime))' extend='false' multiple='false' optional='false'>Import package org.ops4j.pax.web.extender.whiteboard.runtime</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.extension))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.extension</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.util</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.job))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.job</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.repository))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.repository</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.dialog))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.dialog</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.gui))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.gui</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.spoon))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.spoon</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.spoon.delegates))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.spoon.delegates</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.platform.api.repository2.unified))' extend='false' multiple='false' optional='false'>Import package org.pentaho.platform.api.repository2.unified</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.platform.settings))' extend='false' multiple='false' optional='false'>Import package org.pentaho.platform.settings</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.osgi))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.osgi</require>
+  </resource>
+  <resource id='get-fields-core/8.2.0.0-SNAPSHOT' symbolicname='get-fields-core' presentationname='PDI Get Fields Plugin Core' uri='org/pentaho/di/plugins/get-fields-core/8.2.0.0-SNAPSHOT/get-fields-core-8.2.0.0-SNAPSHOT.jar' version='8.2.0.0-SNAPSHOT'>
+    <description>Container pom for Pentaho Data Integration modules</description>
+    <size>84449</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>https://www.apache.org/licenses/LICENSE-2.0.txt, https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt, https://www.gnu.org/licenses/lgpl-3.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='get-fields-core'/>
+      <p n='presentationname' v='PDI Get Fields Plugin Core'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.ops4j.pax.web.extender.whiteboard.ResourceMapping'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.getfields.types.json'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.di.core.exception,org.pentaho.getfields.types.json.node'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.getfields.types.json.node'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.getfields.endpoint'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='uses:' v='javax.ws.rs,javax.ws.rs.core'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.getfields.dialog'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.eclipse.swt.widgets,org.pentaho.di.ui.core.dialog'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.getfields.extension'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.di.core.exception,org.pentaho.di.core.extension,org.pentaho.di.core.logging'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core;version="[2.9,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.databind)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.databind;version="[2.9,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.jaxrs.json)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.jaxrs.json;version="[2.9,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs.core)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs.core;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.browser))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.browser</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.graphics))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.graphics</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.widgets))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.widgets</require>
+    <require name='package' filter='(&amp;(package=org.ops4j.pax.web.extender.whiteboard))' extend='false' multiple='false' optional='false'>Import package org.ops4j.pax.web.extender.whiteboard</require>
+    <require name='package' filter='(&amp;(package=org.ops4j.pax.web.extender.whiteboard.runtime))' extend='false' multiple='false' optional='false'>Import package org.ops4j.pax.web.extender.whiteboard.runtime</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.extension))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.extension</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.vfs))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.vfs</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.dialog))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.dialog</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.gui))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.gui</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.platform.settings))' extend='false' multiple='false' optional='false'>Import package org.pentaho.platform.settings</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.osgi))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.osgi</require>
+  </resource>
+  <resource id='meta-inject-plugin/8.2.0.0-SNAPSHOT' symbolicname='meta-inject-plugin' presentationname='PDI Metadata Injection Plugin' uri='org/pentaho/di/plugins/meta-inject-plugin/8.2.0.0-SNAPSHOT/meta-inject-plugin-8.2.0.0-SNAPSHOT.jar' version='8.2.0.0-SNAPSHOT'>
+    <description>Metadata Injection as an OSGi Plugin</description>
+    <size>94768</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>https://www.apache.org/licenses/LICENSE-2.0.txt, https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt, https://www.gnu.org/licenses/lgpl-3.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='meta-inject-plugin'/>
+      <p n='presentationname' v='PDI Metadata Injection Plugin'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.di.core.plugins.PluginInterface'/>
+      <p n='PluginType' v='org.pentaho.di.core.plugins.StepPluginType'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.metaverse.api.analyzer.kettle.step.IClonableStepAnalyzer'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.trans.steps.metainject'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.di.trans.step,org.pentaho.di.trans,org.pentaho.di.core.exception,org.pentaho.di.core.row,org.pentaho.di.core.variables,org.pentaho.di.core.parameters,org.pentaho.di.core.util,org.pentaho.di.job,org.pentaho.di.core.xml,org.pentaho.di.core.logging,org.pentaho.di.repository,org.pentaho.metastore.api,org.pentaho.di.i18n,org.pentaho.di.core.injection.bean,org.pentaho.di.core.vfs,org.pentaho.di.core,org.pentaho.di.core.injection,org.w3c.dom,org.pentaho.di.core.gui,org.pentaho.di.resource,org.pentaho.di.core.annotations,org.pentaho.di.core.database,org.pentaho.di.core.row.value,org.pentaho.di.core.extension,org.pentaho.di.ui.spoon,org.pentaho.metastore.stores.xml,org.pentaho.di.repository.filerep,org.apache.commons.vfs2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.ui.trans.steps.metainject'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.eclipse.swt.events,org.pentaho.di.trans.steps.metainject,org.pentaho.di.trans.step,org.pentaho.di.core.variables,org.pentaho.di.core.row,org.eclipse.swt.graphics,org.pentaho.di.core.util,org.eclipse.swt.widgets,org.pentaho.di.trans,org.pentaho.di.ui.core.dialog,org.pentaho.di.i18n,org.pentaho.di.core,org.pentaho.di.repository,org.pentaho.di.core.exception,org.pentaho.di.ui.core.widget,org.pentaho.di.core.annotations,org.pentaho.di.core.logging,org.pentaho.di.ui.trans.step,org.eclipse.swt.custom,org.pentaho.di.core.injection.bean,org.apache.commons.lang,org.eclipse.swt,org.pentaho.di.ui.spoon,org.eclipse.swt.layout,org.pentaho.di.ui.core,org.pentaho.vfs.ui,org.pentaho.di.core.row.value,org.pentaho.di.ui.util,org.apache.commons.vfs2,org.pentaho.di.core.vfs'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.ui.trans.steps.metainject.analyzer'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.di.trans.step,org.pentaho.metaverse.api,org.pentaho.di.trans.steps.metainject,org.pentaho.metaverse.api.analyzer.kettle.step,org.pentaho.di.core.util,org.apache.commons.lang,org.pentaho.metaverse.api.analyzer.kettle,org.pentaho.dictionary,org.pentaho.di.trans'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang)(version&gt;=2.6.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang;version="[2.6,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.vfs2)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.vfs2;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.custom))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.custom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.events))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.events;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.graphics))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.graphics;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.layout))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.layout;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.widgets))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.widgets;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.annotations))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.annotations</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.database))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.database</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.extension))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.extension</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.gui))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.gui</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.injection))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.injection</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.injection.bean))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.injection.bean</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.parameters))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.parameters</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.plugins))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.plugins</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.row))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.row</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.row.value))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.row.value</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.util</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.vfs))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.vfs</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.xml))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.xml</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.i18n))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.i18n</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.job))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.job</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.osgi))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.osgi</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.repository))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.repository</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.repository.filerep))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.repository.filerep</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.resource))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.resource</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans.step))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans.step</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.dialog))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.dialog</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.widget))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.widget</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.spoon))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.spoon</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.trans.step))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.trans.step</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.util</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.dictionary))' extend='false' multiple='false' optional='false'>Import package org.pentaho.dictionary</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.stores.xml))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.stores.xml</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metaverse.api))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metaverse.api</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metaverse.api.analyzer.kettle))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metaverse.api.analyzer.kettle</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metaverse.api.analyzer.kettle.step))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metaverse.api.analyzer.kettle.step</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.vfs.ui))' extend='false' multiple='false' optional='false'>Import package org.pentaho.vfs.ui</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom</require>
+  </resource>
+  <resource id='repositories-plugin-core/8.2.0.0-SNAPSHOT' symbolicname='repositories-plugin-core' presentationname='PDI Repositories Plugin Core' uri='org/pentaho/di/plugins/repositories-plugin-core/8.2.0.0-SNAPSHOT/repositories-plugin-core-8.2.0.0-SNAPSHOT.jar' version='8.2.0.0-SNAPSHOT'>
+    <description>Container pom for Pentaho Data Integration modules</description>
+    <size>197317</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>https://www.apache.org/licenses/LICENSE-2.0.txt, https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt, https://www.gnu.org/licenses/lgpl-3.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='repositories-plugin-core'/>
+      <p n='presentationname' v='PDI Repositories Plugin Core'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.di.ui.repo.IConnectedRepositoryInstance'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.osgi.service.http.HttpContext'/>
+      <p n='contextId' v='repoContextId'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.ops4j.pax.web.extender.whiteboard.ResourceMapping'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.di.core.plugins.PluginInterface'/>
+      <p n='PluginType' v='org.pentaho.di.ui.spoon.SpoonPluginType'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.ui.repo'/>
+      <p n='version' t='version' v='8.2.0'/>
+      <p n='uses:' v='javax.servlet.http,org.osgi.framework,org.osgi.service.http,org.pentaho.di.repository'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.ui.repo.endpoints'/>
+      <p n='version' t='version' v='8.2.0'/>
+      <p n='uses:' v='javax.ws.rs,javax.ws.rs.core,org.pentaho.di.ui.repo.model'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.ui.repo.model'/>
+      <p n='version' t='version' v='8.2.0'/>
+    </capability>
+    <require name='service' filter='(service=org.osgi.service.http.HttpService)' extend='false' multiple='false' optional='false'>Import Service org.osgi.service.http.HttpService</require>
+    <require name='package' filter='(&amp;(package=org.json.simple)(version&gt;=1.1.0)(!(version&gt;=1.1.1)))' extend='false' multiple='false' optional='false'>Import package org.json.simple;version="[1.1.0,1.1.1)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.jaxrs.json)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.jaxrs.json;version="[2.9,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.servlet.http))' extend='false' multiple='false' optional='false'>Import package javax.servlet.http</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs.core))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs.core</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.io)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.io;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang)(version&gt;=2.6.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang;version="[2.6,3)"</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.browser))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.browser</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.events))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.events</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.graphics))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.graphics</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.widgets))' extend='false' multiple='false' optional='false'>Import package org.eclipse.swt.widgets</require>
+    <require name='package' filter='(&amp;(package=org.ops4j.pax.web.extender.whiteboard))' extend='false' multiple='false' optional='false'>Import package org.ops4j.pax.web.extender.whiteboard</require>
+    <require name='package' filter='(&amp;(package=org.ops4j.pax.web.extender.whiteboard.runtime))' extend='false' multiple='false' optional='false'>Import package org.ops4j.pax.web.extender.whiteboard.runtime</require>
+    <require name='package' filter='(&amp;(package=org.ops4j.pax.web.service.spi.util)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='false'>Import package org.ops4j.pax.web.service.spi.util;version="[3.1,4)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.http;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.database))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.database</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.extension))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.extension</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.plugins))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.plugins</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.util</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.i18n))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.i18n</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.osgi))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.osgi</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.pan))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.pan</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.repository))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.repository</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.database.dialog))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.database.dialog</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.dialog))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.dialog</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.gui))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.gui</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.repo)(version&gt;=8.2.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.repo;version="[8.2,9)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.repo.model)(version&gt;=8.2.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.repo.model;version="[8.2,9)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.repository))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.repository</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.spoon))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.spoon</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.util</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.platform.settings))' extend='false' multiple='false' optional='false'>Import package org.pentaho.platform.settings</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.ui.xul))' extend='false' multiple='false' optional='false'>Import package org.pentaho.ui.xul</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.ui.xul.containers))' extend='false' multiple='false' optional='false'>Import package org.pentaho.ui.xul.containers</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.ui.xul.dom))' extend='false' multiple='false' optional='false'>Import package org.pentaho.ui.xul.dom</require>
+  </resource>
+  <resource id='pentaho-big-data-api-cluster/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-api-cluster' presentationname='Pentaho Community Edition Project: pentaho-big-data-api-cluster' uri='pentaho/pentaho-big-data-api-cluster/9.0.0.0-SNAPSHOT/pentaho-big-data-api-cluster-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>5584</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-api-cluster'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-api-cluster'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.big.data.api.cluster'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.di.core.variables,org.pentaho.metastore.api,org.pentaho.metastore.api.exceptions,org.w3c.dom'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api.exceptions))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api.exceptions</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom</require>
+  </resource>
+  <resource id='pentaho-big-data-api-cluster-service-locator/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-api-cluster-service-locator' presentationname='Pentaho Community Edition Project: pentaho-big-data-api-cluster-service-locator' uri='pentaho/pentaho-big-data-api-cluster-service-locator/9.0.0.0-SNAPSHOT/pentaho-big-data-api-cluster-service-locator-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>10894</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-api-cluster-service-locator'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-api-cluster-service-locator'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.big.data.api.cluster.service.locator.NamedClusterServiceLocator'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.big.data.api.cluster.service.locator'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.big.data.api.cluster,org.pentaho.big.data.api.initializer'/>
+    </capability>
+    <require name='service' filter='(service=org.pentaho.big.data.api.cluster.service.locator.NamedClusterServiceFactory)' extend='false' multiple='true' optional='true'>Import Service org.pentaho.big.data.api.cluster.service.locator.NamedClusterServiceFactory</require>
+    <require name='service' filter='(service=org.pentaho.big.data.api.initializer.ClusterInitializer)' extend='false' multiple='false' optional='false'>Import Service org.pentaho.big.data.api.initializer.ClusterInitializer</require>
+    <require name='package' filter='(&amp;(package=com.google.common.base)(version&gt;=17.0.0)(!(version&gt;=18.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.common.base;version="[17.0,18)"</require>
+    <require name='package' filter='(&amp;(package=com.google.common.collect)(version&gt;=17.0.0)(!(version&gt;=18.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.common.collect;version="[17.0,18)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster.service.locator))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster.service.locator</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.initializer)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.initializer;version="[9.0,10)"</require>
+  </resource>
+  <resource id='pentaho-big-data-api-format/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-api-format' presentationname='Pentaho Community Edition Project: pentaho-big-data-api-format' uri='pentaho/pentaho-big-data-api-format/9.0.0.0-SNAPSHOT/pentaho-big-data-api-format-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>3443</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-api-format'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-api-format'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.bigdata.api.format'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+    </capability>
+  </resource>
+  <resource id='pentaho-big-data-api-hbase/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-api-hbase' presentationname='Pentaho Community Edition Project: pentaho-big-data-api-hbase' uri='pentaho/pentaho-big-data-api-hbase/9.0.0.0-SNAPSHOT/pentaho-big-data-api-hbase-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>18219</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-api-hbase'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-api-hbase'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.bigdata.api.hbase'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.bigdata.api.hbase.mapping,org.pentaho.bigdata.api.hbase.meta,org.pentaho.bigdata.api.hbase.table,org.pentaho.di.core.exception,org.pentaho.di.core.logging,org.pentaho.di.core.row,org.pentaho.di.core.variables'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.bigdata.api.hbase.mapping'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.bigdata.api.hbase.meta,org.pentaho.di.core.exception,org.pentaho.di.repository,org.w3c.dom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.bigdata.api.hbase.meta'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.di.core.exception,org.pentaho.di.core.row,org.pentaho.di.repository,org.w3c.dom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.bigdata.api.hbase.table'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.bigdata.api.hbase,org.pentaho.bigdata.api.hbase.mapping,org.pentaho.bigdata.api.hbase.meta,org.pentaho.di.core.exception,org.pentaho.di.core.logging,org.pentaho.di.core.variables'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.row))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.row</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.repository))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.repository</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom</require>
+  </resource>
+  <resource id='pentaho-big-data-api-hdfs/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-api-hdfs' presentationname='Pentaho Community Edition Project: pentaho-big-data-api-hdfs' uri='pentaho/pentaho-big-data-api-hdfs/9.0.0.0-SNAPSHOT/pentaho-big-data-api-hdfs-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>8783</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-api-hdfs'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-api-hdfs'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.bigdata.api.hdfs.HadoopFileSystemLocator'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.bigdata.api.hdfs'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.big.data.api.cluster,org.pentaho.big.data.api.initializer'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.bigdata.api.hdfs.exceptions'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+    </capability>
+    <require name='service' filter='(service=org.pentaho.big.data.api.initializer.ClusterInitializer)' extend='false' multiple='false' optional='false'>Import Service org.pentaho.big.data.api.initializer.ClusterInitializer</require>
+    <require name='service' filter='(service=org.pentaho.bigdata.api.hdfs.HadoopFileSystemFactory)' extend='false' multiple='true' optional='true'>Import Service org.pentaho.bigdata.api.hdfs.HadoopFileSystemFactory</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.initializer)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.initializer;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.bigdata.api.hdfs))' extend='false' multiple='false' optional='false'>Import package org.pentaho.bigdata.api.hdfs</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+  </resource>
+  <resource id='pentaho-big-data-api-initializer/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-api-initializer' presentationname='Pentaho Community Edition Project: pentaho-big-data-api-initializer' uri='pentaho/pentaho-big-data-api-initializer/9.0.0.0-SNAPSHOT/pentaho-big-data-api-initializer-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>6327</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-api-initializer'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-api-initializer'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.big.data.api.initializer.ClusterInitializer'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.big.data.api.initializer'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.big.data.api.cluster'/>
+    </capability>
+    <require name='service' filter='(service=org.pentaho.big.data.api.initializer.ClusterInitializerProvider)' extend='false' multiple='true' optional='true'>Import Service org.pentaho.big.data.api.initializer.ClusterInitializerProvider</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.initializer))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.initializer</require>
+  </resource>
+  <resource id='pentaho-big-data-api-jaas/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-api-jaas' presentationname='Pentaho Community Edition Project: pentaho-big-data-api-jaas' uri='pentaho/pentaho-big-data-api-jaas/9.0.0.0-SNAPSHOT/pentaho-big-data-api-jaas-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>3099</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-api-jaas'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-api-jaas'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.bigdata.api.jaas'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+    </capability>
+  </resource>
+  <resource id='pentaho-big-data-api-mapreduce/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-api-mapreduce' presentationname='Pentaho Community Edition Project: pentaho-big-data-api-mapreduce' uri='pentaho/pentaho-big-data-api-mapreduce/9.0.0.0-SNAPSHOT/pentaho-big-data-api-mapreduce-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>11486</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-api-mapreduce'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-api-mapreduce'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.bigdata.api.mapreduce'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.di.core,org.pentaho.di.core.exception,org.pentaho.di.core.logging,org.pentaho.di.core.row,org.pentaho.di.core.variables,org.pentaho.di.trans,org.pentaho.di.trans.step'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.row))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.row</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans.step))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans.step</require>
+  </resource>
+  <resource id='pentaho-big-data-api-oozie/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-api-oozie' presentationname='Pentaho Community Edition Project: pentaho-big-data-api-oozie' uri='pentaho/pentaho-big-data-api-oozie/9.0.0.0-SNAPSHOT/pentaho-big-data-api-oozie-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>4414</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-api-oozie'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-api-oozie'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.bigdata.api.oozie'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+    </capability>
+  </resource>
+  <resource id='pentaho-big-data-api-pig/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-api-pig' presentationname='Pentaho Community Edition Project: pentaho-big-data-api-pig' uri='pentaho/pentaho-big-data-api-pig/9.0.0.0-SNAPSHOT/pentaho-big-data-api-pig-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>5592</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-api-pig'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-api-pig'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.bigdata.api.pig'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.apache.commons.vfs2,org.pentaho.di.core.logging,org.pentaho.di.core.variables'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.bigdata.api.pig.impl'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.apache.commons.vfs2,org.pentaho.bigdata.api.pig'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.apache.commons.vfs2)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.vfs2;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+  </resource>
+  <resource id='pentaho-big-data-api-runtimeTest/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-api-runtimeTest' presentationname='Pentaho Community Edition Project: pentaho-big-data-api-runtimeTest' uri='pentaho/pentaho-big-data-api-runtimeTest/9.0.0.0-SNAPSHOT/pentaho-big-data-api-runtimeTest-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>52681</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-api-runtimeTest'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-api-runtimeTest'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.runtime.test.RuntimeTester'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.runtime.test.action.RuntimeTestActionService'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.runtime.test.i18n.MessageGetterFactory'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.runtime.test.network.ConnectivityTestFactory'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.runtime.test'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.runtime.test.module,org.pentaho.runtime.test.result'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.runtime.test.action'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.runtime.test.result'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.runtime.test.action.impl'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.runtime.test.action,org.pentaho.runtime.test.i18n,org.pentaho.runtime.test.result,org.slf4j'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.runtime.test.action.impl.messages'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.runtime.test.i18n'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.runtime.test.i18n.impl'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.runtime.test.i18n'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.runtime.test.impl'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.runtime.test,org.pentaho.runtime.test.module'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.runtime.test.impl.messages'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.runtime.test.module'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.runtime.test,org.pentaho.runtime.test.result'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.runtime.test.module.impl'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.runtime.test,org.pentaho.runtime.test.module,org.pentaho.runtime.test.result'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.runtime.test.network'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.runtime.test.i18n,org.pentaho.runtime.test.result'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.runtime.test.network.impl'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.runtime.test.i18n,org.pentaho.runtime.test.network,org.pentaho.runtime.test.result'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.runtime.test.network.impl.messages'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.runtime.test.result'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.runtime.test,org.pentaho.runtime.test.action'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.runtime.test.result.org.pentaho.runtime.test.result.impl'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.runtime.test.result'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.runtime.test.test.impl'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.runtime.test,org.pentaho.runtime.test.action,org.pentaho.runtime.test.result'/>
+    </capability>
+    <require name='service' filter='(service=java.util.concurrent.ExecutorService)' extend='false' multiple='false' optional='false'>Import Service java.util.concurrent.ExecutorService</require>
+    <require name='service' filter='(service=org.pentaho.runtime.test.RuntimeTest)' extend='false' multiple='true' optional='true'>Import Service org.pentaho.runtime.test.RuntimeTest</require>
+    <require name='service' filter='(service=org.pentaho.runtime.test.action.RuntimeTestActionHandler)' extend='false' multiple='true' optional='true'>Import Service org.pentaho.runtime.test.action.RuntimeTestActionHandler</require>
+    <require name='package' filter='(&amp;(package=javax.net.ssl))' extend='false' multiple='false' optional='false'>Import package javax.net.ssl</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang)(version&gt;=2.6.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang;version="[2.6,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http))' extend='false' multiple='false' optional='false'>Import package org.apache.http</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client))' extend='false' multiple='false' optional='false'>Import package org.apache.http.client</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client.methods))' extend='false' multiple='false' optional='false'>Import package org.apache.http.client.methods</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client.protocol))' extend='false' multiple='false' optional='false'>Import package org.apache.http.client.protocol</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.impl.client))' extend='false' multiple='false' optional='false'>Import package org.apache.http.impl.client</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.protocol))' extend='false' multiple='false' optional='false'>Import package org.apache.http.protocol</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.util</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.i18n))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.i18n</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+  </resource>
+  <resource id='pentaho-big-data-api-sqoop/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-api-sqoop' presentationname='Pentaho Community Edition Project: pentaho-big-data-api-sqoop' uri='pentaho/pentaho-big-data-api-sqoop/9.0.0.0-SNAPSHOT/pentaho-big-data-api-sqoop-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>3161</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-api-sqoop'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-api-sqoop'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.bigdata.api.sqoop'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+    </capability>
+  </resource>
+  <resource id='pentaho-big-data-impl-cluster/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-impl-cluster' presentationname='Pentaho Community Edition Project: pentaho-big-data-impl-cluster' uri='pentaho/pentaho-big-data-impl-cluster/9.0.0.0-SNAPSHOT/pentaho-big-data-impl-cluster-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>22383</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-impl-cluster'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-impl-cluster'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.big.data.api.cluster.NamedClusterService'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='false'>Import package javax.xml.parsers</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform))' extend='false' multiple='false' optional='false'>Import package javax.xml.transform</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.dom))' extend='false' multiple='false' optional='false'>Import package javax.xml.transform.dom</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.stream))' extend='false' multiple='false' optional='false'>Import package javax.xml.transform.stream</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.beanutils)(version&gt;=1.9.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.beanutils;version="[1.9,2)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.vfs2)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.vfs2;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.vfs2.provider)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.vfs2.provider;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.vfs2.provider.url)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.vfs2.provider.url;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.cm;version="[1.4,2)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.base))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.base</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.attributes.metastore))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.attributes.metastore</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.extension))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.extension</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.osgi.api))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.osgi.api</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.row))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.row</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.row.value))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.row.value</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.util</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.xml))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.xml</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.job))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.job</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans.steps.named.cluster))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans.steps.named.cluster</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api.exceptions))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api.exceptions</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api.security))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api.security</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.persist))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.persist</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.util</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.osgi))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.osgi</require>
+  </resource>
+  <resource id='pentaho-big-data-impl-clusterTests/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-impl-clusterTests' presentationname='Pentaho Community Edition Project: pentaho-big-data-impl-clusterTests' uri='pentaho/pentaho-big-data-impl-clusterTests/9.0.0.0-SNAPSHOT/pentaho-big-data-impl-clusterTests-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>39389</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-impl-clusterTests'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-impl-clusterTests'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.runtime.test.RuntimeTest'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.big.data.impl.cluster.tests'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.runtime.test.action,org.pentaho.runtime.test.i18n,org.pentaho.runtime.test.result,org.pentaho.runtime.test.test.impl'/>
+    </capability>
+    <require name='service' filter='(service=org.pentaho.big.data.api.cluster.service.locator.NamedClusterServiceLocator)' extend='false' multiple='false' optional='false'>Import Service org.pentaho.big.data.api.cluster.service.locator.NamedClusterServiceLocator</require>
+    <require name='service' filter='(service=org.pentaho.bigdata.api.hdfs.HadoopFileSystemLocator)' extend='false' multiple='false' optional='false'>Import Service org.pentaho.bigdata.api.hdfs.HadoopFileSystemLocator</require>
+    <require name='service' filter='(service=org.pentaho.runtime.test.i18n.MessageGetterFactory)' extend='false' multiple='false' optional='false'>Import Service org.pentaho.runtime.test.i18n.MessageGetterFactory</require>
+    <require name='service' filter='(service=org.pentaho.runtime.test.network.ConnectivityTestFactory)' extend='false' multiple='false' optional='false'>Import Service org.pentaho.runtime.test.network.ConnectivityTestFactory</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang)(version&gt;=2.6.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang;version="[2.6,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.kafka.clients))' extend='false' multiple='false' optional='false'>Import package org.apache.kafka.clients</require>
+    <require name='package' filter='(&amp;(package=org.apache.kafka.clients.consumer))' extend='false' multiple='false' optional='false'>Import package org.apache.kafka.clients.consumer</require>
+    <require name='package' filter='(&amp;(package=org.apache.kafka.common.config))' extend='false' multiple='false' optional='false'>Import package org.apache.kafka.common.config</require>
+    <require name='package' filter='(&amp;(package=org.apache.kafka.common.serialization))' extend='false' multiple='false' optional='false'>Import package org.apache.kafka.common.serialization</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster.service.locator)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster.service.locator;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.initializer)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.initializer;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.impl.cluster.tests))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.impl.cluster.tests</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.bigdata.api.hdfs)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.bigdata.api.hdfs;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.bigdata.api.hdfs.exceptions)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.bigdata.api.hdfs.exceptions;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.bigdata.api.jaas)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.bigdata.api.jaas;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.runtime.test)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.runtime.test;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.runtime.test.action)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.runtime.test.action;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.runtime.test.action.impl)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.runtime.test.action.impl;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.runtime.test.i18n)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.runtime.test.i18n;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.runtime.test.network)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.runtime.test.network;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.runtime.test.result)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.runtime.test.result;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.runtime.test.result.org.pentaho.runtime.test.result.impl)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.runtime.test.result.org.pentaho.runtime.test.result.impl;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.runtime.test.test.impl)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.runtime.test.test.impl;version="[9.0,10)"</require>
+  </resource>
+  <resource id='pentaho-big-data-impl-shim-common/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-impl-shim-common' presentationname='Pentaho Community Edition Project: pentaho-big-data-impl-shim-common' uri='pentaho/pentaho-big-data-impl-shim-common/9.0.0.0-SNAPSHOT/pentaho-big-data-impl-shim-common-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>13182</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-impl-shim-common'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-impl-shim-common'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.pentaho.big.data.bundles.impl.shim.common'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.osgi.framework,org.pentaho.di.core.exception,org.pentaho.di.core.plugins'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.apache.commons.io)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.io;version="[1.4,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework.wiring)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework.wiring;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.plugins))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.plugins</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+  </resource>
+  <resource id='pentaho-big-data-impl-shim-hbase/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-impl-shim-hbase' presentationname='Pentaho Community Edition Project: pentaho-big-data-impl-shim-hbase' uri='pentaho/pentaho-big-data-impl-shim-hbase/9.0.0.0-SNAPSHOT/pentaho-big-data-impl-shim-hbase-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>59298</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-impl-shim-hbase'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-impl-shim-hbase'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.google.common.collect)(version&gt;=17.0.0)(!(version&gt;=18.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.common.collect;version="[17.0,18)"</require>
+    <require name='package' filter='(&amp;(package=com.pentaho.big.data.bundles.impl.shim.common)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package com.pentaho.big.data.bundles.impl.shim.common;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster.service.locator)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster.service.locator;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.bigdata.api.hbase)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.bigdata.api.hbase;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.bigdata.api.hbase.mapping)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.bigdata.api.hbase.mapping;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.bigdata.api.hbase.meta)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.bigdata.api.hbase.meta;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.bigdata.api.hbase.table)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.bigdata.api.hbase.table;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.row))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.row</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.xml))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.xml</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.i18n))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.i18n</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.repository))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.repository</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom</require>
+  </resource>
+  <resource id='pentaho-big-data-impl-shim-hdfs/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-impl-shim-hdfs' presentationname='Pentaho Community Edition Project: pentaho-big-data-impl-shim-hdfs' uri='pentaho/pentaho-big-data-impl-shim-hdfs/9.0.0.0-SNAPSHOT/pentaho-big-data-impl-shim-hdfs-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>26558</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-impl-shim-hdfs'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-impl-shim-hdfs'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.pentaho.big.data.bundles.impl.shim.common)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package com.pentaho.big.data.bundles.impl.shim.common;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.bigdata.api.hdfs)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.bigdata.api.hdfs;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.bigdata.api.hdfs.exceptions)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.bigdata.api.hdfs.exceptions;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+  </resource>
+  <resource id='pentaho-big-data-impl-shim-hive/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-impl-shim-hive' presentationname='Pentaho Community Edition Project: pentaho-big-data-impl-shim-hive' uri='pentaho/pentaho-big-data-impl-shim-hive/9.0.0.0-SNAPSHOT/pentaho-big-data-impl-shim-hive-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>15405</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-impl-shim-hive'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-impl-shim-hive'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <require name='service' filter='(service=org.pentaho.big.data.api.jdbc.JdbcUrlParser)' extend='false' multiple='false' optional='false'>Import Service org.pentaho.big.data.api.jdbc.JdbcUrlParser</require>
+    <require name='package' filter='(&amp;(package=com.pentaho.big.data.bundles.impl.shim.common))' extend='false' multiple='false' optional='false'>Import package com.pentaho.big.data.bundles.impl.shim.common</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.jdbc)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.jdbc;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+  </resource>
+  <resource id='pentaho-big-data-impl-shim-initializer/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-impl-shim-initializer' presentationname='Pentaho Community Edition Project: pentaho-big-data-impl-shim-initializer' uri='pentaho/pentaho-big-data-impl-shim-initializer/9.0.0.0-SNAPSHOT/pentaho-big-data-impl-shim-initializer-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>5333</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-impl-shim-initializer'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-impl-shim-initializer'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.big.data.api.initializer.ClusterInitializerProvider'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.pentaho.big.data.bundles.impl.shim.common)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package com.pentaho.big.data.bundles.impl.shim.common;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.initializer)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.initializer;version="[9.0,10)"</require>
+  </resource>
+  <resource id='pentaho-big-data-impl-shim-mapreduce/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-impl-shim-mapreduce' presentationname='Pentaho Community Edition Project: pentaho-big-data-impl-shim-mapreduce' uri='pentaho/pentaho-big-data-impl-shim-mapreduce/9.0.0.0-SNAPSHOT/pentaho-big-data-impl-shim-mapreduce-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>38322</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-impl-shim-mapreduce'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-impl-shim-mapreduce'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <require name='service' filter='(service=java.util.concurrent.ExecutorService)' extend='false' multiple='false' optional='false'>Import Service java.util.concurrent.ExecutorService</require>
+    <require name='service' filter='(service=org.pentaho.bigdata.api.mapreduce.TransformationVisitorService)' extend='false' multiple='true' optional='true'>Import Service org.pentaho.bigdata.api.mapreduce.TransformationVisitorService</require>
+    <require name='package' filter='(&amp;(package=com.pentaho.big.data.bundles.impl.shim.common)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package com.pentaho.big.data.bundles.impl.shim.common;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.vfs2)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.vfs2;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster.service.locator)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster.service.locator;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.bigdata.api.mapreduce)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.bigdata.api.mapreduce;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.plugins))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.plugins</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.row))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.row</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.util</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.vfs))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.vfs</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.i18n))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.i18n</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans.step))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans.step</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.version))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.version</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.stores.xml))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.stores.xml</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+  </resource>
+  <resource id='pentaho-big-data-impl-shim-oozie/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-impl-shim-oozie' presentationname='Pentaho Community Edition Project: pentaho-big-data-impl-shim-oozie' uri='pentaho/pentaho-big-data-impl-shim-oozie/9.0.0.0-SNAPSHOT/pentaho-big-data-impl-shim-oozie-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>12105</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-impl-shim-oozie'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-impl-shim-oozie'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.pentaho.big.data.bundles.impl.shim.common)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package com.pentaho.big.data.bundles.impl.shim.common;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster.service.locator)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster.service.locator;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.bigdata.api.oozie)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.bigdata.api.oozie;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+  </resource>
+  <resource id='pentaho-big-data-impl-shim-pig/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-impl-shim-pig' presentationname='Pentaho Community Edition Project: pentaho-big-data-impl-shim-pig' uri='pentaho/pentaho-big-data-impl-shim-pig/9.0.0.0-SNAPSHOT/pentaho-big-data-impl-shim-pig-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>14010</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-impl-shim-pig'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-impl-shim-pig'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.pentaho.big.data.bundles.impl.shim.common)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package com.pentaho.big.data.bundles.impl.shim.common;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.vfs2)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.vfs2;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster.service.locator)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster.service.locator;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.bigdata.api.pig)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.bigdata.api.pig;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.bigdata.api.pig.impl)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.bigdata.api.pig.impl;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.i18n))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.i18n</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+  </resource>
+  <resource id='pentaho-big-data-kettle-plugins-common-job/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-kettle-plugins-common-job' presentationname='Pentaho Community Edition Project: pentaho-big-data-kettle-plugins-common-job' uri='pentaho/pentaho-big-data-kettle-plugins-common-job/9.0.0.0-SNAPSHOT/pentaho-big-data-kettle-plugins-common-job-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>27078</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-kettle-plugins-common-job'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-kettle-plugins-common-job'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.big.data.kettle.plugins.job'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.apache.commons.vfs2,org.apache.log4j,org.eclipse.swt.widgets,org.pentaho.big.data.api.cluster,org.pentaho.di.cluster,org.pentaho.di.core,org.pentaho.di.core.database,org.pentaho.di.core.exception,org.pentaho.di.core.logging,org.pentaho.di.core.plugins,org.pentaho.di.core.variables,org.pentaho.di.job,org.pentaho.di.job.entry,org.pentaho.di.repository,org.pentaho.ui.xul,org.pentaho.ui.xul.binding,org.pentaho.ui.xul.impl,org.pentaho.ui.xul.swt.tags,org.w3c.dom'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.widgets))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.widgets;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.ui.xul))' extend='false' multiple='false' optional='true'>Import package org.pentaho.ui.xul;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.ui.xul.binding))' extend='false' multiple='false' optional='true'>Import package org.pentaho.ui.xul.binding;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.ui.xul.containers))' extend='false' multiple='false' optional='true'>Import package org.pentaho.ui.xul.containers;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.ui.xul.dom))' extend='false' multiple='false' optional='true'>Import package org.pentaho.ui.xul.dom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.ui.xul.impl))' extend='false' multiple='false' optional='true'>Import package org.pentaho.ui.xul.impl;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.ui.xul.swt.tags))' extend='false' multiple='false' optional='true'>Import package org.pentaho.ui.xul.swt.tags;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='false'>Import package javax.xml.parsers</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.logging)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.logging;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.logging.impl)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.logging.impl;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.vfs2)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.vfs2;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.log4j)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.log4j;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.jface.dialogs))' extend='false' multiple='false' optional='false'>Import package org.eclipse.jface.dialogs</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.plugins.common.ui)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.plugins.common.ui;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.cluster))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.cluster</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.database))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.database</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.encryption))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.encryption</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.plugins))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.plugins</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.vfs))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.vfs</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.xml))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.xml</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.i18n))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.i18n</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.job))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.job</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.job.entry))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.job.entry</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.repository))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.repository</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.dialog))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.dialog</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.gui))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.gui</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.spoon))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.spoon</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.util</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.vfs.ui))' extend='false' multiple='false' optional='false'>Import package org.pentaho.vfs.ui</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='false'>Import package org.xml.sax</require>
+  </resource>
+  <resource id='pentaho-big-data-kettle-plugins-common-ui/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-kettle-plugins-common-ui' presentationname='Pentaho Community Edition Project: pentaho-big-data-kettle-plugins-common-ui' uri='pentaho/pentaho-big-data-kettle-plugins-common-ui/9.0.0.0-SNAPSHOT/pentaho-big-data-kettle-plugins-common-ui-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>a Pentaho open source project</description>
+    <size>65498</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-kettle-plugins-common-ui'/>
+      <p n='presentationname' v='Pentaho Community Edition Project: pentaho-big-data-kettle-plugins-common-ui'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.big.data.plugins.common.ui'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.apache.commons.vfs2,org.eclipse.swt.events,org.eclipse.swt.widgets,org.pentaho.big.data.api.cluster,org.pentaho.di.core.exception,org.pentaho.di.core.logging,org.pentaho.di.core.variables,org.pentaho.di.ui.core,org.pentaho.di.ui.spoon,org.pentaho.di.ui.spoon.delegates,org.pentaho.metastore.api,org.pentaho.runtime.test,org.pentaho.runtime.test.action,org.pentaho.vfs.ui'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.custom))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.custom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.events))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.events;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.graphics))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.graphics;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.layout))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.layout;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.widgets))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.widgets;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang)(version&gt;=2.6.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang;version="[2.6,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang.exception)(version&gt;=2.6.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang.exception;version="[2.6,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.vfs2)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.vfs2;version="[2.2,3)"</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.jface.dialogs))' extend='false' multiple='false' optional='false'>Import package org.eclipse.jface.dialogs</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.base))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.base</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.plugins))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.plugins</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.util</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.vfs))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.vfs</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.i18n))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.i18n</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.dialog))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.dialog</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.gui))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.gui</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.widget))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.widget</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.spoon))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.spoon</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.spoon.delegates))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.spoon.delegates</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.trans.step))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.trans.step</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.util</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api.exceptions))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api.exceptions</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.stores.delegate))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.stores.delegate</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.runtime.test)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.runtime.test;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.runtime.test.action)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.runtime.test.action;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.runtime.test.module)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.runtime.test.module;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.runtime.test.result)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.runtime.test.result;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.vfs.ui))' extend='false' multiple='false' optional='false'>Import package org.pentaho.vfs.ui</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+  </resource>
+  <resource id='pentaho-big-data-api-jdbc/9.0.0.0-SNAPSHOT' symbolicname='pentaho-big-data-api-jdbc' presentationname='pentaho-big-data-api-jdbc' uri='pentaho/pentaho-big-data-api-jdbc/9.0.0.0-SNAPSHOT/pentaho-big-data-api-jdbc-9.0.0.0-SNAPSHOT.jar' version='9.0.0.0-SNAPSHOT'>
+    <description>Parent project for Pentaho OSGI Bundles</description>
+    <size>21765</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-big-data-api-jdbc'/>
+      <p n='presentationname' v='pentaho-big-data-api-jdbc'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.big.data.api.jdbc.DriverLocator'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.big.data.api.jdbc.JdbcUrlParser'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.big.data.api.jdbc'/>
+      <p n='version' t='version' v='9.0.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.big.data.api.cluster,org.pentaho.metastore.api.exceptions'/>
+    </capability>
+    <require name='service' filter='(service=org.pentaho.big.data.api.cluster.NamedClusterService)' extend='false' multiple='false' optional='false'>Import Service org.pentaho.big.data.api.cluster.NamedClusterService</require>
+    <require name='service' filter='(service=org.pentaho.big.data.api.initializer.ClusterInitializer)' extend='false' multiple='false' optional='false'>Import Service org.pentaho.big.data.api.initializer.ClusterInitializer</require>
+    <require name='service' filter='(service=org.pentaho.osgi.metastore.locator.api.MetastoreLocator)' extend='false' multiple='false' optional='false'>Import Service org.pentaho.osgi.metastore.locator.api.MetastoreLocator</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.cluster)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.cluster;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.initializer)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.initializer;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.big.data.api.jdbc))' extend='false' multiple='false' optional='false'>Import package org.pentaho.big.data.api.jdbc</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.database))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.database</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api.exceptions))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api.exceptions</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.osgi.metastore.locator.api)(version&gt;=9.0.0)(!(version&gt;=10.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.osgi.metastore.locator.api;version="[9.0,10)"</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+  </resource>
+  <resource id='pentaho-streaming-jms-plugin/8.2.0.0-SNAPSHOT' symbolicname='pentaho-streaming-jms-plugin' presentationname='pentaho-jms-plugin Blueprint Bundle' uri='org/pentaho/di/plugins/pentaho-streaming-jms-plugin/8.2.0.0-SNAPSHOT/pentaho-streaming-jms-plugin-8.2.0.0-SNAPSHOT.jar' version='8.2.0.0-SNAPSHOT'>
+    <description>pentaho-jms-plugin OSGi blueprint bundle project.</description>
+    <size>74069</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>https://www.apache.org/licenses/LICENSE-2.0.txt, https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt, https://www.gnu.org/licenses/lgpl-3.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='pentaho-streaming-jms-plugin'/>
+      <p n='presentationname' v='pentaho-jms-plugin Blueprint Bundle'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.di.trans.step.jms.context.JmsProvider'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.trans.step.jms'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.pentaho.di.core,org.pentaho.di.core.annotations,org.pentaho.di.core.exception,org.pentaho.di.core.injection,org.pentaho.di.core.row,org.pentaho.di.core.util.serialization,org.pentaho.di.core.variables,org.pentaho.di.repository,org.pentaho.di.trans,org.pentaho.di.trans.step,org.pentaho.di.trans.step.jms.context,org.pentaho.di.trans.streaming.common,org.pentaho.metastore.api'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.trans.step.jms.context'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='uses:' v='javax.jms,org.pentaho.di.trans.step.jms'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.trans.step.jms.messages'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.trans.step.jms.ui'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='uses:' v='org.eclipse.swt.custom,org.eclipse.swt.events,org.eclipse.swt.widgets,org.pentaho.di.core.variables,org.pentaho.di.trans,org.pentaho.di.trans.step,org.pentaho.di.trans.streaming.common,org.pentaho.di.ui.core,org.pentaho.di.ui.core.widget,org.pentaho.di.ui.trans.step'/>
+    </capability>
+    <require name='service' filter='(service=org.pentaho.di.trans.step.jms.context.JmsProvider)' extend='false' multiple='true' optional='true'>Import Service org.pentaho.di.trans.step.jms.context.JmsProvider</require>
+    <require name='package' filter='(&amp;(package=javax.jms)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package javax.jms;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=com.ibm.mq.jms))' extend='false' multiple='false' optional='true'>Import package com.ibm.mq.jms;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.custom))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.custom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.events))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.events;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.graphics))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.graphics;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.layout))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.layout;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.swt.widgets))' extend='false' multiple='false' optional='true'>Import package org.eclipse.swt.widgets;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.plugins))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.plugins</require>
+    <require name='package' filter='(&amp;(package=com.google.common.base)(version&gt;=19.0.0)(!(version&gt;=20.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.common.base;version="[19.0,20)"</require>
+    <require name='package' filter='(&amp;(package=io.reactivex)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package io.reactivex;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=io.reactivex.disposables)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package io.reactivex.disposables;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=io.reactivex.functions)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package io.reactivex.functions;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=io.reactivex.observables)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package io.reactivex.observables;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=io.reactivex.schedulers)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package io.reactivex.schedulers;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.net.ssl))' extend='false' multiple='false' optional='false'>Import package javax.net.ssl</require>
+    <require name='package' filter='(&amp;(package=org.apache.activemq.artemis.jms.client)(version&gt;=2.5.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.activemq.artemis.jms.client;version="[2.5,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang)(version&gt;=2.6.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang;version="[2.6,3)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.annotations))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.annotations</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.injection))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.injection</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.row))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.row</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.row.value))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.row.value</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.util))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.util</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.util.serialization))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.util.serialization</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.variables))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.variables</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.i18n))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.i18n</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.repository))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.repository</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans.step))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans.step</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans.streaming.api))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans.streaming.api</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans.streaming.common))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans.streaming.common</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.gui))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.gui</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.core.widget))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.core.widget</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.ui.trans.step))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.ui.trans.step</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api</require>
+    <require name='package' filter='(&amp;(package=com.ibm.msg.client.wmq))' extend='false' multiple='false' optional='true'>Import package com.ibm.msg.client.wmq;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.naming))' extend='false' multiple='false' optional='false'>Import package javax.naming</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.osgi))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.osgi</require>
+  </resource>
+  <resource id='org.pentaho.di.plugins.repository-proxy/8.2.0.0-SNAPSHOT' symbolicname='org.pentaho.di.plugins.repository-proxy' presentationname='PUR Repository Proxy' uri='org/pentaho/di/plugins/repository-proxy/8.2.0.0-SNAPSHOT/repository-proxy-8.2.0.0-SNAPSHOT.jar' version='8.2.0.0-SNAPSHOT'>
+    <description>Container pom for Pentaho Data Integration modules</description>
+    <size>17509</size>
+    <documentation>http://www.pentaho.com</documentation>
+    <license>https://www.apache.org/licenses/LICENSE-2.0.txt, https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt, https://www.gnu.org/licenses/lgpl-3.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.pentaho.di.plugins.repository-proxy'/>
+      <p n='presentationname' v='PUR Repository Proxy'/>
+      <p n='version' t='version' v='8.2.0.0-SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='service'>
+      <p n='service' v='org.pentaho.osgi.kettle.repository.locator.api.KettleRepositoryProvider'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.pentaho.di.repository.pur.provider'/>
+      <p n='version' t='version' v='8.2.0'/>
+      <p n='uses:' v='org.pentaho.di.cluster,org.pentaho.di.core,org.pentaho.di.core.database,org.pentaho.di.core.exception,org.pentaho.di.core.logging,org.pentaho.di.core.plugins,org.pentaho.di.job,org.pentaho.di.partition,org.pentaho.di.repository,org.pentaho.di.shared,org.pentaho.di.trans,org.pentaho.metastore.api,org.pentaho.osgi.kettle.repository.locator.api,org.pentaho.platform.api.repository2.unified'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.cluster))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.cluster</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.database))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.database</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.exception))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.exception</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.logging))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.logging</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.core.plugins))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.core.plugins</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.job))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.job</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.partition))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.partition</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.repository))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.repository</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.shared))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.shared</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.di.trans))' extend='false' multiple='false' optional='false'>Import package org.pentaho.di.trans</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.metastore.api))' extend='false' multiple='false' optional='false'>Import package org.pentaho.metastore.api</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.osgi.kettle.repository.locator.api)(version&gt;=8.2.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.osgi.kettle.repository.locator.api;version="[8.2,9)"</require>
+    <require name='package' filter='(&amp;(package=org.pentaho.platform.api.repository2.unified))' extend='false' multiple='false' optional='false'>Import package org.pentaho.platform.api.repository2.unified</require>
+    <require name='package' filter='(&amp;(package=org.slf4j))' extend='false' multiple='false' optional='false'>Import package org.slf4j</require>
+  </resource>
+</repository>
