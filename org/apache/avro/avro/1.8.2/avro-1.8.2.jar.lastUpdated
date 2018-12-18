@@ -1,5 +1,5 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Fri Jun 22 17:28:13 IST 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 18 18:47:03 IST 2018
 http\://conjars.org/repo/.lastUpdated=1529668669773
 http\://conjars.org/repo/.error=
 http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1529668679401
@@ -7,5 +7,7 @@ http\://repo.dremio.com/release/.lastUpdated=1529668676297
 http\://repository.mapr.com/maven/.error=
 http\://repository.mapr.com/maven/.lastUpdated=1529668672773
 http\://repository.mapr.com/nexus/content/repositories/drill/.error=
-https\://repo.maven.apache.org/maven2/.lastUpdated=1529668693143
+https\://repo.maven.apache.org/maven2/.lastUpdated=1545139023094
 http\://repo.dremio.com/release/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1545139022014
+https\://artifacts.elastic.co/maven/.error=
