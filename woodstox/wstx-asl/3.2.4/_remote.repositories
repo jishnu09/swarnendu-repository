@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:18:20 IST 2018
+wstx-asl-3.2.4.pom>pentaho-public=
+wstx-asl-3.2.4.jar>pentaho-public=
+wstx-asl-3.2.4.jar>=
