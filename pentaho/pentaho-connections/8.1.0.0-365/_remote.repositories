@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 14:56:37 IST 2018
+pentaho-connections-8.1.0.0-365.jar>=
+pentaho-connections-8.1.0.0-365.jar>pentaho-public=
+pentaho-connections-8.1.0.0-365.pom>pentaho-public=

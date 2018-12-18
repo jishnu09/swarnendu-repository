@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 12:54:51 IST 2018
+git-commit-id-plugin-2.1.10.jar>pentaho-public=
+git-commit-id-plugin-2.1.10.pom>pentaho-public=
+git-commit-id-plugin-2.1.10.jar>central=
+git-commit-id-plugin-2.1.10.pom>central=

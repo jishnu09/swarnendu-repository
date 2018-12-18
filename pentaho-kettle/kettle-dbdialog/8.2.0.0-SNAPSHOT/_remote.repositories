@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 22 11:39:36 UTC 2018
+kettle-dbdialog-8.2.0.0-SNAPSHOT.pom>=
+kettle-dbdialog-8.2.0.0-SNAPSHOT-sources.jar>=
+kettle-dbdialog-8.2.0.0-SNAPSHOT.jar>=

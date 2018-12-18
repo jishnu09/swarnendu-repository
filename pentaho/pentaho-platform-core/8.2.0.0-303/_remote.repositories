@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 15 14:40:25 IST 2018
+pentaho-platform-core-8.2.0.0-303.jar>=
+pentaho-platform-core-8.2.0.0-303-tests.jar>=
+pentaho-platform-core-8.2.0.0-303.pom>=
+pentaho-platform-core-8.2.0.0-303-sources.jar>=

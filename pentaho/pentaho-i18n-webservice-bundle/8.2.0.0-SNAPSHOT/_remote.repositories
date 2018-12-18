@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 22 11:47:36 UTC 2018
+pentaho-i18n-webservice-bundle-8.2.0.0-SNAPSHOT.jar>=
+pentaho-i18n-webservice-bundle-8.2.0.0-20181022.070411-53.pom>pentaho-public=
+pentaho-i18n-webservice-bundle-8.2.0.0-20181021.070425-52.jar>pentaho-public=
+pentaho-i18n-webservice-bundle-8.2.0.0-20181021.070425-52.pom>pentaho-public=

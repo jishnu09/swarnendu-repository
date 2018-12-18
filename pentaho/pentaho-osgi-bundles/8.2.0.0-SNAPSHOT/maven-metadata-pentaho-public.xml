@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>pentaho</groupId>
+  <artifactId>pentaho-osgi-bundles</artifactId>
+  <version>8.2.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181021.082129</timestamp>
+      <buildNumber>102</buildNumber>
+    </snapshot>
+    <lastUpdated>20181021082129</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>8.2.0.0-20181021.082129-102</value>
+        <updated>20181021082129</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>pentaho</groupId>
+  <artifactId>pentaho-big-data-legacy</artifactId>
+  <versioning>
+    <versions>
+      <version>9.0.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181122123939</lastUpdated>
+  </versioning>
+</metadata>

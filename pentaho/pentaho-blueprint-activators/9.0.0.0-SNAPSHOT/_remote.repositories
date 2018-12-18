@@ -1,0 +1,12 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 10:24:57 UTC 2018
+pentaho-blueprint-activators-9.0.0.0-SNAPSHOT-krb5-jaas.xml>=
+pentaho-blueprint-activators-9.0.0.0-SNAPSHOT-monitoring-snmp.xml>=
+pentaho-blueprint-activators-9.0.0.0-SNAPSHOT-camel-jms.xml>=
+pentaho-blueprint-activators-9.0.0.0-SNAPSHOT-standard.xml>=
+pentaho-blueprint-activators-9.0.0.0-SNAPSHOT-monitoring-jms-broker.xml>=
+pentaho-blueprint-activators-9.0.0.0-SNAPSHOT-jms.xml>=
+pentaho-blueprint-activators-9.0.0.0-SNAPSHOT-monitoring-jms.xml>=
+pentaho-blueprint-activators-9.0.0.0-SNAPSHOT-proxy-watcher.xml>=
+pentaho-blueprint-activators-9.0.0.0-SNAPSHOT-server.xml>=
+pentaho-blueprint-activators-9.0.0.0-SNAPSHOT.pom>=

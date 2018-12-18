@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>pentaho</groupId>
+  <artifactId>pentaho-big-data-assemblies-pmr-libraries</artifactId>
+  <version>9.0.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20181122084052</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>plugin</classifier>
+        <extension>zip</extension>
+        <value>9.0.0.0-SNAPSHOT</value>
+        <updated>20181122084052</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9.0.0.0-SNAPSHOT</value>
+        <updated>20181122084034</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

@@ -1,0 +1,89 @@
+<!--
+  ~ This program is free software; you can redistribute it and/or modify it under the
+  ~ terms of the GNU Lesser General Public License, version 2.1 as published by the Free Software
+  ~ Foundation.
+  ~
+  ~ You should have received a copy of the GNU Lesser General Public License along with this
+  ~ program; if not, you can obtain a copy at http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+  ~ or from the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  ~
+  ~ This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+  ~ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  ~ See the GNU Lesser General Public License for more details.
+  ~
+  ~ Copyright 2014 - 2017 Hitachi Vantara. All rights reserved.
+  -->
+
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+  <repository>mvn:org.pentaho/pentaho-requirejs-osgi-manager/9.0.0.0-SNAPSHOT/xml/features</repository>
+  <repository>mvn:com.pentaho.di.plugins/pentaho-ee-streaming-feature/9.0.0.0-SNAPSHOT/xml/features</repository>
+
+  <feature name="pentaho-client-ee" version="1.0">
+    <feature>pentaho-client</feature>
+    <feature>pentaho-ee-streaming-feature</feature>
+    <bundle>mvn:commons-collections/commons-collections/3.2.2</bundle>
+  </feature>
+  <feature name="pentaho-analyzer" version="1.0">
+    <feature>spring-dm</feature>
+    <feature>pdi-platform</feature>
+    <feature version="9.0.0.0-SNAPSHOT">pentaho-requirejs-osgi-manager</feature>
+    <bundle>wrap:mvn:pentaho/pentaho-connections/9.0.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:pentaho/pentaho-analyzer-xsd/9.0.0.0-SNAPSHOT</bundle>
+    <bundle>pentaho-platform-plugin-mvn:pentaho/paz-plugin-ce/9.0.0.0-SNAPSHOT/zip</bundle>
+    <bundle dependency="true">mvn:com.ibm.icu/icu4j/54.1.1</bundle>
+  </feature>
+
+  <feature name="pentaho-monitoring" version="1.0">
+    <configfile finalname="/etc/pentaho.pdi.monitoring.cfg">mvn:pentaho/pentaho-osgi-config/9.0.0.0-SNAPSHOT/cfg/pdi-monitoring
+    </configfile>
+    <!-- <bundle>mvn:org.apache.camel/camel-guava-eventbus/2.17.7</bundle> -->
+    <bundle>mvn:commons-beanutils/commons-beanutils/1.9.3</bundle>
+    <bundle>mvn:pentaho/pentaho-monitoring-plugin/9.0.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:commons-collections/commons-collections/3.2.2</bundle>
+  </feature>
+
+  <feature name="pentaho-monitoring-camel-base" version="1.0">
+    <feature>camel</feature>
+    <feature>camel-blueprint</feature>
+    <feature>camel-stream</feature>
+    <feature version="2.17.7-pentaho">camel-guava-eventbus</feature>
+    <bundle>mvn:commons-beanutils/commons-beanutils/1.9.3</bundle>
+    <bundle>mvn:pentaho/pentaho-camel-core/9.0.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:pentaho/pentaho-camel-snmp/9.0.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:commons-collections/commons-collections/3.2.2</bundle>
+  </feature>
+
+  <feature name="pentaho-monitoring-to-snmp" version="1.0">
+    <configfile finalname="/etc/pentaho.snmp.cfg">mvn:pentaho/pentaho-osgi-config/9.0.0.0-SNAPSHOT/cfg/snmp
+    </configfile>
+    <feature>pentaho-monitoring</feature>
+    <feature>pentaho-monitoring-camel-base</feature>
+    <bundle start-level="90">wrap:blueprint:mvn:pentaho/pentaho-blueprint-activators/9.0.0.0-SNAPSHOT/xml/monitoring-snmp$overwrite=merge&amp;Import-Package=com.google.common.eventbus;version="[17.0,17.0]"</bundle>
+    <bundle>mvn:commons-collections/commons-collections/3.2.2</bundle>
+  </feature>
+
+  <feature name="pentaho-monitoring-to-jms" version="1.0">
+    <feature>pentaho-monitoring</feature>
+    <feature>pentaho-monitoring-camel-base</feature>
+    <feature>pentaho-camel-jms</feature>
+    <bundle start-level="90">blueprint:mvn:pentaho/pentaho-blueprint-activators/9.0.0.0-SNAPSHOT/xml/monitoring-jms</bundle>
+    <bundle>mvn:commons-collections/commons-collections/3.2.2</bundle>
+  </feature>
+
+  <feature name="pentaho-monitoring-jms-broker" version="1.0">
+    <feature>pentaho-monitoring</feature>
+    <feature>pentaho-monitoring-camel-base</feature>
+    <feature>pentaho-camel-jms</feature>
+    <bundle start-level="90">blueprint:mvn:pentaho/pentaho-blueprint-activators/9.0.0.0-SNAPSHOT/xml/monitoring-jms-broker</bundle>
+    <bundle>mvn:commons-collections/commons-collections/3.2.2</bundle>
+  </feature>
+
+  <!-- Overriding camel-guava-eventbus feature to force using guava-17.0 version -->
+  <feature name='camel-guava-eventbus' version='2.17.7-pentaho' resolver='(obr)' start-level='50'>
+    <feature version='2.17.7'>camel-core</feature>
+    <bundle dependency='true'>mvn:com.google.guava/guava/17.0</bundle>
+    <bundle>mvn:pentaho/pentaho-camel-guava-eventbus/9.0.0.0-SNAPSHOT</bundle>
+  </feature>
+
+</features>

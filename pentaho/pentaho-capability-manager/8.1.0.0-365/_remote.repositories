@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 26 15:02:27 IST 2018
+pentaho-capability-manager-8.1.0.0-365.jar>=
+pentaho-capability-manager-8.1.0.0-365.pom>pentaho-public=
+pentaho-capability-manager-8.1.0.0-365.jar>pentaho-public=

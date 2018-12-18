@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 10:24:56 UTC 2018
+pentaho-karaf-features-9.0.0.0-SNAPSHOT-enterprise.xml>=
+pentaho-karaf-features-9.0.0.0-SNAPSHOT-server.xml>=
+pentaho-karaf-features-9.0.0.0-SNAPSHOT-standard.xml>=
+pentaho-karaf-features-9.0.0.0-SNAPSHOT.pom>=

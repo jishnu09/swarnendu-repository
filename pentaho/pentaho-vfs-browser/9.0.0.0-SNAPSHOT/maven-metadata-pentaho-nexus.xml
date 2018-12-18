@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>pentaho</groupId>
+  <artifactId>pentaho-vfs-browser</artifactId>
+  <version>9.0.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180703.084733</timestamp>
+      <buildNumber>57</buildNumber>
+    </snapshot>
+    <lastUpdated>20180703084733</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>9.0.0.0-20180703.084733-57</value>
+        <updated>20180703084733</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9.0.0.0-20180703.084733-57</value>
+        <updated>20180703084733</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>9.0.0.0-20180703.084733-57</value>
+        <updated>20180703084733</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

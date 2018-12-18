@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>pentaho</groupId>
+  <artifactId>pentaho-kettle-repository-locator-api</artifactId>
+  <version>8.2.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181022.081749</timestamp>
+      <buildNumber>50</buildNumber>
+    </snapshot>
+    <lastUpdated>20181022081749</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>8.2.0.0-20181022.081749-50</value>
+        <updated>20181022081749</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>8.2.0.0-20181022.081749-50</value>
+        <updated>20181022081749</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>8.2.0.0-20181022.081749-50</value>
+        <updated>20181022081749</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

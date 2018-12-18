@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 10:24:57 UTC 2018
+pentaho-osgi-config-9.0.0.0-SNAPSHOT-pentaho-geo-roles.cfg>=
+pentaho-osgi-config-9.0.0.0-SNAPSHOT-pdi-monitoring.cfg>=
+pentaho-osgi-config-9.0.0.0-SNAPSHOT-pentaho-big-data-impl-cluster.cfg>=
+pentaho-osgi-config-9.0.0.0-SNAPSHOT-pentaho-kerberos.cfg>=
+pentaho-osgi-config-9.0.0.0-SNAPSHOT-pentaho-jms.cfg>=
+pentaho-osgi-config-9.0.0.0-SNAPSHOT-snmp.cfg>=
+pentaho-osgi-config-9.0.0.0-SNAPSHOT.pom>=
+pentaho-osgi-config-9.0.0.0-SNAPSHOT-pentaho-metaverse.cfg>=

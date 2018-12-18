@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 22 11:39:46 UTC 2018
+kettle-ui-swt-8.2.0.0-SNAPSHOT.jar>=
+kettle-ui-swt-8.2.0.0-SNAPSHOT-sources.jar>=
+kettle-ui-swt-8.2.0.0-SNAPSHOT.pom>=

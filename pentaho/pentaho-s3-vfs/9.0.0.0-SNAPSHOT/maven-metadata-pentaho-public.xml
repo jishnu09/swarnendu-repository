@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>pentaho</groupId>
+  <artifactId>pentaho-s3-vfs</artifactId>
+  <version>9.0.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181122.113303</timestamp>
+      <buildNumber>187</buildNumber>
+    </snapshot>
+    <lastUpdated>20181122113303</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>9.0.0.0-20181122.113303-187</value>
+        <updated>20181122113303</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9.0.0.0-20181122.113303-187</value>
+        <updated>20181122113303</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>9.0.0.0-20181122.113303-187</value>
+        <updated>20181122113303</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

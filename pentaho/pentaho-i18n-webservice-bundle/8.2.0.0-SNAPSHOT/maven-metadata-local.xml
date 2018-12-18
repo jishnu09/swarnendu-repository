@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>pentaho</groupId>
+  <artifactId>pentaho-i18n-webservice-bundle</artifactId>
+  <version>8.2.0.0-20181021.070425-52</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20181022095233</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>8.2.0.0-20181021.070425-52</value>
+        <updated>20181022095233</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

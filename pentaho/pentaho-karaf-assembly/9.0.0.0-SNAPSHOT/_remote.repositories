@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 10:43:22 UTC 2018
+pentaho-karaf-assembly-9.0.0.0-SNAPSHOT-pme.zip>=
+pentaho-karaf-assembly-9.0.0.0-SNAPSHOT-prd.zip>=
+pentaho-karaf-assembly-9.0.0.0-SNAPSHOT.pom>=
+pentaho-karaf-assembly-9.0.0.0-SNAPSHOT-client.zip>=
+pentaho-karaf-assembly-9.0.0.0-SNAPSHOT-server.zip>=
+pentaho-karaf-assembly-9.0.0.0-SNAPSHOT-pmr.zip>=

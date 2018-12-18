@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>pentaho</groupId>
+  <artifactId>pdi-platform-utils-plugin-parent</artifactId>
+  <version>9.0.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180702.130830</timestamp>
+      <buildNumber>56</buildNumber>
+    </snapshot>
+    <lastUpdated>20180702130830</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>9.0.0.0-20180702.130830-56</value>
+        <updated>20180702130830</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 12:45:22 UTC 2018
+pentaho-big-data-kettle-plugins-common-job-9.0.0.0-SNAPSHOT.jar>=
+pentaho-big-data-kettle-plugins-common-job-9.0.0.0-SNAPSHOT-sources.jar>=
+pentaho-big-data-kettle-plugins-common-job-9.0.0.0-SNAPSHOT.pom>=
+pentaho-big-data-kettle-plugins-common-job-9.0.0.0-20181122.045707-227.jar>pentaho-public=

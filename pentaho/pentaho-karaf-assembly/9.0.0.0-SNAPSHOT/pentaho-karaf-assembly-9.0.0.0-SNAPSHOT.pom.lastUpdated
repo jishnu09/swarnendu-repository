@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Jul 03 18:06:13 IST 2018
+@default-pentaho-public-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1530621373052
+http\://nexus.pentaho.org/content/groups/omni/.error=Could not transfer artifact pentaho\:pentaho-karaf-assembly\:pom\:9.0.0.0-SNAPSHOT from/to pentaho-public (http\://nexus.pentaho.org/content/groups/omni/)\: Connection reset

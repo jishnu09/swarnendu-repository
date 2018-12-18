@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 05 13:34:05 IST 2018
+kettle-engine-8.1.0.0-365-tests.jar>=
+kettle-engine-8.1.0.0-365.pom>=
+kettle-engine-8.1.0.0-365-sources.jar>=
+kettle-engine-8.1.0.0-365.jar>=

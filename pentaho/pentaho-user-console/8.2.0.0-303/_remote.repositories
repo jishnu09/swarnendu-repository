@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 15 13:53:25 IST 2018
+pentaho-user-console-8.2.0.0-303.jar>=
+pentaho-user-console-8.2.0.0-303-sources.jar>=
+pentaho-user-console-8.2.0.0-303-gwt.jar>=
+pentaho-user-console-8.2.0.0-303.pom>=

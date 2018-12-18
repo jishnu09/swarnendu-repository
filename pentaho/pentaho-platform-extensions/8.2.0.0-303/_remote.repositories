@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 15 14:46:40 IST 2018
+pentaho-platform-extensions-8.2.0.0-303.jar>=
+pentaho-platform-extensions-8.2.0.0-303.pom>=
+pentaho-platform-extensions-8.2.0.0-303-sources.jar>=

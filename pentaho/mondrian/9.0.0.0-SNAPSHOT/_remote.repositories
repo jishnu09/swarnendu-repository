@@ -1,0 +1,11 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 23 07:07:59 UTC 2018
+mondrian-9.0.0.0-SNAPSHOT-sources.jar>=
+mondrian-9.0.0.0-SNAPSHOT.jar>=
+mondrian-9.0.0.0-20181123.045002-203.pom>pentaho-public=
+mondrian-9.0.0.0-SNAPSHOT.pom>=
+mondrian-9.0.0.0-20181123.045002-203.jar>pentaho-public=
+mondrian-9.0.0.0-20181122.114814-202.pom>pentaho-public=
+mondrian-9.0.0.0-20181122.042756-201.pom>pentaho-public=
+mondrian-9.0.0.0-20181122.114814-202.jar>pentaho-public=
+mondrian-9.0.0.0-20181122.042756-201.jar>pentaho-public=

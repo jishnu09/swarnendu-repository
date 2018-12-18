@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 22 12:42:32 UTC 2018
+pentaho-big-data-impl-shim-hdfs-9.0.0.0-SNAPSHOT.jar>=
+pentaho-big-data-impl-shim-hdfs-9.0.0.0-SNAPSHOT.pom>=
+pentaho-big-data-impl-shim-hdfs-9.0.0.0-SNAPSHOT-sources.jar>=
