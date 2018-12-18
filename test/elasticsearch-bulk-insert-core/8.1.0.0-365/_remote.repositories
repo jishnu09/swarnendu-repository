@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 01 15:03:15 IST 2018
+elasticsearch-bulk-insert-core-8.1.0.0-365.pom>=
+elasticsearch-bulk-insert-core-8.1.0.0-365.jar>=
