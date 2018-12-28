@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 07:25:20 UTC 2018
+#Fri Dec 21 10:54:39 IST 2018
+objenesis-1.2.jar>central=
 objenesis-1.2.pom>pentaho-public=
+objenesis-1.2.pom>central=
 objenesis-1.2.jar>pentaho-public=

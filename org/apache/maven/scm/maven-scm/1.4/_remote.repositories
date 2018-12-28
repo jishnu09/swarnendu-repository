@@ -1,4 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 15 13:25:41 IST 2018
+#Thu Dec 27 19:09:51 IST 2018
 maven-scm-1.4.pom>pentaho-public=
+maven-scm-1.4.pom>central=
 maven-scm-1.4.pom>wso2-nexus=

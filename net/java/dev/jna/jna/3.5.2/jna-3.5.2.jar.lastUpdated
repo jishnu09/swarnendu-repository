@@ -1,9 +1,11 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon May 21 11:29:00 IST 2018
-http\://download.java.net/maven/2/.lastUpdated=1526882325648
-http\://dist.wso2.org/maven2/.error=
-https\://repo.maven.apache.org/maven2/.lastUpdated=1526882340470
-http\://dist.wso2.org/maven2/.lastUpdated=1526882326701
-http\://download.java.net/maven/2/.error=
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Dec 27 19:18:41 IST 2018
 http\://maven.wso2.org/nexus/content/repositories/releases/.lastUpdated=1526882327685
+http\://dist.wso2.org/maven2/.error=
+http\://download.java.net/maven/2/.lastUpdated=1526882325648
 http\://maven.wso2.org/nexus/content/repositories/releases/.error=
+http\://download.java.net/maven/2/.error=
+http\://dist.wso2.org/maven2/.lastUpdated=1526882326701
+https\://repo.maven.apache.org/maven2/.lastUpdated=1545918521323
+https\://artifacts.elastic.co/maven/.lastUpdated=1545918519776
+https\://artifacts.elastic.co/maven/.error=

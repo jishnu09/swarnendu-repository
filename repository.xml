@@ -1,4 +1,4 @@
-<repository lastmodified='20181122124522.442'>
+<repository lastmodified='20181227071843.553'>
   <resource id='core-ui/8.2.0.0-SNAPSHOT' symbolicname='core-ui' presentationname='Core UI Plugin' uri='org/pentaho/di/plugins/core-ui/8.2.0.0-SNAPSHOT/core-ui-8.2.0.0-SNAPSHOT.jar' version='8.2.0.0-SNAPSHOT'>
     <description>Container pom for Pentaho Data Integration modules</description>
     <size>1802932</size>
@@ -1510,5 +1510,128 @@
     <require name='package' filter='(&amp;(package=org.pentaho.osgi.kettle.repository.locator.api)(version&gt;=8.2.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='false'>Import package org.pentaho.osgi.kettle.repository.locator.api;version="[8.2,9)"</require>
     <require name='package' filter='(&amp;(package=org.pentaho.platform.api.repository2.unified))' extend='false' multiple='false' optional='false'>Import package org.pentaho.platform.api.repository2.unified</require>
     <require name='package' filter='(&amp;(package=org.slf4j))' extend='false' multiple='false' optional='false'>Import package org.slf4j</require>
+  </resource>
+  <resource id='com.github.sarxos.webcam-capture/0.3.13.SNAPSHOT' symbolicname='com.github.sarxos.webcam-capture' presentationname='Webcam Capture' uri='com/github/sarxos/webcam-capture/0.3.13-SNAPSHOT/webcam-capture-0.3.13-SNAPSHOT.jar' version='0.3.13.SNAPSHOT'>
+    <description>This library allows you to use your PC webcam, IP or network cameras directly from Java. It&apos;s compatible with most operating systems (Windows, Linux, MacOS).</description>
+    <size>431235</size>
+    <documentation>https://github.com/sarxos/webcam-capture/webcam-capture</documentation>
+    <license>https://github.com/sarxos/oss-parent/master/LICENSE.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.github.sarxos.webcam-capture'/>
+      <p n='presentationname' v='Webcam Capture'/>
+      <p n='version' t='version' v='0.3.13.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.github.sarxos.webcam'/>
+      <p n='version' t='version' v='0.3.13.SNAPSHOT'/>
+      <p n='uses:' v='javax.swing'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.github.sarxos.webcam.log'/>
+      <p n='version' t='version' v='0.3.13.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.github.sarxos.webcam.util'/>
+      <p n='version' t='version' v='0.3.13.SNAPSHOT'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=ch.qos.logback.classic)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package ch.qos.logback.classic;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=ch.qos.logback.classic.joran)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package ch.qos.logback.classic.joran;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=ch.qos.logback.core)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package ch.qos.logback.core;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=com.github.sarxos.webcam.util))' extend='false' multiple='false' optional='false'>Import package com.github.sarxos.webcam.util</require>
+    <require name='package' filter='(&amp;(package=javax.imageio))' extend='false' multiple='false' optional='false'>Import package javax.imageio</require>
+    <require name='package' filter='(&amp;(package=javax.imageio.metadata))' extend='false' multiple='false' optional='false'>Import package javax.imageio.metadata</require>
+    <require name='package' filter='(&amp;(package=javax.imageio.plugins.jpeg))' extend='false' multiple='false' optional='false'>Import package javax.imageio.plugins.jpeg</require>
+    <require name='package' filter='(&amp;(package=javax.imageio.stream))' extend='false' multiple='false' optional='false'>Import package javax.imageio.stream</require>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='false'>Import package javax.swing</require>
+    <require name='package' filter='(&amp;(package=org.bridj)(version&gt;=0.7.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package org.bridj;version="[0.7,1)"</require>
+    <require name='package' filter='(&amp;(package=org.bridj.ann)(version&gt;=0.7.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package org.bridj.ann;version="[0.7,1)"</require>
+    <require name='package' filter='(&amp;(package=org.bridj.cpp)(version&gt;=0.7.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package org.bridj.cpp;version="[0.7,1)"</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+    <require name='package' filter='(&amp;(package=org.slf4j.helpers)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j.helpers;version="[1.7,2)"</require>
+    <require name='package' filter='(&amp;(package=sun.misc))' extend='false' multiple='false' optional='false'>Import package sun.misc</require>
+  </resource>
+  <resource id='com.github.sarxos.webcam-capture-driver-ipcam/0.3.13.SNAPSHOT' symbolicname='com.github.sarxos.webcam-capture-driver-ipcam' presentationname='Webcam Capture - IP Camera Driver' uri='com/github/sarxos/webcam-capture-driver-ipcam/0.3.13-SNAPSHOT/webcam-capture-driver-ipcam-0.3.13-SNAPSHOT.jar' version='0.3.13.SNAPSHOT'>
+    <description>Webcam Capture driver to be used for IP cameras</description>
+    <size>33920</size>
+    <documentation>https://github.com/sarxos/webcam-capture/webcam-capture-drivers/webcam-capture-driver-ipcam</documentation>
+    <license>https://github.com/sarxos/oss-parent/master/LICENSE.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.github.sarxos.webcam-capture-driver-ipcam'/>
+      <p n='presentationname' v='Webcam Capture - IP Camera Driver'/>
+      <p n='version' t='version' v='0.3.13.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.github.sarxos.webcam.ds.ipcam.device.dlink'/>
+      <p n='version' t='version' v='0.3.13.SNAPSHOT'/>
+      <p n='uses:' v='com.github.sarxos.webcam.ds.ipcam,com.github.sarxos.webcam'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.github.sarxos.webcam.ds.ipcam'/>
+      <p n='version' t='version' v='0.3.13.SNAPSHOT'/>
+      <p n='uses:' v='org.apache.http.auth,com.github.sarxos.webcam,javax.imageio,org.slf4j,com.github.sarxos.webcam.util,org.apache.http.protocol,org.apache.http,org.apache.http.impl.client,org.apache.http.client,org.apache.http.client.methods,org.apache.http.impl.auth,org.apache.http.client.protocol,javax.xml.bind.annotation,com.github.sarxos.webcam.ds.ipcam.impl,javax.xml.bind'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.github.sarxos.webcam.ds.ipcam.device.marmitek'/>
+      <p n='version' t='version' v='0.3.13.SNAPSHOT'/>
+      <p n='uses:' v='com.github.sarxos.webcam.ds.ipcam,com.github.sarxos.webcam'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.github.sarxos.webcam.ds.ipcam.device.zavio'/>
+      <p n='version' t='version' v='0.3.13.SNAPSHOT'/>
+      <p n='uses:' v='com.github.sarxos.webcam.ds.ipcam,com.github.sarxos.webcam'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.github.sarxos.webcam.ds.ipcam.impl'/>
+      <p n='version' t='version' v='0.3.13.SNAPSHOT'/>
+      <p n='uses:' v='javax.xml.bind.annotation,com.github.sarxos.webcam.ds.ipcam,com.github.sarxos.webcam'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.github.sarxos.webcam.ds.ipcam.device.xvision'/>
+      <p n='version' t='version' v='0.3.13.SNAPSHOT'/>
+      <p n='uses:' v='com.github.sarxos.webcam.ds.ipcam,com.github.sarxos.webcam'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.github.sarxos.webcam)(version&gt;=0.3.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package com.github.sarxos.webcam;version="[0.3,1)"</require>
+    <require name='package' filter='(&amp;(package=com.github.sarxos.webcam.util)(version&gt;=0.3.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package com.github.sarxos.webcam.util;version="[0.3,1)"</require>
+    <require name='package' filter='(&amp;(package=javax.imageio))' extend='false' multiple='false' optional='false'>Import package javax.imageio</require>
+    <require name='package' filter='(&amp;(package=javax.xml.bind))' extend='false' multiple='false' optional='false'>Import package javax.xml.bind</require>
+    <require name='package' filter='(&amp;(package=javax.xml.bind.annotation))' extend='false' multiple='false' optional='false'>Import package javax.xml.bind.annotation</require>
+    <require name='package' filter='(&amp;(package=org.apache.http))' extend='false' multiple='false' optional='false'>Import package org.apache.http</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.auth))' extend='false' multiple='false' optional='false'>Import package org.apache.http.auth</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client))' extend='false' multiple='false' optional='false'>Import package org.apache.http.client</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client.methods))' extend='false' multiple='false' optional='false'>Import package org.apache.http.client.methods</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client.protocol))' extend='false' multiple='false' optional='false'>Import package org.apache.http.client.protocol</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.impl.auth))' extend='false' multiple='false' optional='false'>Import package org.apache.http.impl.auth</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.impl.client))' extend='false' multiple='false' optional='false'>Import package org.apache.http.impl.client</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.protocol))' extend='false' multiple='false' optional='false'>Import package org.apache.http.protocol</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+  </resource>
+  <resource id='com.github.sarxos.webcam-capture-driver-vlcj/0.3.13.SNAPSHOT' symbolicname='com.github.sarxos.webcam-capture-driver-vlcj' presentationname='Webcam Capture - Vlcj Driver' uri='com/github/sarxos/webcam-capture-driver-vlcj/0.3.13-SNAPSHOT/webcam-capture-driver-vlcj-0.3.13-SNAPSHOT.jar' version='0.3.13.SNAPSHOT'>
+    <description>Webcam Capture driver using vlcj library to grab frames from camera device</description>
+    <size>13643</size>
+    <documentation>https://github.com/sarxos/webcam-capture/webcam-capture-drivers/webcam-capture-driver-vlcj</documentation>
+    <license>https://github.com/sarxos/oss-parent/master/LICENSE.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.github.sarxos.webcam-capture-driver-vlcj'/>
+      <p n='presentationname' v='Webcam Capture - Vlcj Driver'/>
+      <p n='version' t='version' v='0.3.13.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.github.sarxos.webcam.ds.vlcj'/>
+      <p n='version' t='version' v='0.3.13.SNAPSHOT'/>
+      <p n='uses:' v='com.github.sarxos.webcam.util,com.sun.jna,uk.co.caprica.vlcj.player.direct,org.slf4j,uk.co.caprica.vlcj.medialist,com.github.sarxos.webcam,uk.co.caprica.vlcj.player.direct.format,uk.co.caprica.vlcj.player,uk.co.caprica.vlcj.player.discoverer,uk.co.caprica.vlcj.discovery'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.github.sarxos.webcam)(version&gt;=0.3.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package com.github.sarxos.webcam;version="[0.3,1)"</require>
+    <require name='package' filter='(&amp;(package=com.github.sarxos.webcam.util)(version&gt;=0.3.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package com.github.sarxos.webcam.util;version="[0.3,1)"</require>
+    <require name='package' filter='(&amp;(package=com.sun.jna))' extend='false' multiple='false' optional='false'>Import package com.sun.jna</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+    <require name='package' filter='(&amp;(package=uk.co.caprica.vlcj.discovery))' extend='false' multiple='false' optional='false'>Import package uk.co.caprica.vlcj.discovery</require>
+    <require name='package' filter='(&amp;(package=uk.co.caprica.vlcj.medialist))' extend='false' multiple='false' optional='false'>Import package uk.co.caprica.vlcj.medialist</require>
+    <require name='package' filter='(&amp;(package=uk.co.caprica.vlcj.player))' extend='false' multiple='false' optional='false'>Import package uk.co.caprica.vlcj.player</require>
+    <require name='package' filter='(&amp;(package=uk.co.caprica.vlcj.player.direct))' extend='false' multiple='false' optional='false'>Import package uk.co.caprica.vlcj.player.direct</require>
+    <require name='package' filter='(&amp;(package=uk.co.caprica.vlcj.player.direct.format))' extend='false' multiple='false' optional='false'>Import package uk.co.caprica.vlcj.player.direct.format</require>
+    <require name='package' filter='(&amp;(package=uk.co.caprica.vlcj.player.discoverer))' extend='false' multiple='false' optional='false'>Import package uk.co.caprica.vlcj.player.discoverer</require>
   </resource>
 </repository>

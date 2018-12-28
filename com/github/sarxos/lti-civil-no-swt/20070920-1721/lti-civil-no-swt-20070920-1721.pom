@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.github.sarxos</groupId>
+	<artifactId>lti-civil-no-swt</artifactId>
+	<version>20070920-1721</version>
+
+	<packaging>jar</packaging>
+
+	<name>LTI-CIVIL (no SWT)</name>
+	<url>http://lti-civil.org/</url>
+	
+	<description>
+		LTI-CIVIL is a Java library for capturing images from a video 
+		source such as a USB camera. It provides a simple API and does 
+		not depend on or use JMF!
+	</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<organization>
+		<name>Larson Technologies Inc.</name>
+		<url>http://lti-civil.org/</url>
+	</organization>
+
+	<licenses>
+		<license>
+			<name>GNU Lesser General Public License</name>
+			<url>http://www.gnu.org/licenses/lgpl-3.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<connection>scm:cvs:pserver:anonymous@lti-civil.cvs.sourceforge.net:/cvsroot/lti-civil</connection>
+		<url>anonymous@lti-civil.cvs.sourceforge.net:/cvsroot/lti-civil</url>
+	</scm>
+
+	<developers>
+		<developer>
+			<id>kenlars99</id>
+			<name>Ken Larson</name>
+			<url>http://kenlars99.users.sourceforge.net</url>
+		</developer>
+		<developer>
+			<id>emcho</id>
+			<name>Emil Ivov</name>
+			<url>http://emcho.users.sourceforge.net</url>
+		</developer>
+	</developers>
+
+</project>

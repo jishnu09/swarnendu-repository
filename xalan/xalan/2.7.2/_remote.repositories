@@ -1,4 +1,5 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:54:59 UTC 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Dec 21 10:54:30 IST 2018
 xalan-2.7.2.jar>pentaho-public=
 xalan-2.7.2.pom>pentaho-public=
+xalan-2.7.2.pom>central=
