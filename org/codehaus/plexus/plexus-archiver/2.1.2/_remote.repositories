@@ -1,4 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Jan 10 14:13:44 IST 2019
-log4j-2.11.1.pom>central=
-log4j-2.11.1.pom>pentaho-public=
+#Mon Dec 31 13:00:13 IST 2018
+plexus-archiver-2.1.2.jar>central=
+plexus-archiver-2.1.2.pom>central=
