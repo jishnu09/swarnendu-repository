@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 10:10:37 UTC 2018
+#Tue Jan 15 11:45:44 IST 2019
 jaxb-api-2.3.0.jar>mule=
+jaxb-api-2.3.0.pom>central=
 jaxb-api-2.3.0.pom>mule=
+jaxb-api-2.3.0.jar>central=

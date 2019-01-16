@@ -1,4 +1,6 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:55:44 UTC 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 13:08:32 IST 2019
+mail-1.4.1.jar>central=
 mail-1.4.1.jar>pentaho-public=
 mail-1.4.1.pom>pentaho-public=
+mail-1.4.1.pom>central=

@@ -1,4 +1,6 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Wed Jun 06 12:18:17 IST 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 12:58:21 IST 2019
 gmbal-api-only-3.1.0-b001.pom>atlassian-public=
+gmbal-api-only-3.1.0-b001.jar>central=
+gmbal-api-only-3.1.0-b001.pom>central=
 gmbal-api-only-3.1.0-b001.jar>atlassian-public=

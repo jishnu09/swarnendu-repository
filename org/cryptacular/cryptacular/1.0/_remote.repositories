@@ -1,6 +1,7 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Jun 25 13:44:53 IST 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 13:07:30 IST 2019
 cryptacular-1.0.jar>shibboleth-public-repo=
 cryptacular-1.0.pom>wso2-nexus=
-cryptacular-1.0.jar>wso2-nexus=
+cryptacular-1.0.pom>central=
 cryptacular-1.0.pom>shibboleth-public-repo=
+cryptacular-1.0.jar>wso2-nexus=

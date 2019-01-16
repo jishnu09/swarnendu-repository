@@ -1,5 +1,9 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 30 13:50:42 IST 2018
+#Tue Jan 15 13:45:51 IST 2019
 https\://artifacts.elastic.co/maven/.error=
-https\://repo.maven.apache.org/maven2/.lastUpdated=1543566042233
-https\://artifacts.elastic.co/maven/.lastUpdated=1543566041672
+https\://repository.apache.org/content/repositories/public/.lastUpdated=1547540151485
+https\://repo.maven.apache.org/maven2/.lastUpdated=1547540151836
+https\://artifacts.elastic.co/maven/.lastUpdated=1547540149945
+https\://repository.apache.org/content/repositories/snapshots/.error=
+https\://repository.apache.org/content/repositories/public/.error=
+https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1547540150708

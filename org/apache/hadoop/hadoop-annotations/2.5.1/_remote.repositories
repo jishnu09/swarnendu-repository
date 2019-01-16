@@ -1,5 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 30 15:14:43 IST 2018
+#Tue Jan 15 13:02:22 IST 2019
+hadoop-annotations-2.5.1.jar>apache.public.https=
 hadoop-annotations-2.5.1.pom>central=
-hadoop-annotations-2.5.1.pom>pentaho-public=
 hadoop-annotations-2.5.1.jar>pentaho-public=
+hadoop-annotations-2.5.1.pom>pentaho-public=

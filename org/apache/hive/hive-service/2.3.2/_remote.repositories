@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 14:53:56 IST 2018
+#Tue Jan 15 13:07:51 IST 2019
+hive-service-2.3.2.jar>apache.public.https=
+hive-service-2.3.2.pom>apache.public.https=
 hive-service-2.3.2.pom>pentaho-public=

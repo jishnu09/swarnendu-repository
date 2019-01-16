@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jan 16 16:04:01 IST 2019
+ranger-elasticsearch-plugin-shim-2.0.0-SNAPSHOT.pom>=
+ranger-elasticsearch-plugin-shim-2.0.0-20190115.214720-3.jar>apache.snapshots.https=
+ranger-elasticsearch-plugin-shim-2.0.0-SNAPSHOT.jar>=

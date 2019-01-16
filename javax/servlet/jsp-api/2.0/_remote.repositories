@@ -1,4 +1,6 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:25:57 UTC 2018
-jsp-api-2.0.pom>pentaho-public=
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 13:08:32 IST 2019
 jsp-api-2.0.jar>pentaho-public=
+jsp-api-2.0.pom>central=
+jsp-api-2.0.pom>pentaho-public=
+jsp-api-2.0.jar>central=

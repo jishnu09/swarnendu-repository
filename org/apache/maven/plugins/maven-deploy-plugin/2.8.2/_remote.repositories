@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 10:32:19 UTC 2018
+#Wed Jan 16 12:20:39 IST 2019
 maven-deploy-plugin-2.8.2.jar>mule-plugin=
+maven-deploy-plugin-2.8.2.jar>central=
+maven-deploy-plugin-2.8.2.pom>central=
 maven-deploy-plugin-2.8.2.pom>mule-plugin=

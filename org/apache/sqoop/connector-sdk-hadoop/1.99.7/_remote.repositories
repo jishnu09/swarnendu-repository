@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jan 16 12:39:10 IST 2019
+connector-sdk-hadoop-1.99.7.jar>apache.public.https=
+connector-sdk-hadoop-1.99.7.pom>apache.public.https=

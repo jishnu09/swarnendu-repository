@@ -1,16 +1,21 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Wed Jul 25 16:02:14 IST 2018
-http\://conjars.org/repo/.lastUpdated=1532514732628
-http\://conjars.org/repo/.error=
-http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1532514734062
-http\://repo.dremio.com/release/.lastUpdated=1532514733786
-http\://repository.mapr.com/maven/.error=
-http\://repository.mapr.com/maven/.lastUpdated=1532514733144
-http\://maven.wso2.org/nexus/content/groups/wso2-public/.lastUpdated=1529912404280
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 13:04:59 IST 2019
 http\://repository.mapr.com/nexus/content/repositories/drill/.error=
-https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524131874703
-https\://repo.maven.apache.org/maven2/.lastUpdated=1532514734405
-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1530617334334
 http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
+http\://conjars.org/repo/.error=
+https\://repository.apache.org/content/repositories/snapshots/.error=
 http\://repo.dremio.com/release/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1532514734405
+https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524131874703
 http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524131873594
+http\://maven.wso2.org/nexus/content/groups/wso2-public/.lastUpdated=1529912404280
+http\://repo.dremio.com/release/.lastUpdated=1532514733786
+https\://repository.apache.org/content/repositories/public/.lastUpdated=1547537699591
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1530617334334
+https\://artifacts.elastic.co/maven/.error=
+http\://conjars.org/repo/.lastUpdated=1532514732628
+http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1532514734062
+https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1547537698752
+https\://artifacts.elastic.co/maven/.lastUpdated=1547537697982
+http\://repository.mapr.com/maven/.lastUpdated=1532514733144
+http\://repository.mapr.com/maven/.error=

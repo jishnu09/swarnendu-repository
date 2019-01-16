@@ -1,3 +1,4 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:54:14 UTC 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 12:57:42 IST 2019
 slf4j-api-1.6.0.pom>pentaho-public=
+slf4j-api-1.6.0.pom>central=

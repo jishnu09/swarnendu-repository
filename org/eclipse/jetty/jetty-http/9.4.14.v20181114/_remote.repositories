@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 11:33:53 IST 2019
+jetty-http-9.4.14.v20181114.jar>central=
+jetty-http-9.4.14.v20181114.pom>central=
+jetty-http-9.4.14.v20181114-tests.jar>central=

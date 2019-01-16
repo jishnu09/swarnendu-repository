@@ -1,12 +1,18 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Oct 26 14:51:14 IST 2018
+#Tue Jan 15 13:05:56 IST 2019
 http\://conjars.org/repo/.lastUpdated=1529668266842
 http\://conjars.org/repo/.error=
 http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1529668268558
 http\://repo.dremio.com/release/.lastUpdated=1529668268027
 http\://repository.mapr.com/maven/.error=
 http\://repository.mapr.com/maven/.lastUpdated=1529668267367
+https\://repository.apache.org/content/repositories/snapshots/.error=
+https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1547537755231
+https\://repository.apache.org/content/repositories/public/.lastUpdated=1547537755990
 http\://repository.mapr.com/nexus/content/repositories/drill/.error=
 http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1540545674681
-https\://repo.maven.apache.org/maven2/.lastUpdated=1529668269258
+https\://repo.maven.apache.org/maven2/.lastUpdated=1547537756331
 http\://repo.dremio.com/release/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1547537754490
+https\://repository.apache.org/content/repositories/public/.error=
+https\://artifacts.elastic.co/maven/.error=

@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 01 14:27:49 IST 2018
+#Wed Jan 16 12:46:23 IST 2019
 lucene-sandbox-7.2.1.pom>pentaho-public=
+lucene-sandbox-7.2.1.jar>apache.public.https=
+lucene-sandbox-7.2.1.pom>apache.public.https=

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.knox</groupId>
+  <artifactId>gateway-util-common</artifactId>
+  <versioning>
+    <versions>
+      <version>1.3.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190116062348</lastUpdated>
+  </versioning>
+</metadata>

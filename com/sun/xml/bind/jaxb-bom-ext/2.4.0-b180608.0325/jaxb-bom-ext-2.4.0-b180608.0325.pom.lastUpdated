@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 11:51:37 IST 2019
+http\://maven.java.net/content/repositories/releases/.lastUpdated=1547533295975
+http\://maven.java.net/content/repositories/staging/.lastUpdated=1547533297855
+https\://artifacts.elastic.co/maven/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1547533253325
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1547533295405
+http\://maven.java.net/content/repositories/releases/.error=
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact com.sun.xml.bind\:jaxb-bom-ext\:pom\:2.4.0-b180608.0325 from/to central (https\://repo.maven.apache.org/maven2)\: Connect to repo.maven.apache.org\:443 [repo.maven.apache.org/151.101.52.215] failed\: Connection timed out\: connect

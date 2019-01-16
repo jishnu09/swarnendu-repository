@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 12:56:23 IST 2019
+tomcat-embed-logging-juli-7.0.91.jar>apache.public.https=
+tomcat-embed-logging-juli-7.0.91.pom>apache.public.https=

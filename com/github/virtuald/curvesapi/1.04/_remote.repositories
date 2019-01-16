@@ -1,4 +1,6 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:54:56 UTC 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jan 16 12:19:28 IST 2019
+curvesapi-1.04.jar>central=
 curvesapi-1.04.jar>pentaho-public=
 curvesapi-1.04.pom>pentaho-public=
+curvesapi-1.04.pom>central=

@@ -1,0 +1,13 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 12:57:24 IST 2019
+http\://maven.java.net/content/repositories/staging/.lastUpdated=1547533338745
+https\://maven.java.net/content/repositories/releases/.lastUpdated=1547533342875
+https\://repo.maven.apache.org/maven2/.lastUpdated=1547537244696
+http\://maven.java.net/content/repositories/staging/.error=
+https\://maven.java.net/content/repositories/releases/.error=
+http\://maven.java.net/content/repositories/releases/.lastUpdated=1547533337685
+http\://download.eclipse.org/rt/eclipselink/maven.repo/.lastUpdated=1547533342335
+http\://download.eclipse.org/rt/eclipselink/maven.repo/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1547533315915
+http\://maven.java.net/content/repositories/releases/.error=
+https\://artifacts.elastic.co/maven/.error=

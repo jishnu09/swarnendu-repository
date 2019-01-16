@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 01 14:27:41 IST 2018
+#Wed Jan 16 12:46:23 IST 2019
 lucene-memory-7.2.1.pom>pentaho-public=
+lucene-memory-7.2.1.jar>apache.public.https=
+lucene-memory-7.2.1.pom>apache.public.https=

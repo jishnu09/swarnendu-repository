@@ -1,4 +1,6 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:34:48 UTC 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 13:07:51 IST 2019
 geronimo-jta_1.1_spec-1.1.1.jar>pentaho-public=
 geronimo-jta_1.1_spec-1.1.1.pom>pentaho-public=
+geronimo-jta_1.1_spec-1.1.1.jar>apache.public.https=
+geronimo-jta_1.1_spec-1.1.1.pom>apache.public.https=

@@ -1,4 +1,6 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:30:44 UTC 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 12:58:21 IST 2019
+javax.ws.rs-api-2.0.pom>central=
 javax.ws.rs-api-2.0.pom>pentaho-public=
 javax.ws.rs-api-2.0.jar>pentaho-public=
+javax.ws.rs-api-2.0.jar>central=

@@ -1,4 +1,6 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:25:58 UTC 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 12:59:19 IST 2019
+log4jdbc-1.2.jar>central=
+log4jdbc-1.2.pom>central=
 log4jdbc-1.2.jar>pentaho-public=
 log4jdbc-1.2.pom>pentaho-public=

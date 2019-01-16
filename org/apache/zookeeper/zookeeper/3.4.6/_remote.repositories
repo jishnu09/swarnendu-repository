@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 10:17:42 UTC 2018
+#Tue Jan 15 11:38:05 IST 2019
+zookeeper-3.4.6.jar>apache.public.https=
+zookeeper-3.4.6.pom>apache.public.https=
 zookeeper-3.4.6.jar>pentaho-public=
 zookeeper-3.4.6.pom>pentaho-public=

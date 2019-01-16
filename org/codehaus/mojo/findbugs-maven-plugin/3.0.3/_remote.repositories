@@ -1,3 +1,4 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Fri Jun 02 16:35:41 IST 2017
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jan 16 12:21:44 IST 2019
+findbugs-maven-plugin-3.0.3.jar>central=
 findbugs-maven-plugin-3.0.3.pom>central=

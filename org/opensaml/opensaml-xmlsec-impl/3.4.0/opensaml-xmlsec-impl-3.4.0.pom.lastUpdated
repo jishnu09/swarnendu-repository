@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jan 16 12:06:06 IST 2019
+https\://artifacts.elastic.co/maven/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1547620566560
+https\://repo.maven.apache.org/maven2/.lastUpdated=1547620566841
+https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1547537834505
+https\://repo.maven.apache.org/maven2/.error=

@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 11:26:16 UTC 2018
+#Tue Jan 15 11:38:06 IST 2019
 jsch-0.1.42.jar>pentaho-public=
 jsch-0.1.42.pom>pentaho-public=
+jsch-0.1.42.jar>central=
+jsch-0.1.42.pom>central=

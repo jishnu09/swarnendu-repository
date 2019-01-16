@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jan 16 11:46:06 IST 2019
+build-tools-1.0.0.pom>=
+build-tools-1.0.0.jar>=

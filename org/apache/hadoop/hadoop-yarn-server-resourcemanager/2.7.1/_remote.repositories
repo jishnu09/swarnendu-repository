@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 13:04:09 IST 2019
+hadoop-yarn-server-resourcemanager-2.7.1.jar>apache.public.https=
+hadoop-yarn-server-resourcemanager-2.7.1.pom>apache.public.https=

@@ -1,5 +1,10 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Dec 05 10:06:17 IST 2018
+#Wed Jan 16 12:38:15 IST 2019
 https\://artifacts.elastic.co/maven/.error=
-https\://artifacts.elastic.co/maven/.lastUpdated=1543984576496
+https\://repository.apache.org/content/repositories/public/.lastUpdated=1547622495306
+https\://repo.maven.apache.org/maven2/.lastUpdated=1547622495605
+https\://artifacts.elastic.co/maven/.lastUpdated=1547622493483
+https\://repository.apache.org/content/repositories/snapshots/.error=
+https\://repository.apache.org/content/repositories/public/.error=
+https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1547622494530
 https\://repo.spring.io/libs-milestone/.lastUpdated=1543984577512

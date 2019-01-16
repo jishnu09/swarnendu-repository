@@ -1,4 +1,5 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:33:36 UTC 2018
-ecj-4.4.2.pom>pentaho-public=
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 12:55:53 IST 2019
 ecj-4.4.2.jar>pentaho-public=
+ecj-4.4.2.pom>pentaho-public=
+ecj-4.4.2.pom>central=

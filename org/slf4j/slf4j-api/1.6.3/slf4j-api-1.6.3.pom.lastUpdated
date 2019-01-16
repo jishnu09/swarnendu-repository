@@ -1,13 +1,19 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Wed Jul 25 15:47:16 IST 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jan 16 12:43:07 IST 2019
 http\://conjars.org/repo/.lastUpdated=1532513834637
 http\://conjars.org/repo/.error=
 http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1532513836165
 http\://repo.dremio.com/release/.lastUpdated=1532513835883
 http\://repository.mapr.com/maven/.error=
 http\://repository.mapr.com/maven/.lastUpdated=1532513835180
+https\://repository.apache.org/content/repositories/snapshots/.error=
+https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1547622786004
+https\://repository.apache.org/content/repositories/public/.lastUpdated=1547622786781
 http\://repository.mapr.com/nexus/content/repositories/drill/.error=
-https\://repo.maven.apache.org/maven2/.lastUpdated=1532513836477
+https\://repo.maven.apache.org/maven2/.lastUpdated=1547622787069
 http\://repo.dremio.com/release/.error=
 https\://repository.cloudera.com/artifactory/cloudera-repos/.lastUpdated=1532513834122
 https\://repository.cloudera.com/artifactory/cloudera-repos/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1547622785250
+https\://repository.apache.org/content/repositories/public/.error=
+https\://artifacts.elastic.co/maven/.error=

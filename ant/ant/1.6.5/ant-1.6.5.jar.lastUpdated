@@ -1,11 +1,17 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Wed Jul 25 16:07:00 IST 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 13:08:32 IST 2019
 http\://conjars.org/repo/.lastUpdated=1532514814968
 http\://conjars.org/repo/.error=
 http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1532514831673
 http\://repo.dremio.com/release/.lastUpdated=1532514824359
 http\://repository.mapr.com/maven/.error=
 http\://repository.mapr.com/maven/.lastUpdated=1532514819300
+https\://repository.apache.org/content/repositories/snapshots/.error=
+https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1547537794181
+https\://repository.apache.org/content/repositories/public/.lastUpdated=1547537871091
 http\://repository.mapr.com/nexus/content/repositories/drill/.error=
-https\://repo.maven.apache.org/maven2/.lastUpdated=1532515020487
+https\://repo.maven.apache.org/maven2/.lastUpdated=1547537912872
 http\://repo.dremio.com/release/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1547537789972
+https\://repository.apache.org/content/repositories/public/.error=
+https\://artifacts.elastic.co/maven/.error=

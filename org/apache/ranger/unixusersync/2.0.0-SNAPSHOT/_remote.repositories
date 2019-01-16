@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jan 16 16:00:15 IST 2019
+unixusersync-2.0.0-SNAPSHOT.jar>=
+unixusersync-2.0.0-SNAPSHOT.pom>=
+unixusersync-2.0.0-20190115.214110-155.jar>apache.snapshots.https=

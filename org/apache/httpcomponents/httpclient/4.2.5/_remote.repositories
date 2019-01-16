@@ -1,3 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 10:13:09 UTC 2018
+#Tue Jan 15 11:37:19 IST 2019
 httpclient-4.2.5.pom>pentaho-public=
+httpclient-4.2.5.pom>apache.public.https=

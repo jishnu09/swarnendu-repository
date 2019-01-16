@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 12:43:35 IST 2018
+#Wed Jan 16 12:45:23 IST 2019
+spring-ldap-core-2.2.0.RELEASE.pom>central=
 spring-ldap-core-2.2.0.RELEASE.pom>pentaho-public=
+spring-ldap-core-2.2.0.RELEASE.jar>central=

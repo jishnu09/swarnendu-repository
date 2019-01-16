@@ -1,8 +1,14 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Oct 26 14:37:32 IST 2018
-http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
-http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524132036686
-https\://repo.maven.apache.org/maven2/.lastUpdated=1524132037633
-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1540544852197
+#Tue Jan 15 13:06:06 IST 2019
+https\://repository.apache.org/content/repositories/snapshots/.error=
+https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1547537765063
+https\://repository.apache.org/content/repositories/public/.lastUpdated=1547537765832
 https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524132036983
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1540544852197
+https\://repo.maven.apache.org/maven2/.lastUpdated=1547537766225
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
 https\://build.shibboleth.net/nexus/content/groups/public/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1547537764302
+https\://repository.apache.org/content/repositories/public/.error=
+http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524132036686
+https\://artifacts.elastic.co/maven/.error=

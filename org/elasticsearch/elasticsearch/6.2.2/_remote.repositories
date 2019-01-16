@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 01 14:27:24 IST 2018
+#Wed Jan 16 12:46:11 IST 2019
 elasticsearch-6.2.2.pom>pentaho-public=
+elasticsearch-6.2.2.pom>elasticsearch-releases=
+elasticsearch-6.2.2.jar>elasticsearch-releases=

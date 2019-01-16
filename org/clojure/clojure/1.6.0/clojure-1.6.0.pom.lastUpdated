@@ -1,0 +1,11 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jan 16 12:15:12 IST 2019
+https\://clojars.org/repo/.error=
+https\://repository.apache.org/content/repositories/snapshots/.error=
+https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1547621110609
+https\://clojars.org/repo/.lastUpdated=1547547798623
+https\://repository.apache.org/content/repositories/public/.lastUpdated=1547621111390
+https\://repo.maven.apache.org/maven2/.lastUpdated=1547621112062
+https\://repository.apache.org/content/repositories/public/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1547621108672
+https\://artifacts.elastic.co/maven/.error=

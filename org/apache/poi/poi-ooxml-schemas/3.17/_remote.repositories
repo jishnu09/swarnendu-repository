@@ -1,4 +1,6 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:25:57 UTC 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jan 16 12:19:05 IST 2019
+poi-ooxml-schemas-3.17.jar>apache.public.https=
 poi-ooxml-schemas-3.17.pom>pentaho-public=
 poi-ooxml-schemas-3.17.jar>pentaho-public=
+poi-ooxml-schemas-3.17.pom>apache.public.https=

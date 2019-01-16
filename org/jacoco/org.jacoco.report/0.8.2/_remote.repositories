@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 23 14:53:40 IST 2018
+#Tue Jan 15 11:32:17 IST 2019
 org.jacoco.report-0.8.2.jar>pentaho-public=
 org.jacoco.report-0.8.2.pom>pentaho-public=
+org.jacoco.report-0.8.2.jar>central=
+org.jacoco.report-0.8.2.pom>central=

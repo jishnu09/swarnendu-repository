@@ -1,9 +1,15 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Dec 03 10:08:52 IST 2018
-https\://artifacts.elastic.co/maven/.error=
+#Wed Jan 16 15:59:27 IST 2019
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1547634567968
 https\://clojars.org/repo/.error=
-http\://repo1.maven.org/maven2/.error=
-http\://repo1.maven.org/maven2/.lastUpdated=1543811925870
-https\://artifacts.elastic.co/maven/.lastUpdated=1543811925526
+https\://repository.apache.org/content/repositories/snapshots/.error=Could not transfer artifact org.restlet.jee\:org.restlet\:pom\:2.3.0 from/to apache.snapshots.https (https\://repository.apache.org/content/repositories/snapshots)\: Connect to repository.apache.org\:443 [repository.apache.org/207.244.88.140] failed\: Connection timed out\: connect
 https\://clojars.org/repo/.lastUpdated=1543811930183
+@default-apache.snapshots.https-https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1547634526475
+https\://repository.apache.org/content/repositories/public/.lastUpdated=1547634527496
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.restlet.jee\:org.restlet\:pom\:2.3.0 from/to central (https\://repo.maven.apache.org/maven2)\: Connect to repo.maven.apache.org\:443 [repo.maven.apache.org/151.101.40.215] failed\: Connection timed out\: connect
+http\://repo1.maven.org/maven2/.lastUpdated=1543811925870
+http\://repo1.maven.org/maven2/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1547634505457
 http\://maven.restlet.org/.lastUpdated=1543811932605
+https\://repository.apache.org/content/repositories/public/.error=
+https\://artifacts.elastic.co/maven/.error=

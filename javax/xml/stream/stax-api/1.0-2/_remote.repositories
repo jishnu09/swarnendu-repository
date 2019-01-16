@@ -1,6 +1,8 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 10:17:42 UTC 2018
+#Tue Jan 15 11:38:06 IST 2019
 stax-api-1.0-2.jar>pentaho-public=
 stax-api-1.0-2.pom>pentaho-public=
 stax-api-1.0-2.jar>mule-plugin=
+stax-api-1.0-2.jar>central=
+stax-api-1.0-2.pom>central=
 stax-api-1.0-2.pom>mule-plugin=

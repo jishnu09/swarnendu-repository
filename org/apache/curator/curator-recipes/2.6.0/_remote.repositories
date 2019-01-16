@@ -1,4 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 10:17:42 UTC 2018
+#Tue Jan 15 13:05:31 IST 2019
 curator-recipes-2.6.0.jar>pentaho-public=
+curator-recipes-2.6.0.pom>apache.public.https=
 curator-recipes-2.6.0.pom>pentaho-public=

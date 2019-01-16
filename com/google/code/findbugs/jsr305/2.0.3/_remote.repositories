@@ -1,4 +1,5 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:31:53 UTC 2018
-jsr305-2.0.3.pom>pentaho-public=
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jan 16 12:18:19 IST 2019
 jsr305-2.0.3.jar>pentaho-public=
+jsr305-2.0.3.pom>pentaho-public=
+jsr305-2.0.3.pom>central=

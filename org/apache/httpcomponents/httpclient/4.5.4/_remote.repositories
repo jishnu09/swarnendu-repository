@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 11:13:02 UTC 2018
+#Tue Jan 15 13:42:20 IST 2019
+httpclient-4.5.4.pom>apache.public.https=
 httpclient-4.5.4.pom>mule=
 httpclient-4.5.4.jar>mule=
+httpclient-4.5.4.jar>apache.public.https=

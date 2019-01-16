@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 14:44:55 IST 2019
+hadoop-auth-3.0.0.jar>apache.public.https=
+hadoop-auth-3.0.0.pom>apache.public.https=

@@ -1,5 +1,10 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 12:43:35 IST 2018
+#Wed Jan 16 12:42:40 IST 2019
 https\://artifacts.elastic.co/maven/.error=
-https\://artifacts.elastic.co/maven/.lastUpdated=1542870813876
+https\://repository.apache.org/content/repositories/public/.lastUpdated=1547622760500
+https\://repo.maven.apache.org/maven2/.lastUpdated=1547622760808
+https\://artifacts.elastic.co/maven/.lastUpdated=1547622758934
+https\://repository.apache.org/content/repositories/snapshots/.error=
 http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542870815369
+https\://repository.apache.org/content/repositories/public/.error=
+https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1547622759716

@@ -1,3 +1,4 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Fri Jun 22 17:40:27 IST 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 15 13:04:09 IST 2019
 hadoop-yarn-server-nodemanager-2.7.1.pom>central=
+hadoop-yarn-server-nodemanager-2.7.1.jar>apache.public.https=

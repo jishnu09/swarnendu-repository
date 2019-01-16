@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 10:05:13 UTC 2018
+#Tue Jan 15 11:31:17 IST 2019
 sqljet-1.1.10.pom>mule-plugin=
+sqljet-1.1.10.jar>central=
+sqljet-1.1.10.pom>central=
 sqljet-1.1.10.jar>mule-plugin=
