@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 25 10:02:52 IST 2019
+javax.persistence-2.1.1.jar>oss.sonatype.org=
+javax.persistence-2.1.1.pom>oss.sonatype.org=

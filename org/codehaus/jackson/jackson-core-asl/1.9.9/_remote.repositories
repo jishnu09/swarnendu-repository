@@ -1,4 +1,6 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Jun 25 13:14:37 IST 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 25 09:55:31 IST 2019
+jackson-core-asl-1.9.9.jar>oss.sonatype.org=
 jackson-core-asl-1.9.9.jar>wso2-nexus=
 jackson-core-asl-1.9.9.pom>wso2-nexus=
+jackson-core-asl-1.9.9.pom>oss.sonatype.org=

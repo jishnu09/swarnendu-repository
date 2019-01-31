@@ -1,6 +1,8 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 11:13:35 UTC 2018
+#Fri Jan 25 10:02:52 IST 2019
+mockito-all-1.10.19.pom>oss.sonatype.org=
 mockito-all-1.10.19.pom>mule=
 mockito-all-1.10.19.jar>mule=
 mockito-all-1.10.19.jar>pentaho-public=
 mockito-all-1.10.19.pom>pentaho-public=
+mockito-all-1.10.19.jar>oss.sonatype.org=

@@ -1,5 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Dec 05 10:45:55 IST 2018
+#Fri Jan 25 09:58:41 IST 2019
 https\://artifacts.elastic.co/maven/.error=
 http\://repo1.maven.org/maven2/.lastUpdated=1543986955147
-https\://artifacts.elastic.co/maven/.lastUpdated=1543986954772
+https\://artifacts.elastic.co/maven/.lastUpdated=1548390520783
+https\://oss.sonatype.org/content/groups/staging/.lastUpdated=1548390521602

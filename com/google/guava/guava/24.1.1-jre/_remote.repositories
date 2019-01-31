@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 25 09:55:31 IST 2019
+guava-24.1.1-jre.jar>oss.sonatype.org=
+guava-24.1.1-jre.pom>oss.sonatype.org=

@@ -1,3 +1,4 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Wed Jul 25 15:49:30 IST 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 22 16:03:11 IST 2019
 slf4j-api-1.7.20.pom>central=
+slf4j-api-1.7.20.jar>central=

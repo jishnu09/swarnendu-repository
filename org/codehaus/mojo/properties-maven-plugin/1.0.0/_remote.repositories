@@ -1,4 +1,6 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:16:56 UTC 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 25 09:55:37 IST 2019
+properties-maven-plugin-1.0.0.jar>oss.sonatype.org=
 properties-maven-plugin-1.0.0.pom>pentaho-public=
 properties-maven-plugin-1.0.0.jar>pentaho-public=
+properties-maven-plugin-1.0.0.pom>oss.sonatype.org=

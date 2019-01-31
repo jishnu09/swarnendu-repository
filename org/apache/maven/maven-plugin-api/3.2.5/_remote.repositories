@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 10:07:54 UTC 2018
+#Tue Jan 22 16:04:23 IST 2019
+maven-plugin-api-3.2.5.pom>maven2-repository.atlassian=
 maven-plugin-api-3.2.5.jar>mule-plugin=
 maven-plugin-api-3.2.5.pom>mule-plugin=
+maven-plugin-api-3.2.5.jar>maven2-repository.atlassian=

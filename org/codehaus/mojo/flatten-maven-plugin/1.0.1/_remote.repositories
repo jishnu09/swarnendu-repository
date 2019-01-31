@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 22 16:03:44 IST 2019
+flatten-maven-plugin-1.0.1.pom>maven2-repository.atlassian=
+flatten-maven-plugin-1.0.1.jar>maven2-repository.atlassian=

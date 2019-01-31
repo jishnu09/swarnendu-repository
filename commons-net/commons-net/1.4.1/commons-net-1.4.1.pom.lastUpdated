@@ -1,8 +1,13 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Jan 15 13:41:45 IST 2019
-https\://artifacts.elastic.co/maven/.error=
-https\://repository.apache.org/content/repositories/public/.lastUpdated=1547539905624
-https\://artifacts.elastic.co/maven/.lastUpdated=1547539904075
-https\://repo.maven.apache.org/maven2/.lastUpdated=1543818223991
+#Fri Jan 25 09:58:22 IST 2019
+https\://oss.sonatype.org/content/groups/staging/.error=
 https\://repository.apache.org/content/repositories/snapshots/.error=
 https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1547539904844
+http\://repo.spring.io/milestone/.error=
+https\://repository.apache.org/content/repositories/public/.lastUpdated=1547539905624
+http\://repo.spring.io/milestone/.lastUpdated=1548390501919
+https\://oss.sonatype.org/content/groups/staging/.lastUpdated=1548390501382
+https\://repo.maven.apache.org/maven2/.lastUpdated=1543818223991
+https\://artifacts.elastic.co/maven/.lastUpdated=1548390500149
+https\://repository.apache.org/content/groups/staging/.lastUpdated=1548390502679
+https\://artifacts.elastic.co/maven/.error=

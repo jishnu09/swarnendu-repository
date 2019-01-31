@@ -1,5 +1,5 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Thu Aug 23 14:43:25 IST 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 25 10:02:52 IST 2019
 http\://conjars.org/repo/.lastUpdated=1535015568469
 http\://conjars.org/repo/.error=
 http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1535015570306
@@ -7,9 +7,12 @@ http\://repo.dremio.com/release/.lastUpdated=1535015569741
 http\://repository.mapr.com/maven/.error=
 http\://repository.mapr.com/maven/.lastUpdated=1535015569027
 http\://repository.mapr.com/nexus/content/repositories/drill/.error=
+https\://oss.sonatype.org/content/groups/staging/.lastUpdated=1548390772699
 https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524132801282
 https\://repo.maven.apache.org/maven2/.lastUpdated=1535015605672
 http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
 http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1530608267033
 http\://repo.dremio.com/release/.error=
+https\://artifacts.elastic.co/maven/.lastUpdated=1548390735963
 http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524132716980
+https\://artifacts.elastic.co/maven/.error=

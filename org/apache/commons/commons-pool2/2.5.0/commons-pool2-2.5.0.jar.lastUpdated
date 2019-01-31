@@ -1,11 +1,16 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 16 12:44:37 IST 2019
+#Fri Jan 25 10:03:33 IST 2019
 https\://jitpack.io/.error=
+https\://oss.sonatype.org/content/groups/staging/.error=
 https\://repository.apache.org/content/repositories/snapshots/.error=
 https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1547622850991
+http\://repo.spring.io/milestone/.error=
 https\://repository.apache.org/content/repositories/public/.lastUpdated=1547622877543
 https\://jitpack.io/.lastUpdated=1543475674819
+http\://repo.spring.io/milestone/.lastUpdated=1548390783016
+https\://oss.sonatype.org/content/groups/staging/.lastUpdated=1548390773020
 http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542351220266
 https\://repo.maven.apache.org/maven2/.lastUpdated=1543475676699
-https\://artifacts.elastic.co/maven/.lastUpdated=1547622843341
+https\://artifacts.elastic.co/maven/.lastUpdated=1548390736126
+https\://repository.apache.org/content/groups/staging/.lastUpdated=1548390813339
 https\://artifacts.elastic.co/maven/.error=

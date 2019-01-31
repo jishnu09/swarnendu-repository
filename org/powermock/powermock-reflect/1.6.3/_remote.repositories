@@ -1,4 +1,6 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:28:49 UTC 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 25 10:02:52 IST 2019
 powermock-reflect-1.6.3.pom>pentaho-public=
+powermock-reflect-1.6.3.jar>oss.sonatype.org=
+powermock-reflect-1.6.3.pom>oss.sonatype.org=
 powermock-reflect-1.6.3.jar>pentaho-public=

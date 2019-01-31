@@ -1,6 +1,8 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 16 12:29:00 IST 2019
+#Fri Jan 25 10:03:33 IST 2019
 hadoop-annotations-2.6.0.jar>apache.public.https=
+hadoop-annotations-2.6.0.jar>ASF\ Staging=
 hadoop-annotations-2.6.0.pom>apache.public.https=
 hadoop-annotations-2.6.0.jar>pentaho-public=
 hadoop-annotations-2.6.0.pom>pentaho-public=
+hadoop-annotations-2.6.0.pom>ASF\ Staging=

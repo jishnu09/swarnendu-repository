@@ -1,4 +1,6 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Apr 30 14:44:27 IST 2018
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 22 16:06:10 IST 2019
+jackson-module-jaxb-annotations-2.8.4.jar>oss.sonatype.org=
+jackson-module-jaxb-annotations-2.8.4.pom>oss.sonatype.org=
 jackson-module-jaxb-annotations-2.8.4.jar>sonatype-releases=
 jackson-module-jaxb-annotations-2.8.4.pom>sonatype-releases=

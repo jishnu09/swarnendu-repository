@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 25 09:53:17 IST 2019
+rpm-maven-plugin-2.0.1.pom>oss.sonatype.org=
+rpm-maven-plugin-2.0.1.jar>maven2-repository.atlassian=
+rpm-maven-plugin-2.0.1.pom>maven2-repository.atlassian=
+rpm-maven-plugin-2.0.1.jar>oss.sonatype.org=

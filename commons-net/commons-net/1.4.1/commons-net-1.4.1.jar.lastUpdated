@@ -1,7 +1,14 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Jan 15 13:42:20 IST 2019
-https\://artifacts.elastic.co/maven/.error=
-https\://repository.apache.org/content/repositories/public/.lastUpdated=1547539940904
-https\://artifacts.elastic.co/maven/.lastUpdated=1547539923164
+#Fri Jan 25 10:03:49 IST 2019
+https\://oss.sonatype.org/content/groups/staging/.error=
 https\://repository.apache.org/content/repositories/snapshots/.error=
 https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1547539926434
+http\://repo.spring.io/milestone/.error=
+https\://repository.apache.org/content/repositories/public/.lastUpdated=1547539940904
+http\://repo.spring.io/milestone/.lastUpdated=1548390782832
+https\://repository.apache.org/content/groups/staging/.error=Could not transfer artifact commons-net\:commons-net\:jar\:1.4.1 from/to ASF Staging (https\://repository.apache.org/content/groups/staging/)\: Connect to repository.apache.org\:443 [repository.apache.org/207.244.88.140] failed\: Connection timed out\: connect
+https\://oss.sonatype.org/content/groups/staging/.lastUpdated=1548390772520
+https\://repo.maven.apache.org/maven2/.lastUpdated=1548390829658
+https\://artifacts.elastic.co/maven/.lastUpdated=1548390735563
+https\://artifacts.elastic.co/maven/.error=
+@default-ASF\ Staging-https\://repository.apache.org/content/groups/staging/.lastUpdated=1548390811356

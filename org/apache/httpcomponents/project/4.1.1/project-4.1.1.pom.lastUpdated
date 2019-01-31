@@ -1,13 +1,18 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Jan 15 11:37:14 IST 2019
+#Fri Jan 25 10:00:27 IST 2019
+https\://oss.sonatype.org/content/groups/staging/.error=
 https\://repository.apache.org/content/repositories/snapshots/.error=
 https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1547532433368
+http\://repo.spring.io/milestone/.error=
 https\://repository.apache.org/content/repositories/public/.lastUpdated=1547532434140
+http\://repo.spring.io/milestone/.lastUpdated=1548390626455
+https\://oss.sonatype.org/content/groups/staging/.lastUpdated=1548390625987
 https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524130549030
-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1540544844842
 https\://repo.maven.apache.org/maven2/.lastUpdated=1524130549327
+http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1540544844842
 http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
 https\://build.shibboleth.net/nexus/content/groups/public/.error=
-https\://artifacts.elastic.co/maven/.lastUpdated=1547532432598
+https\://artifacts.elastic.co/maven/.lastUpdated=1548390625679
+https\://repository.apache.org/content/groups/staging/.lastUpdated=1548390627224
 https\://artifacts.elastic.co/maven/.error=
 http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524130548249
