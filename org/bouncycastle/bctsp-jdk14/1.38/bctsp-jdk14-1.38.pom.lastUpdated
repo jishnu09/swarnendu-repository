@@ -1,7 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Oct 26 14:37:11 IST 2018
-https\://artifacts.alfresco.com/nexus/content/repositories/public/.error=
-https\://repo.maven.apache.org/maven2/.lastUpdated=1499860086862
-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1540544831460
-https\://oss.sonatype.org/content/repositories/releases/.lastUpdated=1499859640059
-https\://artifacts.alfresco.com/nexus/content/repositories/public/.lastUpdated=1499859638901
+version https://git-lfs.github.com/spec/v1
+oid sha256:ddad5c359ea33c385dd53e10180b3da94c6e945092700852486c338a07869190
+size 817
