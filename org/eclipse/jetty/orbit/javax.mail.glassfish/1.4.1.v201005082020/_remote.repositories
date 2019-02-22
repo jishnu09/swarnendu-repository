@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:55:14 UTC 2018
-javax.mail.glassfish-1.4.1.v201005082020.jar>pentaho-public=
-javax.mail.glassfish-1.4.1.v201005082020.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:bdf1ee85ee4955fc058f2cc0af59fe754db84006526e1833fb35717aeb5f54bb
+size 376

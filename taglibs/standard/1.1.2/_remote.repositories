@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Jun 25 13:40:17 IST 2018
-standard-1.1.2.pom>wso2-maven2-repository=
-standard-1.1.2.jar>wso2-maven2-repository=
+version https://git-lfs.github.com/spec/v1
+oid sha256:06be7deabfd80c68fe5c8d1b4abd9783e2a55dca098678c0a1b310a2bb575285
+size 288

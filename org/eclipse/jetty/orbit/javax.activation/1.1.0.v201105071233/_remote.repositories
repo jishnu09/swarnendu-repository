@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:55:12 UTC 2018
-javax.activation-1.1.0.v201105071233.jar>pentaho-public=
-javax.activation-1.1.0.v201105071233.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:8879342f09bb8818e9b49a59966b1bbc2423754f4b5e7a48395eabe86e86e60c
+size 360

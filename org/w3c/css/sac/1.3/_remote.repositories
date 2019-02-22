@@ -1,5 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Dec 21 10:54:33 IST 2018
-sac-1.3.pom>pentaho-public=
-sac-1.3.jar>pentaho-public=
-sac-1.3.pom>central=
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbc477303595eac718cea8281039817ec4d7370b2ad49f6e379ab0849d07b9ae
+size 244

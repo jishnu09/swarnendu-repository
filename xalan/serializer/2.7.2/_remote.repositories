@@ -1,5 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Dec 21 10:54:30 IST 2018
-serializer-2.7.2.pom>central=
-serializer-2.7.2.jar>pentaho-public=
-serializer-2.7.2.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:eaf00a06dcf93a2e2ac7dea38b901533d50cff111a8a324ee39dd9b12388da75
+size 280

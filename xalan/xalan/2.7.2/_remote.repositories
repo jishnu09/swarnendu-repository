@@ -1,5 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Dec 21 10:54:30 IST 2018
-xalan-2.7.2.jar>pentaho-public=
-xalan-2.7.2.pom>pentaho-public=
-xalan-2.7.2.pom>central=
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba3bed450cf3f9fda4bf0c98d04152cd3bb9980a9394cd258069eada8bad9009
+size 260

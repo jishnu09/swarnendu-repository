@@ -1,3 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:32:36 UTC 2018
-shrinkwrap-resolver-bom-2.2.0.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:8399b76e6cc55da473320b290e4d873e9a2e345d54ea351ee2c47fa8b8dfcab7
+size 237

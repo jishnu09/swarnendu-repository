@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 11:14:40 UTC 2018
-jetty-parent-20.pom>pentaho-public=
-jetty-parent-20.pom>mule=
+version https://git-lfs.github.com/spec/v1
+oid sha256:1bad442ee2fd069863e0428d7d5577b5abe67640b177c0135cc629e22adca153
+size 236
