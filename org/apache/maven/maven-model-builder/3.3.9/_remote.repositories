@@ -1,6 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 12:02:47 UTC 2018
-maven-model-builder-3.3.9.pom>mule-plugin=
-maven-model-builder-3.3.9.pom>mule=
-maven-model-builder-3.3.9.jar>mule-plugin=
-maven-model-builder-3.3.9.jar>mule=
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b12ca6122d865b3846f5f57b3cea97856adb5271b1d8cf6f411cbe5dd116d4d
+size 384

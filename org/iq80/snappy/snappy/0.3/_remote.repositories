@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 10:02:36 UTC 2018
-snappy-0.3.jar>mule-plugin=
-snappy-0.3.pom>mule-plugin=
+version https://git-lfs.github.com/spec/v1
+oid sha256:80cb97eeab690c28aabefc01828c135a0be9d4301ede56c83a67ecd84a105801
+size 250

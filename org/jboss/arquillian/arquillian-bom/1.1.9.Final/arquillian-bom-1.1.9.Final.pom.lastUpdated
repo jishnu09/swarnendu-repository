@@ -1,8 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Oct 26 14:47:39 IST 2018
-http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
-http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524131919962
-https\://repo.maven.apache.org/maven2/.lastUpdated=1524131921405
-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1540545459713
-https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524131920764
-https\://build.shibboleth.net/nexus/content/groups/public/.error=
+version https://git-lfs.github.com/spec/v1
+oid sha256:445a8a4efbbf657f47d955f2feafeba2a2adc5488ee5816bcaa09a907b5b8d58
+size 870

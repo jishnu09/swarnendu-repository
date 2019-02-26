@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 23 15:29:54 IST 2018
-jackson-dataformat-protobuf-2.9.6.jar>pentaho-public=
-jackson-dataformat-protobuf-2.9.6.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:73c14968fb743846c694756e40dd706942f3542f2f7ea302cbee84dd0d9f51d4
+size 348

@@ -1,5 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Dec 18 18:48:16 IST 2018
-reactive-streams-1.0.0.pom>pentaho-public=
-reactive-streams-1.0.0.jar>pentaho-public=
-reactive-streams-1.0.0.pom>central=
+version https://git-lfs.github.com/spec/v1
+oid sha256:d222af22692715b353dd4f90902c83636afbb84a313c1565a773e7bbaf12d3d2
+size 304

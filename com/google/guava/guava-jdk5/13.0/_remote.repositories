@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:31:34 UTC 2018
-guava-jdk5-13.0.pom>pentaho-public=
-guava-jdk5-13.0.jar>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:90f542e09fd39023f31522dc8ee73140e69c058ea273ccc4e53700491529263a
+size 246

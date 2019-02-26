@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 11:14:44 UTC 2018
-fusesource-pom-1.10.pom>pentaho-nexus=
-fusesource-pom-1.10.pom>mule=
+version https://git-lfs.github.com/spec/v1
+oid sha256:166a116ed8b66ca6291d34c36641c84adea30845a70c7d2193164c7e39769282
+size 247

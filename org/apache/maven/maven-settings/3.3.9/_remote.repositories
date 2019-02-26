@@ -1,6 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 12:02:46 UTC 2018
-maven-settings-3.3.9.jar>mule-plugin=
-maven-settings-3.3.9.pom>mule=
-maven-settings-3.3.9.pom>mule-plugin=
-maven-settings-3.3.9.jar>mule=
+version https://git-lfs.github.com/spec/v1
+oid sha256:baed484f3009a5f8e8c2b1b202a30b9c3b2b8cb943b43f516735256edd933435
+size 354

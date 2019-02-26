@@ -1,8 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Jan 25 10:03:33 IST 2019
-hadoop-annotations-2.6.0.jar>apache.public.https=
-hadoop-annotations-2.6.0.jar>ASF\ Staging=
-hadoop-annotations-2.6.0.pom>apache.public.https=
-hadoop-annotations-2.6.0.jar>pentaho-public=
-hadoop-annotations-2.6.0.pom>pentaho-public=
-hadoop-annotations-2.6.0.pom>ASF\ Staging=
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc5b3cf49fb38efc04b8378a00513b9407eedf919ee9a85a983ad44d710d1b76
+size 502

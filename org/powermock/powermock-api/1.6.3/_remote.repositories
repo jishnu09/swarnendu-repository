@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Jan 25 09:58:53 IST 2019
-powermock-api-1.6.3.pom>oss.sonatype.org=
-powermock-api-1.6.3.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b734604dde79f99ae9ec8271e36b20a6a13659a693454985b0c40ec39529994
+size 260

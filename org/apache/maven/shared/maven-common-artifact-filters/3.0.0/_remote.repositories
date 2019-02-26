@@ -1,5 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 10:59:21 UTC 2018
-maven-common-artifact-filters-3.0.0.pom>pentaho-public=
-maven-common-artifact-filters-3.0.0.pom>central=
-maven-common-artifact-filters-3.0.0.jar>mule-plugin=
+version https://git-lfs.github.com/spec/v1
+oid sha256:42731fc1c42e0887aeba16a4bc0594644ecb0d6d57582de00a8811f630726903
+size 353

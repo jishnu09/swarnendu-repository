@@ -1,8 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Oct 26 13:35:08 IST 2018
-@default-jasig-developer-repo-http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524132143536
-http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=Could not transfer artifact org.objenesis\:objenesis-parent\:pom\:2.4 from/to jasig-developer-repo (http\://developer.jasig.org/repo/content/groups/m2-legacy/)\: Connect to developer.jasig.org\:80 [developer.jasig.org/199.119.127.181] failed\: Connection timed out\: connect
-https\://repo.maven.apache.org/maven2/.lastUpdated=1524132145021
-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1540541108137
-https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524132144333
-https\://build.shibboleth.net/nexus/content/groups/public/.error=
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a0dfc5abfb84c94564c067cbcb4925ad1dab64027b996aaaff0a19a76fdb5bb
+size 1174

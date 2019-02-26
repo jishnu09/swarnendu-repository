@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 10:04:18 UTC 2018
-aspectjrt-1.9.2.pom>mule=
-aspectjrt-1.9.2.jar>mule=
+version https://git-lfs.github.com/spec/v1
+oid sha256:89775cbe9f6de558e89799730fa2f2e360698b6492a87f9a77dddc544ebe075e
+size 256

@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Jan 15 13:05:15 IST 2019
-hadoop-project-dist-2.6.0.pom>apache.public.https=
-hadoop-project-dist-2.6.0.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:7527c06dae49599805bca39baa18724b8094d3d27d35652592669d83b257dbc8
+size 281

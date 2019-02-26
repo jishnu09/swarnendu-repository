@@ -1,5 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Jan 25 09:59:42 IST 2019
-hadoop-project-2.6.0.pom>ASF\ Staging=
-hadoop-project-2.6.0.pom>apache.public.https=
-hadoop-project-2.6.0.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:8545338e646dcb963c99ab5380344f064e5fa6ff43145a2b50c327fe8c04a956
+size 306

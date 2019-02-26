@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 07:25:20 UTC 2018
-core-3.1.1.jar>pentaho-public=
-core-3.1.1.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:eff3720e8f5ac44deb874280ce7df006ebc2046b573a18ae2feedf3913716a2a
+size 256

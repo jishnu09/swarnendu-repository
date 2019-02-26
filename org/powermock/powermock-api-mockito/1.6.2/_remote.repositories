@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 07:25:20 UTC 2018
-powermock-api-mockito-1.6.2.jar>pentaho-public=
-powermock-api-mockito-1.6.2.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:297d332907aaae41b2253b763ec33aea59caa10733a0b1218b3832d6ac4014d5
+size 324

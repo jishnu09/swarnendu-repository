@@ -1,5 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Wed Jul 25 16:43:25 IST 2018
-geronimo-annotation_1.0_spec-1.1.1.jar>central=
-geronimo-annotation_1.0_spec-1.1.1.pom>central=
-geronimo-annotation_1.0_spec-1.1.1.jar>=
+version https://git-lfs.github.com/spec/v1
+oid sha256:145961da034f14b762f4ddfb4b4301ffca95ab0b7b993cbd8c84ac9e32b0d1dc
+size 339

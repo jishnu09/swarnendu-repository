@@ -1,6 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Jan 15 13:08:32 IST 2019
-jta-1.1.jar>central=
-jta-1.1.pom>central=
-jta-1.1.pom>pentaho-public=
-jta-1.1.jar>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:1600233ecc2bd8545f333572a125b0dcae1b9eb6d42d50d3fc441b3641aff7d8
+size 274

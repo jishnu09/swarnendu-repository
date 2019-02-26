@@ -1,6 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Nov 20 09:52:16 UTC 2018
-commons-compress-1.4.1.pom>pentaho-public=
-commons-compress-1.4.1.jar>central=
-commons-compress-1.4.1.jar>pentaho-public=
-commons-compress-1.4.1.pom>central=
+version https://git-lfs.github.com/spec/v1
+oid sha256:38d836f74997e80206cec14e2994f77c098cfb6cbb84ffda90255825527aac70
+size 349

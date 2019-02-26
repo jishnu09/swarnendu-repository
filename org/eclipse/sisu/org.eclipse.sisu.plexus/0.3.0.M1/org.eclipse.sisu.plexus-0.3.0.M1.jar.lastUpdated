@@ -1,7 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Jan 22 16:04:23 IST 2019
-http\://download.java.net/maven/2/.lastUpdated=1548153260541
-http\://download.java.net/maven/glassfish/.lastUpdated=1548153262355
-http\://download.java.net/maven/glassfish/.error=
-http\://download.java.net/maven/2/.error=
-https\://maven.atlassian.com/repository/public/.lastUpdated=1548153263550
+version https://git-lfs.github.com/spec/v1
+oid sha256:278577176a3a58901a1446d258f6c13e1e5d3db929dcb4d6de289964eda7f3f9
+size 509

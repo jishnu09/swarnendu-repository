@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Jan 15 13:06:13 IST 2019
-zookeeper-3.4.5.pom>pentaho-public=
-zookeeper-3.4.5.pom>apache.public.https=
+version https://git-lfs.github.com/spec/v1
+oid sha256:a851b5ad31758de268326a993b690974dea3b7e1ab2a66bbc471414aabfd2515
+size 289

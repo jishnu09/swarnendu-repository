@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 30 15:16:53 IST 2018
-checkstyle-8.12.jar>pentaho-public=
-checkstyle-8.12.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:61bf3720ee1052c2f13b09b89ad3453354abeb1490e9ac6409fee551f45815e9
+size 276

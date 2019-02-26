@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 10:18:11 UTC 2018
-commons-logging-1.0.3.jar>pentaho-public=
-commons-logging-1.0.3.pom>central=
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c8c13012317496c10581a6ca30283fa6bd854b0875bb62e66a91ac4058d86bc
+size 257

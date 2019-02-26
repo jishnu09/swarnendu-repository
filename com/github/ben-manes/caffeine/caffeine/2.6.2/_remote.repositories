@@ -1,6 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Nov 26 05:01:45 UTC 2018
-caffeine-2.6.2.pom>mule-plugin=
-caffeine-2.6.2.pom>mule=
-caffeine-2.6.2.jar>mule=
-caffeine-2.6.2.jar>mule-plugin=
+version https://git-lfs.github.com/spec/v1
+oid sha256:63f12972a94fabc9b4c504221941da76c3a11bcf1bdec68487baec82958129e0
+size 318

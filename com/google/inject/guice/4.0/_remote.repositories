@@ -1,6 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 19 06:16:24 UTC 2018
-guice-4.0-no_aop.jar>mule-plugin=
-guice-4.0-no_aop.jar>mule=
-guice-4.0.pom>central=
-guice-4.0.pom>mule-plugin=
+version https://git-lfs.github.com/spec/v1
+oid sha256:51b731edc2ba6d2afec39e1e4354776f9f4150999599e361e36d004dabc9ef80
+size 288

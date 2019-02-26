@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 10:07:54 UTC 2018
-commons-beanutils-1.8.3.jar>mule-plugin=
-commons-beanutils-1.8.3.pom>mule-plugin=
+version https://git-lfs.github.com/spec/v1
+oid sha256:db65e99f778bac7503ed06f8c9d900ad1b5d47fec7ec2e10b6253bd197dfb304
+size 302

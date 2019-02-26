@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 11:13:51 UTC 2018
-joda-time-2.9.1.pom>mule=
-joda-time-2.9.1.jar>mule=
+version https://git-lfs.github.com/spec/v1
+oid sha256:e43930604aa8528cee9a023dd587ee09a38b25687ec5e66525a06f269b402183
+size 256

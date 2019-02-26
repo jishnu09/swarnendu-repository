@@ -1,6 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 12:02:36 UTC 2018
-gson-2.8.5.jar>mule-plugin=
-gson-2.8.5.jar>mule=
-gson-2.8.5.pom>mule-plugin=
-gson-2.8.5.pom>mule=
+version https://git-lfs.github.com/spec/v1
+oid sha256:8fe403627d42ed060f5a2500ce3f861698fe66efaa40c556c9a1bb198ca52c01
+size 294

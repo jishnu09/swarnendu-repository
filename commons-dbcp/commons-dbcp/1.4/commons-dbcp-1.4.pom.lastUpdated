@@ -1,17 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Jan 15 13:06:00 IST 2019
-http\://conjars.org/repo/.lastUpdated=1529668221121
-http\://conjars.org/repo/.error=
-http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1529668222312
-http\://repo.dremio.com/release/.lastUpdated=1529668222033
-http\://repository.mapr.com/maven/.error=
-http\://repository.mapr.com/maven/.lastUpdated=1529668221393
-https\://repository.apache.org/content/repositories/snapshots/.error=
-https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1547537760116
-https\://repository.apache.org/content/repositories/public/.lastUpdated=1547537760903
-http\://repository.mapr.com/nexus/content/repositories/drill/.error=
-https\://repo.maven.apache.org/maven2/.lastUpdated=1529668222667
-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1540541091145
-http\://repo.dremio.com/release/.error=
-https\://artifacts.elastic.co/maven/.lastUpdated=1547537759361
-https\://artifacts.elastic.co/maven/.error=
+version https://git-lfs.github.com/spec/v1
+oid sha256:52623ed735e082419d4d5030c856d12a0fad7571cb0925659c5a37a63c77c46b
+size 1264

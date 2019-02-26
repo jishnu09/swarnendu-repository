@@ -1,6 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Jan 15 13:07:51 IST 2019
-commons-dbcp-1.4.jar>apache.public.https=
-commons-dbcp-1.4.pom>apache.public.https=
-commons-dbcp-1.4.jar>pentaho-public=
-commons-dbcp-1.4.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:dfbef98280593e665e6a24656437de80d8abd92a8aee56b24a1423abb414b144
+size 366

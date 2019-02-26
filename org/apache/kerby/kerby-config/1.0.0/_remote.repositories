@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 16 12:26:42 IST 2019
-kerby-config-1.0.0.pom>apache.public.https=
-kerby-config-1.0.0.jar>apache.public.https=
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e1f89b97e14a46309ba4a5c10821707def0fd60e1b0e95f0f726200b504f19d
+size 298

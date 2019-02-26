@@ -1,6 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Jan 25 10:02:52 IST 2019
-powermock-reflect-1.6.3.pom>pentaho-public=
-powermock-reflect-1.6.3.jar>oss.sonatype.org=
-powermock-reflect-1.6.3.pom>oss.sonatype.org=
-powermock-reflect-1.6.3.jar>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:db08949ce22406ccb4ab2bb53d42a03364435b768b456ae8f3229ee48e431fd1
+size 402

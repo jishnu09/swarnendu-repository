@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 23 15:01:53 IST 2018
-grpc-stub-1.2.0.pom>pentaho-public=
-grpc-stub-1.2.0.jar>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e17968a2fa7f0534ef88822e182f1c0cb5edf15e731cb22b9071746b3ffd933
+size 276

@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 10:10:37 UTC 2018
-javax.transaction-api-1.3.pom>mule=
-javax.transaction-api-1.3.jar>mule=
+version https://git-lfs.github.com/spec/v1
+oid sha256:7926c545424702d22b3816a11b8bb487e45887dd50837659cf4e2e7e8b86bbb7
+size 296

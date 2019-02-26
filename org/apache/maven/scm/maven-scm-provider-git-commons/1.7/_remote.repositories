@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Jun 25 13:14:37 IST 2018
-maven-scm-provider-git-commons-1.7.jar>wso2-nexus=
-maven-scm-provider-git-commons-1.7.pom>wso2-nexus=
+version https://git-lfs.github.com/spec/v1
+oid sha256:de4f2f9724ab405915b7ea79f337e548e2392f9f5fbeccdf82776aff8476605a
+size 295

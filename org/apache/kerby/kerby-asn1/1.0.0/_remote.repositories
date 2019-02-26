@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 16 12:26:42 IST 2019
-kerby-asn1-1.0.0.jar>apache.public.https=
-kerby-asn1-1.0.0.pom>apache.public.https=
+version https://git-lfs.github.com/spec/v1
+oid sha256:081b269ec79e91cbf27b9e2b49505541048ecc34413a0974bd00b4bb33db5c2c
+size 290

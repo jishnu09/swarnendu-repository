@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Dec 03 10:09:55 IST 2018
-lucene-analyzers-kuromoji-5.5.5.jar>central=
-lucene-analyzers-kuromoji-5.5.5.pom>central=
+version https://git-lfs.github.com/spec/v1
+oid sha256:efb41ddd0f30db83a9314b6b8eb43e0964487a16cff2d1c0b64bd3e3d379029f
+size 288

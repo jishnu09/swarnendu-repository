@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 10:10:37 UTC 2018
-reflections-0.9.10.pom>mule=
-reflections-0.9.10.jar>mule=
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e32f2d51ba3c9815ac27cccec1a9372ffb9716da82db34cfd18481f5f435c83
+size 268

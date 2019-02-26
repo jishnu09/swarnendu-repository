@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Dec 03 12:24:08 IST 2018
-groovy-jsr223-2.5.4.jar>central=
-groovy-jsr223-2.5.4.pom>central=
+version https://git-lfs.github.com/spec/v1
+oid sha256:2be309859c5c63e4510d3cc8c05492613fed84706e599f54cd9a3234d09e7e9a
+size 249

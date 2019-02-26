@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 10:07:54 UTC 2018
-commons-validator-1.4.1.jar>mule-plugin=
-commons-validator-1.4.1.pom>mule-plugin=
+version https://git-lfs.github.com/spec/v1
+oid sha256:46d56c7effae9df70aa3209ee9ec369412cc3d9adee9ff13afcc5277aeaf07fd
+size 302

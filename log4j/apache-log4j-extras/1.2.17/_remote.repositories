@@ -1,6 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Jan 25 10:02:52 IST 2019
-apache-log4j-extras-1.2.17.jar>oss.sonatype.org=
-apache-log4j-extras-1.2.17.pom>pentaho-public=
-apache-log4j-extras-1.2.17.jar>pentaho-public=
-apache-log4j-extras-1.2.17.pom>oss.sonatype.org=
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8d01a21f0780f9e44479602831b0bb0ffc33a1b4c8eba90407dbe7227d3d6b2
+size 420

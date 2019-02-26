@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 06:48:43 UTC 2018
-commons-codec-1.5.jar>pentaho-public=
-commons-codec-1.5.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:161943dc0219a66a0ac0571fd9005b38a182b865434592d65d383b51176d2cdb
+size 284

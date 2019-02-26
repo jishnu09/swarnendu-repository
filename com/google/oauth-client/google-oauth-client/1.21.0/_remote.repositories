@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 23 15:01:52 IST 2018
-google-oauth-client-1.21.0.pom>pentaho-public=
-google-oauth-client-1.21.0.jar>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:8cafab6cbc93e7bcea0bcf1c6ada7292d1c4fed55c4d54ce6de7b872902e1c48
+size 320

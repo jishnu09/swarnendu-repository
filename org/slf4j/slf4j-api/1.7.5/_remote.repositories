@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Oct 04 14:07:44 UTC 2018
-slf4j-api-1.7.5.pom>central=
-slf4j-api-1.7.5.jar>central=
+version https://git-lfs.github.com/spec/v1
+oid sha256:07826464263ab53ed5fe8a240948e0326e38ef3be202a80266fc96e57b237fe9
+size 240

@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:00:22 UTC 2018
-bndlib-2.1.0.pom>pentaho-public=
-bndlib-2.1.0.jar>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:40711825cee86e4e48c0327592cd650199f2ea11f2f91b85ff947643e34af1e1
+size 264

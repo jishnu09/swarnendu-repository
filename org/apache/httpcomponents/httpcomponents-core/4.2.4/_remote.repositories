@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Jan 15 11:37:26 IST 2019
-httpcomponents-core-4.2.4.pom>pentaho-public=
-httpcomponents-core-4.2.4.pom>apache.public.https=
+version https://git-lfs.github.com/spec/v1
+oid sha256:28a53931f777084142d0f30cb5cdd1ad046d7bba5bc9acd10e82c32b8befad5d
+size 281

@@ -1,6 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Jan 25 09:55:10 IST 2019
-frontend-maven-plugin-1.3.jar>maven2-repository.atlassian=
-frontend-maven-plugin-1.3.pom>maven2-repository.atlassian=
-frontend-maven-plugin-1.3.jar>pentaho-public=
-frontend-maven-plugin-1.3.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb7b4655d3e804c329da285105be54ba522efb2dca0432fa9976c7ab3d8610ce
+size 436

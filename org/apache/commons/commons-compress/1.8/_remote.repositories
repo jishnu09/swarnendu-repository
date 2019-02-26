@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Wed May 23 19:04:49 IST 2018
-commons-compress-1.8.jar>central=
-commons-compress-1.8.pom>central=
+version https://git-lfs.github.com/spec/v1
+oid sha256:543591b3dc0072fab74a4d5b3173c78f849385b551c46957b78de558fb3f0605
+size 255

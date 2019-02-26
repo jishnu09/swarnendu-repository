@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 07:25:20 UTC 2018
-powermock-reflect-1.6.2.jar>pentaho-public=
-powermock-reflect-1.6.2.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:65f3ef347945e27dd2f48c1987445d27cb9aecf4022cc2f51ff9b552942194ee
+size 308

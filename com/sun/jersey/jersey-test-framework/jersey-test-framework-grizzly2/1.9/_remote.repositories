@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 11:26:16 UTC 2018
-jersey-test-framework-grizzly2-1.9.jar>pentaho-public=
-jersey-test-framework-grizzly2-1.9.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc0aa0a2c8d54ab0af3e607ed4ac86c4bd9e3a48231d825427fba3e84193e854
+size 352

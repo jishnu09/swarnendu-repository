@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 23 11:55:06 UTC 2018
-bcel-5.1.jar>pentaho-public=
-bcel-5.1.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:784b46e12caec07812b8ea09d531352fb79306ddf62fc032076677cb4f065513
+size 248

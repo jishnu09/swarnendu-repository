@@ -1,5 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Wed Jul 25 16:44:03 IST 2018
-jdo-api-3.0.1.jar>central=
-jdo-api-3.0.1.jar>=
-jdo-api-3.0.1.pom>central=
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3c0eaab876aaac7611862aa27fe4ca7c608a2b7614a037f9fa4719a7fdc0451
+size 255

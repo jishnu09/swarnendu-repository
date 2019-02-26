@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:11:36 UTC 2018
-slf4j-log4j12-1.7.7.pom>pentaho-public=
-slf4j-log4j12-1.7.7.jar>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4a483c40de8829473204d4db1947387ba568495d8d66ca128068a38066b5653
+size 292

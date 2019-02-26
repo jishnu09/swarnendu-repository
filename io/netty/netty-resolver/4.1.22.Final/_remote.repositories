@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:34:48 UTC 2018
-netty-resolver-4.1.22.Final.jar>pentaho-public=
-netty-resolver-4.1.22.Final.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:486cadd75ffef08fc7edc18e9c2556cf72b5930a0fb5849ce172ff6cd9b904ef
+size 324

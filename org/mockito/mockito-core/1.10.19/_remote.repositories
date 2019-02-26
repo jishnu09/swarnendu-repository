@@ -1,8 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Jan 25 10:02:52 IST 2019
-mockito-core-1.10.19.jar>pentaho-public=
-mockito-core-1.10.19.pom>pentaho-public=
-mockito-core-1.10.19.pom>mule=
-mockito-core-1.10.19.pom>oss.sonatype.org=
-mockito-core-1.10.19.jar>mule=
-mockito-core-1.10.19.jar>oss.sonatype.org=
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c8e2d1b9133228d918763cd06170ff1e8852444a7119e8caef3e7f40fe56d04
+size 448

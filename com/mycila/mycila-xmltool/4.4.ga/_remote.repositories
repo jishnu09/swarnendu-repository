@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 10:06:32 UTC 2018
-mycila-xmltool-4.4.ga.jar>mule-plugin=
-mycila-xmltool-4.4.ga.pom>mule-plugin=
+version https://git-lfs.github.com/spec/v1
+oid sha256:89122d2b9749cf053e85fc3d46bd78c09a31c2d90aa30f2edd6f75dfef9d54d4
+size 294

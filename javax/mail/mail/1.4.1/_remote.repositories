@@ -1,6 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Jan 15 13:08:32 IST 2019
-mail-1.4.1.jar>central=
-mail-1.4.1.jar>pentaho-public=
-mail-1.4.1.pom>pentaho-public=
-mail-1.4.1.pom>central=
+version https://git-lfs.github.com/spec/v1
+oid sha256:57fa15e0cc45c3e4d3af15c2417282563adb4f2523881d64fd246f2b33827beb
+size 289

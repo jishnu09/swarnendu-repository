@@ -1,6 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Jan 25 10:02:52 IST 2019
-powermock-module-junit4-1.6.3.pom>pentaho-public=
-powermock-module-junit4-1.6.3.jar>pentaho-public=
-powermock-module-junit4-1.6.3.jar>oss.sonatype.org=
-powermock-module-junit4-1.6.3.pom>oss.sonatype.org=
+version https://git-lfs.github.com/spec/v1
+oid sha256:3961e69f21353f1130b0ec73d91141cccf9cc832d427eb7ac23232f26083c150
+size 438

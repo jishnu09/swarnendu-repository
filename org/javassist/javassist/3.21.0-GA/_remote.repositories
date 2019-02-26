@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Jan 22 16:05:32 IST 2019
-javassist-3.21.0-GA.pom>pentaho-public=
-javassist-3.21.0-GA.pom>oss.sonatype.org=
+version https://git-lfs.github.com/spec/v1
+oid sha256:bfa8cc50d017b6b68b73deeda93fb876565c85f4e924d31a1a865c63952aae75
+size 260

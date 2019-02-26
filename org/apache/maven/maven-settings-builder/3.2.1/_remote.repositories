@@ -1,5 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 30 15:30:47 IST 2018
-maven-settings-builder-3.2.1.jar>pentaho-public=
-maven-settings-builder-3.2.1.pom>atlassian-public=
-maven-settings-builder-3.2.1.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:9103ac63bff0dfc99c60a251d2e79a5aa495d18e5229c9a5807cbc5fe977983d
+size 380

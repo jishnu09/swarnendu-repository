@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Oct 26 12:38:10 IST 2018
-plexus-archiver-2.4.3.jar>pentaho-public=
-plexus-archiver-2.4.3.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:60db618dfd19c1400a6722a3aefcfb86f305c1beea725e6960ed3a2234123576
+size 300

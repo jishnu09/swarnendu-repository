@@ -1,19 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Jan 25 09:58:49 IST 2019
-http\://conjars.org/repo/.lastUpdated=1535015551554
-http\://conjars.org/repo/.error=
-http\://oss.sonatype.org/content/repositories/releases/.lastUpdated=1525079512416
-http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1535015553177
-http\://repo.dremio.com/release/.lastUpdated=1535015552922
-http\://repository.mapr.com/maven/.error=
-http\://repository.mapr.com/maven/.lastUpdated=1535015552182
-http\://repository.mapr.com/nexus/content/repositories/drill/.error=
-https\://oss.sonatype.org/content/groups/staging/.lastUpdated=1548390529392
-https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524129565743
-https\://repo.maven.apache.org/maven2/.lastUpdated=1535015553531
-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1530608224191
-http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
-http\://repo.dremio.com/release/.error=
-https\://artifacts.elastic.co/maven/.lastUpdated=1548390529090
-http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524129555641
-https\://artifacts.elastic.co/maven/.error=
+version https://git-lfs.github.com/spec/v1
+oid sha256:066bf0b2db86f72db43ffd8296cd58e85a695a2730388b66aa575255e7949e32
+size 1534

@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 16 12:26:42 IST 2019
-kerb-server-1.0.0.pom>apache.public.https=
-kerb-server-1.0.0.jar>apache.public.https=
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c3122a9acfda911d22105f2cdad3c113c76c84ea85b91ed417c222c927222fd
+size 294

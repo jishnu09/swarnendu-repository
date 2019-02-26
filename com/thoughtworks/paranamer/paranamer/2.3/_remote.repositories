@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Nov 20 07:48:19 UTC 2018
-paranamer-2.3.jar>central=
-paranamer-2.3.pom>central=
+version https://git-lfs.github.com/spec/v1
+oid sha256:f06a16915f4a7c06456a22c7fc4cf21ef4ba71322c767756c8bf0938f8b553a0
+size 234

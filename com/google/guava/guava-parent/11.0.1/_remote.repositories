@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 12:22:24 IST 2018
-guava-parent-11.0.1.pom>atlassian-public=
-guava-parent-11.0.1.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:409cc7db076ea6989c164e80e1e2904ae8478db4b34e9bb085ce22f5cef6fc40
+size 260

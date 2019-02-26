@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 23 15:01:52 IST 2018
-datastore-v1-protos-1.3.0.pom>pentaho-public=
-datastore-v1-protos-1.3.0.jar>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:cfbf55149786e0d32ab586a53601bb6e8781f7f7e81aff98ef085d3ac701e407
+size 316

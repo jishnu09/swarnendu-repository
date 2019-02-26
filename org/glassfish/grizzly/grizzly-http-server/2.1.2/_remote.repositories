@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 11:26:16 UTC 2018
-grizzly-http-server-2.1.2.jar>pentaho-public=
-grizzly-http-server-2.1.2.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d10aee4818668fb9b919d4ca360f46a11e4b9aed31c34344778f31610fe443c
+size 316

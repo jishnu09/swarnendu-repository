@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Jan 25 10:02:52 IST 2019
-guice-assistedinject-4.1.0.jar>oss.sonatype.org=
-guice-assistedinject-4.1.0.pom>oss.sonatype.org=
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a22d1820e3cf5a2369b0619e3639c759769fe548d2b0afe57230b854cafc4ee
+size 324

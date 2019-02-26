@@ -1,9 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Wed Sep 19 16:25:23 IST 2018
-http\://dist.wso2.org/maven2/.error=
-https\://repo.maven.apache.org/maven2/.lastUpdated=1537354523002
-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1530607823476
-http\://maven.wso2.org/nexus/content/groups/wso2-public/.lastUpdated=1529912276329
-http\://dist.wso2.org/maven2/.lastUpdated=1529912276076
-http\://maven.wso2.org/nexus/content/repositories/releases/.lastUpdated=1529912276190
-http\://maven.wso2.org/nexus/content/repositories/releases/.error=
+version https://git-lfs.github.com/spec/v1
+oid sha256:6cb925fe7d35e72f61024a12af9fb147d593e81e6cf41bfdda63dd7aae5f6fee
+size 616

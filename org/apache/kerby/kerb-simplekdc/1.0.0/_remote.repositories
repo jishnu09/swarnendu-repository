@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 16 12:26:42 IST 2019
-kerb-simplekdc-1.0.0.jar>apache.public.https=
-kerb-simplekdc-1.0.0.pom>apache.public.https=
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd5b1aacecc9a41f45a9c2c9053a791db511e6451fc65cee3e97d77744090b75
+size 306

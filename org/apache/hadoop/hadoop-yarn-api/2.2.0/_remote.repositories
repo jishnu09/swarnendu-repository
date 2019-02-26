@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 11:26:16 UTC 2018
-hadoop-yarn-api-2.2.0.jar>pentaho-public=
-hadoop-yarn-api-2.2.0.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ce7538cfdb08be4f390d7ff1045607413356432047f1d45f98cf3275fd8ed58
+size 300

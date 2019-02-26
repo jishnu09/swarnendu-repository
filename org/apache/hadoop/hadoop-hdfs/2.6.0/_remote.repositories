@@ -1,6 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 16 12:29:00 IST 2019
-hadoop-hdfs-2.6.0.pom>apache.public.https=
-hadoop-hdfs-2.6.0.jar>pentaho-public=
-hadoop-hdfs-2.6.0.pom>pentaho-public=
-hadoop-hdfs-2.6.0.jar>apache.public.https=
+version https://git-lfs.github.com/spec/v1
+oid sha256:7fb7038a42029d228d6253bb6c4fe9781de6cbf2bbff2084857a0b76bb726710
+size 410

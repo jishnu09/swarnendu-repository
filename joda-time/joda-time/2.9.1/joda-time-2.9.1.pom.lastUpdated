@@ -1,11 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Fri Jun 22 17:22:09 IST 2018
-http\://conjars.org/repo/.lastUpdated=1529668327080
-http\://conjars.org/repo/.error=
-http\://repository.mapr.com/nexus/content/repositories/drill/.lastUpdated=1529668328806
-http\://repo.dremio.com/release/.lastUpdated=1529668328253
-http\://repository.mapr.com/maven/.error=
-http\://repository.mapr.com/maven/.lastUpdated=1529668327612
-http\://repository.mapr.com/nexus/content/repositories/drill/.error=
-https\://repo.maven.apache.org/maven2/.lastUpdated=1529668329550
-http\://repo.dremio.com/release/.error=
+version https://git-lfs.github.com/spec/v1
+oid sha256:64c1f8e61c66400c7f5e4e33693c0893ee01573d06c2a42156e22da6b53571f4
+size 660

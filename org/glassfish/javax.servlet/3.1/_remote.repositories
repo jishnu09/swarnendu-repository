@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 11:26:16 UTC 2018
-javax.servlet-3.1.jar>pentaho-public=
-javax.servlet-3.1.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:59ad737ec5c7c8db0d128fedfe5fb545a9c861ee50e5cbc496e98100fd09106e
+size 284

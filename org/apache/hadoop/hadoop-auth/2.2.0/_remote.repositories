@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 11:26:16 UTC 2018
-hadoop-auth-2.2.0.jar>pentaho-public=
-hadoop-auth-2.2.0.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ffa756632abd8ff90551105141e17d096d0552bceea68c28fbf2e60e541f3fb
+size 284

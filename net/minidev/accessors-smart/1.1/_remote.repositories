@@ -1,5 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Jan 15 13:41:43 IST 2019
-accessors-smart-1.1.jar>pentaho-public=
-accessors-smart-1.1.pom>pentaho-public=
-accessors-smart-1.1.pom>central=
+version https://git-lfs.github.com/spec/v1
+oid sha256:235e5551121904843d176fda0338330a3e3b69402279b03462e4cd8c4f42627b
+size 292

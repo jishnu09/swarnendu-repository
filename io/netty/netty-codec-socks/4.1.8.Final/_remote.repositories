@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 23 15:01:53 IST 2018
-netty-codec-socks-4.1.8.Final.pom>pentaho-public=
-netty-codec-socks-4.1.8.Final.jar>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:a218c5fcc0fd3381ed3c5e3662f06509eed0cdfeee7749f9b1aa02e9c06fcf9e
+size 332

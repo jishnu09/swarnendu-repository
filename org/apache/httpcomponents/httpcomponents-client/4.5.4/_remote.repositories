@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Jan 15 13:41:49 IST 2019
-httpcomponents-client-4.5.4.pom>mule=
-httpcomponents-client-4.5.4.pom>apache.public.https=
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d1116ebf28e4986b857afbad96e76c57db93e0e6a0c04b329f498322e7704e1
+size 277

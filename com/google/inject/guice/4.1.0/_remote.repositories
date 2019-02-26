@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Jan 25 10:02:52 IST 2019
-guice-4.1.0.jar>oss.sonatype.org=
-guice-4.1.0.pom>oss.sonatype.org=
+version https://git-lfs.github.com/spec/v1
+oid sha256:85f1a8a12f84ddf3fd6119099e2872fcf1ba23433e235a6970aad7b4057143be
+size 264
