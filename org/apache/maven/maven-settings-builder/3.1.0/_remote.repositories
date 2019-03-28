@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 11:37:16 UTC 2018
-maven-settings-builder-3.1.0.jar>mule-plugin=
-maven-settings-builder-3.1.0.pom>mule-plugin=
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce47c264cc2710ee285d44f48ddfca0a7a725ec4a0075292d9ca14a9333d885b
+size 322

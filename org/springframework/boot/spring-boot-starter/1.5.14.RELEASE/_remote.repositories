@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 23 15:36:39 IST 2018
-spring-boot-starter-1.5.14.RELEASE.jar>pentaho-public=
-spring-boot-starter-1.5.14.RELEASE.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f032dba8f66ca6621ee916ead1633efc1598956a3496dbbc4b9dce4b19b26c6
+size 303

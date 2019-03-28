@@ -1,6 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 30 14:58:02 IST 2018
-log4j-api-2.10.0.jar>central=
-log4j-api-2.10.0.pom>central=
-log4j-api-2.10.0.pom>pentaho-public=
-log4j-api-2.10.0.jar>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:7daacdd877cfa705da2f82a5b732bceaaeb6909ae6a5b1c2d09fb4cea7951589
+size 317

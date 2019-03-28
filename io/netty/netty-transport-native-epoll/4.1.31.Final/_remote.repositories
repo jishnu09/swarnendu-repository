@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Dec 03 12:55:27 IST 2018
-netty-transport-native-epoll-4.1.31.Final.pom>central=
-netty-transport-native-epoll-4.1.31.Final-linux-x86_64.jar>central=
+version https://git-lfs.github.com/spec/v1
+oid sha256:89dbfee9517adaa5f8323d32e71479082f18a323c542b2a621de51b77790f20f
+size 323

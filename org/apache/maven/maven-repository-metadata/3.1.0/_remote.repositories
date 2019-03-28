@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 11:37:16 UTC 2018
-maven-repository-metadata-3.1.0.pom>mule-plugin=
-maven-repository-metadata-3.1.0.jar>mule-plugin=
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ff49c35eaa6cdd6f3fa4df4c35cebeb500d44197940e9b0dfbbe09f54b3aeb4
+size 288

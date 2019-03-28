@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:54:51 UTC 2018
-spring-context-4.3.14.RELEASE.jar>pentaho-public=
-spring-context-4.3.14.RELEASE.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:975432100db4e40cb048c30959f2246b2eaab603770402eec5168b11d9ab6327
+size 288

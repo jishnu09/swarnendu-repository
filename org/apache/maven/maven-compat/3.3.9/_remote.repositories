@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 11:16:16 UTC 2018
-maven-compat-3.3.9.pom>mule=
-maven-compat-3.3.9.jar>mule=
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a53435a4960493c2927db49f1e832e3d46545041650b589fb6bdfe815325da7
+size 268

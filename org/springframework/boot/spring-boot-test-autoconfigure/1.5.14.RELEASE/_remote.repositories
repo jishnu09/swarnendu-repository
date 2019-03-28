@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 23 15:36:39 IST 2018
-spring-boot-test-autoconfigure-1.5.14.RELEASE.jar>pentaho-public=
-spring-boot-test-autoconfigure-1.5.14.RELEASE.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:94b69a70e92ff592dec3507341d8619c9f600885e8cfa0c0f3f024e082a7f97c
+size 336

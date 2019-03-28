@@ -1,7 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 29 12:46:09 IST 2018
-https\://jitpack.io/.lastUpdated=1543475766644
-https\://artifacts.elastic.co/maven/.error=
-https\://repo.maven.apache.org/maven2/.lastUpdated=1543475769322
-https\://artifacts.elastic.co/maven/.lastUpdated=1543475766248
-https\://jitpack.io/.error=
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6253f4b5e82e5faf4b73a72ea59aa9e9a6830347ef9a265a1e06ea097086cbd
+size 627

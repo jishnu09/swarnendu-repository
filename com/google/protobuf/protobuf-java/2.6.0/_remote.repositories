@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:33:36 UTC 2018
-protobuf-java-2.6.0.jar>pentaho-public=
-protobuf-java-2.6.0.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:df06789c6b26e13835607f6b73db2fff2d5a4e1ef9367d340f973eb702f03e6d
+size 292

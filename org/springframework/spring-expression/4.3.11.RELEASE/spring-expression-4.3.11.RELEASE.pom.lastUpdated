@@ -1,6 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Apr 30 14:35:21 IST 2018
-http\://oss.sonatype.org/content/repositories/releases/.lastUpdated=1525079121685
-http\://developer.jasig.org/repo/content/groups/m2-legacy/.lastUpdated=1524129682601
-http\://developer.jasig.org/repo/content/groups/m2-legacy/.error=
-https\://build.shibboleth.net/nexus/content/groups/public/.lastUpdated=1524129683211
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3a7876c83d466a2b119618ebdc8cd30a1390784243c2bba518ab925ab4984e8
+size 812

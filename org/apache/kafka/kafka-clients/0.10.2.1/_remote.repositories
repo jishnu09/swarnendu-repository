@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:55:04 UTC 2018
-kafka-clients-0.10.2.1.pom>pentaho-public=
-kafka-clients-0.10.2.1.jar>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fba07135902f6642537a518893592affb902642f2f3fe498e69106d3c5f2c32
+size 304

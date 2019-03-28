@@ -1,6 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Dec 03 12:54:56 IST 2018
-https\://artifacts.elastic.co/maven/.error=
-https\://repo.maven.apache.org/maven2/.lastUpdated=1543821896643
-https\://artifacts.elastic.co/maven/.lastUpdated=1543821894628
-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542367777407
+version https://git-lfs.github.com/spec/v1
+oid sha256:3edc73727accb53ea3c8fb46d4d2f933783708dd76a8bf73833df49de6946364
+size 624

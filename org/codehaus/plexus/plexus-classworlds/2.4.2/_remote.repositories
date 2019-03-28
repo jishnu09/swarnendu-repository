@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 11:37:16 UTC 2018
-plexus-classworlds-2.4.2.pom>mule-plugin=
-plexus-classworlds-2.4.2.jar>mule-plugin=
+version https://git-lfs.github.com/spec/v1
+oid sha256:d4815b4d934f010c0ca26d6f86c1f4a4d91dbb5c5c85c7ad8b6656a17fbd73f8
+size 267

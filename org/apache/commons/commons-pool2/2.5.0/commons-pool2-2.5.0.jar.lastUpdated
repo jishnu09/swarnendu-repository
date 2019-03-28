@@ -1,16 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Jan 25 10:03:33 IST 2019
-https\://jitpack.io/.error=
-https\://oss.sonatype.org/content/groups/staging/.error=
-https\://repository.apache.org/content/repositories/snapshots/.error=
-https\://repository.apache.org/content/repositories/snapshots/.lastUpdated=1547622850991
-http\://repo.spring.io/milestone/.error=
-https\://repository.apache.org/content/repositories/public/.lastUpdated=1547622877543
-https\://jitpack.io/.lastUpdated=1543475674819
-http\://repo.spring.io/milestone/.lastUpdated=1548390783016
-https\://oss.sonatype.org/content/groups/staging/.lastUpdated=1548390773020
-http\://nexus.pentaho.org/content/groups/omni/.lastUpdated=1542351220266
-https\://repo.maven.apache.org/maven2/.lastUpdated=1543475676699
-https\://artifacts.elastic.co/maven/.lastUpdated=1548390736126
-https\://repository.apache.org/content/groups/staging/.lastUpdated=1548390813339
-https\://artifacts.elastic.co/maven/.error=
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fd2c07e443fa0150bd5c70d167b5928bce8e5b10cd63e1d89d1e3d63a0a05d7
+size 1209
