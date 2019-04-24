@@ -1,5 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 16 12:46:23 IST 2019
-lucene-spatial3d-7.2.1.pom>pentaho-public=
-lucene-spatial3d-7.2.1.jar>apache.public.https=
-lucene-spatial3d-7.2.1.pom>apache.public.https=
+version https://git-lfs.github.com/spec/v1
+oid sha256:99fe8e1612cb3a86f9650b4d7625ea73f3dbf3a848a705edc8c1aed0f399f94d
+size 358

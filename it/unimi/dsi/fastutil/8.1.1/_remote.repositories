@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 10:10:37 UTC 2018
-fastutil-8.1.1.pom>mule=
-fastutil-8.1.1.jar>mule=
+version https://git-lfs.github.com/spec/v1
+oid sha256:58f544ee08ad79c07e91da9547ca23e4e659fb6c20cccc8d8dcc95d4be3f5213
+size 252

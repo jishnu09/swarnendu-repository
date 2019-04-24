@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 23 12:51:02 IST 2018
-maven-jetty-plugin-6.1.26.jar>pentaho-public=
-maven-jetty-plugin-6.1.26.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d437ab80408fc670bd604b1106c00c4b6e6216992db4a8694f1c1c032559556
+size 316

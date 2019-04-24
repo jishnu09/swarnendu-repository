@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:32:57 UTC 2018
-lucene-spatial-7.4.0.jar>pentaho-public=
-lucene-spatial-7.4.0.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:4cfcb5c45f3739224859401e9ef692f7b9e722f8fb6db74a642899474d1acdad
+size 296

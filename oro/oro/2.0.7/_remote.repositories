@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 10:33:17 UTC 2018
-oro-2.0.7.jar>pentaho-public=
-oro-2.0.7.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa0bee4f1eaf5aca185e7cfba0abc7c43b3636aa43b1cc8911bcbb647bebf6c3
+size 252

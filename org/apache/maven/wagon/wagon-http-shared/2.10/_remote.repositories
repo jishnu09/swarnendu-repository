@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:08:27 UTC 2018
-wagon-http-shared-2.10.pom>pentaho-public=
-wagon-http-shared-2.10.jar>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:af779c20ee736e6162ec452b35bff8f670c5ac866bddc56a5da20281925ff2bb
+size 304

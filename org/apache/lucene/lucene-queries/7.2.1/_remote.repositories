@@ -1,5 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 16 12:46:23 IST 2019
-lucene-queries-7.2.1.pom>pentaho-public=
-lucene-queries-7.2.1.jar>apache.public.https=
-lucene-queries-7.2.1.pom>apache.public.https=
+version https://git-lfs.github.com/spec/v1
+oid sha256:258a40bb2c60caa074565bebc823fa12fc01d7ee180fd1ecf23519ee6aa59dd9
+size 348

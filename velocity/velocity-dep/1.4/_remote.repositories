@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 10:33:17 UTC 2018
-velocity-dep-1.4.jar>pentaho-public=
-velocity-dep-1.4.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:c591c35f3adc9dbd65dea7a7334bbba6483090c132b270b856bd220ef276527d
+size 280

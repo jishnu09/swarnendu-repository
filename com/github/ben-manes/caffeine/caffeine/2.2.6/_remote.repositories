@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 17:18:28 IST 2018
-caffeine-2.2.6.jar>pentaho-public=
-caffeine-2.2.6.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:e16514ba50303b72fe8becc93d325345a47d0caa185960d2907f7fde9de9087e
+size 272

@@ -1,5 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 16 12:46:23 IST 2019
-lucene-suggest-7.2.1.pom>pentaho-public=
-lucene-suggest-7.2.1.pom>apache.public.https=
-lucene-suggest-7.2.1.jar>apache.public.https=
+version https://git-lfs.github.com/spec/v1
+oid sha256:6285414407a8c8107cd870eca2bca86e968f424c47b445b61feb42f3ea625a62
+size 348

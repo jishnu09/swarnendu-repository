@@ -1,3 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 05 16:32:33 IST 2018
-transport-netty4-client-6.2.4.pom>elasticsearch-releases=
+version https://git-lfs.github.com/spec/v1
+oid sha256:82125a491ae5bcc3f4d31597a1d8cbad51761005a829c3a13cffa0b1e8fe5bc8
+size 260

@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 10:59:21 UTC 2018
-plexus-java-0.9.5.jar>mule-plugin=
-plexus-java-0.9.5.pom>mule-plugin=
+version https://git-lfs.github.com/spec/v1
+oid sha256:a86abf68350f327c9f563a98f9376c3b327d61962c5a3b123519a43351845367
+size 278

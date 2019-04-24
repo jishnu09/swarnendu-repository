@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 10:32:37 UTC 2018
-maven-help-plugin-2.2.jar>mule-plugin=
-maven-help-plugin-2.2.pom>mule-plugin=
+version https://git-lfs.github.com/spec/v1
+oid sha256:f11546d7952cfd2563d8e700dc6d218f100a02bd62459d0aa3b53c0a1d64aacd
+size 294

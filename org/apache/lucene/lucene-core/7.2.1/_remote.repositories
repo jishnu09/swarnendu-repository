@@ -1,5 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 16 12:46:23 IST 2019
-lucene-core-7.2.1.jar>apache.public.https=
-lucene-core-7.2.1.pom>pentaho-public=
-lucene-core-7.2.1.pom>apache.public.https=
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5fa0631bbd12c4bd324bbf0e4b7aa94bed942e133eb371256fd2ff62904acc3
+size 333

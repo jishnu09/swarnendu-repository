@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 10:33:17 UTC 2018
-jtb-1.3.2.jar>pentaho-public=
-jtb-1.3.2.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:6cfba58c27d0521f79bf68ed282320104c94a8d9bad09a72b673267a1784907a
+size 252

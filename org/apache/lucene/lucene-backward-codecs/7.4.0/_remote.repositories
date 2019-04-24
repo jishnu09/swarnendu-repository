@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:32:57 UTC 2018
-lucene-backward-codecs-7.4.0.pom>pentaho-public=
-lucene-backward-codecs-7.4.0.jar>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:85a51c43e84f4cbf43f33058c0aeb34d6fe1002102b4362f78528bd9cd13bab1
+size 328

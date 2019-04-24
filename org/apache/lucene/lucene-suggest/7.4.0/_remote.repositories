@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:32:57 UTC 2018
-lucene-suggest-7.4.0.pom>pentaho-public=
-lucene-suggest-7.4.0.jar>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd9af2e62568ba6fb36b6c5018649e4ca20edb74a3c8f5a86aeed9246c2ede21
+size 296

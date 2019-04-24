@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 10:28:37 UTC 2018
-maven-gpg-plugin-1.6.pom>mule-plugin=
-maven-gpg-plugin-1.6.jar>mule-plugin=
+version https://git-lfs.github.com/spec/v1
+oid sha256:89ea48fde91c04499e663c09c4c11c7d608ae3ff5589910c3576349759916ee3
+size 290

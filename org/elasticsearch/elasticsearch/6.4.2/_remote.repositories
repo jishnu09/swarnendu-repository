@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:32:57 UTC 2018
-elasticsearch-6.4.2.jar>pentaho-public=
-elasticsearch-6.4.2.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:bcef7b5839ded7d1d21064d320133f6706ff8c2993baf2632caedc6298b2eaa3
+size 322

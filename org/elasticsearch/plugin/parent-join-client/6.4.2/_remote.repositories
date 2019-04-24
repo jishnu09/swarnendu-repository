@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 22 09:32:57 UTC 2018
-parent-join-client-6.4.2.jar>pentaho-public=
-parent-join-client-6.4.2.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:76e210d8d567db4af535bf684c46d4af7ae1335be149ff0cac38dea477feb354
+size 342

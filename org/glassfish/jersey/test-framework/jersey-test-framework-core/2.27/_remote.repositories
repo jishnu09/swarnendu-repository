@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 23 15:06:36 IST 2018
-jersey-test-framework-core-2.27.pom>pentaho-public=
-jersey-test-framework-core-2.27.jar>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:2898c50109d748cf466f4143cde8aebe6ef907da7fde536498292c4c980aed5b
+size 340

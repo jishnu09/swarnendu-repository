@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 10:33:17 UTC 2018
-doxia-core-1.0-alpha-7.jar>pentaho-public=
-doxia-core-1.0-alpha-7.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:d17c9f38559302a640191e3bb5e73d848e0b5ac9626769a8574529527339c41d
+size 304

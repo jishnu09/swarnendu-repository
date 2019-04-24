@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 17:18:19 IST 2018
-ohc-core-0.4.4.jar>pentaho-public=
-ohc-core-0.4.4.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:8027fb52dd10d149d7c67e70a19b1bd40d28f1e00b58b3686ea60898738a3a49
+size 272

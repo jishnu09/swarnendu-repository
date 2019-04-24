@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Nov 22 10:33:17 UTC 2018
-doxia-site-renderer-1.0-alpha-7.jar>pentaho-public=
-doxia-site-renderer-1.0-alpha-7.pom>pentaho-public=
+version https://git-lfs.github.com/spec/v1
+oid sha256:492b769ca8db921715d640e626f1cd0c33df9b2c2599da6349b50316c1f9c904
+size 340

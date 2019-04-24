@@ -1,14 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata modelVersion="1.1.0">
-  <groupId>xml-resolver</groupId>
-  <artifactId>xml-resolver</artifactId>
-  <versioning>
-    <latest>1.2</latest>
-    <release>1.2</release>
-    <versions>
-      <version>1.1</version>
-      <version>1.2</version>
-    </versions>
-    <lastUpdated>20170926150429</lastUpdated>
-  </versioning>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa9af12945e59f75201a9b80947a18b9510bb3cd8a83f7257837b99c8213b0c2
+size 375

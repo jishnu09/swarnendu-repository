@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Dec 03 11:56:15 IST 2018
-shrinkwrap-resolver-bom-2.2.4.pom>wso2-nexus=
-shrinkwrap-resolver-bom-2.2.4.pom>jboss-public-repository-group=
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ab3b5acaaee9c47ddb24c612e989844b6538fc0fcf2bf4f1f68676448800a77
+size 299

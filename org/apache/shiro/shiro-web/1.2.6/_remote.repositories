@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Jan 15 14:44:55 IST 2019
-shiro-web-1.2.6.pom>apache.public.https=
-shiro-web-1.2.6.jar>apache.public.https=
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e6ec9b11ad269b097f5b84f29d2722670828e0a4ef42e9e6d9a8fe6d621bb61
+size 286

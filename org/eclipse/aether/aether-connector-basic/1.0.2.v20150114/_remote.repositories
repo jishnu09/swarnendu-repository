@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 16 11:13:02 UTC 2018
-aether-connector-basic-1.0.2.v20150114.pom>mule=
-aether-connector-basic-1.0.2.v20150114.jar>mule=
+version https://git-lfs.github.com/spec/v1
+oid sha256:85567d3003fdb1cce6eeb8217abad7b525fda4a87a5935b6ac80869f9201c522
+size 348
