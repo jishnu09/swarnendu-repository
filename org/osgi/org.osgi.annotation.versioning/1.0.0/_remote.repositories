@@ -1,4 +1,3 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Jun 25 13:42:10 IST 2018
-org.osgi.annotation.versioning-1.0.0.jar>wso2-nexus=
-org.osgi.annotation.versioning-1.0.0.pom>wso2-nexus=
+version https://git-lfs.github.com/spec/v1
+oid sha256:905bf1a4add1a0bdb05267c91217e2da4d0111185db5a742a1c22614bd2e8999
+size 352

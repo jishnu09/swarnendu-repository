@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Dec 03 11:56:13 IST 2018
-arquillian-bom-1.1.13.Final.pom>jboss-public-repository-group=
-arquillian-bom-1.1.13.Final.pom>wso2-nexus=
+version https://git-lfs.github.com/spec/v1
+oid sha256:03dd3443ddba5d8a1430d2bc472915810b0e6b4c0cc46d8756180dc72aefd803
+size 293

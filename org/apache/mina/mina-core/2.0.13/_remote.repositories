@@ -1,4 +1,3 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 16 12:35:19 IST 2019
-mina-core-2.0.13.jar>apache.public.https=
-mina-core-2.0.13.pom>apache.public.https=
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c1253f4ac20a08facd6e13362ecc17ab1acdbb615d0ae129d981fac948fa856
+size 290
